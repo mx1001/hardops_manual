@@ -37,10 +37,10 @@ latex_documents = [
 
 man_pages = [
     ('index', 'HardOps', u'Modelling Toolkit',
-     [u'Jacques Lucke'], 1)
+     [u'masterxeon1001'], 1)
 ]
 texinfo_documents = [
-  ('index', 'AnimationNodes', u'Animation Nodes Documentation',
+  ('index', 'HardOps', u'HardOps Manual',
    u'masterxeon1001', 'HardOps', 'Modelling toolkit.',
    'Miscellaneous'),
 ]
