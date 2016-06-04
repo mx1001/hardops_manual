@@ -31,16 +31,16 @@ htmlhelp_basename = 'HardOpsdoc'
 
 latex_elements = {}
 latex_documents = [
-  ('index', 'HardOps.tex', u'HardOps Documentation',
+  ('index', 'HardOps.tex', u'HardOps Manual',
    u'masterxeon1001', 'manual'),
 ]
 
 man_pages = [
-    ('index', 'HardOps', u'HardOps Documentation',
+    ('index', 'HardOps', u'HardOps Manual',
      [u'masterxeon1001'], 1)
 ]
 texinfo_documents = [
-  ('index', 'HardOps', u'HardOps Documentation',
+  ('index', 'HardOps', u'HardOps Manual',
    u'masterxeon1001', 'HardOps', 'Modelling',
    'Miscellaneous'),
 ]
