@@ -17,8 +17,8 @@ templates_path = ['ytemplates']
 source_suffix = '.rst'
 master_doc = 'index'
 
-project = u'Animation Nodes'
-copyright = u'2015, Jacques Lucke'
+project = u'HardOps'
+copyright = u'2016, masterxeon1001'
 
 version = '0.0.1'
 release = '0.0.1'
@@ -27,26 +27,26 @@ exclude_patterns = ['includes/*']
 
 pygments_style = 'sphinx'
 
-htmlhelp_basename = 'AnimationNodesdoc'
+htmlhelp_basename = 'HardOpsdoc'
 
 latex_elements = {}
 latex_documents = [
-  ('index', 'AnimationNodes.tex', u'Animation Nodes Documentation',
-   u'Jacques Lucke', 'manual'),
+  ('index', 'HardOps.tex', u'HardOps Documentation',
+   u'masterxeon1001', 'manual'),
 ]
 
 man_pages = [
-    ('index', 'animationnodes', u'Animation Nodes Documentation',
+    ('index', 'HardOps', u'Modelling Toolkit',
      [u'Jacques Lucke'], 1)
 ]
 texinfo_documents = [
   ('index', 'AnimationNodes', u'Animation Nodes Documentation',
-   u'Jacques Lucke', 'AnimationNodes', 'A new way to work with data in Blender.',
+   u'masterxeon1001', 'HardOps', 'Modelling toolkit.',
    'Miscellaneous'),
 ]
 
-epub_title = u'Animation Nodes'
-epub_author = u'Jacques Lucke'
-epub_publisher = u'Jacques Lucke'
-epub_copyright = u'2014, Jacques Lucke'
+epub_title = u'Hard Ops'
+epub_author = u'masterxeon1001'
+epub_publisher = u'masterxeon1001'
+epub_copyright = u'2016, masterxeon1001'
 epub_exclude_files = ['search.html']
