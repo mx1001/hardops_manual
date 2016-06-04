@@ -1,1 +1,0 @@
-HardOps Manual

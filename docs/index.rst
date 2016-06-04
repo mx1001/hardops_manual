@@ -1,26 +1,20 @@
-**********************
-Hard Ops Manual
-**********************
+************************
+Code Autocomplete Manual
+************************
 
-Welcome to the official manual of **Hard_Ops** (HOPS).
+Welcome to the official manual of the **Code Autocomplete** addon.
 
-HOPS is a hard surface toolkit./ <http://www.blender.org/>`_.
+Main Project Page: https://github.com/JacquesLucke/code_autocomplete
 
-Bevels and stuff yo.
+This addon uses the awesome Jedi autocompletion library that can be found here:
+http://jedi.jedidjah.ch/en/latest/
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 0
 
-   user_guide/index
-   dev_guide/index
-   release_notes/index
-
-
-External Links
-**************
-
-**Youtube Channel of the Main Developer:**
-    *English:* https://www.youtube.com/user/masterxeon1001
-
-**Youtube Channel of the Main Developer:**
-    *English:* https://www.youtube.com/user/masterxeon1001
+   setup
+   preferences
+   using_the_autocompletion
+   inserting_templates
+   addon_development
+   misc

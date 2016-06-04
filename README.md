@@ -1,3 +1,3 @@
-this is test text.
+This is the official manual repository for the Code Autocomplete addon for Blender.
 
-more test text
+https://github.com/JacquesLucke/code_autocomplete
