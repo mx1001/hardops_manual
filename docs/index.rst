@@ -1,20 +1,12 @@
-************************
-Code Autocomplete Manual
-************************
+**************
+HardOps Manual
+**************
 
-Welcome to the official manual of the **Code Autocomplete** addon.
+Welcome to the official manual of the **HardOps** addon.
 
-Main Project Page: https://github.com/JacquesLucke/code_autocomplete
-
-This addon uses the awesome Jedi autocompletion library that can be found here:
-http://jedi.jedidjah.ch/en/latest/
 
 .. toctree::
    :maxdepth: 0
 
-   setup
+   installation
    preferences
-   using_the_autocompletion
-   inserting_templates
-   addon_development
-   misc
