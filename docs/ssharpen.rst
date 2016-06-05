@@ -1,4 +1,5 @@
-# Ssharpen / Csharpen
+Ssharpen / Csharpen
+*******************
 
 Ssharpen is the base of the sharpening system and is a foundational element of Hard Ops. The idea of Ssharpen came through the collaborations of myself and AR which also was the base of Csharpen as well. 
 
