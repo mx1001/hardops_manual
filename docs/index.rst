@@ -9,3 +9,4 @@ Welcome to the HardOps manual.
 
    installation
    preferences
+   ssharpen
