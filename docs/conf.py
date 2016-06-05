@@ -14,8 +14,8 @@ extensions = [
 todo_include_todos = True
 
 templates_path = ['ytemplates']
-source_suffix = '.rst'
-master_doc = 'index'
+source_suffix = '.md'
+master_doc = 'intro2nd'
 
 project = u'HardOps'
 copyright = u'2015, masterxeon1001'
