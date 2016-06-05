@@ -14,11 +14,4 @@ Train by AR - Modelled with Hard Ops
 3. [Preferences](preferences)
 4. [Ssharpen](ssharpen)
 5. [Csharpen](Csharpen)
-
-.. toctree::
-   :maxdepth: 0
-
-   installation
-   preferences
-   ssharpen
-   intro
+6. 
