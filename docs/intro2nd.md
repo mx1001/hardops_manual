@@ -10,16 +10,15 @@ Train by AR - Modelled with Hard Ops
 
 # Table Of Contents
 
-1. [Introduction](intro)
-2. [Installation](installation)
-<<<<<<< HEAD
-4. [Preferences](preferences)
-5. [Ssharpen](ssharpen)
-6. [Csharpen](csharpen)
-7. [Install](install)
-=======
-3. [Preferences](preferences)
-4. [Ssharpen](ssharpen)
-5. [Csharpen](Csharpen)
-6. 
->>>>>>> origin/master
+- [Introduction](intro)
+- [Installation](installation)
+- [Preferences](preferences)
+
+- [Ssharpen](ssharpen)
+- [Csharpen](csharpen)
+
+- [Install](install)
+
+
+ 
+
