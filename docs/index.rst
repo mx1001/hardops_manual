@@ -8,8 +8,11 @@ Welcome to the HardOps manual.
    :maxdepth: 0
 
    installation
+   install
    preferences
    ssharpen
    intro
    intro2nd
-   install
+   addon
+   csharpen
+   csharp_adv1
