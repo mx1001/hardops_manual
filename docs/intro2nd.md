@@ -14,7 +14,6 @@ Train by AR - Modelled with Hard Ops
 - [Install](install)
 - [Installation](installation)
 - [Preferences](preferences)
-
 - [Ssharpen](ssharpen)
 - [Csharpen](csharpen)
 
