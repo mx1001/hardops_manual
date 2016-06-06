@@ -1,8 +1,8 @@
-## Ssharpen / Csharpen
+## Ssharpen
 
 >Ssharpen is the base of the sharpening system and is a foundational element of Hard Ops. The idea of Ssharpen came through the collaborations of myself and AR which also was the base of Csharpen as well.
 
-People always ask what is the difference between the two.
+People always ask what is the difference between the ssharpen and csharpen.
 
 Ssharpen is a calculator. It also sets the mesh up for hard surface modelling.
 In short. Ssharpen
@@ -21,3 +21,6 @@ Alternatively. Here is ssharpen in action.
 ![](http://i.imgur.com/SEYSWBg.gif)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rXRZeuQpvsg" frameborder="0" allowfullscreen></iframe>
+
+Now to see what Csharpen is since Ssharpen is one of the steps involved.
+[Csharpen](csharpen.md)

@@ -29,3 +29,6 @@ rendering process of the hard surface form.
 
 Luckily I also discussed Csharpen in action in the same video as the one where I
 discussed Csharpen.
+
+To better understand ssharpen there is also a chapter on that. 
+[Ssharpen](ssharpen.md)
