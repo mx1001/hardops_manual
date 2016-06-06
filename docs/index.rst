@@ -11,3 +11,5 @@ Welcome to the HardOps manual.
    preferences
    ssharpen
    intro
+   intro2nd
+   install
