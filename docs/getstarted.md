@@ -35,3 +35,8 @@ on the situation.
  of one over the other but using whichever works best for your needs.
 
  ![](img\faq\rb-cs.gif)
+
+So continuing on. As we make more cuts and the details become closer. Its
+important to lower the bevel width distance to keep the mesh looking good.
+
+![](img\faq\p2.gif)

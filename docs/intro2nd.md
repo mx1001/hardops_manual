@@ -11,9 +11,11 @@ Train by AR - Modelled with Hard Ops
 # Table Of Contents
 
 - [Introduction](intro)
+- [Preferences](addon)
 - [Install](install)
 - [Installation](installation)
-- [Preferences](addon)
-- [Ssharpen](ssharpen)
-- [Csharpen](csharpen)
-- [Csharpen](csharp_adv1)
+- [Getting Started](getstarted)
+- [Ssharpen Basic](ssharpen)
+- [Csharpen Basic](csharpen)
+- [Csharpen Advanced](csharp_adv1)
+- [Mirroring And Symmetry](mirror_symmetry)
