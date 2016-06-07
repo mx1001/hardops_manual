@@ -34,7 +34,7 @@ another object's axis. You can also use the mirroring hotkeys on a single object
 
 To demonstrate MirrorMirror in my workflow.  
 
-![](img\mirror\m1.gif)
+![image](img\mirror\m1.gif)
 
 After slicing off one half. I used my alt + x symmetrize shortcut to make the body
 symmetrical. However for the piece I sliced off I was able to use **alt + shift + x (X Symmetry)
@@ -46,7 +46,7 @@ the original origin axis still kept.
 In fact just to show how I go about character blocking using mirror mirror, I
 provided an example.
 
-![](img\mirror\m2.gif)
+![image](img\mirror\m2.gif)
 
 > I personally can't work without this enabled so it was only natural to add it
 into the core of Hard Ops 8. I would recommend getting used to it and spending
@@ -62,13 +62,13 @@ into the core of Hard Ops 8. I would recommend getting used to it and spending
  However this tool has a rather specific behavior that is worth going over in depth.
 
 The support for automirror is in the pie/tpanel/qmenu.
-  ![](img\mirror\m4.png)
+  ![image](img\mirror\m4.png)
 
 > In this menu you can either just click Auto-Mirror to mirror on the default X-axis
 or choose and axis as well as set positive or negative and set up the mirroring type before
 initializing. Generally it is set up to mirror x by default.
 
- ![](img\mirror\m3.gif)
+ ![image](img\mirror\m3.gif)
 
 You can see now after setting up the Automirror after the block in that the
 model was automatically mirrored for the following sectional cuts that were made.
