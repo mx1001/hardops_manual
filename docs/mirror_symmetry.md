@@ -6,9 +6,9 @@ provide many options for how to best approach symmetry.
 
 ___
 When it comes to Hard Ops there are 3 ways mirroring is dealt with.
- - Mirror Mirror - (integrated into Hard Ops) non destructively via modifiers
+ - Mirror Mirror - (integrated) non destructively via modifiers. works based off of object selection
  - [AutoMirror](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html) -
- this plugin is separate however is capable of bisecting a model and adding a mirror modifier
+(separate) this plugin is capable of bisecting a model and adding a mirror modifier
  - Symmetrize - these options use blender's own symmetrize for all axis and is built in. This is my default choice for symmetry
 
  > The tools depend on the case however they all provide unique solutions for
@@ -79,3 +79,44 @@ important to note:
  - You cannot cut mirrored meshes using booleans if the mirror is not applied. This is because one half of the mesh is not real.
     - you can fix it by applying it
     - you can work around it by not cutting near the mirror point. This is where the fun begins. But if you do want to cut it globally just apply the mirror and automirror again if needed.
+
+You can use the automirror with these rules in mind to pull off some awesome stuff.
+
+For example, Here's a quick 2 minute example of me using this particular behavior with Hard Ops.
+
+> In this example I set up both x and y symmetry which isn't always ideal.
+
+![image](img\mirror\m5.gif)
+
+So when utilized properly you can get some quick results rather fast.
+
+> In this example I set up just x symmetry which is more ideal.
+
+![image](img\mirror\m6.gif)
+
+Within 2 minutes I can get pretty far with the basic operators. And this is due to the speed and time saved with the auto bisect behavior. I cannot recommend [AutoMirror](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html) enough.
+
+___
+
+# Symmetrize
+
+> So last but definetely not least is blender's own symmetrize. This tool is fantastic. I am personally a big fan of how quick it is and how accessible it is. Basically our operator is just a frontend of the one that is located in the w menu by default.
+
+Here is blender's own symmetrize. All we did was make it more accessible to our needs. The reason this is used often is because it is mirror and done. This prevents boolean errors and allows for more veratility. Even while being the most destructive.
+
+![image](img\mirror\m7.gif)
+
+I am still a big fan of this and even have it mapped to alt + shift + x in edit mode in my version of Blender. However now let's see symmetrize in action. Keep in mind I have mine mapped to alt + x via right clicking it in the q menu. There are some differences that I will go over more after this example. I also usually combo this with mirror mirror as well so look out for the shortcut (alt + shift + x)
+
+![](img\mirror\m8.gif)
+
+By working this way I can make vertical cuts without limit and less issues than with a dynamic modifier in place. So theres a time and place for all of them but to recap.
+
+- mirror mirror - is used for separate objects that need to be mirrored across another object's x/y/z axis
+- symmetrize - is used to mirror objects across themselves without regard for what is on the other side. I consider it mirror and be done.
+
+So with that out the way the symmetrize we created is also able to behave slightly different due to mesh sstatus. One example is cstep meshes will be hidden automatically after being symmetrized. Keeping the user moving if aware of the situation and sstatus.
+
+Here is an example of that.
+
+![image](img\mirror\m9.gif)
