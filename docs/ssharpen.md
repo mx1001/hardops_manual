@@ -30,3 +30,5 @@ So here I will ssharpen one object and csharpen the other. The left object doesn
 ![image](img/csharp1/s-c.gif)
 
 > They both have their time and place however they are not interchangable since the behavior is very different.
+
+- [Sharpening Basics](sharpening_basics)

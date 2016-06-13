@@ -17,6 +17,7 @@ Train by AR - Modelled with Hard Ops
 - [Getting Started](getstarted)
 - [Ssharpen Basic](ssharpen)
 - [Csharpen Basic](csharpen)
+- [Sharpening Basics](sharpening_basics)
 - [Csharpen Advanced](csharp_adv1)
 - [Mirroring And Symmetry](mirror_symmetry.html)
 - [Cstep Basics](cstep.html)

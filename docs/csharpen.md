@@ -72,3 +72,4 @@ To better understand there is some additional reading.
 
 - [Csharpen Advanced](csharp_adv1)
 - [Ssharpen](ssharpen)
+- [Sharpening Basics](sharpening_basics)
