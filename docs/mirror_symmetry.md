@@ -54,7 +54,8 @@ into the core of Hard Ops 8. I would recommend getting used to it and spending
 
  ___
 
- # [AutoMirror](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html)
+ # Automirror
+ [addon page](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html)
 
  > Automirror is a tool made by [Lampaigne](https://cgcookiemarkets.com/all-products/lapineiges-tool-add-ons-compilation/).
  This tool fullfills a rather unique need and does it so well I need not bother
