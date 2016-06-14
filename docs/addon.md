@@ -60,7 +60,7 @@ You also can set the colors yourself manually and we have put forth many options
  to customize. The idea was to make this something you can customize and make your
  own.
 
- # Info
+# Info
 ___
 
 This area contains just a note from me.
