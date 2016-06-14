@@ -10,7 +10,8 @@ table by people who join the team.
 
 ___
 
-# Hard Ops ![image](img\icons\HardOps.png)
+# Hard Ops
+![image](img\icons\HardOps.png)
 
 - Clickable Buttons in 2d drawing
   > This one is high priority and very important for future ideas as well. With 2d
@@ -67,7 +68,8 @@ ___
     example. Also sharpen would be customized here to determine how the tool behaves when ran.
 
 ___
-# BoxCutter ![image](img\icons\BoxCutter.png)
+# BoxCutter
+![image](img\icons\BoxCutter.png)
 
 - Autosymmetrize boolshapes after draw via symmetrize
 - Shape memory for Ngon Tool

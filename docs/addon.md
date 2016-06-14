@@ -34,7 +34,7 @@ which more than 1 mesh is selected.
 option to allow it to connect to hard ops for easier usage. This options is
 considered depreciated and may be changed in future releases.
 
- # Drawing Tab
+# Drawing Tab
 ___
 
 ![Dtab](img\start1\drawing_tab.gif)
