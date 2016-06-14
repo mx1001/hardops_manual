@@ -9,6 +9,10 @@ is intended to become something more.
 *While they exist as separate products. Boxcutter and Hard Ops were created with
 support for one another and it is recommended to use both of them.*
 
+Hard Ops ![](img\icons\HardOps.png) is sometimes considered complicated. As the creator
+of Hard Ops it's sometimes hard to see how to simplify the process since I understand it
+inside and out. Boxcutter is intended to be a soft reboot for hard surface workflows. 
+
 ___
 
 # Installing Boxcutter
