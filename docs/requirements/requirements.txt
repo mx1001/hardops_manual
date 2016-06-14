@@ -1,0 +1,3 @@
+pip install mkdocs-bootswatch
+
+theme: slate
