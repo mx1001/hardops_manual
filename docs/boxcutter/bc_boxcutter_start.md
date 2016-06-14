@@ -1,4 +1,4 @@
-# What is Boxcutter? ![image](img\icons\BoxCutter.png)
+# What is Boxcutter? ![image](..\img\icons\BoxCutter.png)
 
 > Boxcutter is a tool built to expand on the workflows of Hard Ops. It was created
 primarily by [Adrian Rutkowski](https://www.artstation.com/artist/adrianrutkowski)
@@ -9,9 +9,9 @@ is intended to become something more.
 *While they exist as separate products. Boxcutter and Hard Ops were created with
 support for one another and it is recommended to use both of them.*
 
-Hard Ops ![](img\icons\HardOps.png) is sometimes considered complicated. As the creator
+Hard Ops ![](..\img\icons\HardOps.png) is sometimes considered complicated. As the creator
 of Hard Ops it's sometimes hard to see how to simplify the process since I understand it
-inside and out. Boxcutter is intended to be a soft reboot for hard surface workflows. 
+inside and out. Boxcutter is intended to be a soft reboot for hard surface workflows.
 
 ___
 
@@ -52,7 +52,7 @@ to enable it in add ons.
 - ctrl + alt + u >> Opens User preferences
 - under the add-ons tab you can search "box" and find box cutter.
 
-![](img\boxcutter_img\bc_1.gif)
+![](..\img\boxcutter_img\bc_1.gif)
 
 With box cutter enabled you are now ready to begin.
 

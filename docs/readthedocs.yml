@@ -1,0 +1,5 @@
+# Build PDF & ePub
+formats:
+        - pdf
+
+requirements_file: requirements/docs.txt
