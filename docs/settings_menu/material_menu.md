@@ -27,6 +27,7 @@ I get my materials from a variety of sources.
 - [Metal Pack](http://www.blendswap.com/blends/view/69793)
 - [Car Paint](http://www.blendswap.com/blends/view/47497)
 - [Ubershader](http://www.blendswap.com/blends/view/56807)
+- [Free PBR Material](http://www.blenderbrit.co.uk/free-tool-pbr-node-pack/)
 - [PBR Material](https://cgcookiemarkets.com/all-products/pbr-material-node/)
 - [Low Noise Pack](https://cgcookiemarkets.com/all-products/low-noise-shader-pack/)
 

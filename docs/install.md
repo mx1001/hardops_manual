@@ -44,3 +44,13 @@ enable the plugin.
 ![image](img/installandenable.gif)
 
 Now onto discussing the preferences and setup inside of Hard Ops.
+
+___
+
+## Additional Notes
+
+# Enable Looptools
+
+![img](img\start1\loop1.gif)
+
+Looptools is a plugin that is already built into Blender. It comes in handy for a variety of things however for Hard Ops it powers the circle tool behavior. 
