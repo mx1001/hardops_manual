@@ -109,11 +109,6 @@ Ops created by AR and is a secondary project focusing on just cutting alone. I
 was not the creator of this project and therefore I was unable to add it
 into Hard Ops.
 
-- [BoolTool 0.2](https://github.com/vitorbalbio/code/tree/master/BoolTool) - BoolTool
-was a tool that made booleans accessible in a modelling workflow and I forever am
-greatful to Vitor Balbio for his tool and sought to expand on his original work via this
-tool. (This tool will also be getting replaced in future versions)
-
 - [Mira Tools](http://blenderartists.org/forum/showthread.php?366107-MiraTools) -
 Mira Tools is a great too for managing lines of complicated points via curve based
 interpolation. This hosts a plethora of immensely useful tools and is worth
