@@ -1,5 +1,7 @@
 # What is Boxcutter? ![image](..\img\icons\BoxCutter.png)
 
+![](..\img\boxcutter_img\bad.gif)
+
 > Boxcutter is a tool built to expand on the workflows of Hard Ops. It was created
 primarily by [Adrian Rutkowski](https://www.artstation.com/artist/adrianrutkowski)
 with myself managing this project. We also were assisted by Dairin0d and Edgard
