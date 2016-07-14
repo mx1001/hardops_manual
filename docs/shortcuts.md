@@ -67,6 +67,8 @@ ___
 
 ## Custom Hotkeys
 
+![](img\stuffed.gif)
+
 > This area will discuss additional hotkeys that I use often that do not get configured via Hard Ops.
 
 > **These will require you set them up manually by right clicking and choosing to set hotkey.**

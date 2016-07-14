@@ -1,6 +1,8 @@
 ## Hard Ops Boolean system
 ___
 
+![](img\smack.gif)
+
 # Boolean Basics
 
 > With the Hard Ops 8 update. Booltool is no longer a required dependency. In fact it is recommended to use the new system instead since it's more catered to our own tools.

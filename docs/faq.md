@@ -211,7 +211,7 @@ ___
 
 ![](img\faq\faq24.gif)
 
-![](img\faq\faq22.png) Red Inserts are inserts made to be booleaned into surfaces.
+![](img\faq\faq22.png) Red Inserts are inserts made to be boolean cut into surfaces.
 
 ![](img\faq\faq23.png) Adjustable inserts are inserts that can be adjusted for additional length prior to being applied.
 

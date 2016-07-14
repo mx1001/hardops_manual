@@ -1,6 +1,8 @@
 ## How To Install Hard Ops
 ________________
 
+![](img\smack.gif)
+
 > Using install from file will more than likely **not work**. I would recommend
 installing the add-on manually by copying the contents of the zip into the add-on
 directory.
@@ -53,4 +55,4 @@ ___
 
 ![img](img\start1\loop1.gif)
 
-Looptools is a plugin that is already built into Blender. It comes in handy for a variety of things however for Hard Ops it powers the circle tool behavior. 
+Looptools is a plugin that is already built into Blender. It comes in handy for a variety of things however for Hard Ops it powers the circle tool behavior.
