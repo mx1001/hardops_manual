@@ -11,7 +11,9 @@ when it came to modelling. But this expanded to be an entire workflow.*
 
 Now the goal of Hard Ops can be simplified into one line.
 
-**Hard Surface modelling and workflow assistance**
+**Hard Surface modelling and workflow assistance. A helping hand.**
+
+![](img\ohno.gif)
 
 >There is no magic button. It won't make a better artist. All our tool can do is
 enable you to be the maximum you.

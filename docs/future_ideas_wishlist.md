@@ -1,5 +1,7 @@
 ## Wishlist / Dreams / Roadmap
 
+![](img\dream.gif)
+
 > Our roadmap isn't exactly clear until it begins coming together. Certain requisites must
 be met for certain features to become viable. This is always dependant on the people
 involved and the time / capacity in dealing with features.
