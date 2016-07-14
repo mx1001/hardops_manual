@@ -1,4 +1,4 @@
-## Boxcutter Basic Usage  ![image](..\img\icons\BoxCutter.png) ![](..\img\boxcutter_img\d2.gif)
+## Boxcutter Basic Usage  ![image](..\img\icons\BoxCutter.png) ![](..\img\boxcutter_img\logo2.gif)
 
 Boxcutter has a shortcut of **alt + W**
 

@@ -1,5 +1,7 @@
 ## Hard Ops Hotkeys and Key Setup Tips
 
+![url](img\computer2.gif)
+
 > Hard Ops started with the single hotkey of Q and has expanded into much more. I hope explain the hotkeys and the way I work using them.
 
 # Q - Hard Ops menu / Shift + Q - Pie Menu

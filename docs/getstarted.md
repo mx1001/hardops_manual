@@ -1,5 +1,9 @@
 ## How to get started with Hard Ops
 
+![url](img\computer.gif)
+
+Hard Ops can seem daunting however all the commands do basic things. So I recommend learning the ropes on basic objects to practice just to get used to the menus. In the next few examples I'll be going over how I use Hard Ops in my day to day work.
+
 # Ssharp / Csharp Workflow
 
 Try out modelling basic shapes and using the sharpeners. I usually do a small

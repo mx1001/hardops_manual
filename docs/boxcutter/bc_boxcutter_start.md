@@ -4,16 +4,16 @@
 
 > Boxcutter is a tool built to expand on the workflows of Hard Ops. It was created
 primarily by [Adrian Rutkowski](https://www.artstation.com/artist/adrianrutkowski)
-with myself managing this project. We also were assisted by Dairin0d and Edgard
+with myself assisting this project. We also were helped by Dairin0d and EC
 for the later releases among a few others. In the same vein of Hard Ops, Boxcutter
 is intended to become something more.
 
 *While they exist as separate products. Boxcutter and Hard Ops were created with
-support for one another and it is recommended to use both of them.*
+support for one another and it is recommended to use both of them. In hard Ops is a button under meshtools to receive a discounted version.*
 
-Hard Ops ![](..\img\icons\HardOps.png) is sometimes considered complicated. As the creator
-of Hard Ops it's sometimes hard to see how to simplify the process since I understand it
-inside and out. Boxcutter is intended to be a soft reboot for hard surface workflows.
+![](..\img\boxcutter_img\bc_5.png)
+
+Hard Ops ![](..\img\icons\HardOps.png) has become more complex over time and can be daunting to newcomers. Boxcutter provides a more intuitive way to get started with what Hard Ops has to offer. Hard Ops remains a hard surface toolkit but Boxcutter is a cutter that focuses on quick cutting boolean operations via drawing.
 
 ___
 
@@ -57,5 +57,14 @@ to enable it in add ons.
 ![](..\img\boxcutter_img\bc_1.gif)
 
 With box cutter enabled you are now ready to begin.
+
+BoxCutter can be initialized with alt + w as a hotkey.
+![](..\img\boxcutter_img\bc6.gif)
+
+It can also be initialzied through the Q menu >> meshtools of Hard Ops
+![](..\img\boxcutter_img\bc7.gif)
+
+And lastly you can initialize box cutter via the T-panel. This is located below the Hard Ops T-Panel.
+![](..\img\boxcutter_img\bc8.gif)
 
 ___

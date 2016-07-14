@@ -16,3 +16,5 @@ Merge options - this was started by AR with the ver 7 rewrite.
 - cmerge would be csharp merge or Hard merge
 - smerge would be soft merge or "stepped merge" this allows users to set up the boolean but still adjust and preview before committing via csharpen
 - material helper only shows one mat. That has to be fixed.
+- qarray should be able to be initialized with an empty selected as well.
+  - this would set the empty to the selection field of the array modifier. 
