@@ -16,9 +16,11 @@ Now the goal of Hard Ops can be simplified into one line.
 >There is no magic button. It won't make a better artist. All our tool can do is
 enable you to be the maximum you.
 
+![](img\computer3.gif)
+
 HardOps also has an older wiki.
 [Version 8](https://masterxeon1001.com/2016/05/28/hard-ops-8-release-notes/)
-Version 8 was out at the time I was writing this.
+ was out at the time I was writing this.
 
 I hope that this guide answers more questions than it asks and makes the
 experience of using HardOps as easy as possible. I also hope it can give some
@@ -31,4 +33,4 @@ I would have never been able to make it to where it if not for the team. They ar
 the driving force behind the development and without a team the work would not have
 been possible. The collaborative nature of the team and the willingness to invest
 time has been astounding and has helped this project live far longer than even I
-initially expected. 
+initially expected.
