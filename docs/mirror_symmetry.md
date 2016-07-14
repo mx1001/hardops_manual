@@ -1,5 +1,7 @@
 ## Mirroring And Symmetry
 
+![](img\songbread.gif)
+
 > Mirroring is important  when it comes to keeping a mesh symmetrical however in
 Boolean workflows having active mirror modifiers isn't always ideal. So we attempted to
 provide many options for how to best approach symmetry.
