@@ -2,144 +2,33 @@
 
 ![](img\c1.gif)
 
-# How do I get started with Hard Ops?
+# How Do I Install Hard Ops / Boxcutter?
 
-Let's start with a cube.
-![](img\faq\faq1.png)
+# [See Install](install)
 
-> In the top corner it specifies that this object is UNDEFINED. This ensures when I press Q the options are for meshes that are not considered beveled.
+# Why is the add-on checker not working?
 
-![](img\faq\faq2.gif)
+![](img\start1\ad2.png)
 
-When I first press Q these are the options I am presented.
+The recommended addons will show checkboxes when the supported plugins are present.
 
-  - SSharpen (soft sharpening without bevelling)
-  - CSharpen (soft sharpening with bevel modifier added)
-  - Tthick (add thickness to the volume via solifify)
+This can have issues if the naming is different than what it is looking for.
+BoxCutter for example requires the folder is named "BoxCutter"
+The namings being searched for are as follows.
 
-I will start out Csharpening the object then use B-Width to adjust the bevel.
+- "BoxCutter"
+- "Auto Mirror"
+- "Mira Tools"
 
-> Bwidth will show up on the main menu when an object is beveled via Csharpen
+This can be an issue to some however it is recommended to just check the folder naming. We are currently looking into improving it but it was intended to be a quick checklist to assist with troubleshooting.
 
-![](img\faq\faq3.gif)
+To troubleshoot further you also can run the following command in the scripting area of the scripting tab.
 
-From this point I will use booleans to make additional cuts into the object.
+**bpy.context.user_preferences.addons.keys()**
 
-The hotkeys used are:
-  - ctrl + numpad - (Subtractive Boolean)
-  - ctrl + numpad / (Slice Boolean)
+![](img\start1\checking addons.gif)
 
-  - alt + shift + x (mirror mirror X axis)
-
-![](img\faq\faq4.gif)
-
-This can be alot to take in at once so I'll explain what I did here.
-
--  (shift + a) >> insert cube and used it with Slice Boolean to slice the center piece out.
-
-- Added another cube and used Q >> operations >> b-width to put a simple bevel on the object without going into csharp.
-
-> This was necessary because it is not recommended to use csharp objects to cut into csharp objects. This will result in bevel weight information being baked in that is not wanted. Here is an example.
-
-![](img\faq\faq5.gif)
-
-- (Ctrl + Numpad -) >> Subtractive Boolean then I used Csharp to apply the boolean to the object and calculate the sharpening.
-
-- Deleted one side, selected the piece to mirror and then the body to mirror accross. (alt + shift + x)
-
-> By mirroring it across the other side I am able to work on one side while the other is updated automatically. This allows me to cut more things out and the objects will retain their properties.
-
-So continuing with these ideas in mind you can make something complex quickly even in just object mode.
-
-![](img\faq\faq6.gif)
-
-However the combination of both object mode and edit mode tools can allow for some interesting ideas. Especially when you focus on particular shapes and areas.
-
-![](img\faq\faq7.gif)
-
-> In this example I used a plane with knife project to force a plane in the ngon surface that resulted from the boolean operation.
-
-Here is an example of me using edit mode to add some custom details.
-
-![](img\faq\faq8.gif)
-
-> In edit mode I have shift + ~ mapped to select boundary loop. This allows me to select a region then convert it to only the exterior loop. This isn't a hard Ops feature so you will have to map it manually.
-
-![](img\faq\faq9.gif)
-
-- Isolated the face with only 4 points with shift + h to hide alternate geometry
-- W >> Subdivide (x2) / A >> select all >> shift + ~ >> select boundary.
-- ctrl + shift + tab to switch to vert selection >> ctrl + I >> invert selection
-> This step is useful because converting the exterior points to circles would not look as good. So I have become used to separating isolating the edge area for a buffer.
-![](img\faq\faq10.gif)
-- Q >> Meshtools >> Circle (Nth)
-- E >> Extrude >> Alt + S >> Push on normal
-
-While this sounds like a lot of buttons. I press these within a few seconds and can only say that it becomes easier as you get used to it.
-
-![](img\faq\faq11.gif)
-
-In this example I used demote to remove the modifier bevelling so that I could bevel it myself and give it a larger bevel. I also used another cube to cut more out of it.
-
-Even this cube that I used to cut in the front section still has a use. I will simple scale it and then use it to slice out those pieces into manifold meshes of their own.
-
-![](img\faq\faq12.gif)
-
-> You might have noticed an error that happened after the initial cslice. Its important to note that sometimes if you cut close to edges you have to lower the bevel width to keep it working correctly.
-
-After cutting you might have also noticed that I used alt + x to symmetrize the object (destructive symmetry) then used alt + shift + x to symmetrize the front cutout to the other side of the front base. The cutout received non destructive symmetry because the two piece do not touch. This keeps the bevel, mirror, and booleans behaving predictably.
-
-![](img\faq\faq13.gif)
-
-Using the basic tools a decent amount of detail is able to be accomplished in a short time.
-
-This is just one way to use the tool but I hope this helps in getting started!
-![](img\faq\faq14.jpg)
-
-[More Getting Started](getstarted)
-___
-
-# Is there a hotkey guide?
-
-# [Yes!](shortcuts)
-___
-
-# What is the difference between Ssharpen and Csharpen?
-
-![](img\computer2.gif)
-
-**SSharpen** is short for soft sharpen. We called it that because it does the following.
-
-  - edit mode >> select sharps >> mark sharps, bevel weight, subdiv crease
-  - sets mesh to smooth
-  - enables autosmooth
-
-To do it manually it looks like this.
-
-![](img\faq\faq15.gif)
-
-Alternatively Q >> Ssharpen does all of the steps for you.
-
-![](img\faq\faq16.gif)
-
-[See Csharpen](ssharpen)
-
-**CSharpen** is short for complex sharpen. Complex sharpen does all that Ssharpen does and more.
-
-  What else does it do?
-
-  - applies modifiers that are not excluded from the list
-  - adds a bevel modifier to the object
-  - changes the mesh state to Csharp which changes the options in the Q menu.
-
-![](img\faq\faq17.gif)
-
-> The initial options are based on the most likely options for basic meshes. When the mesh is in Csharp state you have a higher likelyhood of wanting to see options for adjusting the bevel alternatively if you added a solifidy after bevelling it via csharp it would fold in on itself.
-
-All I can recommend for now is also reading the additional chapters on Csharpen and Ssharpen and play with them yourself to best understand them.
-
-[See Csharpen](csharpen)
-
+This will show a list of all the add ons present. This is how we troubleshoot this area when the plugin detection is not working.
 ___
 
 # What is Cstep / Sstep?
@@ -229,3 +118,25 @@ ___
 [Update Log Explaining Red Inserts ](https://masterxeon1001.com/2016/01/05/hops0065update/)
 
 ___
+
+# Help! Why doesn't this add-on show activated in the add-on checker!
+
+![](img\faq\addon2.png)
+
+By using this line in the scripting area of blender you can see all the add-ons  activated.
+
+bpy.context.user_preferences.addons.keys()
+
+![](img\faq\addon1.gif)
+
+The Boxcutter add-on folder requires the naming be "BoxCutter"
+
+You can also find the foldername in the addon file area.
+![](img\faq\faq28.png)
+
+This is how it would be fixed in the add-ons directory.
+![](img\faq\faq27.gif)
+
+Now I can start boxcutter with Alt + W
+
+![](img\faq\faq29.gif)
