@@ -1,5 +1,7 @@
 ## Hard Ops Introduction Guide
 
+![](img\logo.gif)
+
 > This guide is intended to explain the basics and ideas behind Hard Ops and give
 > some insight to its intentions and future plans.
 

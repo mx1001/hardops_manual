@@ -1,7 +1,9 @@
 ## Sstatus System
 ___
 
-> Sstatus is displayed in the corner of the 3d view
+> Sstatus is displayed in the left corner of the 3d view.
+
+![](img\phone.gif)
 
 ![sstatus](img\sstatus\st_1.png)
 
