@@ -1,12 +1,14 @@
 ## Operations Menu
 
+![](img\phone.gif)
+
 The operations contain all the options that can sometimes show up in the dynamic Q menu.
 
 ![Op](img\operations\op2.png)
 
 These are the default options that show up under the q menu. There are also additional options that will show up due to multiple meshes being selected or other context based reasons. For example when a bevel modifier is present like in csharp, segments will show at the top of this menu.
 
-![Op](img\operations\op1.png)
+![Op](img\operations\op1_1.png)
 ____
 
 ## Operations options
@@ -80,3 +82,33 @@ When ran Clear S/C/Sharps does the following,
   - sets sstatus to undefined / resets sstatus
 
 ![](img\operations\op10.gif)
+
+# Clean Mesh (E)
+
+This option performs a limited disolve with 0.5 degress and a remove double with a threshold of .02.
+
+This is a new feature added in Hard Ops 8 and is just an experimental way of optimizing planar meshes for continuous boolean.
+
+In some instances. I set the hotkey to alt + ctrl + X.
+
+![](img\operations\op15.gif)
+
+After using Cslice to make the separation you can see a series of skewed edges.
+
+These can be dissolved manually.
+
+![](img\operations\op16.gif)
+
+I used C for circle select and then pressed ctrl + x to dissolve. Alternatively you can select all and do a limited dissolve through the X menu.
+
+![](img\operations\op17.gif)
+
+So now let's see the Clean Mesh in action.
+
+![](img\operations\op18.gif)
+
+> There's still additional things I want to add to this such as temporarily showing the wire of the model during the F6 operation. This may be expanded in further releases.
+
+I must also add that while it dissolves edges to simplify surfaces. This is not always ideal since it goes against the idea of using guidance edges to control shading. So use at your own risk and always check the mesh after the operation. This was only intended to make it easier to do subsequent booleans without mesh error.
+
+![](img\operations\op19.gif)
