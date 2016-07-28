@@ -1,5 +1,7 @@
 ## Insert System
 
+# What are the Inserts?
+
 Hard Ops has an insert system for using premade meshes for quick greebling and detail work. It's intended to be used in a pinch when detail is needed quickly.
 
 ![](insert\ins_preview.png)
@@ -11,6 +13,8 @@ The insert system can be brought up via the Q menu via inserts and also has a to
 ![](insert\ins_2.gif)
 
 ___
+
+# Insert Types
 
 ![](img\faq\faq21.png) Orange Inserts are just basic inserts. These are just meshes you place.
 
@@ -26,6 +30,8 @@ ___
 
 ![](img\faq\faq25.gif)
 
+# Red Inserts Details
+
 > Red inserts are built up out of these 3 pieces.
   - AP or alignment plane (used for aligning the whole insert)
   - BB of BoolBox (used for the boolean to make room for the OB)
@@ -37,4 +43,22 @@ ___
 
 ___
 
-# Inserts In Action
+# Inserts / Materials Sharing
+
+Inserts come with basic materials assigned. These are placeholders that are just indexes for materials that you would want to replace them with.
+
+In this example I will add some inserts to a cube.
+
+![](img\inserts\ins1.gif)
+
+As you can see the materials have the .00X numbering due to them being subsequently added. If you select both inserts and go to the operations menu there is an option for Material Link.
+
+![](img\inserts\ins2.gif)
+
+This is here just for material localization however most of the time I replace these with the placeholders I have present and then use the shift + L >> material link.
+
+![](img\inserts\ins3.gif)
+
+This is one of the more hidden options however it was made for just this purpose.
+
+---

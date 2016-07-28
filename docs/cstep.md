@@ -41,3 +41,13 @@ In this example take note of the following.
   - Sstep has an F6 menu for which modifiers it can ignore but really it doesn't need to be messed with unless you are focusing on the sharpening amount which generally is also left at default.
 
 ![image](img\cstep\c4.gif)
+
+___
+
+# Alternate Use Of Cstep / Sstep
+
+![](img\cstep\ca1.png)
+
+In this example I start out with the Csharpen then use B-width to increase the segments to 12. I then cstepped it in order to bake the bevels.
+
+![](img\cstep\ca2.gif)
