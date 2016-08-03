@@ -1,5 +1,7 @@
 ## Boxcutter Basic Usage  ![image](..\img\icons\BoxCutter.png) ![](..\img\boxcutter_img\logo2.gif)
 
+![](..\img\boxcutter_img\AR1.gif)
+
 Boxcutter has a shortcut of **alt + W**
 
 There is also a button in the T-Panel which is located under Hard Ops.

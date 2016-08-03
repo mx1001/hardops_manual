@@ -65,6 +65,16 @@ Cslice is actived via ( ctrl + **numpad** * )
 ![img](img\hotkey\h8.gif)
 ___
 
+# Alt + M - Material Menu
+
+Alt + M will bring up a material menu in object mode. This is to assist with quick material assignment.
+
+![](img\hotkey\h16.gif)
+
+This can be comboed with the ctrl + ~ shortcut of the material helper for fine tuning the materials you assign.
+
+___
+
 ## Custom Hotkeys
 
 ![](img\stuffed.gif)
