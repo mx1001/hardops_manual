@@ -187,3 +187,7 @@ All I can recommend for now is also reading the additional chapters on Csharpen 
 [See Csharpen](csharpen)
 
 ___
+
+
+
+![img](img\getusedtoit.gif)

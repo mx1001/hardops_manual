@@ -31,6 +31,12 @@ To troubleshoot further you also can run the following command in the scripting 
 This will show a list of all the add ons present. This is how we troubleshoot this area when the plugin detection is not working.
 ___
 
+# Why am I having issues when I boolean certain areas?
+
+
+
+___
+
 # What is Cstep / Sstep?
 
 In short.
@@ -140,3 +146,10 @@ This is how it would be fixed in the add-ons directory.
 Now I can start boxcutter with Alt + W
 
 ![](img\faq\faq29.gif)
+
+Mira tools also is the same way.
+![img](img\faq\f1.png)
+
+In my add ons folder it is just called mira_tools. For this addon it can get complicated since the naming is rather specific.
+
+I must add that the add on checker doesn't really matter. It was attempted to be a convenience thing. However some issues that users find with it is due to the naming.
