@@ -192,6 +192,10 @@ And from here mirror mirror. Cslicing and then CleanMesh after a few merges.
 By this point you should have a pretty good idea.
 ![](img\bool\c21.gif)
 
+But it never ends.
+![](img\bool\c23.gif)
+![](img\bool\c24.gif)
+
 Once you start assigning materials using the Alt + M in object mode and the Q menu in edit mode you can get some pretty nice results. In fact I use slicing as a way to separate materials and pieces by using this color blockout stage as a way to assist with design.
 
 Hard Ops provides no materials but they are easy to acquire. I also wrote a blog post about my materials and which ones I use in addition to how my default scene is set up.
