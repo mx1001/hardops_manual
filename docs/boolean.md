@@ -151,4 +151,55 @@ The main functions used here were the following.
 - G + G >> edge slide
 - alt + m >> merge
 
-And in less than a minute the area was looking much better. All thats left is the sliced piece.
+And in less than a minute the area was looking much better. All thats left is the sliced piece. Most of these gifs are less than a minute long and I'm also trying my best to do them at a speed that allows readers to follow.
+
+![](img\bool\c11.gif)
+
+Now this mesh is looking great. But there is no time to admire. Time to mess things up again.
+
+The main piece still has the mirror modifier on the main axis of the form. That limits my ability to work and boolean in those areas because the geo is not real. Because of that I often mirror things. Apply mirror. Re-mirror.
+
+The mirror has some advantages though. Like the previous slice. But lets also do something additive.
+
+![](img\bool\c12.gif)
+
+And now for the cleanup.
+
+![](img\bool\c13.gif)
+
+For this double curvature merger the process is more difficult but requires a steady hand and patience. A few notes on this process
+
+- I press alt + m and then to do it subsequently I use shift + r to repeat last command. In my case I used to merge to last and then repeated after selecting the right parts with always the point to meet at being last.
+- Also the ssharpen didn't completly mark it so I had to do that in edit mode. This is a common thing with curvature. Degress less than 30. Its easier to manually correct than to tweak the Csharpen F6 menu which might make it misbehave on other objects.
+
+Now to apply the mirror on the main body and make a larger cut.
+
+![](img\bool\c14.gif)
+
+For this one it was just a matter of clean mesh and symmetrize and my work was done.
+
+Just to do a few more cuts on this surface. Using the same tools as previous.
+![](img\bool\c16.gif)
+![](img\bool\c17.gif)
+![](img\bool\c18.gif)
+
+And to top it off. Lets detail the center a bit.
+![](img\bool\c19.gif)
+
+And from here mirror mirror. Cslicing and then CleanMesh after a few merges.
+![](img\bool\c20.gif)
+
+By this point you should have a pretty good idea.
+![](img\bool\c21.gif)
+
+Once you start assigning materials using the Alt + M in object mode and the Q menu in edit mode you can get some pretty nice results. In fact I use slicing as a way to separate materials and pieces by using this color blockout stage as a way to assist with design.
+
+Hard Ops provides no materials but they are easy to acquire. I also wrote a blog post about my materials and which ones I use in addition to how my default scene is set up.
+
+[My Blender Setup](https://masterxeon1001.com/2016/03/31/setting-up-blender-for-success/)
+
+And with this thought process you would continue working on the shape. Cleaning things up and refining things until you have result you like.
+
+![](img\bool\c15.gif)
+
+![](img\bool\c22.png)
