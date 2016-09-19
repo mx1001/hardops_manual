@@ -198,7 +198,15 @@ But it never ends.
 
 Once you start assigning materials using the Alt + M in object mode and the Q menu in edit mode you can get some pretty nice results. In fact I use slicing as a way to separate materials and pieces by using this color blockout stage as a way to assist with design.
 
-Hard Ops provides no materials but they are easy to acquire. I also wrote a blog post about my materials and which ones I use in addition to how my default scene is set up.
+By the time I am rendering. Cycles does all the work of making it look pretty.
+
+![](img\bool\c25.gif)
+
+Rendering is how I judge the surfacing of the model and the reflections. If the surface was optimized poorly there will be distortions and pinches in the reflection. So it is quite the balancing act. But the goal behind Hard Ops is to make surfaces that aren't afraid of the closeup.
+
+This file is available with the other Hard Ops files if you want to see it for yourself. The filename is, (008- Drone).q
+
+Hard Ops provides no materials but they are easy to acquire. In fact the inserts have placeholder materials that are intended to be replaced by you. I also wrote a blog post about my materials and which ones I use in addition to how my default scene is set up.
 
 [My Blender Setup](https://masterxeon1001.com/2016/03/31/setting-up-blender-for-success/)
 
