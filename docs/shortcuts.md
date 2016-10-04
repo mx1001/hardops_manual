@@ -113,6 +113,13 @@ I am quite happy with this function in blender and it comes in handy for selecti
 
  In the above image I located "shortest path" and right clicked it to set it to D and used it for a partial selection and then used the [Mira Tool](http://blenderartists.org/forum/showthread.php?366107-MiraTools) >> curve stretch to adjust that area. This is just one of the use cases but it's a custom hotkey worth knowing.
 
+# Shift + ~ (edit mode) - Select Boundary
+
+Another popular hotkey I can't live without. I tend to utilize the ~ in my workflow due to my left handedness. In the lower example I remove the hotkey and put it back to show an example of how I use it in action. This is one you have to setup manually. 
+
+![img](img\hotkey\h17.gif)
+
+
 # Ctrl + ~ (edit mode) - Mark Sharp
 
 This shortcut is one I have become used to over time and cant work without. You may notice it in some of my videos as well.
