@@ -14,7 +14,7 @@ Here is where you would locate it on your system. It goes without saying that pu
 here instead of the branch you are using ensures the next updates also have it
 installed.
 
-C:\Users\ **your user** \AppData\Roaming\Blender Foundation\Blender\2.77\scripts\addons\HOps
+C:\Users\ **your user** \AppData\Roaming\Blender Foundation\Blender\<version number>\scripts\addons\HOps
 
 # Mac
 >Locate Blender in your applications folder
@@ -24,7 +24,7 @@ RMB on the blender.app and select show package contents
 # Linux:
 >I assume linux users know their PC.
 
-~/.config/blender/2.77/scripts/addons
+~/.config/blender/<version number>/scripts/addons
 
 __________________________________
 
