@@ -1,7 +1,7 @@
 ## How To Install Hard Ops
 ________________
 
-![](img\smack.gif)
+![img](img\smack.gif)
 
 > Using install from file will more than likely **not work**. I would recommend
 installing the add-on manually by copying the contents of the zip into the add-on
@@ -51,7 +51,7 @@ ___
 
 ## Add-On Tab
 
-![](img\start1\ad2.png)
+![img](img\start1\ad2.png)
 
 The recommended addons will show checkboxes when the supported plugins are present.
 
@@ -69,14 +69,14 @@ To troubleshoot further you also can run the following command in the scripting 
 
 **bpy.context.user_preferences.addons.keys()**
 
-![](img\start1\checking addons.gif)
+![img](img\start1\checking addons.gif)
 
 This will show a list of all the add ons present. This is how we troubleshoot this area when the plugin detection is not working.
 ___
 
 ## Additional Notes
 
-![](img\stab.gif)
+![img](img\stab.gif)
 
 # Enable Looptools
 
