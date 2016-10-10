@@ -26,8 +26,6 @@ ___
   the need for terminology like ssharpen or csharpen on the user level. Those can
   remain technical terms for internal but for new users it might be daunting.
 
-
-
 - Mirror Mirror assimilation of all behaviors of mirroring toolsets
   > An ideal mirror tool would be a unification of all current systems for mirroring.
   This is lower priority due to the needs being fullfilled in the current state but to
@@ -36,10 +34,6 @@ ___
 
     - Symmetrize and Automirror
 
-- Replacement of booltool and expand in hardops
-  > One of the the first tools required has seen many changes that are alternative to
-  the initial creator so a consolidation of this workflow in Hops and removal of the
-  requirement would make things easier. Also this would allow for expansion behavior.
 
 - Pizza Ops V2 (customizable locations)
   > Pizza Ops has become cult classic however the functionality is limited.
@@ -52,7 +46,7 @@ ___
 - Consolidation of Buttons
 - Wiki live integration
 - UI snapshot overlay
-- Permenant overlay
+- Permeant overlay
 - Hops Mode
     > Hops mode is  an idea for a modal mode that would allow for one click
     operators possibly reducing the need for the q menu. While the q menu is the core
