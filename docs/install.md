@@ -100,3 +100,5 @@ In fact here is how you can make a circle manually using loop tools and vertex b
 ![](img\start1\circlet.gif)
 
 With circle I can add circle in multifold the speed which I was doing it in the previous image.
+
+[Now you're ready to begin! ](https://www.youtube.com/playlist?list=PL0RqAjByAphGEVeGn9QdPdjk3BLJXu0ho)
