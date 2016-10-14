@@ -78,6 +78,16 @@ ___
 
 ![img](img\stab.gif)
 
+# Auxillary Addons
+
+There might be a zip file inside of Hard Ops called auxiliary addons.
+
+![img](img\start1\files.png)
+
+This has some of the auxiliary add-ons that are recommended. They are able to be installed by placing the contents of that zip in your add-ons folder similar to Hard Ops or BoxCutter.
+
+![img](img\start1\installing_aux.gif)
+
 # Enable Looptools
 
 ![img](img\start1\loop1.gif)
