@@ -9,12 +9,12 @@ directory.
 
 Here is where you would locate it on your system. It goes without saying that putting the zip you received in your add ons folder will also not work.
 
-# Windows
+# Windows 10 / 7
 >When using Blender a folder is created deeply in your PC for add-ons. Putting it
 here instead of the branch you are using ensures the next updates also have it
 installed.
 
-C:\Users\ **your user** \AppData\Roaming\Blender Foundation\Blender\<version number>\scripts\addons\HOps
+C:\Users\ **USERNAME** \AppData\Roaming\Blender Foundation\Blender\ **2.XX** \scripts\addons\HOps
 
 # Mac
 >Locate Blender in your applications folder
@@ -24,7 +24,7 @@ RMB on the blender.app and select show package contents
 # Linux:
 >I assume linux users know their PC.
 
-~/.config/blender/<version number>/scripts/addons
+~/.config/blender/ **2.XX** /scripts/addons
 
 __________________________________
 
