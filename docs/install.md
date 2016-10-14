@@ -69,7 +69,7 @@ To troubleshoot further you also can run the following command in the scripting 
 
 **bpy.context.user_preferences.addons.keys()**
 
-![img](img\start1\checking addons.gif)
+![img](img\start1\chkadd.gif)
 
 This will show a list of all the add ons present. This is how we troubleshoot this area when the plugin detection is not working.
 ___
