@@ -50,11 +50,3 @@ epub_author = u'masterxeon1001'
 epub_publisher = u'masterxeon1001'
 epub_copyright = u'2014, masterxeon1001'
 epub_exclude_files = ['search.html']
-
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
-source_suffix = ['.rst', '.md']
