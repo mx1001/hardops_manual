@@ -1,4 +1,3 @@
-$ ./tree-md .
 # Project tree
 
 .
