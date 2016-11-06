@@ -5,6 +5,7 @@ Hardps
    :maxdepth: 2
 
    operators/index
+   introduction/index
 
 
 
