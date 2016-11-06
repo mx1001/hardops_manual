@@ -50,3 +50,11 @@ epub_author = u'Hops'
 epub_publisher = u'Hops'
 epub_copyright = u'2016, Hops'
 epub_exclude_files = ['search.html']
+
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+
+source_suffix = ['.rst', '.md']
