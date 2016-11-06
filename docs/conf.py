@@ -15,7 +15,7 @@ todo_include_todos = True
 
 templates_path = ['ytemplates']
 source_suffix = '.rst'
-master_doc = 'index'
+master_doc = 'index.rst'
 
 project = u'Hops'
 copyright = u'2016, Hops'

@@ -3,8 +3,8 @@ hops
 .. toctree::
    :maxdepth: 2
 
-   Hops/index
-   BoxCutter/index
+   Hops/index.rst
+   BoxCutter/index.rst
 
 
 
