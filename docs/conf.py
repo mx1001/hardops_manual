@@ -17,8 +17,8 @@ templates_path = ['ytemplates']
 source_suffix = '.rst'
 master_doc = 'index'
 
-project = u'HardOps'
-copyright = u'2015, masterxeon1001'
+project = u'Hops'
+copyright = u'2016, Hops'
 
 version = '0.0.1'
 release = '0.0.1'
@@ -27,26 +27,26 @@ exclude_patterns = ['includes/*']
 
 pygments_style = 'sphinx'
 
-htmlhelp_basename = 'HardOpsdoc'
+htmlhelp_basename = 'Hops'
 
 latex_elements = {}
 latex_documents = [
-  ('index', 'HardOps.tex', u'HardOps Manual',
-   u'masterxeon1001', 'manual'),
+  ('index', 'Hops.tex', u'Hops Documentation',
+   u'Hops', 'manual'),
 ]
 
 man_pages = [
-    ('index', 'HardOps', u'HardOps Manual',
-     [u'masterxeon1001'], 1)
+    ('index', 'Hops', u'Hops Documentation',
+     [u'Hops'], 1)
 ]
 texinfo_documents = [
-  ('index', 'HardOps', u'HardOps Manual',
-   u'masterxeon1001', 'HardOps', 'Modelling',
+  ('index', 'Hops', u'Hops Documentation',
+   u'Hops', 'Hops', 'Hops',
    'Miscellaneous'),
 ]
 
-epub_title = u'HardOps'
-epub_author = u'masterxeon1001'
-epub_publisher = u'masterxeon1001'
-epub_copyright = u'2014, masterxeon1001'
+epub_title = u'Hops'
+epub_author = u'Hops'
+epub_publisher = u'Hops'
+epub_copyright = u'2016, Hops'
 epub_exclude_files = ['search.html']
