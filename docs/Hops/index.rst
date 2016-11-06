@@ -3,7 +3,7 @@ Hops
 .. toctree::
    :maxdepth: 2
 
-   operators/index.rst
+   operators/index
 
 
 
