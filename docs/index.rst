@@ -3,7 +3,7 @@ Hardops Manual
 **********************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
    Gettingstarted/index
    Hops/index
