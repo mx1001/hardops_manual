@@ -1,6 +1,3 @@
-**********************
-Hardops
-**********************
 Welcome to the official manual of **Hardops**
 
 .. toctree::
