@@ -2,6 +2,7 @@
 Hops
 **********************
 
+Hops
 .. toctree::
    :maxdepth: 2
 
