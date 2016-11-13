@@ -13,5 +13,5 @@
 	C:\Users\user\AppData\Roaming\Blender Foundation\Blender\2.78\scripts\addons
 3. in blender settings unlock the addon
 
-	![](/master/docs/Hops/instalation/img/install.png)
+	![](/docs/Hops/instalation/img/install.png)
 4. save user settings
