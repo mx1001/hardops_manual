@@ -38,7 +38,7 @@ recalculating bevel on csharpen object that has pending booleans
 3. sharpening parameters
 
    3. additive mode
-      * ON - apply defined sharpness and keeps other created sharp edges
+      * ON - apply defined sharpness and keeps other already existing sharp edges
       * OFF - clears all sharp edges befor applying its own sharpness
 
    4. sub-D mode
