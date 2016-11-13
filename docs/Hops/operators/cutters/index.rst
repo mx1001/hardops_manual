@@ -6,3 +6,4 @@ Cutters
    :maxdepth: 2
 
    csplit
+   rebool

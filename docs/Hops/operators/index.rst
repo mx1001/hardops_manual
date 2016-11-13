@@ -7,7 +7,7 @@ Hard Ops Operators
    :maxdepth: 2
 
    sharpeners/index
-   editmode/index
    cutters/index
+   editmode/index
 
 
