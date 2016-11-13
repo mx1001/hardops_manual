@@ -19,3 +19,5 @@
     ![install](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/instalation/img/install.jpg)
 
 4. save user settings
+    
+    ![install2](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/instalation/img/install2.png)
