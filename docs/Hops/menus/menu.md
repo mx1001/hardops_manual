@@ -5,10 +5,12 @@ Menu is hardops basic way to call operators
 
 it can be called by pressing 'Q' 
 
-
+Hotkey for menu can be changed in input setings just like other blender menus 
+![menu](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/menu/hotkey.png)
 
 Hops menu differs a bit from standard blender menus. Most of options are dynamic and change depending on selection, mode or objects state.
 here are few of the examles. look for operators for specific operators and asigned to them menus.
+
 clasic menu 
 
 ![menu](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/menu/und.png)
@@ -31,7 +33,3 @@ edit mode
 
 
 
-
-Hotkey for menu can be changed in input setings just like other blender menus 
-
-![menu](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/menu/hotkey.png)
