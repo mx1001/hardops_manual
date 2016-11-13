@@ -4,7 +4,7 @@ Hard Ops Operators
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    sharpeners/index
    cutters/index
