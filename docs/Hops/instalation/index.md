@@ -1,8 +1,8 @@
 ## Hard Ops Instalation
 
 
-1. Download Hard ops
-2. Unzip folder to 
+1. # Download Hard ops
+2. # Unzip folder to 
 
 	local blender directory (will be visible in seperate blender wersions)
 
@@ -11,7 +11,7 @@
 	or to global path (we suggest to use that one)
 
 	C:\Users\user\AppData\Roaming\Blender Foundation\Blender\2.78\scripts\addons
-3. in blender settings unlock the addon
+3. # in blender settings unlock the addon
 
-	![](/img/install.png)
-4. save user settings
+	![](/master/docs/Hops/instalation/img/install.png)
+4. # save user settings
