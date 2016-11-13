@@ -1,3 +1,3 @@
 **********************
-lattiece objects operators
+Lattiece objects operators
 **********************
