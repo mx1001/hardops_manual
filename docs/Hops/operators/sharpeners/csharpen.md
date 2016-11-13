@@ -17,32 +17,37 @@ Csharpen puts selected object in new CSHARP state, that indicates the mesh is be
 
    -by default only booleans and solidify are applied whenever the csharpen is used
 
+
 2. general parameters
 
-  1. sharpness
-  
-     edge angle to witch sharpening is applied - default 30 
+   1. sharpness
 
-  2. auto smooth angle
+      edge angle to witch sharpening is applied - default 30 
+      
 
-     value for autosmoouth angle for selected object - default 60
+   2. auto smooth angle
 
-  3. segments
+      value for autosmoouth angle for selected object - default 60
 
-     number of segments of bevel modifiers
 
-  4. bevel width amount
+   3. segments
 
-     bevel size
+      number of segments of bevel modifiers
+
+
+   4. bevel width amount
+
+      bevel size
+
 
 3. sharpening parameters
 
-  3. additive mode
+   3. additive mode
 
-     ON - apply defined sharpness and keeps other created sharp edges
+      ON - apply defined sharpness and keeps other created sharp edges
 
-     OFF - clears all sharp edges befor applying its own sharpness
+      OFF - clears all sharp edges befor applying its own sharpness
 
-  4. sub-D mode
+   4. sub-D mode
 
-     ON - do not apply sharp edges and creases making it easier to work with subd after
+      ON - do not apply sharp edges and creases making it easier to work with subd after
