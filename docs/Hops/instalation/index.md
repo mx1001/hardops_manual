@@ -13,5 +13,5 @@
 	C:\Users\user\AppData\Roaming\Blender Foundation\Blender\2.78\scripts\addons
 3. in blender settings unlock the addon
 
-	![install](/docs/Hops/instalation/img/install.jpg)
+	![install](https://github.com/mx1001/hardops_manual/blob/master/docs/Hops/instalation/img/install.jpg)
 4. save user settings
