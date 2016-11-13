@@ -19,7 +19,7 @@ recalculating sharpen edges on modified geometry
 
 3. additive mode
    * ON - apply defined sharpness and keeps other already existing sharp edges
-   * OFF - clears all sharp edges befor applying its own sharpness
+   * OFF - clears all sharp edges before applying its own sharpness
 
 4. sub-D mode
    * ON - do not apply sharp edges and creases making it easier to work with subd after
