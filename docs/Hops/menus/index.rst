@@ -7,6 +7,7 @@ Getting started
 .. toctree::
    :maxdepth: 2
 
+   hud
    menu
    pie_menu
    helper
