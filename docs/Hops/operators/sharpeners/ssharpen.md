@@ -2,7 +2,10 @@
 
 Soft Sharpener is the basic sharpenig tool, it apply hard edges and correct weight to Your active selected model.
 
-![ss1](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/ss1.png)
+### sSharpen use cases
+
+recalculating sharpen edges on modified geometry
+![ss1](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/ss3.png)
 
 ### SSharpen F6 options
 

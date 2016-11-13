@@ -4,7 +4,13 @@ Complex sharpener, is the 2nd sharpening option in hops. It not only creates sha
 
 Csharpen puts selected object in new CSHARP state, that indicates the mesh is beveled
 
-![ss1](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/cs1.png)
+### cSharpen use cases
+
+applying bevel to simple not beveled object
+![ss1](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/cs3.png)
+
+recalculating bevel on csharpen object that has pending booleans
+![ss1](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/cs4.png)
 
 ### cSharpen F6 options
 
@@ -12,24 +18,22 @@ Csharpen puts selected object in new CSHARP state, that indicates the mesh is be
 
 
 1. modifiers ignored by Csharpen
-
    * this is the list of modifiers that can work with Csharp 
    * -by default only booleans and solidify are applied whenever the csharpen is used
 
-
 2. general parameters
 
-   1. sharpness
-      * edge angle to witch sharpening is applied - default 30 
+    1. sharpness
+       * edge angle to witch sharpening is applied - default 30 
 
-   2. auto smooth angle
-      * value for autosmoouth angle for selected object - default 60
+    2. auto smooth angle
+       * value for autosmoouth angle for selected object - default 60
 
-   3. segments
-      * number of segments of bevel modifiers
+    3. segments
+       * number of segments of bevel modifiers
 
-   4. bevel width amount
-      * bevel size
+    4. bevel width amount
+       * bevel size
 
 3. sharpening parameters
 
