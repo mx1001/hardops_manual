@@ -29,7 +29,6 @@ Csharpen puts selected object in new CSHARP state, that indicates the mesh is be
 
    4. bevel width amount
       * bevel size
-
 3. sharpening parameters
 
    3. additive mode
