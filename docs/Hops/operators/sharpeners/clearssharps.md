@@ -14,13 +14,13 @@ removing sharpening from the mesh
 ![ss2](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/clear2.png)
 
 1. remove modifiers
-   reomoves all bevel modifiers from selected mesh
+   * reomoves all bevel modifiers from selected mesh
 
 2. clear sharps
-   remove all sharp edges 
+   * remove all sharp edges 
 
 3. clear bevels
-   clears all bevel weights from edges
+   * clears all bevel weights from edges
 
 4. clear creases
-   remove creases from edges
+   * remove creases from edges
