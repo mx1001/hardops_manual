@@ -8,6 +8,6 @@ Hard Ops Operators
 
    Object/index
    Edit/index
-   Latteiece/index
+   Lattiece/index
 
 
