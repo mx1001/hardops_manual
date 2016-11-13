@@ -16,6 +16,7 @@ Csharpen puts selected object in new CSHARP state, that indicates the mesh is be
    * this is the list of modifiers that can work with Csharp 
    * -by default only booleans and solidify are applied whenever the csharpen is used
 
+
 2. general parameters
 
    1. sharpness
@@ -29,6 +30,7 @@ Csharpen puts selected object in new CSHARP state, that indicates the mesh is be
 
    4. bevel width amount
       * bevel size
+
 3. sharpening parameters
 
    3. additive mode
