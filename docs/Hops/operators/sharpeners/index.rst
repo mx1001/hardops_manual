@@ -1,13 +1,10 @@
 **********************
-Hard Ops Operators
+Sharpeners
 **********************
-
 
 .. toctree::
    :maxdepth: 2
 
-   sharpeners/index
-   editmode/index
-   cutters/index
-
-
+   ssharpen
+   csharpen
+   clearssharps

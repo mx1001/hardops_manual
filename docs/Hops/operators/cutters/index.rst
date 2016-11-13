@@ -1,13 +1,8 @@
 **********************
-Hard Ops Operators
+Cutters
 **********************
-
 
 .. toctree::
    :maxdepth: 2
 
-   sharpeners/index
-   editmode/index
-   cutters/index
-
-
+   csplit
