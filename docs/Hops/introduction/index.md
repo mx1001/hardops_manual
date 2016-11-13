@@ -38,3 +38,13 @@ the driving force behind the development and without a team the work would not h
 been possible. The collaborative nature of the team and the willingness to invest
 time has been astounding and has helped this project live far longer than even I
 initially expected.
+
+## Hard Ops Introduction Guide1
+
+1111
+
+
+## Hard Ops Introduction Guide2
+
+
+1111
