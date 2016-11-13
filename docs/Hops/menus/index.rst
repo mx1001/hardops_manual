@@ -1,12 +1,9 @@
 **********************
-Hardps
+menus
 **********************
+
 .. toctree::
    :maxdepth: 2
 
-   introduction/index
-   menus/index
-   operators/index
-
-
-
+   menu
+   pie_menu

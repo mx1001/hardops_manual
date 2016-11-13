@@ -5,5 +5,3 @@ Introduction
    :maxdepth: 2
 
    intro/index
-   intro/abc
-   test/index
