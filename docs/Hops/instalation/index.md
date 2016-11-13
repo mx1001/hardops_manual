@@ -13,9 +13,9 @@
 
     C:\your directory\blender-2.78a-windows64\2.78\scripts\addons
 
-     
+    ..
 3. in blender settings unlock the addon
 
     ![install](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/instalation/img/install.jpg)
-      
+
 4. save user settings
