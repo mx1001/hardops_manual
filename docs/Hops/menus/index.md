@@ -1,13 +1,13 @@
 ## Getting Started
 
-## Hard Ops Menu
+# Hard Ops Menu
 
-## Hardops Pie Menu
+# Hardops Pie Menu
 
-## Hops Helper
+# Hops Helper
 
-## material menu
+# material menu
 
-## T panel
+# T panel
 
-## Options
+# Options
