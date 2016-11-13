@@ -4,7 +4,7 @@ Soft Sharpener is the basic sharpenig tool, it apply hard edges and correct weig
 
 ![ss1](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/ss1.png)
 
-SSharpen F6 options
+### SSharpen F6 options
 
 ![ss2](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/ss2.png)
 
