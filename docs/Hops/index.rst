@@ -8,6 +8,7 @@ Hardps
    instalation/index
    menus/index
    operators/index
+   options/index
    release/index
 
 
