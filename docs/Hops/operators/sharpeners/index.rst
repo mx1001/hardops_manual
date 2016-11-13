@@ -7,4 +7,6 @@ Sharpeners
 
    ssharpen
    csharpen
+   sstep
+   cstep
    clearssharps
