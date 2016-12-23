@@ -5,11 +5,8 @@ Hard Ops
    :maxdepth: 2
 
    introduction/index
-   instalation/index
+   installation/index
    menus/index
    operators/index
    options/index
    release/index
-
-
-
