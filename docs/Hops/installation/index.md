@@ -3,7 +3,7 @@
 
 1.  Download Hard ops
 
-2.  Unzip folder to 
+2.  Unzip folder to
 
     global path (we suggest to use that one)
 
@@ -16,8 +16,8 @@
     ..
 3. in blender settings unlock the addon
 
-    ![install](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/instalation/img/install.jpg)
+    ![install](..\installation/img/install.jpg)
 
 4. save user settings
-    
-    ![install2](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/instalation/img/install2.png)
+
+    ![install2](..\installation/img/install2.png)
