@@ -12,5 +12,6 @@ Hard Ops Menus
    pie_menu
    helper
    material_menu
+   material_menu_exp
    t_panel
    options
