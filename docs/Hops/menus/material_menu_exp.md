@@ -9,12 +9,11 @@ Q >> Settings >> Material List
 
 Here is an example of the material menu being used in edit mode.
 
- ![](..\img\settings\mm1.gif)
-
+ ![img](/\img\settings\mm1.gif)
 
 In this example you can also see how it works in edit mode.
 
- ![](..\img\settings\mm2.gif)
+ ![](/\img\settings\mm2.gif)
 
 > It's almost important to note that multi materials on the same mesh using geometric separations and bevels will look better with an even number bevel segment amount. You can see this is the above example as well.
 
@@ -38,23 +37,19 @@ In my default scene I keep a sphere on layer 0 with materials held that allow me
 
 Usually my goal is just a quick presentation render. Similar to this.
 
-![image](..\img\basics1\bas_11.png)
-
-
+![image](/\img\basics1\bas_11.png)
 
 ___
-
-# Is there a way to adjust shaders as well?
 
 # How to bring up the Material Helper.
 
 
 ** Ctrl + ~ ** brings up the modifier helper. The 2nd tab is the material helper.
 
-![](..\img\settings\mm3.gif)
+![](/\img\settings\mm3.gif)
 
 > Currently we still are developing this so there may be some issues however it does exist as an option to experiment with in the meantime. The modifier helper is quite useful for managing modifiers and we hope the material helper is just as useful.
 
 ___
 
-![](..\img\settings\mm4.gif)
+![](/\img\settings\mm4.gif)
