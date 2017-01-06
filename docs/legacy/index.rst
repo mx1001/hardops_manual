@@ -7,8 +7,9 @@ Hard Ops Tips
 .. toctree::
    :maxdepth: 1
 
+   intro
    intro2nd
-   
+
    install
    addon
    getstarted

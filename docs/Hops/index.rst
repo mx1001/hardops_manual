@@ -10,3 +10,6 @@ Hard Ops
    operators/index
    options/index
    release/index
+
+
+   legacy/index
