@@ -23,6 +23,7 @@ Hard Ops Tips
    cstep
    insert_basic
    faq
+   material_menu
    machine_drone
    mirror_symmetry
    classic_links
