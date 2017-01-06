@@ -1,6 +1,6 @@
 ## Mirroring And Symmetry
 
-![](\img\songbread.gif)
+![](img\songbread.gif)
 
 > Mirroring is important  when it comes to keeping a mesh symmetrical however in
 Boolean workflows having active mirror modifiers isn't always ideal. So we attempted to
@@ -36,7 +36,7 @@ another object's axis. You can also use the mirroring hotkeys on a single object
 
 To demonstrate MirrorMirror in my workflow.  
 
-![image](\img\mirror\m1.gif)
+![image](img\mirror\m1.gif)
 
 After slicing off one half. I used my alt + x symmetrize shortcut to make the body
 symmetrical. However for the piece I sliced off I was able to use **alt + shift + x (X Symmetry)
@@ -48,7 +48,7 @@ the original origin axis still kept.
 In fact just to show how I go about character blocking using mirror mirror, I
 provided an example.
 
-![image](\img\mirror\m2.gif)
+![image](img\mirror\m2.gif)
 
 > I personally can't work without this enabled so it was only natural to add it
 into the core of Hard Ops 8. I would recommend getting used to it and spending
@@ -64,13 +64,13 @@ into the core of Hard Ops 8. I would recommend getting used to it and spending
  However this tool has a rather specific behavior that is worth going over in depth.
 
 The support for automirror is in the pie/tpanel/qmenu.
-  ![image](\img\mirror\m4.png)
+  ![image](img\mirror\m4.png)
 
 > In this menu you can either just click Auto-Mirror to mirror on the default X-axis
 or choose and axis as well as set positive or negative and set up the mirroring type before
 initializing. Generally it is set up to mirror x by default.
 
- ![image](\img\mirror\m3.gif)
+ ![image](img\mirror\m3.gif)
 
 You can see now after setting up the Automirror after the block in that the
 model was automatically mirrored for the following sectional cuts that were made.
@@ -88,13 +88,13 @@ For example, Here's a quick 2 minute example of me using this particular behavio
 
 > In this example I set up both x and y symmetry which isn't always ideal.
 
-![image](\img\mirror\m5.gif)
+![image](img\mirror\m5.gif)
 
 So when utilized properly you can get some quick results rather fast.
 
 > In this example I set up just x symmetry which is more ideal.
 
-![image](\img\mirror\m6.gif)
+![image](img\mirror\m6.gif)
 
 Within 2 minutes I can get pretty far with the basic operators. And this is due to the speed and time saved with the auto bisect behavior. I cannot recommend [AutoMirror](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html) enough.
 
@@ -106,11 +106,11 @@ ___
 
 Here is blender's own symmetrize. All we did was make it more accessible to our needs. The reason this is used often is because it is mirror and done. This prevents boolean errors and allows for more veratility. Even while being the most destructive.
 
-![image](\img\mirror\m7.gif)
+![image](img\mirror\m7.gif)
 
 I am still a big fan of this and even have it mapped to alt + shift + x in edit mode in my version of Blender. However now let's see symmetrize in action. Keep in mind I have mine mapped to alt + x via right clicking it in the q menu. There are some differences that I will go over more after this example. I also usually combo this with mirror mirror as well so look out for the shortcut (alt + shift + x)
 
-![](\img\mirror\m8.gif)
+![](img\mirror\m8.gif)
 
 By working this way I can make vertical cuts without limit and less issues than with a dynamic modifier in place. So theres a time and place for all of them but to recap.
 
@@ -121,4 +121,4 @@ So with that out the way the symmetrize we created is also able to behave slight
 
 Here is an example of that.
 
-![image](\img\mirror\m9.gif)
+![image](img\mirror\m9.gif)

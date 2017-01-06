@@ -27,7 +27,7 @@ Now to see what Csharpen is since Ssharpen is one of the steps involved.
 
 So here I will ssharpen one object and csharpen the other. The left object doesnt have the boolean applied so therefore it remains live however the right object is now already ready for the next cutting and additional work.
 
-![image](\img/csharp1/s-c.gif)
+![image](img/csharp1/s-c.gif)
 
 > They both have their time and place however they are not interchangable since the behavior is very different.
 
