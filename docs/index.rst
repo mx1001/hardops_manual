@@ -9,7 +9,5 @@ Hardops Manual
    Hops/index
    BoxCutter/index
    Faq/index
+   Hops/tips/index
    examples/index
-
-
-
