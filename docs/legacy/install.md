@@ -1,7 +1,7 @@
 ## How To Install Hard Ops
 ________________
 
-![img](img\smack.gif)
+![img](\img\smack.gif)
 
 > Using install from file will more than likely **not work**. I would recommend
 installing the add-on manually by copying the contents of the zip into the add-on
@@ -31,7 +31,7 @@ __________________________________
 Most of this will be assuming Windows is used. So once you open the zip you should
 see just one folder.
 
-![image](img/zip_contents.png)
+![image](\img/zip_contents.png)
 
 This is what the contents of the zip look like. Its just a folder called HOps.
 Which is also the internal codename.
@@ -43,7 +43,7 @@ you are able to go into add-ons.
 You can then search for Ops and you will isolate Hard Ops. From here you can
 enable the plugin.
 
-![image](img/installandenable.gif)
+![image](\img/installandenable.gif)
 
 Now onto discussing the preferences and setup inside of Hard Ops.
 
@@ -51,7 +51,7 @@ ___
 
 ## Add-On Tab
 
-![img](img\start1\ad2.png)
+![img](\img\start1\ad2.png)
 
 The recommended addons will show checkboxes when the supported plugins are present.
 
@@ -69,34 +69,34 @@ To troubleshoot further you also can run the following command in the scripting 
 
 **bpy.context.user_preferences.addons.keys()**
 
-![img](img\start1\chkadd.gif)
+![img](\img\start1\chkadd.gif)
 
 This will show a list of all the add ons present. This is how we troubleshoot this area when the plugin detection is not working.
 ___
 
 ## Additional Notes
 
-![img](img\stab.gif)
+![img](\img\stab.gif)
 
 # Auxillary Addons
 
 There might be a zip file inside of Hard Ops called auxiliary addons.
 
-![img](img\start1\files.png)
+![img](\img\start1\files.png)
 
 This has some of the auxiliary add-ons that are recommended. They are able to be installed by placing the contents of that zip in your add-ons folder similar to Hard Ops or BoxCutter.
 
-![img](img\start1\installing_aux.gif)
+![img](\img\start1\installing_aux.gif)
 
 # Enable Looptools
 
-![img](img\start1\loop1.gif)
+![img](\img\start1\loop1.gif)
 
 Looptools is a plugin that is already built into Blender. It comes in handy for a variety of things however for Hard Ops it powers the circle tool behavior.
 
 In fact here is how you can make a circle manually using loop tools and vertex bevel.
 
-![](img\start1\circlem.gif)
+![](\img\start1\circlem.gif)
 
   - ctrl + shift + b >> vertex bevel
   - w >> looptools >> circle
@@ -107,7 +107,7 @@ In fact here is how you can make a circle manually using loop tools and vertex b
 
   That can be a large amount of hotkeys so instead Meshtools Circle exists. Which utilizes looptools.
 
-![](img\start1\circlet.gif)
+![](\img\start1\circlet.gif)
 
 With circle I can add circle in multifold the speed which I was doing it in the previous image.
 

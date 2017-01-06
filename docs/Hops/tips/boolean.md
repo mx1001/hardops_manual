@@ -200,7 +200,7 @@ Once you start assigning materials using the Alt + M in object mode and the Q me
 
 By the time I am rendering. Cycles does all the work of making it look pretty.
 
-![](img\bool\c25.gif)
+![](\img\bool\c25.gif)
 
 Rendering is how I judge the surfacing of the model and the reflections. If the surface was optimized poorly there will be distortions and pinches in the reflection. So it is quite the balancing act. But the goal behind Hard Ops is to make surfaces that aren't afraid of the closeup.
 
