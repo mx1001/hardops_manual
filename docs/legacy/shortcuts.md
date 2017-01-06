@@ -1,6 +1,6 @@
 ## Hard Ops Hotkeys and Key Setup Tips
 
-![url](/img\computer2.gif)
+![url](img\computer2.gif)
 
 > Hard Ops started with the single hotkey of Q and has expanded into much more. I hope explain the hotkeys and the way I work using them.
 
@@ -8,7 +8,7 @@
 
 This menu is the foundation of Hard Ops and is the main way to choose options and operators.
 
-![img](/img\hotkey\h2.gif)
+![img](img\hotkey\h2.gif)
 
 The pie menu no longer has icons due to issues with quickly loading. However there may come a time when these two functions will be alternating via preferences but in the meantime you are able to load both.
 
@@ -22,11 +22,11 @@ The hard ops Q menu also shows different options based off of context. For examp
 
 With one object selected you can mirror an object across itself. To put it simply: it just adds a mirror modifier to the object. This does not do any bisection to the mesh. That falls under [AutoMirror](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html) however we might look into that in the future.
 
-![img](/img\hotkey\h3.gif)
+![img](img\hotkey\h3.gif)
 
 With two objects selected you can mirror one object across another object.
 
-![img](/img\hotkey\h4.gif)
+![img](img\hotkey\h4.gif)
 
 This is normally how I use MirrorMirror. I enjoy the fact that with two objects selected it can populate the mirror modifier with the name of the first object saving on work.
 
@@ -34,7 +34,7 @@ This is normally how I use MirrorMirror. I enjoy the fact that with two objects 
 
 > Modifer helper will display the modifiers currently on the object. The idea was to provide options during full screen working without interruption.
 
-![img](/img\hotkey\h5.gif)
+![img](img\hotkey\h5.gif)
 
 The HOPS helper has multiple sections for other areas like materials and misc as well.
 
@@ -50,19 +50,19 @@ With multiple objects selected you can do boolean operations with the following 
 - ctrl + **numpad** plus / Additive Boolean
 - ctrl + **numpad** multiplication / Slice Operation via Cslice
 
-![img](/img\hotkey\h6.gif)
+![img](img\hotkey\h6.gif)
 
 As you can see there is also an F6 menu with options for different boolean behaviors. Those are covered more in depth on the boolean page.
 
-![img](/img\hotkey\h7.gif)
+![img](img\hotkey\h7.gif)
 
 The additive boolean is pretty much the same as the difference boolean except in reverse. However The Cslice is much different.
 
 Cslice is actived via ( ctrl + **numpad** * )
 
-![img](/img\hotkey\h9.gif)
+![img](img\hotkey\h9.gif)
 
-![img](/img\hotkey\h8.gif)
+![img](img\hotkey\h8.gif)
 ___
 
 # Alt + M - Material Menu

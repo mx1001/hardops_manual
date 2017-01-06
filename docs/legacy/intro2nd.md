@@ -4,7 +4,7 @@
 >We hope this guide is able to help you more efficiently find your away around the
 tool and and put it work making you own ideas come to fruition quicker.
 
-![image](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/AR-Train3.png)
+![image](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docsimg/AR-Train3.png)
 
 Train by AR - Modelled with Hard Ops
 

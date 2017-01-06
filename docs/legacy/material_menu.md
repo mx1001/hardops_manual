@@ -9,7 +9,7 @@ Q >> Settings >> Material List
 
 Here is an example of the material menu being used in edit mode.
 
- ![](/img/settings/mm1.gif)
+ ![](img/settings/mm1.gif)
 
 In this example you can also see how it works in edit mode.
 

@@ -5,7 +5,7 @@ ___
 to check the addons tab to ensure all required plugins are present. Hard Ops is
 able to be used without it however it does affect what options are available.
 
-![gettingstarted](/img\start1\enable_addon.gif)
+![gettingstarted](img\start1\enable_addon.gif)
 
 # UI Tab
 ___

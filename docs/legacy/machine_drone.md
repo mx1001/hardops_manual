@@ -1,6 +1,6 @@
 ## [Machin3](https://twitter.com/machin3io) Drone Breakdown Shots
 
-MACHINƎ was so kind as to allow me to use his drone as the image for Hard Ops 8 as had operatives previous however [he also shared some images](https://imgur.com/a/NBl4E) of his process that is worth sharing.
+MACHINƎ was so kind as to allow me to use his drone as the image for Hard Ops 8 as had operatives previous however [he also shared some images](https:/imgur.com/a/NBl4E) of his process that is worth sharing.
 
 ![](img\machin3\H8mach.jpg)
 
