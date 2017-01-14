@@ -14,7 +14,7 @@ ___
 # Why does Csharp apply all my modifiers?
 It only applies certain modifiers. By pressing F6 you have options on what is being applied when Csharpen is ran.
 
-![image](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/csharp1/F6menu.png)
+![image](img/csharp1/F6menu.png)
 
 If the modifier is not highlighted in this list it will be applied.
 It's as simple as that.
@@ -26,7 +26,7 @@ Luckily I also discussed Csharpen in action in the same video as the one where I
 # F6 Menu
 The F6 Menus is also worth explaining in depth since this is the beauty of this tool.
 
-![image](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/csharp1/F6menu.png)
+![image](img/csharp1/F6menu.png)
 
 *Modifiers Ignored By Csharp*
 
@@ -58,7 +58,7 @@ Additive Mode - this is an important option. This is also the main reason I use 
 
 - unchecked: this option with recalculate ssharp information every time Csharp is ran. This will remove your previous sharpening and recalulate it. This is used when its easier to recalulate the sharps than it is to correct.
 
-![img](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/csharp1/cs2.gif)
+![img](img/csharp1/cs2.gif)
 
 > in this example you can see that since I bevelled in edit mode the bevel weight marked edges of offset into flat surfaces. These surfaces don't benefit from bevelling because they are flat. Since the form is simple additive mode cleans it up easily.
 

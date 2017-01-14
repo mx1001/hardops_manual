@@ -1,6 +1,6 @@
 ## Wishlist / Dreams / Roadmap
 
-![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img\dream.gif)
+![](img\dream.gif)
 
 > Our roadmap isn't exactly clear until it begins coming together. Certain requisites must
 be met for certain features to become viable. This is always dependant on the people
@@ -13,7 +13,7 @@ table by people who join the team.
 ___
 
 # Hard Ops
-![image](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img\icons\HardOps.png)
+![image](img\icons\HardOps.png)
 
 - Clickable Buttons in 2d drawing
   > This one is high priority and very important for future ideas as well. With 2d
@@ -65,7 +65,7 @@ ___
 
 ___
 # BoxCutter
-![image](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img\icons\BoxCutter.png)
+![image](img\icons\BoxCutter.png)
 
 - Autosymmetrize boolshapes after draw via symmetrize
 - Shape memory for Ngon Tool
