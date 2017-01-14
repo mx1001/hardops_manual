@@ -1,5 +1,5 @@
 **********************
-Hard Ops Tips
+Hard Ops Legacy Guide Pages
 **********************
 
 
