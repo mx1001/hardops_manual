@@ -5,12 +5,12 @@ ___
 to check the addons tab to ensure all required plugins are present. Hard Ops is
 able to be used without it however it does affect what options are available.
 
-![gettingstarted](//img\start1\enable_addon.gif)
+![gettingstarted](img\start1\enable_addon.gif)
 
 # UI Tab
 ___
 
-![UI Tab](//img\start1\ui_tab.png)
+![UI Tab](img\start1\ui_tab.png)
 
 - Pro Mode - this enables additional options that will be explained throughout the
 guide. Leaving this unchecked is recommended for beginners however enabling it
@@ -23,12 +23,12 @@ to additional pie menu preferences such as a ghost button and the addition of th
 
 - Pie: F6 Option at Top - adds F6 to the top of the pie menu. Enabled by default.
 
-![Pie F6](//img\start1\pieF6.gif)
+![Pie F6](img\start1\pieF6.gif)
 
 - Pie: Add Boolean Options - adds boolean options to the pie menu for cases in
 which more than 1 mesh is selected.
 
-![Pie Bool](//img\start1\pie_bool.gif)
+![Pie Bool](img\start1\pie_bool.gif)
 
 - Asset Manager Expansion - for those who purchased the asset manager have the
 option to allow it to connect to hard ops for easier usage. This options is
@@ -37,14 +37,14 @@ considered depreciated and may be changed in future releases.
 # Drawing Tab
 ___
 
-![Dtab](//img\start1\drawing_tab.gif)
+![Dtab](img\start1\drawing_tab.gif)
 
 - Enable tool overlays - enables the display of the drawing notification system
 we use for operators. Csharpen / SSharpen / Cstep / Sstep / Merge / Mirror all
 have a notification drawing system to allow you to see what is going on and then
 proceed with working.
 
-![](//img\start1\drawing_example.gif)
+![](img\start1\drawing_example.gif)
 
 > Here's an example of the drawing system as of version 8 of Hard Ops.
 
@@ -75,7 +75,7 @@ This area tells you that Q is the basis of Hard Ops and that is pretty much it t
 >In the rare event you need to change the keymap you can drag the keymap.py file
 into a text editor and edit the hotkey. Or use the button like the following gif.
 
-![](//img\start1\keymap_edit.gif)
+![](img\start1\keymap_edit.gif)
 
 The hotkeys as of this writing are.
 
@@ -89,7 +89,7 @@ The hotkeys as of this writing are.
 ___
 This area contains links to different areas.
 
-![](//img\start1\links.png)
+![](img\start1\links.png)
 
 Clicking these will take you to the respective pages.
 
@@ -100,7 +100,7 @@ Hard Ops has become great due to the support of many great tools already existin
 that are used to minimize certain tasks. Clicking these buttons will link you to
 downloading them.
 
-![](//img\start1\addontab.png)
+![](img\start1\addontab.png)
 
 # These plugins are highly recommended
 

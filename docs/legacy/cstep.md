@@ -13,15 +13,15 @@ ___
 
 Let's say you csharp and object and adjust the bwidth.
 
-![image](//img\cstep\c1.gif)
+![image](img\cstep\c1.gif)
 
 From this point all I can do is adjust the bwidth at this level. Even when I do subsequent cuts they will be at this bevel level. Even further cuts that are csharpened will be at this bevel level. In order to maintain. I will have to lower the bwidth to accomodate.
 
-![image](//img\cstep\c2.gif)
+![image](img\cstep\c2.gif)
 
 This is generally not the best choice since I am having to adjust in order to compensate. So now lets see how cstep helps with this situation. By making the bevels I can get more and more micro.
 
-![image](//img\cstep\c3.gif)
+![image](img\cstep\c3.gif)
 
 In this example you can see I used ctrl + numpad minus to cut the cube into the main shape after activating cstep on it. This technically
   - applied the bevel modifier
@@ -40,14 +40,14 @@ In this example take note of the following.
   - Sstep is how I calculate the sharps after setting up the booleans for that level
   - Sstep has an F6 menu for which modifiers it can ignore but really it doesn't need to be messed with unless you are focusing on the sharpening amount which generally is also left at default.
 
-![image](//img\cstep\c4.gif)
+![image](img\cstep\c4.gif)
 
 ___
 
 # Alternate Use Of Cstep / Sstep
 
-![](//img\cstep\ca1.png)
+![](img\cstep\ca1.png)
 
 In this example I start out with the Csharpen then use B-width to increase the segments to 12. I then cstepped it in order to bake the bevels.
 
-![](//img\cstep\ca2.gif)
+![](img\cstep\ca2.gif)
