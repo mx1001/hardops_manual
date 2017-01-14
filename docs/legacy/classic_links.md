@@ -1,6 +1,6 @@
 # Links
 
-![](img\stab.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\stab.gif)
 ___
 
 [Setting Up Blender](https://masterxeon1001.com/2016/03/31/setting-up-blender-for-success/)
@@ -24,4 +24,4 @@ ___
 
 [BoxCutter 1 Update](https://masterxeon1001.com/2016/04/26/box-cutter-guide-v1/)
 
-![](img\bool1.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\bool1.gif)

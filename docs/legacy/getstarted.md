@@ -1,6 +1,6 @@
 ## How to get started with Hard Ops
 
-![url](img\computer.gif)
+![url](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\computer.gif)
 
 Hard Ops can seem daunting however all the commands do basic things. So I recommend learning the ropes on basic objects to practice just to get used to the menus. In the next few examples I'll be going over how I use Hard Ops in my day to day work.
 
@@ -14,11 +14,11 @@ trial run to warm up with the tools.
 alt + x in object mode. This is part of my default scene but we allowed some options
 to be able to be right clicked and allowed hotkeys.
 
-![](img\faq\xsymset.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\xsymset.gif)
 
 > Here you see me using basic shapes and the Q menu to get started.
 
-![](img\faq\p1.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\p1.gif)
 
 Its just a matter of my making mesh changes and adjusting the bwidth. Usually as
 the model gets more detailed the bevel size gets shrunk. There is another
@@ -39,23 +39,23 @@ on the situation.
  work out so quickly so therefore setting it up was necessary. It's not a matter
  of one over the other but using whichever works best for your needs.
 
- ![](img\faq\rb-cs.gif)
+ ![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\rb-cs.gif)
 
 So continuing on. As we make more cuts and the details become closer. Its
 important to lower the bevel width distance to keep the mesh looking good.
 
-![](img\faq\p2.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\p2.gif)
 
 ___
 
 # Example #2
 
 Let's start with a cube.
-![](img\faq\faq1.png)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq1.png)
 
 > In the top corner it specifies that this object is UNDEFINED. This ensures when I press Q the options are for meshes that are not considered beveled.
 
-![](img\faq\faq2.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq2.gif)
 
 When I first press Q these are the options I am presented.
 
@@ -67,7 +67,7 @@ I will start out Csharpening the object then use B-Width to adjust the bevel.
 
 > Bwidth will show up on the main menu when an object is beveled via Csharpen
 
-![](img\faq\faq3.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq3.gif)
 
 From this point I will use booleans to make additional cuts into the object.
 
@@ -77,7 +77,7 @@ The hotkeys used are:
 
   - alt + shift + x (mirror mirror X axis)
 
-![](img\faq\faq4.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq4.gif)
 
 This can be alot to take in at once so I'll explain what I did here.
 
@@ -87,7 +87,7 @@ This can be alot to take in at once so I'll explain what I did here.
 
 > This was necessary because it is not recommended to use csharp objects to cut into csharp objects. This will result in bevel weight information being baked in that is not wanted. Here is an example.
 
-![](img\faq\faq5.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq5.gif)
 
 - (Ctrl + Numpad -) >> Subtractive Boolean then I used Csharp to apply the boolean to the object and calculate the sharpening.
 
@@ -97,50 +97,50 @@ This can be alot to take in at once so I'll explain what I did here.
 
 So continuing with these ideas in mind you can make something complex quickly even in just object mode.
 
-![](img\faq\faq6.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq6.gif)
 
 However the combination of both object mode and edit mode tools can allow for some interesting ideas. Especially when you focus on particular shapes and areas.
 
-![](img\faq\faq7.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq7.gif)
 
 > In this example I used a plane with knife project to force a plane in the ngon surface that resulted from the boolean operation.
 
 Here is an example of me using edit mode to add some custom details.
 
-![](img\faq\faq8.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq8.gif)
 
 > In edit mode I have shift + ~ mapped to select boundary loop. This allows me to select a region then convert it to only the exterior loop. This isn't a hard Ops feature so you will have to map it manually.
 
-![](img\faq\faq9.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq9.gif)
 
 - Isolated the face with only 4 points with shift + h to hide alternate geometry
 - W >> Subdivide (x2) / A >> select all >> shift + ~ >> select boundary.
 - ctrl + shift + tab to switch to vert selection >> ctrl + I >> invert selection
 > This step is useful because converting the exterior points to circles would not look as good. So I have become used to separating isolating the edge area for a buffer.
-![](img\faq\faq10.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq10.gif)
 - Q >> Meshtools >> Circle (Nth)
 - E >> Extrude >> Alt + S >> Push on normal
 
 While this sounds like a lot of buttons. I press these within a few seconds and can only say that it becomes easier as you get used to it.
 
-![](img\faq\faq11.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq11.gif)
 
 In this example I used demote to remove the modifier bevelling so that I could bevel it myself and give it a larger bevel. I also used another cube to cut more out of it.
 
 Even this cube that I used to cut in the front section still has a use. I will simple scale it and then use it to slice out those pieces into manifold meshes of their own.
 
-![](img\faq\faq12.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq12.gif)
 
 > You might have noticed an error that happened after the initial cslice. Its important to note that sometimes if you cut close to edges you have to lower the bevel width to keep it working correctly.
 
 After cutting you might have also noticed that I used alt + x to symmetrize the object (destructive symmetry) then used alt + shift + x to symmetrize the front cutout to the other side of the front base. The cutout received non destructive symmetry because the two piece do not touch. This keeps the bevel, mirror, and booleans behaving predictably.
 
-![](img\faq\faq13.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq13.gif)
 
 Using the basic tools a decent amount of detail is able to be accomplished in a short time.
 
 This is just one way to use the tool but I hope this helps in getting started!
-![](img\faq\faq14.jpg)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq14.jpg)
 
 [More Getting Started](getstarted)
 ___
@@ -152,7 +152,7 @@ ___
 
 # What is the difference between Ssharpen and Csharpen?
 
-![](img\computer2.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\computer2.gif)
 
 **SSharpen** is short for soft sharpen. We called it that because it does the following.
 
@@ -162,11 +162,11 @@ ___
 
 To do it manually it looks like this.
 
-![](img\faq\faq15.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq15.gif)
 
 Alternatively Q >> Ssharpen does all of the steps for you.
 
-![](img\faq\faq16.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq16.gif)
 
 [See Csharpen](ssharpen)
 
@@ -178,7 +178,7 @@ Alternatively Q >> Ssharpen does all of the steps for you.
   - adds a bevel modifier to the object
   - changes the mesh state to Csharp which changes the options in the Q menu.
 
-![](img\faq\faq17.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\faq\faq17.gif)
 
 > The initial options are based on the most likely options for basic meshes. When the mesh is in Csharp state you have a higher likelyhood of wanting to see options for adjusting the bevel alternatively if you added a solifidy after bevelling it via csharp it would fold in on itself.
 
@@ -190,4 +190,4 @@ ___
 
 
 
-![img](img\getusedtoit.gif)
+![img](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img\getusedtoit.gif)
