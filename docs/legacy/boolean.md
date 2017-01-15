@@ -16,7 +16,7 @@ The hotkeys are as follows
 
 There is also a display for the operator to let you know details about the operation.
 
-![img](./img/bool/b1.gif)
+![img](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/bool/b1.gif)
 
 As of now the boolean tool has 3 alternate solutions.
  - CarveMod (most stable, worst topo)
@@ -26,7 +26,7 @@ As of now the boolean tool has 3 alternate solutions.
 CarveMod is the default and will operate similar to the booltool itself.
 Carve is the same thing as carve mod except it applies it and doesn't keep the boolean live. Below is an example of CarveMod versus Carve.
 
-![img](./img/bool/b2.gif)
+![img](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/bool/b2.gif)
 
 Bmesh will require there to be guidance edges in order to ensure a successful cut. This is something thats best practiced on a simple object to best practice. Not having guidance edges with bmesh will result in cuts not working properly.
 

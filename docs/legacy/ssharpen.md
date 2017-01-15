@@ -15,10 +15,10 @@ In short. Ssharpen
 So this merely sets up a mesh for hard surface rendering and helps it look better in the 3d view and rendering. This is a rather non-destructive operation and doesn't affect the mesh negatively. To best understand Ssharpen try doing it manually on a simple cylinder.
 
 Here is an example of the process.
-![](http://i.imgur.com/XMBcamx.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/operations/ssharp1.gif)
 
 Alternatively. Here is ssharpen in action.
-![](http://i.imgur.com/SEYSWBg.gif)
+![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/operations/ssharp2.gif)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rXRZeuQpvsg" frameborder="0" allowfullscreen></iframe>
 

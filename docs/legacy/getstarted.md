@@ -168,7 +168,7 @@ Alternatively Q >> Ssharpen does all of the steps for you.
 
 ![](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/faq/faq16.gif)
 
-[See Csharpen](ssharpen)
+[See Ssharpen](ssharpen)
 
 **CSharpen** is short for complex sharpen. Complex sharpen does all that Ssharpen does and more.
 

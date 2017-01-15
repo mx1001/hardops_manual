@@ -21,7 +21,7 @@ From this point all I can do is adjust the bwidth at this level. Even when I do 
 
 This is generally not the best choice since I am having to adjust in order to compensate. So now lets see how cstep helps with this situation. By making the bevels I can get more and more micro.
 
-![image](../../docs/img/cstep/c3.gif)
+![image](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/cstep/c3.gif)
 
 In this example you can see I used ctrl + numpad minus to cut the cube into the main shape after activating cstep on it. This technically
   - applied the bevel modifier
