@@ -1,26 +1,35 @@
-## Clear SSharpen
+## Clear S/C/Sharps
 
-clear sharpen allows You to reomve sharpening egdes, weights and pending modifiers from selected mesh
+Clear SCSharps is used for removing Hard Ops from a mesh and changing it back into a neutral state. It does this via the following.
 
-It also clears object stats moving it back to undefined
+- remove ssharp information
+- reset sstatus to undefined
+- remove bevel / solidify modifier
 
-### clear sharp use cases
 
-removing sharpening from the mesh
-![ss1](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/clear1.png)
+### Clear S/C/Sharps use cases
 
-### clear sharp F6 options
+Returning a mesh back into a neutral state
+
+![](img\cm1.gif)
+
+
+### Clear S/C/SharpsF6 options
 
 ![ss2](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/operators/sharpeners/img/clear2.png)
 
 1. remove modifiers
-   * reomoves all bevel modifiers from selected mesh
+   * removes all bevel/solidify modifiers from selected mesh
 
 2. clear sharps
-   * remove all sharp edges 
+   * remove all sharp edges
 
 3. clear bevels
    * clears all bevel weights from edges
 
 4. clear creases
    * remove creases from edges
+
+### Alternative Uses
+
+Clearing the sstate and resetting the mesh can be useful in situations where the user also wants to reset the Q menu behavior. This serves as a quick way to restart the process or refine without behavior adjustments as occurs later in operations.

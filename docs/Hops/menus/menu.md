@@ -1,35 +1,30 @@
 ## Hard Ops menu
 
+The Q Menu is THE way to call HardOps. Alternative being the shift - Q pie menu.
 
-Menu is hardops basic way to call operators
-
-it can be called by pressing 'Q' 
-
-Hotkey for menu can be changed in input setings just like other blender menus 
+The hotkey for the menu can be changed in prefs / input setings just like other blender menu.
 ![menu](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/menu/hotkey.png)
 
-Hops menu differs a bit from standard blender menus. Most of options are dynamic and change depending on selection, mode or objects state.
-here are few of the examles. look for operators for specific operators and asigned to them menus.
+Hops menu differs a bit from standard blender menus.
 
-clasic menu 
+Most of options are dynamic and change depending on selection, mode or objects state.
 
-![menu](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/menu/und.png)
+Classic Menu (with single selection)
 
-no selection
+![menu](img\menu\mn1.png)
 
-![menu](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/menu/noselect.png)
+No Selection
 
-2 obj selected 
+![menu](img\menu\mn2.png)
 
-![menu](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/menu/select.png)
+2 obj selected
 
-csharpen state
+![menu](img\menu\mn3.png)
 
-![menu](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/menu/csharpen.png)
+cSharpen state
 
-edit mode
+![menu](img\menu\mn3.png)
 
-![menu](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/Hops/menus/img/menu/edit.png)
+Edit Mode
 
-
-
+![menu](img\menu\mn5.png)

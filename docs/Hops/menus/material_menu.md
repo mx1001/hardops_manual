@@ -1,7 +1,12 @@
-## Hard Ops material menu
+## Hard Ops material menu (ALT + M)
 
-material menu allow You to see list of currenttly available object materials
+Alt + M in object mode will bring up a material list in OBJECT MODE.
 
-You can open it by presing  alt + M
+>In edit mode alt + M merges. Use the Q >> settings to assign in edit mode
+
+![](img\mp1.gif)
+
+
+This is just the menu of the Hard Ops Q menu material helper shown here.
 
 ![mat](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/settings/mm1.gif)
