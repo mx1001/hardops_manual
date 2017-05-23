@@ -1,0 +1,11 @@
+/*darken level 2 headlines*/
+.toctree-l3 a {
+	/*font-weight: bold!important;*/
+	color: #404040!important;
+}
+
+
+/*indent level 3  headlines*/
+a.toctree-l4 {
+	padding-left:3.2em!important;
+}
