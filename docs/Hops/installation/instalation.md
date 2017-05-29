@@ -25,7 +25,7 @@ RMB on the blender.app and select show package contents
 ~/.config/blender/ **2.XX** /scripts/addons     
     
 ..  
-    
+
 3.in blender settings enable the addon     
         
     ![install](..\installation/img/ins1.png)        
@@ -36,7 +36,7 @@ RMB on the blender.app and select show package contents
         
 Always save user prefs or they wont be enabled next open.       
         
-### Support     
+# Support     
         
 Q: I can't install Hard Ops 9!      
         
