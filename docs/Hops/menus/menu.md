@@ -1,4 +1,4 @@
-## Hard Ops menu
+# Hard Ops menu
 
 The Q Menu is THE way to call HardOps. Alternative being the shift - Q pie menu.
 

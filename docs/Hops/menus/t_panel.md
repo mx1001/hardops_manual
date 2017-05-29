@@ -1,4 +1,4 @@
-## Hard Ops T Panel
+# Hard Ops T Panel
 
 T panel is standard way to call operators in blender
 You can find all Hops operators under HardOps tab

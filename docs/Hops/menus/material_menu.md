@@ -1,4 +1,4 @@
-## Hard Ops material menu (ALT + M)
+# Hard Ops material menu (ALT + M)
 
 Alt + M in object mode will bring up a material list in OBJECT MODE.
 

@@ -1,4 +1,4 @@
-## Hard Ops helper / HOPS Helper (CTRL + ~)
+# Hard Ops helper / HOPS Helper (CTRL + ~)
 
 
 HOps helper is special Hard Ops menu with quick access to modifiers / materials and even and advanced section with mesh options and sharpening customization.
@@ -27,7 +27,7 @@ There are also buttons up top for collapsing / expanding all modifiers.
 
 While the modifier helper is simple it has a complex purpose and comes in handy for quickly accessing settings related to modifiers and their existence.
 
-## Materials Tab
+### Materials Tab
 
 The material tab is like the Modifier helper except for materials. With ver9 it now supports multiple shaders.
 

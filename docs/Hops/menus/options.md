@@ -1,4 +1,4 @@
-## Hard Ops options
+# Hard Ops options
 
 Hardops options like color display can be accesed by addon preferences panel
 
