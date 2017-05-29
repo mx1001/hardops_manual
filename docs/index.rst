@@ -11,4 +11,3 @@ Hardops Manual
    Faq/index        
    examples/index       
         
-   legacy/index
