@@ -5,7 +5,7 @@ HOps helper is special Hard Ops menu with quick access to modifiers / materials 
 
 The Hops helper is one of the more beloved features in Hard Ops and fullfills needs that are required for full screen working.
 
-You can call the helper by pressing ctrl + ~ with a mesh selected.
+You can call the helper by pressing "ctrl + ~"" with a mesh selected.
 
 ![](img\hotkey\hh1.gif)
 
