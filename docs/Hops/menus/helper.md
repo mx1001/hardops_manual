@@ -7,7 +7,7 @@ The Hops helper is one of the more beloved features in Hard Ops and fullfills ne
 
 You can call the helper by pressing ctrl + ~ with a mesh selected.
 
-![](img\hh1.gif)
+![](img\hotkey\hh1.gif)
 
 The HOPS helper requires window buffer options to work correctly in prefs / system
 
