@@ -5,7 +5,7 @@ Hard Ops Menus
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    hud
    menu
