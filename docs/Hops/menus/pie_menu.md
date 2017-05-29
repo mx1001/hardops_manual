@@ -1,6 +1,6 @@
 # Hard Ops Pie Menu
 
-Pie Menu is hardops alternative way to call operators
+Pie Menu is hardops alternative way to call operators.
 
 it can be called by pressing 'shift + Q' 
 
