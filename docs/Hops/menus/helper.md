@@ -7,7 +7,7 @@ The Hops helper is one of the more beloved features in Hard Ops and fullfills ne
 
 You can call the helper by pressing "ctrl + ~" with a mesh selected.
 
-![helper](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/hotkey/hh1.gif)
+![](img/hh2.gif)
 
 The HOPS helper requires window buffer options to work correctly in prefs / system
 
@@ -23,7 +23,7 @@ This tab lists the modifers on the active selected object. You are also able to 
 
 There are also buttons up top for collapsing / expanding all modifiers.
 
-![](img\hh3.gif)
+![](img/hh3.gif)
 
 While the modifier helper is simple it has a complex purpose and comes in handy for quickly accessing settings related to modifiers and their existence.
 
@@ -31,12 +31,12 @@ While the modifier helper is simple it has a complex purpose and comes in handy 
 
 The material tab is like the Modifier helper except for materials. With ver9 it now supports multiple shaders.
 
-![](img\hh4.gif)
+![](img/hh4.gif)
 
 As of ver 8.7 there is also the Material Cutter.
 With this you can specify a material for boolean operations.
 
-![](img\hh5.gif)
+![](img/hh5.gif)
 
 The material cut extends into cslash and booleans.
 
@@ -46,7 +46,7 @@ Last but certainly not least is the Misc tab.
 
 This contains various misc Hard Ops related operations.
 
-![](img\hh6.png)
+![](img/hh6.png)
 
 A brief description of the following sections.
 

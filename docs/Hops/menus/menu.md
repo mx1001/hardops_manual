@@ -11,20 +11,20 @@ Most of options are dynamic and change depending on selection, mode or objects s
 
 Classic Menu (with single selection)
 
-![menu](img\menu\mn1.png)
+![menu](img/menu/mn1.png)
 
 No Selection
 
-![menu](img\menu\mn2.png)
+![menu](img/menu/mn2.png)
 
 2 obj selected
 
-![menu](img\menu\mn3.png)
+![menu](img/menu/mn3.png)
 
 cSharpen state
 
-![menu](img\menu\mn3.png)
+![menu](img/menu/mn3.png)
 
 Edit Mode
 
-![menu](img\menu\mn5.png)
+![menu](img/menu/mn5.png)
