@@ -7,8 +7,7 @@ The Hops helper is one of the more beloved features in Hard Ops and fullfills ne
 
 You can call the helper by pressing "ctrl + ~" with a mesh selected.
 
-![](img/hotkey/hh1.gif)
-
+![helper](https://raw.githubusercontent.com/mx1001/hardops_manual/master/docs/img/hotkey/hh1.gif)
 
 The HOPS helper requires window buffer options to work correctly in prefs / system
 
@@ -20,7 +19,7 @@ When I first started 3d I asked... could the modifiers be in the 3d view? I was 
 
 This tab lists the modifers on the active selected object. You are also able to adjust / collapse / reorder / remove them.
 
-![](img\hh2.gif)
+![](img/hh2.gif)
 
 There are also buttons up top for collapsing / expanding all modifiers.
 
