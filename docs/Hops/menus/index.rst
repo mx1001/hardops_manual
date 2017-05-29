@@ -2,8 +2,6 @@
 Hard Ops Menus
 **********************
 
-
-
 .. toctree::
    :maxdepth: 1
 
