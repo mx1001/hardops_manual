@@ -1,14 +1,16 @@
 import os
+from recommonmark.parser import CommonMarkParser
+
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
-import sphinx_rtd_theme
+    import sphinx_rtd_theme
     html_theme = 'sphinx_rtd_theme'
-   html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 extensions = [
-'sphinx.ext.autodoc',
-'sphinx.ext.todo'
+    'sphinx.ext.autodoc',
+    'sphinx.ext.todo'
 ]
 
 todo_include_todos = True
@@ -31,16 +33,16 @@ htmlhelp_basename = 'Hops'
 
 latex_elements = {}
 latex_documents = [
-('index', 'Hops.tex', u'Hops Documentation',
+  ('index', 'Hops.tex', u'Hops Documentation',
    u'Hops', 'manual'),
 ]
 
 man_pages = [
-('index', 'Hops', u'Hops Documentation',
+    ('index', 'Hops', u'Hops Documentation',
      [u'Hops'], 1)
 ]
 texinfo_documents = [
-('index', 'Hops', u'Hops Documentation',
+  ('index', 'Hops', u'Hops Documentation',
    u'Hops', 'Hops', 'Hops',
    'Miscellaneous'),
 ]
@@ -51,10 +53,8 @@ epub_publisher = u'Hops'
 epub_copyright = u'2016, Hops'
 epub_exclude_files = ['search.html']
 
-from recommonmark.parser import CommonMarkParser
-
 source_parsers = {
-'.md': CommonMarkParser,
+    '.md': CommonMarkParser,
 }
 
 source_suffix = ['.rst', '.md']
