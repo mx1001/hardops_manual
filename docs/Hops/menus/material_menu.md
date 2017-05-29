@@ -4,7 +4,7 @@ Alt + M in object mode will bring up a material list in OBJECT MODE.
 
 >In edit mode alt + M merges. Use the Q >> settings to assign in edit mode
 
-![](img\mp1.gif)
+![](img/mp1.gif)
 
 
 This is just the menu of the Hard Ops Q menu material helper shown here.

@@ -12,7 +12,7 @@ There is even an option to have the text only show when Hard Ops is in use on th
 
 ___
 
-#### Types
+### Types
 
 Undefined - classic objects
 
