@@ -1,7 +1,7 @@
 Hard Ops		
 **********************		
 .. toctree::		
-   :maxdepth: 2		
+   :maxdepth: 1		
 		
    introduction/index		
    installation/index		
