@@ -1,4 +1,4 @@
-![header](img/header.png)
+![header](img/banner.gif)
 
 ### Ssharpen
 
@@ -10,7 +10,19 @@ Ssharpen does the following things.
 
 For more information on how ssharpen came about see [sharpening](sharpening.md).
 
+After using ssharpen there is a F6 menu where you can adjust parameters and make changes post operation. However this is antiquated.
+
+The classic F6 menu is shows below.
+
+![ssharpen](img\ssharpen\s12.png)
+
+So in short ssharp is all the processes mentioned above combined into one tool for quick hard surface smoothing. This is considered soft smoothing.
+
+There is also a video on this topic specifically.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5lzfHQBel0o" frameborder="0" allowfullscreen></iframe>
 ---
+
 ## Ssharp In Action
 
 When ssharp is used the mesh receives the above mentioned things. There is also an F6 menu for adjusting the behavior.
@@ -103,3 +115,7 @@ This is utilized for material assignment or face extraction.
 ![ssharpen](img\ssharpen\s5.gif)
 
 ---
+
+## Removing Csharp / Ssharp marks / modifiers from meshes
+
+See [Clear s/c Sharps](clearssharps.md)

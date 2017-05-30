@@ -1,4 +1,4 @@
-![header](img/header.png)
+![header](img/banner.gif)
 
 ### Essential Hotkeys
 

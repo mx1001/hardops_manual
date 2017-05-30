@@ -13,10 +13,9 @@ pages:
     - Ssharpening:
         - Understanding Sharpening: sharpening.md
         - SSharpen: ssharpen.md
-        #- SSharpen Expanded: docs\Hops\operators\sharpeners\ssharpen_exp.md
-        #- CSharpen: docs\Hops\operators\sharpeners\csharpen.md
+        - CSharpen: csharpen.md
         #- Step: docs\Hops\operators\sharpeners\step.md
-        #- ClearSSharps: docs\Hops\operators\sharpeners\clearssharps.md
+        - ClearSSharps: clearssharps.md
     - Hard Ops Cutters:
         #- CSplit: docs\Hops\operators\cutters\csplit.md
         #- Rebool: docs\Hops\operators\cutters\rebool.md
