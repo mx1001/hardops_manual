@@ -12,7 +12,7 @@ pages:
         - Understanding The Prefs: preferences.md
     - Ssharpening:
         - Understanding Sharpening: sharpening.md
-        #- SSharpen: docs\Hops\operators\sharpeners\ssharpen.md
+        - SSharpen: ssharpen.md
         #- SSharpen Expanded: docs\Hops\operators\sharpeners\ssharpen_exp.md
         #- CSharpen: docs\Hops\operators\sharpeners\csharpen.md
         #- Step: docs\Hops\operators\sharpeners\step.md
