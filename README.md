@@ -1,1 +1,1 @@
-http://hardops-manual.readthedocs.io/en/latest/
+http://hardops-manual.readthedocs.io/en/

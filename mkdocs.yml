@@ -1,27 +1,32 @@
-site_name: HardOps Docs
+site_name: HardOPS Docs
 site_url: http://hardops-manual.readthedocs.io/
 pages:
     - Get Started:
-        - Introduction: docs\Hops\introduction\index.md
-        - Installation: docs\Hops\installation\index.md
-        #- Preferences: preferences.md
-        - FAQ: docs\legacy\faq.md
-    - Hard Ops Sharpening:
-        - SSharpen: docs\Hops\operators\sharpeners\ssharpen.md
-        - SSharpen Expanded: docs\Hops\operators\sharpeners\ssharpen_exp.md
-        - CSharpen: docs\Hops\operators\sharpeners\csharpen.md
-        - Step: docs\Hops\operators\sharpeners\step.md
-        - ClearSSharps: docs\Hops\operators\sharpeners\clearssharps.md
+        - Start: index.md
+        - Introduction: introduction.md
+        - Installation: installation.md
+        - Getting Started: getstarted.md
+        #- FAQ: docs\legacy\faq.md
+    - Hard Ops Information:
+        - Hotkeys: hotkeys.md
+        - Understanding The Prefs: preferences.md
+    - Ssharpening:
+        - Understanding Sharpening: sharpening.md
+        #- SSharpen: docs\Hops\operators\sharpeners\ssharpen.md
+        #- SSharpen Expanded: docs\Hops\operators\sharpeners\ssharpen_exp.md
+        #- CSharpen: docs\Hops\operators\sharpeners\csharpen.md
+        #- Step: docs\Hops\operators\sharpeners\step.md
+        #- ClearSSharps: docs\Hops\operators\sharpeners\clearssharps.md
     - Hard Ops Cutters:
-        - CSplit: docs\Hops\operators\cutters\csplit.md
-        - Rebool: docs\Hops\operators\cutters\rebool.md
+        #- CSplit: docs\Hops\operators\cutters\csplit.md
+        #- Rebool: docs\Hops\operators\cutters\rebool.md
     - Hard Ops Menus:
-        - HOPS Menu System: docs\Hops\menus\menu.md
-        - HOPS Helper: docs\Hops\menus\helper.md
-        - HOPS HUD: docs\Hops\menus\hud.md
-        - Material Menu: docs\Hops\menus\material_menu.md
+        #- HOPS Menu System: docs\Hops\menus\menu.md
+        #- HOPS Helper: docs\Hops\menus\helper.md
+        #- HOPS HUD: docs\Hops\menus\hud.md
+        #- Material Menu: docs\Hops\menus\material_menu.md
     #- Changelog: changelog.md
-    
+
 markdown_extensions:
     - admonition
     - footnotes
