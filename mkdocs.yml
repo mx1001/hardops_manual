@@ -1,7 +1,7 @@
 site_name: HardOPS Docs
 site_url: http://hardops-manual.readthedocs.io/
 pages:
-    - Get Started:
+    - Getting Started:
         - Start: index.md
         - Introduction: introduction.md
         - Installation: installation.md
@@ -14,16 +14,19 @@ pages:
         - Understanding Sharpening: sharpening.md
         - SSharpen: ssharpen.md
         - CSharpen: csharpen.md
-        #- Step: docs\Hops\operators\sharpeners\step.md
+        - Step: step.md
         - ClearSSharps: clearssharps.md
-    - Hard Ops Cutters:
-        #- CSplit: docs\Hops\operators\cutters\csplit.md
-        #- Rebool: docs\Hops\operators\cutters\rebool.md
+    - Systems:
+        - Mirroring: mirror_symmetry.md
+        - Sstaus: sstaus.md
     - Hard Ops Menus:
         #- HOPS Menu System: docs\Hops\menus\menu.md
-        #- HOPS Helper: docs\Hops\menus\helper.md
-        #- HOPS HUD: docs\Hops\menus\hud.md
-        #- Material Menu: docs\Hops\menus\material_menu.md
+        - HOPS Helper: helper.md
+        - HOPS HUD: hud.md
+        - Material Menu / Helper: tips_material_menu.md
+    - Tips:
+        - Booleans And Curvature: tips_boolean.md
+
     #- Changelog: changelog.md
 
 markdown_extensions:
