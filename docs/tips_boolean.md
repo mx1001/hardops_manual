@@ -68,13 +68,13 @@ ___
 A nice demonstration of the inadequacies of booleans for hard surfaces can be shown in making a pokeball. I did a small study about how it can be done quickly with booleans versus efficiently with a cast modifier and subdivision blocking.
 
 > Booleans
-![](/\img\bool\b6.gif)
+![](//img/bool/b6.gif)
 
 ![](img/bool/b7.png)
 You can see with the surfaces that there is still a little touchup work to be done. However I must say that Hard Ops is not just for booleans it also is a tool for helping get a "finished" result. So now lets try using a cast modifier with subdivision to get the shape more sharper.
 
 >Cast Modifier With Subdivision Blocking
-![](/\img\bool\b8.gif)
+![](//img/bool/b8.gif)
 
 ![](img/bool/b9.png)
 In this example the finishing was done via the Csharpen while the initial shape is blocked in using modifiers efficiently and the cast modifier. While this can't work in all cases. It just serves as an example of an alternative way to approach such a shape.

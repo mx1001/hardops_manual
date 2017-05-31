@@ -4,13 +4,13 @@
 
 After enabling Hard Ops a series of preferences will be shown.
 
-![p1](img\prefs\pref1.gif)
+![p1](img/prefs/pref1.gif)
 
 ---
 
 ### UI Tab
 
-![p2](img\prefs\p2.png)
+![p2](img/prefs/p2.png)
 
 Below is a description of the following options.
 
@@ -29,7 +29,7 @@ Below is a description of the following options.
 ---
 
 ### Drawing Tab
-![p3](img\prefs\p3.png)
+![p3](img/prefs/p3.png)
 
 The drawing tab contains options that determine how the drawing system of Hard Ops displays.
 
@@ -42,22 +42,22 @@ Below are 3 custom themes color.
 
 Theme grabber can be a quick way to get hard ops to be the same as your viewport allowing for some interesting sci fi themed modelling.
 
-![p4](img\prefs\p4.gif)
+![p4](img/prefs/p4.gif)
 
 Display text status and display undefined sstaus are worth explanation here as well.
 
 Display Text Sstatus: shows a text status in the corner letting users know the SStatus of the object.
 
-![p4](img\prefs\p5.gif)
+![p4](img/prefs/p5.gif)
 
 Display Undefined Sstaus: shows the sstatus in the corner even if a mesh is undefined.
 
 There is a logo as well in the 3d view that shows up if the mesh is going through csharp / boolshape / cstep sstatus changes. The placement can be adjusted with the Logo x / y parameters.
-![p7](img\prefs\p7.png)
+![p7](img/prefs/p7.png)
 
 Here you can see the logo changing in the corner as I work with the mesh and various operators.
 
-![p4](img\prefs\p6.gif)
+![p4](img/prefs/p6.gif)
 
 ---
 
@@ -71,7 +71,7 @@ Just info for goofs. Maybe time to update this area.
 
 Keymap shows all the hotkeys that are associated via hard coding with HOPS.
 
-![p8](img\prefs\p8.png)
+![p8](img/prefs/p8.png)
 
 > If you need to remove a hotkey it is recommended to uncheck it at the left instead of clicking the x on the right. That could cause you to permenantly lose the hotkey.
 
@@ -81,18 +81,18 @@ This screen is more for reference than adjustments. The hotkeys can be unpredica
 
 ### Links
 
-![p7](img\prefs\p9.png)
+![p7](img/prefs/p9.png)
 
 Links contains buttons to assist users with locating documentation. Tutorials and sometimes exclusive content. These links sometimes change between updates and usually contains links for assisting users.
 
 ### Add-Ons
 
-![p7](img\prefs\p10.png)
+![p7](img/prefs/p10.png)
 
 In the creation of Hard Ops there has come many tools that accentuate the workflow or provide essential functions outside the scope of Hard Ops. These options also change periodically depending on support amounts and integration.
 
 >The only external tool required is Looptools which is in blender by default.
-   ![p7](img\prefs\p11.gif)
+   ![p7](img/prefs/p11.gif)
 
 The way the addons are detected is the naming.      
 

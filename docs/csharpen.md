@@ -17,7 +17,7 @@ This may sound strange but it allows for a very itterative forward workflow with
 
 Below is an example of it in action.
 
-![csharpen](img\csharpen\c1.gif)
+![csharpen](img/csharpen/c1.gif)
 
 In the above example I used simple cubes to boolean into the main shape. Then using cSharpen I was able to both bevel the form and apply the boolean modifier. After that I used another cube to boolean and when cSharpening it was able to ignore the bevel modifier and apply the boolean.
 
@@ -32,7 +32,7 @@ There is also a video on this topic specifically.
 
 The F6 menu has options that are similar to Ssharpen with a few additions.
 
-![csharpen](img\csharpen\c2.png)
+![csharpen](img/csharpen/c2.png)
 
 - Modifiers (hold shift to select / deselect) defaults generally are fine with the exception of sometimes ignoring solidify as well
 - general parameters (antiquainted - these options aren't changed normally)
@@ -44,13 +44,13 @@ The F6 menu has options that are similar to Ssharpen with a few additions.
 
 This is the basic usage of cSharpen in a boolean workflow.
 
-![csharpen](img\csharpen\c3.gif)
+![csharpen](img/csharpen/c3.gif)
 
 By default it ignores the bevel modifier. Under no circumstances do we apply the bevels via the cSharpen.
 
 With solidify it can be useful to keep the solidify live for non destructive workflows.
 
-![csharpen](img\csharpen\c4.gif)
+![csharpen](img/csharpen/c4.gif)
 
 ---
 

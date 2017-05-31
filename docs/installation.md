@@ -16,7 +16,7 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 
 2. Unzip folder to global path (recommended)
   - instead of blender's own install location use the one on your PC created by Blender.
-  - ex: [C:\Users\USER\AppData\Roaming\Blender Foundation\Blender\2.78\scripts\addons\](C:\Users\USER\AppData\Roaming\Blender Foundation\Blender\2.78\scripts\addons\)
+  - ex: [C:/Users/USER/AppData/Roaming/Blender Foundation/Blender/2.78/scripts/addons/](C:/Users/USER/AppData/Roaming/Blender Foundation/Blender/2.78/scripts/addons/)
   - install from file has issues occasionally with releases it is not recommended
 
 3. Locate the Addon "Hard Ops" and enable it.

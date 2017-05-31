@@ -6,7 +6,7 @@ pages:
         - Introduction: introduction.md
         - Installation: installation.md
         - Getting Started: getstarted.md
-        #- FAQ: docs\legacy\faq.md
+        #- FAQ: docs/legacy/faq.md
     - Hard Ops Information:
         - Hotkeys: hotkeys.md
         - Understanding The Prefs: preferences.md

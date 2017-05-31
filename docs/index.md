@@ -2,7 +2,7 @@
 
 # What Is Hard Ops?
 
-![logo](img\logo.gif)
+![logo](img/logo.gif)
 
 
 Hard Ops is a Hard Surface toolkit for Blender aimed at the enhancement of workflows concerning hard surface and boolean behavior.

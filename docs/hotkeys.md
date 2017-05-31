@@ -8,7 +8,7 @@
 
 These are the core of Hard Ops and are the intended  method for choosing and finding functions for Hard Surface Operations.
 
-![hotkey](img\hotkeys\h4.gif)
+![hotkey](img/hotkeys/h4.gif)
 
 # Ctrl + ~ - HOPS Helper
 
@@ -20,7 +20,7 @@ The Helper is used for working with the following.
 - misc - sharpening behavior / hard surface options / boolean behavior / misc options
 
 
-![hotkey](img\hotkeys\h5.gif)
+![hotkey](img/hotkeys/h5.gif)
 
 The Hops helper is one of my favorites in Hard Ops and has it's own page.
 
@@ -31,7 +31,7 @@ See [HOPS Helper](helper.md)
 The material menu was a happy accident that showed much potential in the click and go workflow of Hard Ops.
 This will assign a material to the selection with a list of shaders in the scene.
 
-![hotkey](img\hotkeys\h6.gif)
+![hotkey](img/hotkeys/h6.gif)
 
 **NO MATERIALS COME WITH HARD OPS ASIDE FROM INSERT PLACEHOLDERS**
 
@@ -44,7 +44,7 @@ When using Blender sometimes helpers/empties and lights clutter up the view when
 
 Alt + V has options for simplifying the viewport and is useful for quickly changing your views.
 
-![hotkey](img\hotkeys\h7.gif)
+![hotkey](img/hotkeys/h7.gif)
 
 # Ctrl + Numpad (-/+//) - Boolean Operators
 
@@ -52,9 +52,9 @@ Booltool started a revolution when it showed a quick way to get quick booleans n
 
 >  Booltool is no longer needed for HOPS. If enabled we will respect its hotkeys and allow its usage alongside Hard Ops but that is not recommended.
 
-![hotkey](img\hotkeys\h9.gif)
+![hotkey](img/hotkeys/h9.gif)
 
-![hotkey](img\hotkeys\h8.gif)
+![hotkey](img/hotkeys/h8.gif)
 
 The HOPS Boolean hotkeys are as follows.
 - CTRL + NUMPAD Minus - Cut
@@ -69,7 +69,7 @@ There are many hotkeys that I set manually in Blender.
 
 # Select Boundary - (shift + ~)
 
-![hotkey](img\hotkeys\h1.gif)
+![hotkey](img/hotkeys/h1.gif)
 
 Select boundary will convert a selection to the edge perimeter. This can be useful if you need to bevel a boundary and add an inset. This is something I do quite a bit in my work and is essential.
 
@@ -77,7 +77,7 @@ Select Boundary is in the Select Menu at the very top. To set the hotkey I right
 
 # Mark Sharp - (ctrl + ~)
 
-![hotkey](img\hotkeys\h2.gif)
+![hotkey](img/hotkeys/h2.gif)
 
 Marking sharps is essential in a Hard Ops workflow for fixing shading issues without bevelling or using mark ssharp in the edit mode Q menu. This is something that is only for edit mode. Ctrl + ~ in Object Mode brings up the Hard Ops Helper.
 
@@ -85,8 +85,8 @@ Marking sharps is essential in a Hard Ops workflow for fixing shading issues wit
 
 This is not related to MirrorMirror or Automirror.
 
-![hotkey](img\hotkeys\h3.gif)
+![hotkey](img/hotkeys/h3.gif)
 
 X/y/z symmetrize are (symmetrize and be done) operators made by myself to enhance the behavior of Blender's own symmetrize in the w >> symmetrize menu. This is another hotkey that must be set manually via right clicking. This works for both edit mode and object mode.
 
-![hotkey](img\hotkeys\h10.gif)
+![hotkey](img/hotkeys/h10.gif)

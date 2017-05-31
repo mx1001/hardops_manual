@@ -12,7 +12,7 @@ Default Meshes are known as undefined. It just means we don't have any exception
 
 This is the neutral state of all meshes and the easiest way to tell is the logo in the right hand side of the 3d view. If you don't see one then mesh is not defined in Hard Ops. This isn't a bad thing. It is just important be aware of.
 
-![ss1](img\sstatus\ss1.gif)
+![ss1](img/sstatus/ss1.gif)
 
 > In the example above I used ssharpen on the mesh which smooths it for HOPS but doesn't change the sstatus. That will not happen until an operator like cSharp is used.
 
@@ -20,7 +20,7 @@ This is the neutral state of all meshes and the easiest way to tell is the logo 
 
 When cSharp is used on a mesh the logo becomes more prominent. This also means the mesh is bevelled and more than likely sharpened. This changes the behavior of some tools but mainly the changes are in the Q menu.
 
-![ss1](img\sstatus\ss2.gif)
+![ss1](img/sstatus/ss2.gif)
 
 Undefined
   - sSharpen (in case smoothing is needed)
@@ -43,7 +43,7 @@ This state means that the mesh has baked bevels and is utilizing hidden boolean 
 
 Cstep once was a function for baking bevels along with sstep. However the workflow has been consolidated and now cstep exists only as an sstate.
 
-![ss1](img\sstatus\ss3.gif)
+![ss1](img/sstatus/ss3.gif)
 
 > After using step the icon turned blue. This indicated that we baked the bevels and now the modifier is idle until we perform a boolean operation. This can be confusing at first however this system is still being planned out and we plan to add more stypes in the future.
 
@@ -58,7 +58,7 @@ When a mesh obtains this sstaus the Q menu for the item will have options for de
 
 Below is an example of using it.
 
-![ss1](img\sstatus\ss4.gif)
+![ss1](img/sstatus/ss4.gif)
 
 The 3 options for boolshapes are:
   - bWidth (setting a bevel to the object for rounding the cut)
@@ -74,9 +74,9 @@ This is based off of the options we most likely use for boolean objects.
 Sstatus can be changed a variety of ways.
 
 - (CTRL + ~) - HOPS Helper / Misc Tab / Sstatus (change sstatus to anything)
-![ss1](img\sstatus\ss5.gif)
+![ss1](img/sstatus/ss5.gif)
 - Q >> Operations >> [Clear sCsharps](clearssharps.md) (changes sstatus to undefined / quick reset)
-![ss1](img\sstatus\ss6.gif)
+![ss1](img/sstatus/ss6.gif)
 
 When using [Clear sCsharps](clearssharps.md) it's important to note this also removed modifiers and sharpening related to HOPS so its a **HARD** override.
 
