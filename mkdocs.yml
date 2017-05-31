@@ -20,7 +20,7 @@ pages:
         - Mirroring: mirror_symmetry.md
         - Sstaus: sstaus.md
     - Hard Ops Menus:
-        #- HOPS Menu System: docs\Hops\menus\menu.md
+        - HOPS Menu System: menu_system.md
         - HOPS Helper: helper.md
         - HOPS HUD: hud.md
         - Material Menu / Helper: tips_material_menu.md
