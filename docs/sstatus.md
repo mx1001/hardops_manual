@@ -62,9 +62,10 @@ Below is an example of using it.
 ![ss1](img/sstatus/ss4.gif)
 
 The 3 options for boolshapes are:
-  - bWidth (setting a bevel to the object for rounding the cut)
-  - tThick (add thickness to the mesh allowing for solid form cutting)
-  - qArray (clone iteratively via array modifier)
+
+- bWidth (setting a bevel to the object for rounding the cut)
+- tThick (add thickness to the mesh allowing for solid form cutting)
+- qArray (clone iteratively via array modifier)
 
 This is based off of the options we most likely use for boolean objects.
 
