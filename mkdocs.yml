@@ -17,6 +17,7 @@ pages:
         - Step: step.md
         - ClearSSharps: clearssharps.md
     - Functions / Systems:
+        - Inserts: inserts.md
         - Mirroring: mirror_symmetry.md
         - Sstaus: sstatus.md
     - Hard Ops Menus:
