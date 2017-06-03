@@ -16,13 +16,14 @@ pages:
         - CSharpen: csharpen.md
         - Step: step.md
         - ClearSSharps: clearssharps.md
-    - Systems:
+    - Functions / Systems:
         - Mirroring: mirror_symmetry.md
         - Sstaus: sstatus.md
     - Hard Ops Menus:
-        - HOPS Menu System: menu_system.md
-        - HOPS Helper: helper.md
-        - HOPS HUD: hud.md
+        - Menu System: menu_system.md
+        - Operations Submenu: operations.md
+        - Helper: helper.md
+        - HUD: hud.md
         - Material Menu / Helper: tips_material_menu.md
     - Tips:
         - Booleans And Curvature: tips_boolean.md
