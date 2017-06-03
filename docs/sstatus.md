@@ -23,15 +23,16 @@ When cSharp is used on a mesh the logo becomes more prominent. This also means t
 ![ss1](img/sstatus/ss2.gif)
 
 Undefined
-  - sSharpen (in case smoothing is needed)
-  - cSharpen (in case smoothing + bevelling is needed)
-  - tThick (in case thickness needs to be added)
+
+- sSharpen (in case smoothing is needed)
+- cSharpen (in case smoothing + bevelling is needed)
+- tThick (in case thickness needs to be added)
 
 When the mesh changed to Csharp the options changed due to relevance.
 
-  - sSharpen (in case the mesh needs to be re-sharpened due to modelling or other changes)
-  - bWidth (to adjust the bevel width since the mesh is now bevelled)
-  - step (to bake bevels into the mesh and reset the bevel for future bevelling)
+- sSharpen (in case the mesh needs to be re-sharpened due to modelling or other changes)
+- bWidth (to adjust the bevel width since the mesh is now bevelled)
+- step (to bake bevels into the mesh and reset the bevel for future bevelling)
 
 The dynamic menus are the main options that change when going into cSharp state. This is to speedup the ability to make selections from the menu and find options relevant to the users needs. The goal was to create a guided workflow of sorts.
 
