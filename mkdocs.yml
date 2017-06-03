@@ -7,11 +7,11 @@ pages:
         - Installation: installation.md
         - Getting Started: getstarted.md
         #- FAQ: docs/legacy/faq.md
-    - Hard Ops Information:
+    - Usage Information:
         - Hotkeys: hotkeys.md
         - Understanding The Prefs: preferences.md
-    - Ssharpening:
-        - Understanding Sharpening: sharpening.md
+    - Sharpening / Bevelling:
+        - Sharpening Basics: sharpening.md
         - SSharpen: ssharpen.md
         - CSharpen: csharpen.md
         - Step: step.md
