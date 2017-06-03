@@ -18,7 +18,7 @@ pages:
         - ClearSSharps: clearssharps.md
     - Systems:
         - Mirroring: mirror_symmetry.md
-        - Sstaus: sstaus.md
+        - Sstaus: sstatus.md
     - Hard Ops Menus:
         - HOPS Menu System: menu_system.md
         - HOPS Helper: helper.md
