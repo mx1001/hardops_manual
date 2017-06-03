@@ -75,13 +75,13 @@ This is based off of the options we most likely use for boolean objects.
 
 Sstatus can be changed a variety of ways.
 
-- (CTRL + ~) - HOPS Helper / Misc Tab / Sstatus (change sstatus to anything)
+- (CTRL + )  HOPS Helper / Misc Tab / Sstatus (change sstatus to anything)
 ![ss1](img/sstatus/ss5.gif)
 - Q >> Operations >> [Clear sCsharps](clearssharps.md) (changes sstatus to undefined / quick reset)
 ![ss1](img/sstatus/ss6.gif)
 
 When using [Clear sCsharps](clearssharps.md) it's important to note this also removed modifiers and sharpening related to HOPS so its a **HARD** override.
 
-Using the (CTRL + ~) - HOPS Helper / Misc Tab / Sstatus is the prefered way to change the Sstatus manually.
+Using the (CTRL + ) - HOPS Helper / Misc Tab / Sstatus is the prefered way to change the Sstatus manually.
 
 ---
