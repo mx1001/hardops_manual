@@ -1,4 +1,4 @@
-## Mirroring And Symmetry
+### Mirroring Options
 
 > Mirroring is important  when it comes to keeping a mesh symmetrical however in
 Boolean workflows having active mirror modifiers isn't always ideal. So we attempted to
@@ -6,16 +6,19 @@ provide many options for how to best approach symmetry.
 
 ___
 When it comes to Hard Ops there are 3 ways mirroring is dealt with.
+
  - Mirror Mirror - (integrated) non destructively via modifiers. works based off of object selection
+
  - [AutoMirror](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html) -
 (separate) this plugin is capable of bisecting a model and adding a mirror modifier
+
  - Symmetrize - these options use blender's own symmetrize for all axis and is built in. This is my default choice for symmetry
 
  > The tools depend on the case however they all provide unique solutions for
  particular issues pertaining to mirroring.
  ___
 
-# Mirror Mirror
+## Mirror Mirror
 
 > This was one of the first plugins I ever was involved with. It was made by me
 and Robert Fornoff who also was a part of the building of Hard Ops. Initially this
@@ -24,7 +27,9 @@ drawing system and reduce outside dependencies.
 
 Mirror Mirror has 3 hotkeys.
 - alt + shift + x (X Symmetry)
+
 - alt + shift + y (Y Symmetry)
+
 - alt + shift + z (Z Symmetry)
 
 The beauty of this tool is that the indended behavior was selecting two objects
@@ -55,8 +60,9 @@ into the core of Hard Ops. I would recommend getting used to it and spending
 > The difference between this and symmetrize is the shift addition in the hotkey.
  ___
 
- # Automirror
- [addon page](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html)
+## Automirror
+
+ [download](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html)
 
  > Automirror is a tool made by [Lampaigne](https://cgcookiemarkets.com/all-products/lapineiges-tool-add-ons-compilation/).
  This tool fullfills a rather unique need and does it so well I need not bother
@@ -100,7 +106,7 @@ Within 2 minutes I can get pretty far with the basic operators. And this is due 
 
 ___
 
-# Symmetrize
+## Symmetrize
 
 > So last but definetely not least is blender's own symmetrize. This tool is fantastic. I am personally a big fan of how quick it is and how accessible it is. Basically our operator is just a frontend of the one that is located in the w menu by default.
 

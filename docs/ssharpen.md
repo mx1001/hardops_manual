@@ -152,6 +152,7 @@ sSharpen goes deeper than the initial use case and usability. In the Hard Ops He
 ![ss2](img/step/ns5.gif)
 
 This can come in handy for situations where you are using the boolean and bevel with low segements which normally would be caught in csharpen.
+
 ---
 
 ## Removing Csharp / Ssharp marks / modifiers from meshes
