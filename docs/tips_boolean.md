@@ -1,3 +1,5 @@
+![header](img/banner.gif)
+
 ## Hard Ops Boolean system
 
 ___

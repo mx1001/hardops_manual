@@ -1,3 +1,5 @@
+![header](img/banner.gif)
+
 ### Mirroring Options
 
 > Mirroring is important  when it comes to keeping a mesh symmetrical however in

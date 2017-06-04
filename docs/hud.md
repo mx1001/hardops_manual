@@ -1,3 +1,5 @@
+![header](img/banner.gif)
+
 # Hard Ops HUD
 
 Hardops recognizes a selected object's state, and based on that changes behaviors and usage.
