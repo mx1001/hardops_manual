@@ -9,3 +9,8 @@
 a.toctree-l4 {
 	padding-left:3.2em!important;
 }
+
+
+.wy-nav-content {
+	max-width: 1200px !important;
+}
