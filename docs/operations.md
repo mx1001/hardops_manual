@@ -1,6 +1,6 @@
 ![header](img/banner.gif)
 
-### Operations Submenu
+### Operations Submenu (Object Mode)
 
 ## What are Operations?
 

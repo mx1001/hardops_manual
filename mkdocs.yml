@@ -22,7 +22,8 @@ pages:
         - Sstaus: sstatus.md
     - Hard Ops Menus:
         - Menu System: menu_system.md
-        - Operations Submenu: operations.md
+        - Operations Submenu (Object Mode): operations.md
+        - Meshtools Submenu (Object Mode): meshtools.md
         - Helper: helper.md
         - HUD: hud.md
         - Material Menu / Helper: tips_material_menu.md
