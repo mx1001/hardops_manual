@@ -20,6 +20,10 @@ Now the goal of Hard Ops can be simplified into one line.
 >There is no magic button. It won't make a better artist. All our tool can do is        
 enable you to be the maximum you. The idea is the quicker you can work / make mistakes / corrections deviations and of course evolution.
 
+For the guide the following extension to chrome is recommended for fast gifs.
+[Gif Scrubber](https://chrome.google.com/webstore/detail/gif-scrubber/gbdacbnhlfdlllckelpdkgeklfjfgcmp?hl=en)
+I tried to do them efficiently for space but also informative. I apologize in advance if they seem too fast.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7U7U-4ar91w" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PtDzjVGziK8" frameborder="0" allowfullscreen></iframe>

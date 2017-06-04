@@ -23,3 +23,7 @@
 [BoxCutter 4 Update ](https://masterxeon1001.com/2016/05/28/box-cutter-4-update-notes/)
 
 [BoxCutter 1 Update](https://masterxeon1001.com/2016/04/26/box-cutter-guide-v1/)
+
+--
+
+[Gif Scrubber](https://chrome.google.com/webstore/detail/gif-scrubber/gbdacbnhlfdlllckelpdkgeklfjfgcmp?hl=en)
