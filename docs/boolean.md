@@ -72,6 +72,42 @@ When the logo is red the object is a boolshape. To reset a boolshape just reset 
 
 ---
 
+## Material Cutting
+
+With 008 there came the ability to do material cutting. For this you will need materials with viewport colors in order to see visually.
+
+**(CTRL + ~)** Brings up the [Hard Ops Helper](helper.md)
+
+On the material tab at the bottom is a cut material area.
+
+![bool](img/boolean/ll9.png)
+
+It is also in the T panel.
+
+![bool](img/boolean/ll10.png)
+
+To explain what the options mean:
+
+- All - lists all materials in scene
+- Object - lists all material on the object already (never used)
+
+![bool](img/boolean/ll11.png)
+
+- material list - lists materials
+- force material button - this is on by default. It forces the material into a new indice for the boolean operation (never disabled)
+
+![bool](img/boolean/ll12.gif)
+
+In the above example I used the helper to set up the cutting material.
+
+Material slicing is also supported.
+
+![bool](img/boolean/ll13.gif)
+
+This can come in handy for performing material cuts as a finishing step for detailing and using materials to trim models. 
+
+---
+
 # Backstory: [Booltool](https://blenderartists.org/forum/showthread.php?336498-BoolTool-0-2&p=2659836&viewfull=1#post2659836)
 
 Before [booltool](https://github.com/vitorbalbio/code/tree/master/BoolTool) existed, adding a boolean to a mesh was similar to the below example.
