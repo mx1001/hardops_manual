@@ -19,6 +19,7 @@ pages:
         - ClearSSharps: clearssharps.md
     - Functions / Systems:
         - tThick: tthick.md
+        - bWidth: bwidth.md
         - Insert: inserts.md
         - Mirror: mirror_symmetry.md
         - Sstatus: sstatus.md
