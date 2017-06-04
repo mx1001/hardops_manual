@@ -16,7 +16,7 @@ If the mesh is undefined:
 
 Q >> [Operations](operations.md) >> bWidth
 
-![bevelwidth](img\bwidth\b3.gif)
+![bevelwidth](img/bwidth/b3.gif)
 
 - weight means this will only work on marked edges
 - no clamp overlap means this will be capable of exceeding geometric limits
@@ -26,7 +26,7 @@ If the mesh is [csharp](csharp.md) / [cstep](step.md):
 
 Q >> bWidth (after csharp)
 
-![bevelwidth](img\bwidth\b4.gif)
+![bevelwidth](img/bwidth/b4.gif)
 
 - angle means this is not connected to the hops systems and is a default bevel mod
 - clamp overlap means this mesh is limited by its geo to ranges unable to exceed understanding.
@@ -35,7 +35,7 @@ This is important because the behaviors will be different. While there is a time
 
 In addition, it can be used to adjust the bevel width of one or more objects.
 
-![bevelwidth](img\bwidth\b5.gif)
+![bevelwidth](img/bwidth/b5.gif)
 
 When used on multiple objects it is capable of respecting differing offsets and even more.
 
@@ -45,7 +45,7 @@ When used on multiple objects it is capable of respecting differing offsets and 
 
 > When pressing H during a modal the help will be displayed.
 
-![bwidth](img\bwidth\b6.png)
+![bwidth](img/bwidth/b6.png)
 
 - scroll - raises and lowers segments. When it comes to segments the following applies:
   - 3 is default becuase the geometric hit isn't too hard.
@@ -71,16 +71,16 @@ The option is intended to be generally used in the Q menu following the [csharp]
 
 The bevel modifier created is like this:
 
-![bevelwidth](img\bwidth\b1.png)
+![bevelwidth](img/bwidth/b1.png)
 
 If used on undefined meshes the modifier created looks like this:
 
-![bevelwidth](img\bwidth\b2.png)
+![bevelwidth](img/bwidth/b2.png)
 
 
 # bWidth for disabling modifiers temporarily / viewing wires
 
-![bevelwidth](img\bwidth\b7.gif)
+![bevelwidth](img/bwidth/b7.gif)
 
 **V** during modal will make the bevel modifier hidden.
 
@@ -88,13 +88,13 @@ If used on undefined meshes the modifier created looks like this:
 
 # bWidth will not work on non objects
 
-![bevelwidth](img\bwidth\b7.gif)
+![bevelwidth](img/bwidth/b7.gif)
 
 At the beginning of this gif the options are greyed out due to my all selection including curves. This is due to the context sensetive nature of the of the operator.
 
 # bWidth to bevel cut
 
-![tthick](img\tthick\t7.gif)
+![tthick](img/tthick/t7.gif)
 
 This options is in the boolshape menu for a reason. By beveling shapes before committing you can round out areas being cut for a machined surface.
 

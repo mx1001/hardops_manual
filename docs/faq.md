@@ -4,18 +4,18 @@
 
 X - Symmetrize will work on either the left or right side of the model.
 
-![mir](img\faq\mq1.png)
+![mir](img/faq/mq1.png)
 
 The selected option of X is rather unique because there is more than 1 version. The default is left handed. You can press F6 to change the behavior post operation as the below example.
 
-![mir](img\faq\mq2.gif)
+![mir](img/faq/mq2.gif)
 
 But to make it always on the right side by default.
   - ctrl + alt + u brings up user prefs
   - addons tab >> search for hard Ops
   - activate right handed
 
-![mir](img\faq\mq3.gif)
+![mir](img/faq/mq3.gif)
 
 Now the symmetrize will behave on the side opposite of the default.
 

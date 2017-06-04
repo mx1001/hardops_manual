@@ -4,7 +4,9 @@
 
 ## Hard Ops and Booleans
 
-**[Booltool](https://blenderartists.org/forum/showthread.php?336498-BoolTool-0-2&p=2659836&viewfull=1#post2659836) is no longer required** The hotkeys I once used booltool for have been added into the core of hard ops and supports the drawing and interconnecting systems as a result. The hotkeys are as follows:
+**[Booltool](https://blenderartists.org/forum/showthread.php?336498-BoolTool-0-2&p=2659836&viewfull=1#post2659836) is no longer required** The hotkeys I once used booltool for have been added into the core of hard ops and supports the drawing and interconnecting systems as a result. This allows for deeper interaction and and possible expansions on the workflow independent of changes outside of our control.
+
+The hotkeys are as follows:
 
 - ctrl + numpad minus (difference boolean)
 - ctrl + numpad plus (union boolean)
@@ -12,11 +14,11 @@
 
 To demonstrate union and difference.
 
-![bool](img\boolean\ll3.gif)
+![bool](img/boolean/ll3.gif)
 
 To demonstrate slash.
 
-![bool](img\boolean\ll4.gif)
+![bool](img/boolean/ll4.gif)
 
 > Slash is also in the Q menu when 2 objects are selected.
 
@@ -34,13 +36,13 @@ With 2 or more objects the following hotkeys apply.
 - ctrl + numpad plus (union boolean)
 - ctrl + numpad slash (slash boolean)
 
-![bool](img\boolean\ll3.gif)
+![bool](img/boolean/ll3.gif)
 
 # Q menu
 
 With 2 or more objects the Q menu will show an option for booleans.
 
-![bool](img\boolean\ll5.png)
+![bool](img/boolean/ll5.png)
 
 > I generally use the hotkeys but this is added for additional conveninece.
 
@@ -48,7 +50,7 @@ With 2 or more objects the Q menu will show an option for booleans.
 
 With 2 or more objects the shift + Q menu will show options for booleans.
 
-![bool](img\boolean\ll6.png)
+![bool](img/boolean/ll6.png)
 
 ---
 
@@ -61,11 +63,11 @@ When an object is used as a boolean the following things happen:
 This means the object has a special Q menu with options for bevel, solidify and array.
 To demonstrate them all at once.
 
-![bool](img\boolean\ll7.gif)
+![bool](img/boolean/ll7.gif)
 
 When the logo is red the object is a boolshape. To reset a boolshape just reset the sstatus and convert back into solid in the [settings](settings.md) submenu.
 
-![bool](img\boolean\ll8.gif)
+![bool](img/boolean/ll8.gif)
 
 
 ---
@@ -74,7 +76,7 @@ When the logo is red the object is a boolshape. To reset a boolshape just reset 
 
 Before [booltool](https://github.com/vitorbalbio/code/tree/master/BoolTool) existed, adding a boolean to a mesh was similar to the below example.
 
-![bool](img\boolean\ll1.gif)
+![bool](img/boolean/ll1.gif)
 
 When [Booltool](https://blenderartists.org/forum/showthread.php?336498-BoolTool-0-2&p=2659836&viewfull=1#post2659836) first came out it caused an explosion of booleans onto the scene. They always existed but there never was an approach to make them so applicable.
 
@@ -85,7 +87,7 @@ In my personal workflow it introduced the ability use the hotkeys:
 - ctrl + numpad minus (difference boolean)
 - ctrl + numpad plus (union boolean)
 
-![bool](img\boolean\ll2.gif)
+![bool](img/boolean/ll2.gif)
 
 I used booltool for the longest time in this state without expansion or advancement. I especially used this in conjunction with edge split which made animation a nightmare. However this was the workflow at the time.
 
