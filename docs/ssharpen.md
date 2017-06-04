@@ -21,6 +21,7 @@ So in short ssharp is all the processes mentioned above combined into one tool f
 There is also a video on this topic specifically.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5lzfHQBel0o" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 ## Ssharp In Action
@@ -126,6 +127,8 @@ This is utilized for material assignment or face extraction.
 
 Recalculation is done via the F6 menu that is available after running the operator.
 
+---
+
 ### SSharpen F6 options
 
 ![ss2](img/step/ns4.png)
@@ -140,6 +143,8 @@ Recalculation is done via the F6 menu that is available after running the operat
    * ON - apply defined sharpness and keeps other already existing sharp edges
    * OFF - clears all sharp edges before applying its own sharpness
 
+---
+
 ## Advanced sSharpen
 
 sSharpen is also used as a non destructive updater for cSharpen.
@@ -152,6 +157,23 @@ sSharpen goes deeper than the initial use case and usability. In the Hard Ops He
 ![ss2](img/step/ns5.gif)
 
 This can come in handy for situations where you are using the boolean and bevel with low segements which normally would be caught in csharpen.
+
+---
+
+## SSharpen Additive Mode / Re-Sharpen
+
+> Back in version 004 we experimented with a sharpener called Re-Sharpen. In the end is was merged with sSharpen.
+
+When Additive mode is unchecked, ssharpen behaves as resharpen. This differs because ssharps are cleared and recalculated. ***This will remove custom marks of other levels as well.***
+
+![ssharpen](img/ssharpen/ss13.gif)
+
+![ss2](img/step/ns4.png)
+
+3. additive mode
+   * ON - apply defined sharpness and keeps other already existing sharp edges
+   * OFF - clears all sharp edges before applying its own sharpness
+
 
 ---
 

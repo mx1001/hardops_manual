@@ -62,6 +62,8 @@ Here is an example of using this bevel with useless geo present.
 
 2dBevel will always try to remove the extra points.
 
+see [2d bevel](2dbevel.md)
+
 ---
 ## sSharpen
 
