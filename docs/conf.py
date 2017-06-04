@@ -23,21 +23,21 @@ exclude_patterns = ['includes/*']
 
 pygments_style = 'sphinx'
 
-htmlhelp_basename = 'AnimationNodesdoc'
+htmlhelp_basename = 'Hardopsdoc'
 
 latex_elements = {}
 latex_documents = [
-  ('index', 'AnimationNodes.tex', u'Hardops Documentation',
+  ('index', 'Hardops.tex', u'Hardops Documentation',
    u'Hops', 'manual'),
 ]
 
 man_pages = [
-    ('index', 'animationnodes', u'Hardops Documentation',
+    ('index', 'Hardops', u'Hardops Documentation',
      [u'Hops'], 1)
 ]
 texinfo_documents = [
-  ('index', 'AnimationNodes', u'Hardops Documentation',
-   u'Hops', 'AnimationNodes', 'A new way to work with data in Blender.',
+  ('index', 'Hardops', u'Hardops Documentation',
+   u'Hops', 'Hardops', 'A new way to work with data in Blender.',
    'Miscellaneous'),
 ]
 
