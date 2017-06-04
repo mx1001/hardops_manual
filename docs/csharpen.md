@@ -11,6 +11,8 @@ Csharpen does the following things.
 - adds a bevel modifier (segements: 3 / profile 0.7 / weight not angle)
 - sets menu behavior to be for objects that are bevelled via changing [sstaus](sstatus.md)
 
+![img](img/csharpen/ctest1.png)
+
 If this sounds like the ssharpen that is because this is the complex version of that tool. Created at the same time for a more specific reason. Applying modifiers and setting up bevels.
 
 This may sound strange but it allows for a very itterative forward workflow with boolean based workflows.
