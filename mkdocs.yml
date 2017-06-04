@@ -6,7 +6,8 @@ pages:
         - Introduction: introduction.md
         - Installation: installation.md
         - Getting Started: getstarted.md
-        #- FAQ: docs/legacy/faq.md
+        - Resources: resources.md
+        - FAQ: faq.md
     - Usage Information:
         - Hotkeys: hotkeys.md
         - Understanding The Prefs: preferences.md
