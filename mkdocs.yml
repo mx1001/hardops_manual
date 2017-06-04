@@ -17,13 +17,15 @@ pages:
         - CSharpen: csharpen.md
         - Step: step.md
         - ClearSSharps: clearssharps.md
-    - Functions / Systems:
+    - Systems:
+        - booleans: boolean.md
+        - Sstatus: sstatus.md
+        - Mirror: mirror_symmetry.md
+        - Insert: inserts.md
+    - Functions:
         - tThick: tthick.md
         - bWidth: bwidth.md
-        - Insert: inserts.md
-        - Mirror: mirror_symmetry.md
-        - Sstatus: sstatus.md
-    - Hard Ops Menus:
+    - Hard Ops Menus / Options:
         - Menu System: menu_system.md
         - Operations Submenu (Object Mode): operations.md
         - Meshtools Submenu (Object Mode): meshtools.md
