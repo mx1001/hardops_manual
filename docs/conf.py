@@ -1,6 +1,10 @@
 import os
 from recommonmark.parser import CommonMarkParser
 
+
+def setup(app):
+    app.add_stylesheet('my_theme.css')
+
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 source_parsers = {
