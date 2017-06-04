@@ -7,7 +7,7 @@ pages:
         - Installation: installation.md
         - Getting Started: getstarted.md
         - Resources: resources.md
-        - FAQ: faq.md
+        - FAQs and SFQs: faq.md
     - Usage Information:
         - Hotkeys: hotkeys.md
         - Understanding The Prefs: preferences.md
@@ -20,7 +20,7 @@ pages:
     - Functions / Systems:
         - Inserts: inserts.md
         - Mirroring: mirror_symmetry.md
-        - Sstaus: sstatus.md
+        - Sstatus: sstatus.md
     - Hard Ops Menus:
         - Menu System: menu_system.md
         - Operations Submenu (Object Mode): operations.md
@@ -31,7 +31,7 @@ pages:
     - Tips:
         - Booleans And Curvature: tips_boolean.md
 
-    #- Changelog: changelog.md
+    - Changelog: changelog.md
 
 markdown_extensions:
     - admonition

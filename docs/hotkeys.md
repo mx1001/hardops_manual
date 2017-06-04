@@ -90,3 +90,13 @@ This is not related to MirrorMirror or Automirror.
 X/y/z symmetrize are (symmetrize and be done) operators made by myself to enhance the behavior of Blender's own symmetrize in the w >> symmetrize menu. This is another hotkey that must be set manually via right clicking. This works for both edit mode and object mode.
 
 ![hotkey](img/hotkeys/h10.gif)
+
+
+
+# Shortest Path - D
+
+I am quite happy with this function in blender and it comes in handy for selecting an area between two points. Sometimes when the edge flow is not optimal due to ngons or you want only a partial selection this option is for you.
+
+![hotkey](img/hotkeys/h11.gif)
+
+In the above image I located "shortest path" and right clicked it to set it to D and used it for a partial selection and then used the [Mira Tool](http://blenderartists.org/forum/showthread.php?366107-MiraTools) >> curve stretch to adjust that area. This is just one of the use cases but it's a custom hotkey worth knowing.
