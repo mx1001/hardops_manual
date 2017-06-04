@@ -18,15 +18,16 @@ pages:
         - Step: step.md
         - ClearSSharps: clearssharps.md
     - Functions / Systems:
-        - Inserts: inserts.md
-        - Mirroring: mirror_symmetry.md
+        - tThick: tthick.md
+        - Insert: inserts.md
+        - Mirror: mirror_symmetry.md
         - Sstatus: sstatus.md
     - Hard Ops Menus:
         - Menu System: menu_system.md
         - Operations Submenu (Object Mode): operations.md
         - Meshtools Submenu (Object Mode): meshtools.md
-        - Helper: helper.md
-        - HUD: hud.md
+        - HOPS Helper: helper.md
+        - HUD / Overlay: hud.md
         - Material Menu / Helper: tips_material_menu.md
     - Tips:
         - Booleans And Curvature: tips_boolean.md

@@ -1,8 +1,30 @@
 ### FAQs / SFQs
 
-## How Do I Install Hard Ops / Boxcutter?
+# Why does my symmetrize work on the opposite side?
 
-# [See Install](installation.md)
+X - Symmetrize will work on either the left or right side of the model.
+
+![mir](img\faq\mq1.png)
+
+The selected option of X is rather unique because there is more than 1 version. The default is left handed. You can press F6 to change the behavior post operation as the below example.
+
+![mir](img\faq\mq2.gif)
+
+But to make it always on the right side by default.
+  - ctrl + alt + u brings up user prefs
+  - addons tab >> search for hard Ops
+  - activate right handed
+
+![mir](img\faq\mq3.gif)
+
+Now the symmetrize will behave on the side opposite of the default.
+
+Automirror has no wrong side same with mirror mirror since they operate via modifiers.
+
+# How Do I Install Hard Ops / Boxcutter?
+
+ [See Install](installation.md)
+
 
 # Why is the add-on checker not working?
 
@@ -12,11 +34,19 @@ The recommended addons will show checkboxes when the supported plugins are prese
 
 This can have issues if the naming is different than what it is looking for.
 BoxCutter for example requires the folder is named "BoxCutter"
-The namings being searched for are as follows.
 
-- "BoxCutter"
-- "Auto Mirror"
-- "Mira Tools"
+If the naming is not exact this will cause issues. Just rename the .py to resolve the issue.        
+
+The naming is as follows.       
+
+- [BoxCutter](https://gumroad.com/l/BoxCutter/)     
+- [Group Pro](https://gumroad.com/l/GroupPro/)      
+- [DECALmachine](https://gumroad.com/l/DECALmachine/)       
+- [Mira Tools](http://blenderartists.org/forum/showthread.php?366107-MiraTools)     
+- [Batch Operations](http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/BatchOperations)        
+- [Pipe Nightmare](https://blenderartists.org/forum/showthread.php?414316-Addon-Pipe-Nightmare-0-3-31)      
+- [Easy Lattice](http://blenderaddonlist.blogspot.com/2013/10/addon-quick-easy-lattice-object.html)     
+- [Auto Mirror](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html)        
 
 This can be an issue to some however it is recommended to just check the folder naming. We are currently looking into improving it but it was intended to be a quick checklist to assist with troubleshooting.
 
