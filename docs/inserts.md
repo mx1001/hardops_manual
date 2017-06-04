@@ -67,3 +67,9 @@ This is here just for material localization however most of the time I replace t
 This is one of the more hidden options however it was made for just this purpose.
 
 ---
+
+## Additional Resources
+
+This following pages are useful guides on how to approach detailing on Hard Surface design. It is recommended to make inserts small and use them sparringly and intentionally.
+
+[Neil Blevens - Advice For Detail](http://www.neilblevins.com/cg_education/areas_of_visual_rest/areas_of_visual_rest.htm)

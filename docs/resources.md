@@ -6,6 +6,8 @@
 
 [Substance Painter Baking With Blender](https://masterxeon1001.com/2016/03/20/blendersubstance-multi-mesh-baking/)
 
+[Neil Blevens - Advice For Detail](http://www.neilblevins.com/cg_education/areas_of_visual_rest/areas_of_visual_rest.htm)
+
 ---
 
 [Hard Ops 8 Update ](https://masterxeon1001.com/2016/05/28/hard-ops-8-release-notes/)
