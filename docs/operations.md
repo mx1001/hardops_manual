@@ -2,6 +2,8 @@
 
 ### Operations Submenu (Object Mode)
 
+
+
 ## What are Operations?
 
 ![ops](img/operations/o1.png)
@@ -9,6 +11,8 @@
 With meshes selected, the first option below the first 3 options is the operations menu. This contains most of the options that are special use cases but may or may not pop up in the first 3 options of the main menu.
 
 Some of these options are slightly different versions of their counterparts for example 2d bevel is simply a version of Clean Mesh(E) and (B)Width on vertices. There are also some special options here for managing sharps and even doubling/halving bevels present on meshes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DPoXrep8WQ4" frameborder="0" allowfullscreen></iframe>
 
 ---
 ## UV Preview

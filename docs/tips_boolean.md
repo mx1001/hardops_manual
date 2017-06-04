@@ -1,4 +1,10 @@
 ## Hard Ops Boolean system
+
+___
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sd6U4ZFcMyc" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S6uFpBe1oTU" frameborder="0" allowfullscreen></iframe>
 ___
 
 # Boolean Basics
