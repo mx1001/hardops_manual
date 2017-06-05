@@ -27,3 +27,5 @@
 --
 
 [Gif Scrubber](https://chrome.google.com/webstore/detail/gif-scrubber/gbdacbnhlfdlllckelpdkgeklfjfgcmp?hl=en)
+
+[Asset Library](https://blenderartists.org/forum/showthread.php?353404-Addon-Blend-Library-Asset-manager-for-materials-objects-and-nodes)
