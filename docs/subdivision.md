@@ -4,6 +4,8 @@
 
 > Subdivision is something I use differently in my work compared to before. While it's usually not present in my final product it is used in the blocking process or in times when I want to exponentially multiply the geometry.
 
+
+
 # Subdivision Conversion
 
 To start let's make a simple shape.
@@ -85,6 +87,9 @@ Even after the normals are weighted and the meshes are rendering?
 
 ![subdivision](img/subd/s18.gif)
 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f7dvODWS4e4" frameborder="0" allowfullscreen></iframe>
 
 ---
 
