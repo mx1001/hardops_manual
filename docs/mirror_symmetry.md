@@ -22,8 +22,7 @@ When it comes to Hard Ops there are 3 ways mirroring is dealt with.
 
 ## Mirror Mirror
 
-> This was one of the first plugins I ever was involved with. It was made by me
-and Robert Fornoff who also was a part of the building of Hard Ops. Initially this
+> This was one of the first plugins I ever was involved with. It was made by Robert Fornoff and myself who also was a part of the initial building of Hard Ops. Initially this
 was a separate plugin but now it has been merged into Hard Ops to use the
 drawing system and reduce outside dependencies.
 
