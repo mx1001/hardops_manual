@@ -61,6 +61,7 @@ So as I said I am not a coder. So expect some breakage. In fact I started with a
 see here. On that note excuse issues and be patient while I work on this to make it awesome! Thank all who purchased this tool and I hope to make it worth your investment. If you got if for free... well congrats. ***Hahaha get to work anyways***. I also gotta add. If you expect Nth circles to result in clean geo you'd be a madman. You should know by now I don't care about topology anymore. Only when it matters.
 
 fixes -     
+
 - 9/22 UnkTime - fixed errors / added experimental (E) /
 - 9/22 8:22 - fixed nth circle / adjusted the circle selection command
 - 9/22 9:11 - spent alot of time angry with the circle operators and they isolate themselves 			geometrically while you fix it later but at least still have flows
