@@ -2,6 +2,10 @@
 
 ### Essential Hotkeys
 
+## What is tilda or ~?
+
+![hotkey](img/hotkeys/h13.png)
+
 ## HOPS Hotkeys
 
 # Q / Shift + Q - Menu / Pie Menu
@@ -25,6 +29,21 @@ The Helper is used for working with the following.
 The Hops helper is one of my favorites in Hard Ops and has it's own page.
 
 See [HOPS Helper](helper.md)
+
+# Alt + ~ - [Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools/) Helper
+
+**[Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools) Tools must be installed**
+
+Mira Tools has been a favorite tool of mine for the longest. It is one of the first tools we have added a front end to as well. Curve Stretch and Curve
+
+![hotkey](img/hotkeys/h12.png)
+
+In this example I will use the hotkey Alt + ~
+
+![hotkey](img/hotkeys/h13.png)
+
+![hotkey](img/hotkeys/h14.gif)
+
 
 # Alt + M - Material Helper
 
