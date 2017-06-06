@@ -13,7 +13,7 @@ Csharpen does the following things.
 
 ![img](img/csharpen/ctest1.png)
 
-If this sounds like the ssharpen that is because this is the complex version of that tool. Created at the same time for a more specific reason. Applying modifiers and setting up bevels.
+If this sounds like the [ssharpen](ssharpen.md) that is because this is the complex version of that tool. Created at the same time for a more specific reason. **Sharpening / Applying modifiers / Setting up bevels.**
 
 This may sound strange but it allows for a very itterative forward workflow with boolean based workflows.
 
@@ -32,7 +32,7 @@ There is also a video on this topic specifically.
 
 ## F6 Menu
 
-The F6 menu has options that are similar to Ssharpen with a few additions.
+The F6 menu has options that are similar to [ssharpen](ssharpen.md) with a few additions.
 
 ![csharpen](img/csharpen/c2.png)
 
