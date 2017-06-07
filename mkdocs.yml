@@ -35,6 +35,7 @@ pages:
         - Material Menu / Helper: tips_material_menu.md
     - Tips:
         - Booleans And Curvature: tips_boolean.md
+        - Boolean Tips: tips_boolean_exp.md
         - Understanding Subdivision: subdivision.md
 
     - Changelog: changelog.md
