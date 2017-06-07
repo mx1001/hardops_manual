@@ -4,7 +4,7 @@
 
 ## Boolean Combos
 
-# Example 1 (Boolean / cSlash )
+# Example 1 (Boolean / tThick / cSlash )
 
 Below are some examples of how I make shapes using booleans in Hard Ops. It's also important to note that I am modifing the boolshape before csharpening the main form. Otherwise it would be applied.
 
@@ -28,3 +28,42 @@ In this example I do a simple cut with a cube and after rounding the corners add
 ![boolean](img/bool2/b3.gif)
 
 ![boolean](img/bool2/b4.gif)
+
+## Undo Extractions
+
+Undo extractions are something I've been experiementing with lately. Basically its the idea of modifying the shape to obtain a part for separation that is then undone.
+
+For starters we'll add a cylinder.
+
+![boolean](img/bool2/b5.gif)
+
+Then to make it look better we'll do a subdivision rebase on the cylinder. Then cleanMesh(E) to simplify the form once more.
+
+![boolean](img/bool2/b6.gif)
+
+So in the end this just added more spans to the curvature but dissolved the edges at the top. So now for the extraction.
+
+![boolean](img/bool2/b7.gif)
+
+In this example I did the following:
+- ctrl + b bevel
+- pressed P to adjust profile to 1 which made the transtion hard on a bevel level of 2.
+- separated the mesh selection with P
+- ctrl + z undo to revert back to original state
+
+At this point I modified the selection.
+- edge slide
+- partial deletion
+- ctrl + shift + b bevelled the corners for rounding.
+
+So with this nice rounded extraction we can now use [tThick](tthick.md) to cut into the shape.
+
+> tThick during modal has a mode activated with 2 which pushes on both sides of the normal
+
+First we will revert the [sstatus](sstatus.md) back to undefined to treat this like a regular mesh.
+
+![boolean](img/bool2/b8.gif)
+
+And now to solidify / boolean / cslash / cleanup the area.
+
+![boolean](img/bool2/b9.gif)
