@@ -67,3 +67,11 @@ First we will revert the [sstatus](sstatus.md) back to undefined to treat this l
 And now to solidify / boolean / cslash / cleanup the area.
 
 ![boolean](img/bool2/b9.gif)
+
+Here is another example of it in action.
+
+![boolean](img/bool2/b10.gif)
+
+This is also used to get material extractions for detailing as well.
+
+![boolean](img/bool2/b11.gif)
