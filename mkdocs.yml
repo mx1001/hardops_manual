@@ -11,11 +11,12 @@ pages:
     - Usage Information:
         - Hotkeys: hotkeys.md
         - Understanding The Prefs: preferences.md
-    - Sharpening / Bevelling:
+    - Sharpening / Bevelling / Cutters:
         - Sharpening Basics: sharpening.md
         - SSharpen: ssharpen.md
         - CSharpen: csharpen.md
         - Step: step.md
+        - cSlash: cslash.md
         - ClearSSharps: clearssharps.md
     - Systems:
         - booleans: boolean.md
@@ -37,6 +38,7 @@ pages:
         - Booleans And Curvature: tips_boolean.md
         - Boolean Tips: tips_boolean_exp.md
         - Understanding Subdivision: subdivision.md
+        - decalMACHINE: decalmachine.md
 
     - Changelog: changelog.md
 
