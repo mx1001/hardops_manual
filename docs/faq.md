@@ -2,6 +2,10 @@
 
 # How do I apply a boolean I set up with Hard Ops?
 
+Quickest answer. Apply the modifier. A boolean is just a modifier in your modifier stack. However this isn't the quickest or most recommended. 
+
+![mir](img/faq/faq1_3.png)
+
 First lets set up a boolean and examine what is happening.
 
 ![mir](img/faq/faq1_1.gif)
