@@ -2,7 +2,7 @@
 
 # How do I apply a boolean I set up with Hard Ops?
 
-Quickest answer. Apply the modifier. A boolean is just a modifier in your modifier stack. However this isn't the quickest or most recommended. 
+Quickest answer. Apply the modifier. A boolean is just a modifier in your modifier stack. However this isn't the quickest or most recommended.
 
 ![mir](img/faq/faq1_3.png)
 
@@ -181,3 +181,23 @@ Mira tools also is the same way.
 In my add ons folder it is just called mira_tools. For this addon it can get complicated since the naming is rather specific.
 
 I must add that the add on checker doesn't really matter. It was attempted to be a convenience thing. However some issues that users find with it is due to the naming.
+
+___
+## Mira Tools 
+
+# Why doesn't curveStretch or curveGuide show up in the Q menu?
+
+![img](img/faq/faq2_1.png)
+
+Check the add on preferences for Hard Ops under the add on tab. If Mira tools is not enabled you must download and install it.
+
+[Mira Tools](https://github.com/mifth/mifthtools/archive/master.zip) /
+[Thread](https://blenderartists.org/forum/showthread.php?366107-MiraTools)
+
+If mira tools is not enabled the icon next to the button will show an error.
+
+![img](img/faq/faq2_2.png)
+
+The below example shows how installing it and enabling it allows HOPS to use it as well.
+
+![](img/faq/faq2_3.gif)
