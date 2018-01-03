@@ -1,5 +1,20 @@
 ### FAQs / SFQs
 
+# How do I apply a boolean I set up with Hard Ops?
+
+First lets set up a boolean and examine what is happening.
+
+![mir](img/faq/faq1_1.gif)
+
+By pressing (ctrl + ~) I am able to see the modifiers on the object via the helper. This can be an easy way to quickly see whats happening with an object in the 3d view.
+
+From the helper you can apply like and modifier or apply it using csharpen which is one of the primary purposes of the behavior.
+
+![mir](img/faq/faq1_2.gif)
+
+Csharpen is being used in the above example to apply the modifier as you work forward thus making the workflow faster and easier than going through panels and menus.
+
+
 # Why does my symmetrize work on the opposite side?
 
 X - Symmetrize will work on either the left or right side of the model.

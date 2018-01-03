@@ -49,3 +49,7 @@ Decal slice can be a gamble at times. I recommend getting familiar with this are
 ![img](img/DM/dd2.png)
 
 So the default of 5 may not be the most ideal.
+
+---
+
+# Useful Hotkeys
