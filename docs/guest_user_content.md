@@ -3,7 +3,7 @@
 ### Jayanam
 
 # External Tutorial Notes
-Artist's in the community have also started making content on Hard Ops. I will be trying to document them as well as they are reviewed.
+Artists in the community have also started making content on Hard Ops. I will be trying to document them as well as they are reviewed.
 
 ## [Blender Hard Surface Tips : Hardops (By: Jayanam)](http://www.youtube.com/watch?v=ltuD1wg9MoE)
 
