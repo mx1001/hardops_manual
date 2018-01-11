@@ -21,6 +21,8 @@ So with all that said. [Hard Ops](https://gumroad.com/l/hardops/) is capable of 
 
 In my personal opinion, [Hard Ops](https://gumroad.com/l/hardops/) is the end result of years of modelling by hand and clicking and tapping repetitive [hotkeys](hotkeys.md). It is my hope to make a tool that reduces keystrokes and turns processes into steps. As blender evolves so does I aspire this tool to as well. It goes without saying I would not have been able to get it to anywhere this point without a team of people all around the world. Smart minds in the community have contributed great and small to make this tool I once imagined the reality I now bring up when I press [Q](hotkeys.md).
 
+The [users](https://www.pinterest.com/masterxeon1001/hard-ops-users/) are the true power behind the tool. It's truly humbling to see so many people making fantastic art with the tool. Not to mention seeing other [users making tutorials](guest_user_content.md) showing me insight to how they view and use the tools. 
+
 ---
 
 ## [**Gumroad**](https://gumroad.com/l/hardops/) |
