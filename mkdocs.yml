@@ -39,7 +39,7 @@ pages:
         - Boolean Tips: tips_boolean_exp.md
         - Understanding Subdivision: subdivision.md
         - decalMACHINE: decalmachine.md
-
+        - User Tutorials: guest_user_content.md
     - Changelog: changelog.md
 
 markdown_extensions:
