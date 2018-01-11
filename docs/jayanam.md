@@ -1,5 +1,8 @@
 ![header](img/banner.gif)
 
+# External Tutorial Notes
+Artist's in the community have also started making content on Hard Ops. I will be trying to document them as well as they are reviewed.
+
 ## [Blender Hard Surface Tips : Hardops (By: Jayanam)](http://www.youtube.com/watch?v=ltuD1wg9MoE)
 
 Jayanam did a [video](http://www.youtube.com/watch?v=ltuD1wg9MoE) about [HOPS 0093](https://gumroad.com/l/hardops/). I wanted to add a few notes on it as well as add it to the [docs](https://hardops-manual.readthedocs.io/en/latest/).
