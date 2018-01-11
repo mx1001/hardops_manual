@@ -36,7 +36,7 @@ For the guide the following extension to chrome is recommended for fast gifs.
 [Gif Scrubber](https://chrome.google.com/webstore/detail/gif-scrubber/gbdacbnhlfdlllckelpdkgeklfjfgcmp?hl=en)
 I tried to do them efficiently for space but also informative. I apologize in advance if they seem too fast.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7U7U-4ar91w" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DKx8Pi4v6wc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PtDzjVGziK8" frameborder="0" allowfullscreen></iframe>
 
