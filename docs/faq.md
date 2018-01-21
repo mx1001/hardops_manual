@@ -116,7 +116,15 @@ In this bake I'll up the res and allow a little AA to get a nice result.
 
 ![](img/faq/ff6.gif)
 
-As you can see from my IDs the material colors also baked into the low mesh. 
+As you can see from my IDs the material colors also baked into the low mesh.
+
+![](img/faq/ff7.gif)
+
+None of the inserts are present on the low. Its all just the bake. By removing the render and the filters and finally the layers you can see its the same low I used for the block in phase.
+
+So the point of all this is to explain that a workflow exists however it is up to the preferences of you the user as to how you want to go about using the tools in your workflow.
+
+The beauty of hard ops is you can use as much or as little of it as you need for your preferred workflow. But many of the tools are designed with particular workflows in mind. 
 ___
 
 # What is Cstep / step?
