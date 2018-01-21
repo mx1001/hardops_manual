@@ -110,6 +110,13 @@ Now in substance painter I bring up the mesh and do a quick bake.
 
 The UVs provided will do for such a boxy example however when inserts and material colors are present you will need to accomodate for baking ID maps and so on.
 
+![](img/faq/ff5.gif)
+
+In this bake I'll up the res and allow a little AA to get a nice result.
+
+![](img/faq/ff6.gif)
+
+As you can see from my IDs the material colors also baked into the low mesh. 
 ___
 
 # What is Cstep / step?
