@@ -84,6 +84,34 @@ see [boolean tips](tips_boolean.md)
 
 ___
 
+# How do I bake alpha maps / height maps from a Hard Ops model?
+
+I assume you mean bake in substance painter or get normal / height maps.
+
+Also I must add [DecalMachine has it's own system worth looking into for baking out decals to textures.](https://www.youtube.com/watch?v=YCUV8pS7MXQ)
+
+If you wanted to be lazy you could make a version without bevelling and use x-unwrap on it to get some quick UVs.
+
+Then export the bevelled as the high and the unbevelled triangulated as the low and with the correct settings you should be fine. However the best work is done by UVing and properly creating a low but workflows for hacking your way through exists.
+
+![](img/faq/ff1.gif)
+
+And then exported.
+
+![](img/faq/ff2.gif)
+
+Xunwrap provided some UVs however you can also preview them using operations << UV preview.
+
+![](img/faq/ff3.gif)
+
+Now in substance painter I bring up the mesh and do a quick bake.
+
+![](img/faq/ff4.gif)
+
+The UVs provided will do for such a boxy example however when inserts and material colors are present you will need to accomodate for baking ID maps and so on.
+
+___
+
 # What is Cstep / step?
 
 In short.
@@ -116,6 +144,22 @@ ___
 # Why is it called Step / Cstep / Ssharpen / Cssharpen?
 
 The naming made sense at the time but the functions are best described like so. Someday the tools will be unified into something more logical however in the meantime we needed some sort of terminology for naming.
+
+When I was originally writing a book about modelling I found myself saying repeatedly:
+tab >> editmode >> select sharps >> mark sharp >> mark seam >> mark crease >> mark bevel weight
+
+Over time I just simplified it into that for my own sake however after they became tools the names just stuck.
+Since it's version 9, changing names might confuse actual users just to appease people who possibly are not even using the tool nor plan to.
+
+___
+
+# Why doesn't (ctrl + j) join an insert to the mesh?
+
+Well ctrl + j in object mode is reserved for joining meshes in the blender API. Unfortunately if you select and insert / AP / BB and mesh and press ctrl + j you are only joining the meshes together which is not the intended behavior.
+
+To properly join an red insert use the q menu system.
+
+[Read About Inserts](inserts.md)
 
 ___
 
@@ -183,7 +227,7 @@ In my add ons folder it is just called mira_tools. For this addon it can get com
 I must add that the add on checker doesn't really matter. It was attempted to be a convenience thing. However some issues that users find with it is due to the naming.
 
 ___
-## Mira Tools 
+## Mira Tools
 
 # Why doesn't curveStretch or curveGuide show up in the Q menu?
 
