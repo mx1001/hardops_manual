@@ -124,7 +124,34 @@ None of the inserts are present on the low. Its all just the bake. By removing t
 
 So the point of all this is to explain that a workflow exists however it is up to the preferences of you the user as to how you want to go about using the tools in your workflow.
 
-The beauty of hard ops is you can use as much or as little of it as you need for your preferred workflow. But many of the tools are designed with particular workflows in mind. 
+The beauty of hard ops is you can use as much or as little of it as you need for your preferred workflow. But many of the tools are designed with particular workflows in mind.
+___
+
+# Why can't I cut using a plane?
+
+I find planes work for complete cutting and splitting depending on the BMESH or CARVE boolean system.
+CARVE is more stable.
+BMESH is less reliable but cleaner and can be more prone to issues.
+
+In this example I cut using a plane and it shows no result. This would be expected since this is not a manifold mesh.
+![](img/faq/pc1.gif)
+
+A complete cut would more than likely work but planes are always a little more unpredictable.
+![](img/faq/pc2.gif)
+
+Notice that bmesh fails while carve gets me the result that I would expect.
+
+Toggling between the two behaviors can be done via the Modifier Helper (ctrl + ~)
+The default method can be changed in the misc tab of the helper.
+![](img/faq/pc1.png) ![](img/faq/pc2.png)
+
+
+Now to show how I would make such a cut.
+![](img/faq/pc3.gif)
+
+Notice that instead of slicing I used tthick to add solidification and adjust the amount of spacing in the negative area. And to quickly apply boolean / autosmooth and bevel I used csharp.
+
+
 ___
 
 # What is Cstep / step?
