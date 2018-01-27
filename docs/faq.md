@@ -1,5 +1,13 @@
 ### FAQs / SFQs
 
+# What is the difference between [Hard Ops](https://gumroad.com/l/hardops/) and [Boxcutter](https://gumroad.com/l/BoxCutter)?
+
+Hard Ops is a toolkit containing many tools for various tasks ranging from viewport adjustment, rendering, helpers and symmetrization and not to mention sharpening.
+
+Boxcutter is only a cutter. It only cuts. The purpose of boxcutter is to cut via drawing.
+
+One can't replace the other. They are supplemental to each other. Boxcutter is a small subtool when compared to the entirety of the hops suite.
+
 # How do I apply a boolean I set up with Hard Ops?
 
 Quickest answer. Apply the modifier. A boolean is just a modifier in your modifier stack. However this isn't the quickest or most recommended.
