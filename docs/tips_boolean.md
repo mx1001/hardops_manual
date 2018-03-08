@@ -11,31 +11,71 @@ ___
 
 # Boolean Basics
 
-> With the Hard Ops 8 update. Booltool is no longer a required dependency. In fact it is recommended to use the new system instead since it's more catered to our own tools.
+> With the Hard Ops 8 update. Booltool is no longer a required dependency. In fact it is recommended to use the new system instead since it's more catered to our own tools. There are also edit mode behaviors now.
 
 **If Booltool is present it will respect it and not assign our hotkeys.**
 
 The hotkeys are as follows
+Object Mode
   - ctrl + numpad + / performs union
   - ctrl + numpad - / performs subtraction
   - ctrl + numpad * / peforms slicing
 
+Edit Mode
+  - ctrl + alt + numpad + / performs union
+  - ctrl + alt + numpad - / performs subtraction
+
+
 There is also a display for the operator to let you know details about the operation.
 
+Object Mode
 ![img](img/bool/b1.gif)
 
+Edit Mode
+![img](img/bool/bb1.gif)
+
 As of now the boolean tool has 3 alternate solutions.
- - CarveMod (most stable, worst topo)
- - Carve (same as Carvemod except it applies it immediately)
+ - Carve (most stable, worst topo)
  - B-Mesh (least stable, best topo result)
-
-CarveMod is the default and will operate similar to the booltool itself.
-Carve is the same thing as carve mod except it applies it and doesn't keep the boolean live. Below is an example of CarveMod versus Carve.
-
-![img](img/bool/b2.gif)
 
 Bmesh will require there to be guidance edges in order to ensure a successful cut. This is something thats best practiced on a simple object to best practice. Not having guidance edges with bmesh will result in cuts not working properly.
 
+____
+
+# Booleans and Modifiers
+
+Modifiers are taken into consideration when doing booleans and cutting.
+
+This can lead to some misunderstandings with users of what is real when a cut is made.
+
+First lets create a test mesh for this example.
+
+![img](img/bool/bb2.gif)
+
+From here lets mirror and bisect the model making the work only required on one side.
+
+Using the ctrl + ~ helper I will set the behavior then use the hotkey alt + shift + x to symmetrize it on the x axis.
+
+![img](img/bool/bb3.gif)
+
+From here you can see one half is real and the other is fake via the modifier. This also means I cannot cut or edit the right side and any cutting near the symmetry point will cause issues.
+
+![img](img/bool/bb4.gif)
+
+The things to note are as follows:
+  - with the mirror modifier active cuts can still be made to the real side
+  - cuts cannot be made at the mirror junction area
+  - to do cuts with the center the mirror will have to be applied
+
+  It's important to note that since the mesh is open faced mirrored that slicing might also have some issues. But with an understanding on what you're providing the boolean modifier it becomes more predictable on the output.
+
+![img](img/bool/bb5.gif)  
+
+To conclude, lets say we did want to cut across the form's xjunction.
+
+I would apply the mirror modifier to do my cuts then use the alt + shift + x hotkey to readd bisect mirroring to the object.
+
+![img](img/bool/bb6.gif)
 ___
 
 # Booleans And Curvature
