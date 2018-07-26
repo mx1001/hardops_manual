@@ -1,5 +1,15 @@
 ### FAQs / SFQs
 
+# How is HOPS / Boxcutter progressing for Blender 2.8?
+
+As of now 2.8 isn't ready for porting. When the program is stabilized and the new python is added we can do that.
+
+At this time they discourage add-on development until the new API is in.
+
+We will be porting it when the time comes. So it's just a matter of time. 
+
+___
+
 # What is the difference between [Hard Ops](https://gumroad.com/l/hardops/) and [Boxcutter](https://gumroad.com/l/BoxCutter)?
 
 Hard Ops is a toolkit containing many tools for various tasks ranging from viewport adjustment, rendering, helpers and symmetrization and not to mention sharpening.
@@ -7,6 +17,24 @@ Hard Ops is a toolkit containing many tools for various tasks ranging from viewp
 Boxcutter is only a cutter. It only cuts. The purpose of boxcutter is to cut via drawing.
 
 One can't replace the other. They are supplemental to each other. Boxcutter is a small subtool when compared to the entirety of the hops suite.
+
+___
+
+# How do I update Hard Ops / Boxcutter?
+
+Q: I haven't used HardOps for a while and need to update. Where do I get the latest update?
+
+Blendermarket: log into your account and go under orders in the dropdown of the upper right list.
+
+Gumroad: log into your account then access the [HardOps](https://gumroad.com/l/hardops) or [Boxcutter](https://gumroad.com/l/BoxCutter) pages.
+
+The top file is always the latest.
+
+Q: How do I get up to speed with the tool?
+
+A: In the T panel is an option called Hard Ops learning that is built to help users find the documentation or [tutorial](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0) content. Every major version I usually make a new course set of materials to show off the tools.
+
+___
 
 # How do I apply a boolean I set up with Hard Ops?
 
