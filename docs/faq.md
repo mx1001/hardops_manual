@@ -17,9 +17,14 @@ ___
 
 # What is the difference between [Hard Ops](https://gumroad.com/l/hardops/) and [KitOps](https://gumroad.com/l/kitopspro)?
 
-Hard Ops is a toolkit containing many tools for assisting users with getting all the way from cube to final result. It's our swiss army knife of modelling.
+Hard Ops is a toolkit containing many tools for assisting users with getting all the way from cube to final result. It's our swiss army knife of modelling. [However back in 2016 I did discuss the implementation and our plans with it.](https://masterxeon1001.com/2016/01/05/hops0065update/)
 
-KitOps is focused primarily on insert management into packs called Kpacks and the workflows of aligning them on surfaces and smart behaviors.
+A few things to note.
+  - I took the idea for Insert Merging from Chipp in Moi and I left a comment about it.
+  - now he's using Blender years later and we collaborated to make his system from Moi a thing in Blender but faster
+  - the initial insert system of HOPS was just a means to an end. It was limited due to its simplicity which limited our expansion on it. One mesh merged and one mesh left behind.
+
+KitOps is focused primarily on insert management into packs called Kpacks and the workflows of aligning them on surfaces and smart behaviors. This takes the behavior system of subsets and removes several steps and makes it an artistic process compared to before.
 
 # What can [KitOps](https://gumroad.com/l/kitopspro) do that [Hard Ops](https://gumroad.com/l/hardops/) doesn't?
 
@@ -33,6 +38,8 @@ KitOps is focused primarily on insert management into packs called Kpacks and th
 - insert hiding via quick selectors in T panel
 - auto scale system
 - custom scale system
+- auto grouping for quick selection
+- inserts dont appear until mouse is over surface during insertion
 
 and much more. But it's not perfect and this is only the first version. With all projects I am attached to I am commited to providing a unified workflow to users while also keeping things streamlined.
 
@@ -40,8 +47,9 @@ KitOps was made from the ground up to offer a faster and more user friendly expe
 
 [There is a free version available.](https://gumroad.com/l/kitops) However there are some restrictions since it is a demo.
 
-Try it for yourself.
+Try it for yourself. [KitOps Videos](https://www.youtube.com/playlist?list=PL0RqAjByAphG7h2dzNXdbao1tTNgQYNwb) / [HOPS Red Insert Demo](https://youtu.be/xURxPGdAbjg)
 
+The videos themselves should show the differences.
 ___
 
 # How about [Meshmachine](https://gumroad.com/l/MESHmachine/)? How about that?
@@ -49,11 +57,14 @@ ___
 
 [Meshmachine](https://gumroad.com/l/MESHmachine/) is a different system going for something different altogether. And that't what makes it awesome.
 
-Meshmachine began as a series of tools to make Machin3's life easier in edit mode but will soon be introducing "Plugs".
+Meshmachine began as a series of tools to make Machin3's life easier in edit mode but will soon be introducing "Plugs". I cannot recommend his tool enough. I imagine the final version being unlike any tool we have seen before.
 
-KitOps currently does nothing beyond connecting meshes to other meshes with booleans. As you know this can be inefficient and messy when combined with curvature. So planar surfaces are optimal for this if you are not skilled with cleanup and efficient boolean modelling.
+KitOps currently does nothing beyond connecting meshes to other meshes with booleans and even simple placement. As you know this can be inefficient and messy when combined with curvature. So planar surfaces are optimal for this if you are not skilled with cleanup and efficient boolean modelling.
 
-[Meshmachine](https://gumroad.com/l/MESHmachine/) takes this in a brilliant new direction. With his inserts you will be able to not only merge them efficiently with the surface but the normals and shading will be resolved as well. This is alone worth my recommendation for this product. [Meshmachine](https://gumroad.com/l/MESHmachine/) is poised to do great things but this workflow does come with speed compromises. Nothing worth affecting your decision but this is where Plugs and Kpacks differ. 
+[Meshmachine](https://gumroad.com/l/MESHmachine/) takes this in a brilliant new direction. With his inserts you will be able to not only merge them with any surface efficiently, but the normals and shading will be resolved as well. This is alone worth my recommendation for this product. Fuse, Refuse, Unf*ck, UnChamfer, and Boolean Cleanup are tools that fill holes in the workflow of concept mesh creation.
+
+ [Meshmachine](https://gumroad.com/l/MESHmachine/) is poised to do great things but this workflow does come with speed compromises due to complexity.
+ This shouldn't affect your decision but this is where Plugs and Kpacks differ. They are 2 very different delivery systems for 2 different circumstances.
 
 Kpacks are intended to just be used as inserts with users having to deal with consequences and ramifications of poor placement or hotlining. And not to mention doubles and shading issues with bad geo.
 
