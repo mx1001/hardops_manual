@@ -2,12 +2,7 @@
 
 # How is HOPS / Boxcutter progressing for Blender 2.8?
 
-As of now 2.8 isn't ready for porting. When the program is stabilized and the new python is added we can do that.
-
-At this time they discourage add-on development until the new API is in.
-
-We will be porting it when the time comes. So it's just a matter of time. 
-
+It is in progress.
 ___
 
 # What is the difference between [Hard Ops](https://gumroad.com/l/hardops/) and [Boxcutter](https://gumroad.com/l/BoxCutter)?
@@ -20,6 +15,53 @@ One can't replace the other. They are supplemental to each other. Boxcutter is a
 
 ___
 
+# What is the difference between [Hard Ops](https://gumroad.com/l/hardops/) and [KitOps](https://gumroad.com/l/kitopspro)?
+
+Hard Ops is a toolkit containing many tools for assisting users with getting all the way from cube to final result. It's our swiss army knife of modelling.
+
+KitOps is focused primarily on insert management into packs called Kpacks and the workflows of aligning them on surfaces and smart behaviors.
+
+# What can [KitOps](https://gumroad.com/l/kitopspro) do that [Hard Ops](https://gumroad.com/l/hardops/) doesn't?
+
+- manage inserts / allows for user created inserts
+- merge multiple levels of booleans in order
+- connection / disconnection live via smart selector
+- thumbnail rendering and creation
+- duplication / shift + r redo capabilities
+- support for HOPS tools like interactive mirror and Qarray
+- smart hiding of modifiers for quick modifications
+- insert hiding via quick selectors in T panel
+- auto scale system
+- custom scale system
+
+and much more. But it's not perfect and this is only the first version. With all projects I am attached to I am commited to providing a unified workflow to users while also keeping things streamlined.
+
+KitOps was made from the ground up to offer a faster and more user friendly experience than our initial offering in Hard Ops. With an emphasis on expandability.
+
+[There is a free version available.](https://gumroad.com/l/kitops) However there are some restrictions since it is a demo.
+
+Try it for yourself.
+
+___
+
+# How about [Meshmachine](https://gumroad.com/l/MESHmachine/)? How about that?
+
+
+[Meshmachine](https://gumroad.com/l/MESHmachine/) is a different system going for something different altogether. And that't what makes it awesome.
+
+Meshmachine began as a series of tools to make Machin3's life easier in edit mode but will soon be introducing "Plugs".
+
+KitOps currently does nothing beyond connecting meshes to other meshes with booleans. As you know this can be inefficient and messy when combined with curvature. So planar surfaces are optimal for this if you are not skilled with cleanup and efficient boolean modelling.
+
+[Meshmachine](https://gumroad.com/l/MESHmachine/) takes this in a brilliant new direction. With his inserts you will be able to not only merge them efficiently with the surface but the normals and shading will be resolved as well. This is alone worth my recommendation for this product. [Meshmachine](https://gumroad.com/l/MESHmachine/) is poised to do great things but this workflow does come with speed compromises. Nothing worth affecting your decision but this is where Plugs and Kpacks differ. 
+
+Kpacks are intended to just be used as inserts with users having to deal with consequences and ramifications of poor placement or hotlining. And not to mention doubles and shading issues with bad geo.
+
+Plugs will conform with the surface and heal the shading. They both have their place. But in short there is no doubt that we will evolve to meet the standards that [Meshmachine](https://gumroad.com/l/MESHmachine/) will set.
+
+I recommend to use [Meshmachine](https://gumroad.com/l/MESHmachine/) and bring it into your workflow. Our goal is never to compete. If someone can do a better job why not expand on that.
+
+___
 # How do I update Hard Ops / Boxcutter?
 
 Q: I haven't used HardOps for a while and need to update. Where do I get the latest update?
