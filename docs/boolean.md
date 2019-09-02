@@ -20,6 +20,9 @@ To demonstrate slash.
 
 ![bool](img/boolean/ll4.gif)
 
+As the gif shows you can also use [hopsTool](hopsTool.md) w/ 2 object selection to setup booleans as well.
+
+
 > Slash is also in the Q menu when 2 objects are selected.
 
 So while we support booltool and will respect it if enabled, the HOPS boolean system will also set up [drawing](hud.md) and use our [systems](sstatus.md).
@@ -36,7 +39,7 @@ With 2 or more objects the following hotkeys apply.
 - ctrl + numpad plus (union boolean)
 - ctrl + numpad slash (slash boolean)
 
-![bool](img/boolean/ll3.gif)
+![bool](img/boolean/ll14.gif)
 
 # Q menu
 
@@ -79,12 +82,13 @@ With 008 there came the ability to do material cutting. For this you will need m
 **(CTRL + ~)** Brings up the [Hard Ops Helper](helper.md)
 
 On the material tab at the bottom is a cut material area.
+Requires object to be selected of course.
 
-![bool](img/boolean/ll9.png)
+![bool](img/boolean/ll19.gif)
 
-It is also in the T panel.
+It is also in the N panel.
 
-![bool](img/boolean/ll10.png)
+![bool](img/boolean/ll10.gif)
 
 To explain what the options mean:
 
@@ -98,13 +102,13 @@ To explain what the options mean:
 
 ![bool](img/boolean/ll12.gif)
 
-In the above example I used the helper to set up the cutting material.
+In the above example I used the N panel to set up the cutting material.
 
 Material slicing is also supported.
 
 ![bool](img/boolean/ll13.gif)
 
-This can come in handy for performing material cuts as a finishing step for detailing and using materials to trim models. 
+This can come in handy for performing material cuts as a finishing step for detailing and using materials to trim models.
 
 ---
 

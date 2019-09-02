@@ -20,7 +20,13 @@ Q >> [Operations](operations.md) >> bWidth
 
 - weight means this will only work on marked edges
 - no clamp overlap means this will be capable of exceeding geometric limits
+- adding bweight without csharpen will result in an angle bevel being added
 
+As of 2.8 the goal is to try to be more non destructive so the default is now angle which ignores edge weights.
+
+> [Csharp](csharp.md) : In the event you desire classic behavior set workflow to weight in the ctrl + ~ helper.
+
+![bevelwidth](img/bwidth/b8.gif)
 
 If the mesh is [csharp](csharp.md) / [cstep](step.md):
 
@@ -52,14 +58,25 @@ When used on multiple objects it is capable of respecting differing offsets and 
   - even numbers work best with material indexes
   - 6 will make it capable of not being rebevelled by ssharp/csharp at 30 degrees
 
-
 - ctrl - changes profile. We generally stick with .7 by default
 - W - changes offset type / never used
 - V - shows / hides bevel modifiers. Can be useful as a toggle for multiple objects
 - Z - shows wire in viewport. has uses extending past just seeing bevels. Also can be used to quickly show wires.
-- 2 - use bevel verts (this option has no reason)
+- 1 - toggles autosmooth / for times where you need to toggle autosmooth within the bevel operation
+- 2 - use bevel verts (makes bevel use only verts)
+- A - Adaptive Mode (added by [machin3](https://twitter.com/machineio)) makes bevel segments adjust according to scale.
+- C - Loop slide / See mod tooltip
+- S - Modal segments
+- E / Shift + Wheel up - allows user to move mod up the stack
+- Q / Shift + Wheel down move mod down stack
+- P - Change profile
+- N - Flip Normal - used for reverse bevelling.
+- M - Harden Normals
 
+Usage of the N - flip normal in action.
+![bevelwidth](img/bwidth/b9.gif)
 
+> In this example I used a boolean which set the shape as a boolshape which triggers face normal flipping for edit mode bevelling built in by default. Alternatively users would have to press N during modal.
 
 ---
 
@@ -69,9 +86,12 @@ When used on multiple objects it is capable of respecting differing offsets and 
 
 The option is intended to be generally used in the Q menu following the [csharp](csharp.md) operation.
 
-The bevel modifier created is like this:
+The bevel default modifier created is like this:
 
 ![bevelwidth](img/bwidth/b1.png)
+
+For Csharp the setting specified in workflow determine the bevel added.
+![bevelwidth](img/bwidth/b10.gif)
 
 If used on undefined meshes the modifier created looks like this:
 
@@ -88,7 +108,7 @@ If used on undefined meshes the modifier created looks like this:
 
 # bWidth will not work on non objects
 
-![bevelwidth](img/bwidth/b7.gif)
+![bevelwidth](img/bwidth/b11.gif)
 
 At the beginning of this gif the options are greyed out due to my all selection including curves. This is due to the context sensetive nature of the of the operator.
 

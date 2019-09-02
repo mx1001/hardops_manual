@@ -16,7 +16,7 @@ In the event you want to undo the hard ops process on a mesh for other reasons t
 
 ![cs1](img/clearssharps/cs1.png)
 
-## Clear S/c Sharps in Action
+## Clear S/c Sharps in Action 
 
 ![cs1](img/clearssharps/cs2.gif)
 
