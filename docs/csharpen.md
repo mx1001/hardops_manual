@@ -24,10 +24,6 @@ Below is an example of it in action.
 In the above example I used simple cubes to boolean into the main shape. Then using cSharpen I was able to both bevel the form and apply the boolean modifier. After that I used another cube to boolean and when cSharpening it was able to ignore the bevel modifier and apply the boolean. This is a process I rinse and repeat to keep adding detail. In my opinion this is the best approach in blender for creating [such detail](http://www.neilblevins.com/cg_education/areas_of_visual_rest/areas_of_visual_rest.htm) in a focused manner with the fewest amount of keystrokes. Of course there is also adaptive subidivision and displacement however thats outside of the scope of this guide.
 
 
-There is also a video on this topic specifically.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5lzfHQBel0o" frameborder="0" allowfullscreen></iframe>
-
 ---
 
 ## F6 Menu
@@ -37,8 +33,10 @@ The F6 menu has options that are similar to [ssharpen](ssharpen.md) with a few a
 ![csharpen](img/csharpen/c2.png)
 
 - Modifiers (hold shift to select / deselect) defaults generally are fine with the exception of sometimes ignoring solidify as well
-- general parameters (antiquainted - these options aren't changed normally)
-- sharpness - same reason as [ssharpen](ssharpen.md)
+- general parameters - adjustments to cSharp
+  - the left numbers are global parameters. Changing those will make csharp remember next time.
+  - instance numbers - for changing the behavior of csharp for this one instance
+- sharpness - same reasons as [ssharpen](ssharpen.md)
 
 ---
 

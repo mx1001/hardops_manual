@@ -110,6 +110,11 @@ Material slicing is also supported.
 
 This can come in handy for performing material cuts as a finishing step for detailing and using materials to trim models.
 
+> Notice that I am able to access the helper via the ctrl + ~ , N panel and mini helper button.
+
+![bool](img/boolean/ll20.gif)
+
+
 ---
 
 # Backstory: [Booltool](https://blenderartists.org/forum/showthread.php?336498-BoolTool-0-2&p=2659836&viewfull=1#post2659836)
