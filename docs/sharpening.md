@@ -16,7 +16,7 @@ This would resolve the shading enough to get the mesh to look decent. But when I
 
 This was a workflow I leaned from [BG](http://www.blenderguru.com/) back in the day.
 
-Its important to note that on this object the vertcount went from 72 to 142. This is alot for something thats only shading.
+Its important to note that on this object the vertcount went from 63 to 146. This is alot for something thats only shading.
 
 > This workflow is not recommended of course but it's just a part of the history.
 
