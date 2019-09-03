@@ -114,6 +114,24 @@ This can come in handy for performing material cuts as a finishing step for deta
 
 ![bool](img/boolean/ll20.gif)
 
+---
+
+# Boolean dots
+
+While hopsTool is active users can select 2 objects and hold ctrl to bring up boolean dots.
+- cut
+- join
+- slice
+
+are available at this time.
+
+![hotkey](img/hopstool/h8.gif)
+
+Boolshapes also get their own dot which is where the view can get cluttered quickly.
+
+Fade distance can be adjusted if needed and booldots can be turned off if they are getting in the way.
+
+![hotkey](img/hopstool/h9.gif)
 
 ---
 

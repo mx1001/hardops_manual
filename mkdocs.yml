@@ -25,6 +25,7 @@ pages:
         - Sstatus: sstatus.md
         - Mirror: mirror_symmetry.md
         - Insert: inserts.md
+        - Circulars: circular.md
     - Functions:
         - tThick: tthick.md
         - bWidth: bwidth.md

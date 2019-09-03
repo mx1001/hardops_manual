@@ -63,6 +63,20 @@ A brief description of the following sections.
 
 The options are here because they are needed quickly and readily for situations requiring a special touch.
 
+### Bevel helper
+
+Pressing ctrl + shift + B brings up the bevel helper. This is a helper designed for making bevel management easier.
+
+![bool](img/helper/b1.gif)
+
+In the helper you can adjust every bevel present on a model.
+
+As you can see the presets / full properties are also available
+
+![bool](img/helper/b2.gif)
+
+
+
 
 ### Other Notes
 

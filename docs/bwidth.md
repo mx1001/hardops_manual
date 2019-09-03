@@ -76,6 +76,8 @@ When used on multiple objects it is capable of respecting differing offsets and 
 Usage of the N - flip normal in action.
 ![bevelwidth](img/bwidth/b9.gif)
 
+![bevelwidth](img/bwidth/b12.gif)
+
 > In this example I used a boolean which set the shape as a boolshape which triggers face normal flipping for edit mode bevelling built in by default. Alternatively users would have to press N during modal.
 
 ---
