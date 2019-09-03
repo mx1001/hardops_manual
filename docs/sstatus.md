@@ -36,7 +36,7 @@ When the mesh changed to Csharp the options changed due to relevance.
 
 The dynamic menus are the main options that change when going into cSharp state. This is to speedup the ability to make selections from the menu and find options relevant to the users needs. The goal was to create a guided workflow of sorts.
 
-## Cstep
+## Cstep / Step
 
 This state means that the mesh has baked bevels and is utilizing hidden boolean behavior. This causes symmetrize (not automirror or mirrror mirror) to hide the mesh in edit mode in between certain operators. This allows for isolated bevelling and a deeper workflow.
 
@@ -75,13 +75,14 @@ This is based off of the options we most likely use for boolean objects.
 
 Sstatus can be changed a variety of ways.
 
-- (CTRL + ~)  HOPS Helper / Misc Tab / Sstatus (change sstatus to anything)
+- Q >> Meshtools >> HOPS Reset (change sstatus to default and start over)
+
 ![ss1](img/sstatus/ss5.gif)
+
 - Q >> Operations >> [Clear sCsharps](clearssharps.md) (changes sstatus to undefined / quick reset)
+
 ![ss1](img/sstatus/ss6.gif)
 
-When using [Clear sCsharps](clearssharps.md) it's important to note this also removed modifiers and sharpening related to HOPS so its a **HARD** override.
-
-Using the (CTRL + ~) - HOPS Helper / Misc Tab / Sstatus is the prefered way to change the Sstatus manually.
+When using [Clear sCsharps](clearssharps.md) it's important to note this also removes modifiers and sharpening related to HOPS so its a **HARD** override.
 
 ---
