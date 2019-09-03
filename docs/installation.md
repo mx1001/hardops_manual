@@ -2,7 +2,7 @@
 
 ## Requirements
 
-[Blender 2.78+](https://www.blender.org/)
+[Blender 2.8+](https://www.blender.org/)
 
 The [official version](https://www.blender.org/download/) on the website is always supported first and foremost but the developments also cover [buildbot](http://builder.blender.org/).
 
@@ -12,22 +12,45 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 ## Hard Ops Installation     
 
 
-1. Download [Hard Ops](https://gumroad.com/l/hardops/)     
+Updating Blender requires the latest updates.
+https://builder.blender.org/download
 
-2. Unzip folder to global path (recommended)
-  - instead of blender's own install location use the one on your PC created by Blender.
-  - ex: [C:/Users/USER/AppData/Roaming/Blender Foundation/Blender/2.78/scripts/addons/](C:/Users/USER/AppData/Roaming/Blender Foundation/Blender/2.78/scripts/addons/)
-  - install from file has issues occasionally with releases it is not recommended
+If updating Blender one must also update the Hard Ops / Boxcutter packages for the latest version.
 
-3. Locate the Addon "Hard Ops" and enable it.
+1. Firstly ensure Blender 2.8 is up to date.
 
-  ![install](img/install/ins1.png)        
+- [Blender](https://builder.blender.org/download)
 
-4. Set Up Addon preferences and click save user settings (ensures enabled next open)
+- [Blender Updater **Windows**](https://github.com/DotBow/Blender-Version-Manager/releases)
 
-  ![install](img/install/ins2.png)        
+2. Ensure the latest zips are downloaded from the markets.
 
-> Always save user prefs using the button below or they wont be enabled next open.
+[Blendermarket](https://www.blendermarket.com/account/orders)
+
+[Gumroad](https://gumroad.com/library)
+
+Gumroad Sales Pages
+[HardOps](https://gumroad.com/l/hardops) /
+[Boxcutter](https://gumroad.com/l/BoxCutter) /
+[HOPScutter Bundle](https://gumroad.com/l/hopscutter)
+
+3. Copy the contents of the zip to the addons location.
+C:\Users\YOUR USER\AppData\Roaming\Blender Foundation\Blender\2.8X\scripts\addons Remove any old HOPS / BC folders. Never overwrite.
+
+3a. Or use install from file. But this only works if the folder is not there already! Otherwise... issues.
+In the addon panel locate Hard Ops / Boxcutter and delete them then you are able to install the newer update.
+Make sure the folders are not there and it should work fine.
+
+**(DO NOT try to install it on the blender install itself. That has shown to not work. ex: C:\Users\RUSER\Desktop\Blender Builds\2.8-updater\Git-f18373a9ab1a-25-May-23-18\2.80\scripts\addons - this is not the right place. See 3.**
+
+4. Open Blender and enable the add-on. I delete my config so blender would open cleanly without issue from previous prefs.
+
+4a. If using install from file. As shown in the video. It will isolate the addon for enabling. After enabling do not double click while waiting. Just give it a second if you know you clicked it. Registrations can take a moment sometime.
+
+And then Blender is able to be loaded and the addons enabled. Errors indicate that the HOPS/BC installation is possibly old and requires redownload. Also make sure it is installed in the correct path.
+https://hardops-manual.readthedocs.io/en/latest/installation/
+
+https://gumroad.com/l/BoxCutter
 
 ---
 
@@ -66,20 +89,22 @@ The way the addons are detected is the naming.
 
 >Running the following line in the script editor of blender will show all enabled add ons and their name in the system.     
 
-> bpy.context.user_preferences.addons.keys()        
+> **bpy.context.preferences.addons.keys()**
+
 ![install](img/install/ins3.gif)        
 
 If the naming is not exact this will cause issues. Just rename the .py to resolve the issue.        
 
 The naming is as follows.       
 
-- [BoxCutter](https://gumroad.com/l/BoxCutter/)     
-- [Group Pro](https://gumroad.com/l/GroupPro/)      
+- [Boxcutter](https://gumroad.com/l/BoxCutter/)     
+- [kitops](https://gumroad.com/l/kitops)     
+- [mira_tools](http://blenderartists.org/forum/showthread.php?366107-MiraTools)     
+- [meshmachine](https://www.blendermarket.com/products/MESHmachine)
+- [Group Pro](https://gumroad.com/l/GroupPro/)
+- [bms](https://gumroad.com/l/bezier_mesh_shaper)
+- [power_snapping_pies](https://github.com/mx1001/power_snapping_pies)
 - [DECALmachine](https://gumroad.com/l/DECALmachine/)       
-- [Mira Tools](http://blenderartists.org/forum/showthread.php?366107-MiraTools)     
 - [Batch Operations](http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/BatchOperations)        
-- [Pipe Nightmare](https://blenderartists.org/forum/showthread.php?414316-Addon-Pipe-Nightmare-0-3-31)      
-- [Easy Lattice](http://blenderaddonlist.blogspot.com/2013/10/addon-quick-easy-lattice-object.html)     
-- [Auto Mirror](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html)        
 
 Also the above texts are hyperlinks to their locations.
