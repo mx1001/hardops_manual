@@ -1,6 +1,6 @@
 ![header](img/banner.gif)
 
-### Ssharpen
+### Ssharpen overview
 
 Ssharpen does the following things.
 
