@@ -4,9 +4,11 @@
 
 # hopsSort
 
-The sort tickbox in hardOps and boxcutter is there for users to specify what modifiers are supposed to be where in the stack. Unchecked modifiers do nothing and remain where there are in the stack.
+The sort tickbox in hardOps and boxcutter is there for users to specify what modifiers are supposed to be where in the stack post boolean operation. Unchecked modifiers do nothing and remain where there are in the stack.
 
 **clicking them does nothing until the next boolean operation**
+
+[**This only affects boolean operations**](boolean.md)
 
 ![mir](img/faq/f2.png)
 
