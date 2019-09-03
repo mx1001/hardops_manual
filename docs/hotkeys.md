@@ -26,6 +26,10 @@ The Hops helper is one of my favorites in Hard Ops and has it's own page.
 
 See [HOPS Helper](helper.md)
 
+# Alt + shift + W hopsTool
+
+see [hopstool](hopsTool.md)
+
 # Alt + ~ - [Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools/) Helper
 
 **[Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools) Tools must be installed**

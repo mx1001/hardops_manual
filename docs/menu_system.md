@@ -22,7 +22,7 @@ When I start out the top 3 are by default on [undefined](sstatus.md) type meshes
   - sSharpen (smoothing and sharpening the mesh without commitment to a system)
   - tThick (thickness via solidify)
 
-Whenever 2 objects are selected a new option is added below for booleans. This is based off of the booltool workflow. There is also an option in the big 3 to slice using the [Slash](slash.md) function
+Whenever 2 objects are selected a new option is added below for booleans. This is based off of the booltool workflow. There is also an option in the big 3 to slice using the [Slash](cslash.md) function
 
 After a bevel modifier is added one of the big 3 is bwidth as well as the option to bake the bevels called [step](step.md). Because of the csharp state it would seem logical to have an option to quickly adjust the bevel amount on a mesh.
 

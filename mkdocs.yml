@@ -8,6 +8,7 @@ pages:
         - Getting Started: getstarted.md
         - Resources: resources.md
         - FAQs and SFQs: faq.md
+        - Settings: settings.md
     - Usage Information:
         - Hotkeys: hotkeys.md
         - Understanding The Prefs: preferences.md
@@ -19,6 +20,7 @@ pages:
         - cSlash: cslash.md
         - ClearSSharps: clearssharps.md
     - Systems:
+        - hopsTool: hopsTool.md
         - booleans: boolean.md
         - Sstatus: sstatus.md
         - Mirror: mirror_symmetry.md
@@ -34,6 +36,8 @@ pages:
         - HOPS Helper: helper.md
         - HUD / Overlay: hud.md
         - Material Menu / Helper: tips_material_menu.md
+        - Rendersets: rendersets.md
+        - Viewport Submenu: viewport.md
     - Tips:
         - Booleans And Curvature: tips_boolean.md
         - Boolean Tips: tips_boolean_exp.md

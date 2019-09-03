@@ -4,7 +4,7 @@
 
 ## What is tThick?
 
-Tthick is one of the modal operators in Hard Ops intended to use a solidify modifier in a modal manner. This tool is intended to behave as an object level extrude. 
+Tthick is one of the modal operators in Hard Ops intended to use a solidify modifier in a modal manner. This tool is intended to behave as an object level extrude.
 
 ---
 
@@ -14,7 +14,7 @@ If the mesh is undefined:
 
 Q >> tThick
 
-If the mesh is [csharp](csharp.md) / [cstep](step.md):
+If the mesh is [csharp](csharpen.md) / [cstep](step.md):
 
 Q >> [Operations](operations.md) >> tThick
 

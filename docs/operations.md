@@ -105,8 +105,6 @@ This tool is the combination of rebool and cslice with additional functionality 
 ---
 ## qArray
 
-see [modals](modals.md)
-
 qArray is simply intended to add an array modifier and allow the user to move the mouse to determine offset. Also is capable of handling more than 1 array at once and as with all modals has an h for help hotkey.
 
 ![ops](img/operations/o12.gif)
@@ -114,32 +112,16 @@ qArray is simply intended to add an array modifier and allow the user to move th
 ---
 ## tThick
 
-see [modals](modals.md)
+see [tthick](tthick.md)
 
 tThick is intended to add thickness to an object via solidify. tThick can also deal with offsets and it useful for mech creation. As with all modals, it has an h for help hotkey.
 
 ![ops](img/operations/o13.gif)
 
 ---
-## Merge
-
-see [inserts](inserts.md)
-
-![ops](img/operations/o14.gif)
-
-Merge options are for dealing with subset inserts. These are best handled from the main menu context sensitive Q options. No override functions exist. These are intended purely to merge subset formatted objects to meshes.
-
-![ops](img/operations/o15.png)
-
-- cMerge (hard merge)
-- cMerge(soft) (hard merge / without modifiers being applied)
-- sMerge - soft merge. merge while keeping everything live for adjustment
-- remove merge - removes merge from mesh and allows insert to be reused
-
----
 ## Clear s/C/sharps
 
-see [Clear s/C/sharps](clearsharps.md)
+see [Clear s/C/sharps](clearssharps.md)
 
 Clears a mesh from sharp information and resets the sstatus back to undefined.
 

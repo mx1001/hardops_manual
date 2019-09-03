@@ -24,11 +24,11 @@ Q >> [Operations](operations.md) >> bWidth
 
 As of 2.8 the goal is to try to be more non destructive so the default is now angle which ignores edge weights.
 
-> [Csharp](csharp.md) : In the event you desire classic behavior set workflow to weight in the ctrl + ~ helper.
+> [Csharp](csharpen.md) : In the event you desire classic behavior set workflow to weight in the ctrl + ~ helper.
 
 ![bevelwidth](img/bwidth/b8.gif)
 
-If the mesh is [csharp](csharp.md) / [cstep](step.md):
+If the mesh is [csharp](csharpen.md) / [cstep](step.md):
 
 Q >> bWidth (after csharp)
 
@@ -84,7 +84,7 @@ Usage of the N - flip normal in action.
 
 # Modifier Differences For Undefined / Csharp meshes
 
-The option is intended to be generally used in the Q menu following the [csharp](csharp.md) operation.
+The option is intended to be generally used in the Q menu following the [csharp](csharpen.md) operation.
 
 The bevel default modifier created is like this:
 
