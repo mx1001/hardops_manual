@@ -1,5 +1,11 @@
 ### FAQs / SFQs
 
+# What happened to the topbar!?
+
+Right click object mode and enable it.
+
+![mir](img/faq/how3.gif)
+
 # What kind of geo can I expect from booleans?
 
 Something like this. Booleans solve as they will and with the most minimal of edges.
