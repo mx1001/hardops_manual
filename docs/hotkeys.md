@@ -87,8 +87,11 @@ When it comes to Hard Ops there is more than one way to perform a boolean operat
 ![hotkey](img/hotkeys/h8.gif)
 
 The HOPS Boolean hotkeys are as follows.
+
 - CTRL + NUMPAD Minus - Cut
+
 - CTRL + NUMPAD Plus - Add
+
 - CTRL + NUMPAD Slash - Cslash / Cut and split
 
 ---
@@ -120,8 +123,11 @@ Hard Ops mirror is alt + X. This represents the final solution in mirroring with
 ![hotkey](img/hotkeys/h3.gif)
 
 3 mirrors available
+
 - Modifier / mirrors mesh and bisects it on a mesh level. This makes this optimal for booleans.
+
 - Bisect / useful for symmetry modelling. Not for booleans. Can cause issues in boolean workflows but is optimized for tradititional mirroring pipelines
+
 - Symmetrize / one and done. Symmetrizes to the other side without further issue or interaction needed.
 
 # Shortest Path - D / Also ctrl + left click by default in 2.8

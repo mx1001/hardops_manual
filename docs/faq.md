@@ -18,6 +18,37 @@ All hardOps does is help user make these mistakes quicker so they can be correct
 
 ___
 
+# I was not logged in when purchasing your product. How do I get the latest update?
+
+## Blendermarket
+
+
+[Purchase Retreival](https://support.blendermarket.com/article/16-how-to-retrieve-your-purchase)
+
+The product should be listed under [orders](https://www.blendermarket.com/account/orders) on your Blendermarket account. Having the product on your account is essential for the updates that come frequently due to changes with Blender.
+
+![mir](img/faq/f16.png)
+
+For additional assistance blendermarket can be contacted at [support@blendermarket.com](support@blendermarket.com)
+
+## Gumroad
+
+When it comes to gumroad you can view products in [your library](https://gumroad.com/library).
+
+If you are unable to login you will need to locate the purchase email and use that to connect the product to your account.
+
+ ![mir](img/faq/f15.png)
+
+ If you are logged into your gumroad account you should see view product or download on the sales pages for the purchase related to you. [Alternatively the library will show all your purchases.](https://gumroad.com/library)
+
+[HardOps](https://gumroad.com/l/hardops)
+
+[Boxcutter](https://gumroad.com/l/BoxCutter)
+
+[hopsCutter](https://gumroad.com/l/hopscutter)
+
+___
+
 # How do I update Hard Ops / Boxcutter?
 
 Q: I haven't used HardOps for a while and need to update. Where do I get the latest update?

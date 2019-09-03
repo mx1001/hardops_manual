@@ -68,7 +68,7 @@ In the example I had to go back and do edit mode sharpening on those two edges a
 
 ## Why Ssharpen
 
-If you were to ssharpen manually you would have to click smooth, set autosmooth, go in edit mode select sharps based off of angle then mark as crease / sharp / seam / bevel weight. For simplicity we call that marking ssharp. To do this manually would put unwanted wear on your keyboard not to mention and countable amount of additional clicks.
+If you were to ssharpen manually you would have to click smooth, set autosmooth, go in edit mode select sharps based off of angle then mark as crease / sharp / seam / bevel weight. For simplicity we call that marking ssharp. To do this manually would put unwanted wear on your keyboard not to mention and uncountable amount of additional clicks.
 
 ![ssharpen](img/ssharpen/s1.gif)
 

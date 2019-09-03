@@ -46,6 +46,7 @@ pages:
         - Understanding Subdivision: subdivision.md
         - decalMACHINE: decalmachine.md
     - Changelog: changelog.md
+    - Reporting Issues: issues.md
 
 markdown_extensions:
     - admonition
