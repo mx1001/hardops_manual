@@ -34,8 +34,8 @@ pages:
         - 2dbevel: 2dbevel.md
     - Hard Ops Menus / Options:
         - Menu System: menu_system.md
-        - Operations Submenu (Object Mode): operations.md
-        - Meshtools Submenu (Object Mode): meshtools.md
+        - Operations (Object Mode): operations.md
+        - Meshtools (Object Mode): meshtools.md
         - HOPS Helper: helper.md
         - HUD / Overlay: hud.md
         - Material Menu / Helper: tips_material_menu.md
