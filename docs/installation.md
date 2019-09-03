@@ -6,11 +6,11 @@
 
 The [official version](https://www.blender.org/download/) on the website is always supported first and foremost but the developments also cover [buildbot](http://builder.blender.org/).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tHJDomAqAl8" frameborder="0" allowfullscreen></iframe>
 ---
 
 ## Hard Ops Installation     
 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=oMZrQ6ZHKm0" frameborder="0" allowfullscreen></iframe>
 
 Updating Blender requires the latest updates.
 https://builder.blender.org/download
