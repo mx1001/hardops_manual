@@ -7,11 +7,14 @@ Hard Ops's menu can be best explained through the Q menu that shows in an [undef
 ![menu](img/menu/mn1.png)
 
 Besides the name its best broken down as follows:
-- 3 Recommended Options
+- Recommended Options
 - [Operations](operations.md) Menu
-- Aux Options ([meshtools](meshtools.md), [insert](inserts.md), [settings](settings.md) submenus)
+- Add Modifier
+- Aux Options ([meshtools](meshtools.md) and [settings](settings.md) submenus)
+- [KitOps](inserts.md)
+- Blender Quick Favorite menu that is traditionally on the Q button.
 
-The first 3 options I refer to as the big 3. They are based off of the workflow in HOPS and changes dynamically. By keeping it at 3 the menu remains consistent despite context. This is at least visually appealing and has also created a level of control we didn't initially plan for.
+The first 3 options are based off of the workflow in HOPS and changes dynamically. By keeping it at 3 the menu remains consistent despite context. This is at least visually appealing and has also created a level of control we didn't initially plan for.
 
 In this example you can see the menu changing based off of context in this short example.
 

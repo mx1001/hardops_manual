@@ -1,8 +1,228 @@
 ### FAQs / SFQs
 
-# How is HOPS / Boxcutter progressing for Blender 2.8?
+# What kind of geo can I expect from booleans?
 
-It is in progress.
+Something like this. Booleans solve as they will and with the most minimal of edges.
+
+![mir](img/faq/how1.gif)
+
+All hardOps does is help user make these mistakes quicker so they can be corrected and controlled even faster.
+
+___
+
+# How do I update Hard Ops / Boxcutter?
+
+Q: I haven't used HardOps for a while and need to update. Where do I get the latest update?
+
+Blendermarket: [log into your account and go under orders in the dropdown of the upper right list.](https://www.blendermarket.com/account/orders)
+
+Gumroad: [log into your account then access the](https://gumroad.com/library) [HardOps](https://gumroad.com/l/hardops) or [Boxcutter](https://gumroad.com/l/BoxCutter) pages.
+
+The top file is always the latest.
+
+Q: How do I get up to speed with the tool?
+
+A: In the N panel or HOPS button is an option called Hard Ops learning that is built to help users find the documentation or [tutorial](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0) content. Every major version I usually make a new course set of materials to show off the tools.
+
+___
+
+
+# Obligatory Text
+
+[Having the most up to date 2.8 is recommended](https://builder.blender.org/download)
+
+[Blender Update Utility](https://github.com/DotBow/Blender-Version-Manager/releases)
+
+Accessing previous orders.
+
+- Gumroad - https://gumroad.com/library
+- Blendermarket - https://www.blendermarket.com/account/orders
+- BM Support: https://gfycat.com/UnevenSmartGadwall
+
+[Support Channels](https://thumbs.gfycat.com/FastInferiorGlowworm-mobile.mp4)
+
+Boxcutter
+
+![mir](https://i.imgur.com/axYJ8P7.png)
+
+hardOps
+
+![mir](https://i.imgur.com/W2XjC9R.gif)
+
+![mir](img/faq/how2.gif)
+
+Gumroad
+- [hopsCutter](https://gum.co/hopscutter)
+- [boxcutter](https://gum.co/BoxCutter)
+- [hardops](https://gum.co/hardops)
+
+Blendermarket
+- [hopsCutter](https://www.blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle)
+- [boxcutter](https://www.blendermarket.com/products/boxcutter)
+- [hardops](https://www.blendermarket.com/products/hardopsofficial)
+
+Artstation
+- [hopsCutter](https://www.artstation.com/jerryperkins1447/store/D7aM/hard-ops-boxcutter-ultimate-bundle)
+
+___
+
+# How do I apply a boolean I set up with Hard Ops?
+
+Quickest answer. Apply the modifier. A boolean is just a modifier in your modifier stack. However this isn't the quickest or most recommended.
+
+![mir](img/faq/faq1_3.png)
+
+First lets set up a boolean and examine what is happening.
+
+![mir](img/faq/faq1_1.gif)
+
+By pressing (ctrl + ~) or using the N panel or HOPS mini helper I am able to see the modifiers on the object via the helper. This can be an easy way to quickly see whats happening with an object in the 3d view.
+
+From the helper you can apply like and modifier or apply it using csharpen which is one of the primary purposes of the behavior.
+
+![mir](img/faq/faq1_2.gif)
+
+Csharpen is being used in the above example to apply the modifier as you work forward thus making the workflow faster and easier than going through panels and menus.
+
+
+# How Do I Install Hard Ops / Boxcutter?
+
+ [See Install](installation.md)
+
+
+# Why is the add-on checker not working?
+
+![](img/start1/ad2.png)
+
+The recommended addons will show checkboxes when the supported plugins are present.
+
+This can have issues if the naming is different than what it is looking for.
+BoxCutter for example requires the folder is named "BoxCutter"
+
+If the naming is not exact this will cause issues. Just rename the .py to resolve the issue.        
+
+The naming is as follows.       
+
+- [Boxcutter](https://gumroad.com/l/BoxCutter/)     
+- [kitops](https://gumroad.com/l/kitops)     
+- [mira_tools](http://blenderartists.org/forum/showthread.php?366107-MiraTools)     
+- [meshmachine](https://www.blendermarket.com/products/MESHmachine)
+- [Group Pro](https://gumroad.com/l/GroupPro/)
+- [bms](https://gumroad.com/l/bezier_mesh_shaper)
+- [power_snapping_pies](https://github.com/mx1001/power_snapping_pies)
+- [DECALmachine](https://gumroad.com/l/DECALmachine/)       
+- [Batch Operations](http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/BatchOperations)        
+
+
+
+This can be an issue to some however it is recommended to just check the folder naming. We are currently looking into improving it but it was intended to be a quick checklist to assist with troubleshooting.
+
+To troubleshoot further you also can run the following command in the scripting area of the scripting tab.
+
+**bpy.context.preferences.addons.keys()**
+
+![install](img/install/ins3.gif)
+
+This will show a list of all the add ons present. This is how we troubleshoot this area when the plugin detection is not working.
+
+___
+
+# Why am I having issues when I boolean certain areas?
+
+see [boolean tips](tips_boolean.md)
+
+___
+
+# What is Cstep / step?
+
+In short.
+
+**Cstep** - cstep is an [sstatus](sstatus.md) for baking bevels while keeping a bevel modifier active for new intersectional bevelling.
+
+**step** - bakes bevels while adding a bevel modifier back to the mesh for new bevelling.
+
+[See Step](step.md)
+
+___
+
+# Why is my mesh hidden when I step?
+
+Step hides the mesh when used. See [How does step work technically](step.md)
+
+  - press alt + h to unhide mesh
+  - press h to hide mesh
+
+
+# Can I get out of Cstep?
+
+Absolutely. Q >> meshtools >> sstatus reset
+
+> **q >> meshtools >> status reset** will reset any mesh back to a default state. Causing the Q menu dynamic options to also be default instead of cstep oriented.
+
+___
+
+# Why is it called Step / Cstep / Ssharpen / Cssharpen?
+
+The naming made sense at the time but the functions are best described like so. Someday the tools will be unified into something more logical however in the meantime we needed some sort of terminology for naming.
+
+When I was originally writing a book about modelling I found myself saying repeatedly:
+tab >> editmode >> select sharps >> mark sharp >> mark seam >> mark crease >> mark bevel weight
+
+Over time I just simplified it into that for my own sake however after they became tools the names just stuck.
+Since it's version 9, changing names might confuse actual users just to appease people who possibly are not even using the tool nor plan to.
+
+___
+
+# Help! Why doesn't this add-on show activated in the add-on checker!
+
+![](img/faq/ad2.png)
+
+By using this line in the scripting area of blender you can see all the add-ons  activated.
+
+**bpy.context.preferences.addons.keys()**
+
+![](img/faq/addon1.gif)
+
+The Boxcutter add-on folder requires the naming be "BoxCutter"
+
+You can also find the foldername in the addon file area.
+
+![](img/faq/faq28.png)
+
+This is how it would be fixed in the add-ons directory.
+
+![](img/faq/faq27.gif)
+
+
+Mira tools also is the same way.
+
+![img](img/faq/f1.png)
+
+In my add ons folder it is just called mira_tools. For this addon it can get complicated since the naming is rather specific.
+
+I must add that the add on checker doesn't really matter. It was attempted to be a convenience thing. However some issues that users find with it is due to the naming.
+
+___
+
+## Mira Tools
+
+# Why doesn't curveStretch show up in the Q menu?
+
+![img](img/faq/faq2_1.png)
+
+Check the add on preferences for Hard Ops under the add on tab. If Mira tools is not enabled you must download and install it.
+
+[Mira Tools](https://github.com/mifth/mifthtools/archive/master.zip) /
+[Thread](https://blenderartists.org/forum/showthread.php?366107-MiraTools)
+
+If mira tools is not enabled the icon next to the button will show an error.
+
+![img](img/faq/faq2_2.png)
+
+The below example shows how installing it and enabling it allows HOPS to use it as well.
+
+![](img/faq/faq2_3.gif)
+
 ___
 
 # What is the difference between [Hard Ops](https://gumroad.com/l/hardops/) and [Boxcutter](https://gumroad.com/l/BoxCutter)?
@@ -74,123 +294,6 @@ I recommend to use [Meshmachine](https://gumroad.com/l/MESHmachine/) and bring i
 
 ___
 
-# How do I update Hard Ops / Boxcutter?
-
-Q: I haven't used HardOps for a while and need to update. Where do I get the latest update?
-
-Blendermarket: [log into your account and go under orders in the dropdown of the upper right list.](https://www.blendermarket.com/account/orders)
-
-Gumroad: [log into your account then access the](https://gumroad.com/library) [HardOps](https://gumroad.com/l/hardops) or [Boxcutter](https://gumroad.com/l/BoxCutter) pages.
-
-The top file is always the latest.
-
-Q: How do I get up to speed with the tool?
-
-A: In the N panel or HOPS button is an option called Hard Ops learning that is built to help users find the documentation or [tutorial](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0) content. Every major version I usually make a new course set of materials to show off the tools.
-
-___
-
-# Obligatory Text
-
-Having the most up to date 2.8 is recommended.
-Blender 2.8 - https://builder.blender.org/download
-Blender Update Utility - https://github.com/DotBow/Blender-Version-Manager/releases
-Accessing previous orders.
-Gumroad - https://gumroad.com/library
-Blendermarket - https://www.blendermarket.com/account/orders
-BM Support: https://gfycat.com/UnevenSmartGadwall
-
-Support Channels
-[Link 1](https://thumbs.gfycat.com/FastInferiorGlowworm-mobile.mp4)
-
-![mir](https://i.imgur.com/axYJ8P7.png)
-
-![mir](https://i.imgur.com/W2XjC9R.gif)
-
-- Gumroad
-https://gum.co/hopscutter
-https://gum.co/BoxCutter
-https://gum.co/hardops
-
-- Blendermarket
-https://www.blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle
-https://www.blendermarket.com/products/boxcutter
-https://www.blendermarket.com/products/hardopsofficial
-
-- Artstation
-https://www.artstation.com/jerryperkins1447/store/D7aM/hard-ops-boxcutter-ultimate-bundle
-
-
-
-___
-
-# How do I apply a boolean I set up with Hard Ops?
-
-Quickest answer. Apply the modifier. A boolean is just a modifier in your modifier stack. However this isn't the quickest or most recommended.
-
-![mir](img/faq/faq1_3.png)
-
-First lets set up a boolean and examine what is happening.
-
-![mir](img/faq/faq1_1.gif)
-
-By pressing (ctrl + ~) or using the N panel or HOPS mini helper I am able to see the modifiers on the object via the helper. This can be an easy way to quickly see whats happening with an object in the 3d view.
-
-From the helper you can apply like and modifier or apply it using csharpen which is one of the primary purposes of the behavior.
-
-![mir](img/faq/faq1_2.gif)
-
-Csharpen is being used in the above example to apply the modifier as you work forward thus making the workflow faster and easier than going through panels and menus.
-
-
-# How Do I Install Hard Ops / Boxcutter?
-
- [See Install](installation.md)
-
-
-# Why is the add-on checker not working?
-
-![](img/start1/ad2.png)
-
-The recommended addons will show checkboxes when the supported plugins are present.
-
-This can have issues if the naming is different than what it is looking for.
-BoxCutter for example requires the folder is named "BoxCutter"
-
-If the naming is not exact this will cause issues. Just rename the .py to resolve the issue.        
-
-The naming is as follows.       
-
-- [Boxcutter](https://gumroad.com/l/BoxCutter/)     
-- [kitops](https://gumroad.com/l/kitops)     
-- [mira_tools](http://blenderartists.org/forum/showthread.php?366107-MiraTools)     
-- [meshmachine](https://www.blendermarket.com/products/MESHmachine)
-- [Group Pro](https://gumroad.com/l/GroupPro/)
-- [bms](https://gumroad.com/l/bezier_mesh_shaper)
-- [power_snapping_pies](https://github.com/mx1001/power_snapping_pies)
-- [DECALmachine](https://gumroad.com/l/DECALmachine/)       
-- [Batch Operations](http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/BatchOperations)        
-
-
-
-This can be an issue to some however it is recommended to just check the folder naming. We are currently looking into improving it but it was intended to be a quick checklist to assist with troubleshooting.
-
-To troubleshoot further you also can run the following command in the scripting area of the scripting tab.
-
-**bpy.context.preferences.addons.keys()**
-
-![install](img/install/ins3.gif)
-
-This will show a list of all the add ons present. This is how we troubleshoot this area when the plugin detection is not working.
-
-___
-
-# Why am I having issues when I boolean certain areas?
-
-see [boolean tips](tips_boolean.md)
-
-___
-
 # How do I bake alpha maps / height maps from a Hard Ops model?
 
 I assume you mean bake in substance painter or get normal / height maps.
@@ -233,93 +336,3 @@ So the point of all this is to explain that a workflow exists however it is up t
 
 The beauty of hard ops is you can use as much or as little of it as you need for your preferred workflow. But many of the tools are designed with particular workflows in mind.
 ___
-
-
-# What is Cstep / step?
-
-In short.
-
-**Cstep** - cstep is an [sstatus](sstatus.md) for baking bevels while keeping a bevel modifier active for new intersectional bevelling.
-
-**step** - bakes bevels while adding a bevel modifier back to the mesh for new bevelling.
-
-[See Step](step.md)
-
-___
-
-# Why is my mesh hidden when I step?
-
-Step hides the mesh when used. See [How does step work technically](step.md)
-
-  - press alt + h to unhide mesh
-  - press h to hide mesh
-
-
-# Can I get out of Cstep?
-
-Absolutely. Q >> meshtools >> sstatus reset
-
-> **q >> meshtools >> status reset** will reset any mesh back to a default state. Causing the Q menu dynamic options to also be default instead of cstep oriented.
-
-___
-
-# Why is it called Step / Cstep / Ssharpen / Cssharpen?
-
-The naming made sense at the time but the functions are best described like so. Someday the tools will be unified into something more logical however in the meantime we needed some sort of terminology for naming.
-
-When I was originally writing a book about modelling I found myself saying repeatedly:
-tab >> editmode >> select sharps >> mark sharp >> mark seam >> mark crease >> mark bevel weight
-
-Over time I just simplified it into that for my own sake however after they became tools the names just stuck.
-Since it's version 9, changing names might confuse actual users just to appease people who possibly are not even using the tool nor plan to.
-
-___
-
-# Help! Why doesn't this add-on show activated in the add-on checker!
-
-![](img/faq/addon2.png)
-
-By using this line in the scripting area of blender you can see all the add-ons  activated.
-
-bpy.context.user_preferences.addons.keys()
-
-![](img/faq/addon1.gif)
-
-The Boxcutter add-on folder requires the naming be "BoxCutter"
-
-You can also find the foldername in the addon file area.
-
-![](img/faq/faq28.png)
-
-This is how it would be fixed in the add-ons directory.
-
-![](img/faq/faq27.gif)
-
-
-Mira tools also is the same way.
-
-![img](img/faq/f1.png)
-
-In my add ons folder it is just called mira_tools. For this addon it can get complicated since the naming is rather specific.
-
-I must add that the add on checker doesn't really matter. It was attempted to be a convenience thing. However some issues that users find with it is due to the naming.
-
-___
-## Mira Tools
-
-# Why doesn't curveStretch show up in the Q menu?
-
-![img](img/faq/faq2_1.png)
-
-Check the add on preferences for Hard Ops under the add on tab. If Mira tools is not enabled you must download and install it.
-
-[Mira Tools](https://github.com/mifth/mifthtools/archive/master.zip) /
-[Thread](https://blenderartists.org/forum/showthread.php?366107-MiraTools)
-
-If mira tools is not enabled the icon next to the button will show an error.
-
-![img](img/faq/faq2_2.png)
-
-The below example shows how installing it and enabling it allows HOPS to use it as well.
-
-![](img/faq/faq2_3.gif)
