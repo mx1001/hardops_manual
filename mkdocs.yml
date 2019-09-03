@@ -21,6 +21,7 @@ pages:
         - ClearSSharps: clearssharps.md
     - Systems:
         - hopsTool: hopsTool.md
+        - hopsSort: sorting.md
         - booleans: boolean.md
         - Sstatus: sstatus.md
         - Mirror: mirror_symmetry.md
