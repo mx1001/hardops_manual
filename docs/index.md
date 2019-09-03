@@ -55,8 +55,6 @@ see the [Introduction](introduction.md)
 
 goto [Video Playlist](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0)
 
-goto [User Videos](guest_user_content.md)
-
 ---
 
 [![](img\bc_demogun.png)](https://youtu.be/5VVtEozt11k"")
