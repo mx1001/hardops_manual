@@ -10,13 +10,27 @@ Ssharpen does the following things.
 
 For more information on how ssharpen came about see [sharpening](sharpening.md).
 
-After using ssharpen there is a F6 menu where you can adjust parameters and make changes post operation. However this is antiquated.
+After using ssharpen there is a F6 menu where you can adjust parameters and make changes post operation. However this is antiquated and could possibly [crash in Blender 2.8](https://builder.blender.org/download).
 
-The classic F6 menu is shows below.
+The classic F6 menu is shown below.
 
 ![ssharpen](img/ssharpen/s12.png)
 
-So in short ssharp is all the processes mentioned above combined into one tool for quick hard surface smoothing. This is considered soft smoothing.
+Additive mode will made ssharpen add new sharp edges
+  - unchecking it will make it recalculate the sharps on the mesh
+  - this is normally checked by default so manually marked edges won't be overwritten
+
+  Additive mode on. Notice how edges I mark in edit mode remain marked.
+
+  ![ssharpen](img/ssharpen/s13.gif)
+
+  Additive mode off. Recalculated and marked based off of angle. Sometimes this is useful.
+
+  ![ssharpen](img/ssharpen/s14.gif)
+
+The global toggle on by default ensures the options set here will be repeated next time. Uncheck this to use these setting only once this instance. This remains on by default and we rarely turn it off if ever.
+
+So in short ssharp is all the processes mentioned above combined into one tool for quick hard surface smoothing. This is considered soft smoothing. The majority of time. The edges I mark are marked for a reason. But if you ever need to recalculate all the option is there for you.
 
 There is also a video on this topic specifically.
 
@@ -36,7 +50,7 @@ The only parameter to go into in the F6 is the Additive mode.
 
 Additive mode is checked by default and basically makes the ssharps not overwrite previous ssharps and their levels.
 
-Unchecked this will remove all ssharps and mark them again which can be useful in some situations.
+Unchecked this will remove all ssharps and mark them again which can be useful in some situations. But in the below case you can see at 60 the remarking was not so successful.
 
 ![ssharpen](img/ssharpen/s7.gif)
 
@@ -48,13 +62,19 @@ Additive mode being off can also have annoyances which is why this is an alterna
 
 ## Inside Out Sharpening
 
-Over the course of using SSharpen on thousands of parts it has become apparent that using the F6 menu to change parameters can sometimes be risky and a one way trip to the desktop in some cases. Because of this we put the ssharpening parameters outside in various panels to experiment with adjusting the behavior in advance to try and maintain stability.
+Over the course of using SSharpen on thousands of parts it has become apparent that using the lower left menu that no longer floats to change parameters can sometimes be risky and a one way trip to the desktop in some cases. Because of this we put the ssharpening parameters outside in various panels to experiment with adjusting the behavior in advance to try and maintain stability.
 
 ![ssharpen](img/ssharpen/s9.gif)
 
 Working this way can be more risky however with complex meshes so for that reason the ssharpening paramerters are located outside of the operator.
 
-![ssharpen](img/ssharpen/s10.png) ![ssharpen](img/ssharpen/s11.png)
+It formerly was like this in 2.79
+
+![ssharpen](img/ssharpen/s10.png)
+
+As of now these options are in the [helper](helper.md) / N panel and hopsMini helper.
+
+![ssharpen](img/ssharpen/s11.png)
 
 The 30 / 45 / 60 buttons are presets for degress. Even this has a purpose. For example if you are cutting a bevelled mesh with 3 segments into another mesh. It will get caught at 30. However at 45 the sharpening is optimized to behave better.
 
@@ -68,12 +88,15 @@ In the example I had to go back and do edit mode sharpening on those two edges a
 
 ## Why Ssharpen
 
+>> Sharpen also is ran in edit mode with Set Sharp if nothing is selected. Otherwise it just marks / unmarks the selection. This can be handy for using ssharpen without exiting edit mode.
+
 If you were to ssharpen manually you would have to click smooth, set autosmooth, go in edit mode select sharps based off of angle then mark as crease / sharp / seam / bevel weight. For simplicity we call that marking ssharp. To do this manually would put unwanted wear on your keyboard not to mention and uncountable amount of additional clicks.
 
 ![ssharpen](img/ssharpen/s1.gif)
 
 
-> SSharpen does not add a bevel modifier or any modifier of any kind.
+> SSharpen does not add a bevel modifier or any modifier of any kind. It only smooths the object and marks edges.
+As a result we feel it is the softer of the duo ssharpen/scharpen
 
 ---
 

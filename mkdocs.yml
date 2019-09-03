@@ -20,13 +20,14 @@ pages:
         - cSlash: cslash.md
         - ClearSSharps: clearssharps.md
     - Systems:
+        - Booleans: boolean.md
         - hopsTool: hopsTool.md
         - hopsSort: sorting.md
-        - booleans: boolean.md
         - Sstatus: sstatus.md
         - Mirror: mirror_symmetry.md
         - Insert: inserts.md
         - Circulars: circular.md
+        - SketchOps: sketchops.md
     - Functions:
         - tThick: tthick.md
         - bWidth: bwidth.md
@@ -40,7 +41,7 @@ pages:
         - Material Menu / Helper: tips_material_menu.md
         - Rendersets: rendersets.md
         - Viewport Submenu: viewport.md
-    - Tips:
+    - Additional Tips:
         - Booleans And Curvature: tips_boolean.md
         - Boolean Tips: tips_boolean_exp.md
         - Understanding Subdivision: subdivision.md
