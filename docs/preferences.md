@@ -2,7 +2,7 @@
 
 ### Preferences
 
-After enabling Hard Ops a series of preferences will be shown.
+After enabling Hard Ops a series of preferences will be shown. For the most part nothing has to be configured before usage unless you use an alternate key config or don't have a ~ key.
 
 ![p1](img/prefs/pref1.gif)
 
@@ -16,15 +16,13 @@ Below is a description of the following options.
 
 - Modal Scale: determines the mouse distance for movement. Useful for scale modelling or large scale operations. Also located in the misc tab of the HOPS helper.
 
-- Pro Mode: always enable when enabling Hard Ops. This enables all the options and unlocks all the limits on the tools. Without this it is Hard Ops for Kids.
+- Popup DPI Factoring: uses the dpi for scaling of popups and helpers. No need to adjust this if the ctrl + ~ helper displays correctly.
 
-- Right Handed: Symmetry will behave on the right or left side with hard ops and if you work on the opposite side you can change the default behavior without the F6 (only for symmetrize)
+- Helper popup: has the helper show up with an ok button. This prevents the window from leaving when the cursor leaves the window.
 
-- Extra Options: this pref may or may not be shown but enables add on integration with certain tools. If it doesn't show it means it does not apply to you.
+- Bevel helper popup: has the helper show up with an ok button. This prevents the window from leaving when the cursor leaves the window.
 
-- Asset Management Integration - If using AM this will allow their loader in the insert menus.
-
-- [Mira Tools](http://blenderartists.org/forum/showthread.php?366107-MiraTools) Expansion - with Hops 9 we attempted to create a frontend for the curve stretch and curve deform operators that are supported in HOPS. We may expand on it in the future.
+- Use Kitops popup: has the helper show up with an ok button. This prevents the window from leaving when the cursor leaves the window.
 
 ---
 
@@ -35,29 +33,7 @@ The drawing tab contains options that determine how the drawing system of Hard O
 
 Enable Tool Overlays: enables HOPS drawing in the 3d viewport. This should always be enabled.
 
-Below are 3 custom themes color.
-- Hard Ops (default theme used by myself)
-- AR (theme set up by AR)
-- Theme Grabber (themes hard ops based off of the theme set under themes)
-
-Theme grabber can be a quick way to get hard ops to be the same as your viewport allowing for some interesting sci fi themed modelling.
-
-![p4](img/prefs/p4.gif)
-
-Display text status and display undefined sstaus are worth explanation here as well.
-
-Display Text Sstatus: shows a text status in the corner letting users know the SStatus of the object.
-
-![p4](img/prefs/p5.gif)
-
-Display Undefined Sstaus: shows the sstatus in the corner even if a mesh is undefined.
-
-There is a logo as well in the 3d view that shows up if the mesh is going through csharp / boolshape / cstep sstatus changes. The placement can be adjusted with the Logo x / y parameters.
-![p7](img/prefs/p7.png)
-
-Here you can see the logo changing in the corner as I work with the mesh and various operators.
-
-![p4](img/prefs/p6.gif)
+The rest are colors for tools and systems.
 
 ---
 
@@ -106,14 +82,15 @@ If the naming is not exact this will cause issues. Just rename the .py to resolv
 
 The naming is as follows.       
 
-- [BoxCutter](https://gumroad.com/l/BoxCutter/)     
-- [Group Pro](https://gumroad.com/l/GroupPro/)      
+- [Boxcutter](https://gumroad.com/l/BoxCutter/)     
+- [kitops](https://gumroad.com/l/kitops)     
+- [mira_tools](http://blenderartists.org/forum/showthread.php?366107-MiraTools)     
+- [meshmachine](https://www.blendermarket.com/products/MESHmachine)
+- [Group Pro](https://gumroad.com/l/GroupPro/)
+- [bms](https://gumroad.com/l/bezier_mesh_shaper)
+- [power_snapping_pies](https://github.com/mx1001/power_snapping_pies)
 - [DECALmachine](https://gumroad.com/l/DECALmachine/)       
-- [Mira Tools](http://blenderartists.org/forum/showthread.php?366107-MiraTools)     
-- [Batch Operations](http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/BatchOperations)        
-- [Pipe Nightmare](https://blenderartists.org/forum/showthread.php?414316-Addon-Pipe-Nightmare-0-3-31)      
-- [Easy Lattice](http://blenderaddonlist.blogspot.com/2013/10/addon-quick-easy-lattice-object.html)     
-- [Auto Mirror](http://blenderaddonlist.blogspot.com/2014/07/addon-auto-mirror.html)        
+- [Batch Operations](https://gumroad.com/l/batchops)      
 
 Also the above texts are hyperlinks to their locations.
 

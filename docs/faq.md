@@ -117,7 +117,7 @@ The naming is as follows.
 - [bms](https://gumroad.com/l/bezier_mesh_shaper)
 - [power_snapping_pies](https://github.com/mx1001/power_snapping_pies)
 - [DECALmachine](https://gumroad.com/l/DECALmachine/)       
-- [Batch Operations](http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/BatchOperations)        
+- [Batch Operations](https://gumroad.com/l/batchops)        
 
 
 
