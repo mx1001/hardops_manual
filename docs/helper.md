@@ -1,19 +1,23 @@
 ![header](img/banner.gif)
 
-# Hard Ops helper / HOPS Helper (CTRL + ~)
+# Hard Ops helper / HOPS Helper (CTRL + ~) /
 
 
-HOps helper is special Hard Ops menu with quick access to modifiers / materials and even and advanced section with mesh options and sharpening customization.
+HOps helper is special Hard Ops menu with quick access to modifiers / materials and even and advanced section with mesh options and sharpening customization. This is also in the N panel to make it easier and more permeant.
 
-The Hops helper is one of the more beloved features in Hard Ops and fullfills needs that are required for full screen working.
+![](img/helper/hh17.gif)
 
-You can call the helper by pressing **CTRL + ~** with a mesh selected.
+This should make HOPS more approachable since the most important options can be found in multiple locations.
 
-![](img/helper/hh2.gif)
+The Hops helper is one of the more beloved features in Hard Ops and fulfills needs that are required for full screen working.
 
-The HOPS helper requires window buffer options to work correctly in prefs / system.
+You can call the helper by pressing **CTRL + ~** or use the HOPS button in the top right.
 
-![](img/helper/hh16.png)
+![](img/helper/hh17.png)
+
+Or press N and use our N panel.
+
+![](img/helper/hh18.gif)
 
 When I first started 3d I asked... could the modifiers be in the 3d view? I was told no. End of story...
 
@@ -21,9 +25,9 @@ When I first started 3d I asked... could the modifiers be in the 3d view? I was 
 
 This tab lists the modifers on the active selected object. You are also able to adjust / collapse / reorder / remove them.
 
-![](img/helper/hh2.gif)
+![](img/helper/hh_1.gif)
 
-There are also buttons up top for collapsing / expanding all modifiers.
+There are also buttons up top for showing / collapsing / expanding all modifiers.
 
 ![](img/helper/hh3.gif)
 
@@ -38,17 +42,17 @@ The material tab is like the Modifier helper except for materials. With ver9 it 
 As of ver 8.7 there is also the Material Cutter.
 With this you can specify a material for boolean operations.
 
-![](img/helper/hh5.gif)
+![bool](img/boolean/ll13.gif)
 
 The material cut extends into cslash and booleans.
 
-### Misc Tab
+### Workflow Tab
 
-Last but certainly not least is the Misc tab.
+Last but certainly not least is the workflow tab. This is the top button of the helper and the most important.
 
 This contains various misc Hard Ops related operations.
 
-![](img/helper/hh6.png)
+![](img/helper/hh6.gif)
 
 A brief description of the following sections.
 
