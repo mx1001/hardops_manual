@@ -106,7 +106,9 @@ Ssharpen can be used to update the ssharpening on a mesh after mesh operations l
 
 ![ssharpen](img/ssharpen/s3.gif)
 
-Ssharpen can also be used as an updater for [Csharpen](csharpen.md). Once a mesh is in a Csharp state (bevelled) you can use ssharpen to get update bevel weights.
+![ssharpen](img/ssharpen/ss15.gif)
+
+Ssharpen can also be used as an updater for [Csharpen](csharpen.md) **in weight**. Once a mesh is in a Csharp state (bevelled) you can use ssharpen to get update bevel weights.
 This is the secondary use of ssharpen.
 
 ![ssharpen](img/ssharpen/s4.gif)
@@ -127,12 +129,12 @@ Sometimes the right marking of an edge can be the difference between smoothing a
 ![ssharpen](img/ssharpen/s2.gif)
 
 This was something I discovered by accident but found to be quite essential.
-If you put a subsurf on the default cylinder you lose the form, but with the creasing in the right area you can prevent the form from collapsing and add roundness to the area you intend.
+If you put a subsurf on the default cylinder you lose the form, but with the creasing in the right area you can prevent the form from collapsing and add roundness to the are a you intend.
 
 # Mark Seams For Quick Selections
 When utilized with the seams checkbox in either the helper or the tpanel, you can make face selections in edit mode with L (select linked)
 
-![ssharpen](img/ssharpen/s1.png)
+![ssharpen](img/ssharpen/ss14.gif)
 
 This is utilized for material assignment or face extraction.
 
@@ -143,10 +145,10 @@ This is utilized for material assignment or face extraction.
 ### sSharpen use cases
 
 - calculating ssharps on meshes
-![ns2](img/step/ns2.gif)
+![ssharpen](img/ssharpen/s13.gif)
 
 - recalculating ssharps on meshes
-![ns3](img/step/ns3.gif)
+![ssharpen](img/ssharpen/s14.gif)
 
 Recalculation is done via the F6 menu that is available after running the operator.
 
@@ -154,7 +156,7 @@ Recalculation is done via the F6 menu that is available after running the operat
 
 ### SSharpen F6 options
 
-![ss2](img/step/ns4.png)
+![ssharpen](img/ssharpen/s12.png)
 
 1. sharpness
    * edge angle to witch sharpening is applied - default 30
@@ -166,37 +168,11 @@ Recalculation is done via the F6 menu that is available after running the operat
    * ON - apply defined sharpness and keeps other already existing sharp edges
    * OFF - clears all sharp edges before applying its own sharpness
 
----
+2. global
+  * ON - ensures the options set here will be repeated next time
+  * OFF - uncheck this to use these setting only once this instance.
 
-## Advanced sSharpen
-
-sSharpen is also used as a non destructive updater for cSharpen.
-![ss2](img/step/ns6.gif)
-
-In situations where the mesh modelling is done manually via the user in edit mode sometimes it is optimal to refresh the sharpening information.
-
-sSharpen goes deeper than the initial use case and usability. In the Hard Ops Helper ctrl + tilda there is options for adjusting the behavior before tool usage.
-
-![ss2](img/step/ns5.gif)
-
-This can come in handy for situations where you are using the boolean and bevel with low segements which normally would be caught in csharpen.
-
----
-
-## SSharpen Additive Mode / Re-Sharpen
-
-> Back in version 004 we experimented with a sharpener called Re-Sharpen. In the end is was merged with sSharpen.
-
-When Additive mode is unchecked, ssharpen behaves as resharpen. This differs because ssharps are cleared and recalculated. ***This will remove custom marks of other levels as well.***
-
-![ssharpen](img/ssharpen/ss13.gif)
-
-![ss2](img/step/ns4.png)
-
-3. additive mode
-   * ON - apply defined sharpness and keeps other already existing sharp edges
-   * OFF - clears all sharp edges before applying its own sharpness
-
+  This remains on by default and we rarely turn it off if ever.
 
 ---
 
