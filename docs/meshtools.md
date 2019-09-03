@@ -6,13 +6,24 @@
 
 ![mt](img/meshtools/mt1.png)
 
-Meshtools are tools that perform quick operations that I use quite often in my workflow. There are also options for materials and a shortcut to the [HOPS Helper](helper.md). These options are just random tools and experiements that are useful in the hard ops workflow at certain points.
+Meshtools are tools that perform quick operations that I use quite often in my workflow. There are also options for materials and a shortcut to the [HOPS Helper](helper.md). These options are just random tools and experiments that are useful in the hard ops workflow at certain points.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iSQjRdiomlw" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-## StatusReset
+## Plugin
+
+Extendable submenu for 3rd party tools that HOPS connects with.
+
+Currently extends to the following
+- meshmachine
+- bezier mesh shaper
+- mira tools
+
+---
+
+## HOPS Reset
 
 Sometimes in the Hard Ops workflow you can go off the rails and apply modifiers or decide to escape the auto hiding behavior of [cstep](step.md) sstates.
 
@@ -47,6 +58,25 @@ array count - amount of arrayed elements
 
 destructive / non - will re-center and apply modifiers by re-calucating origin
 
+---
+
+## Reset Axis
+
+
+
+---
+
+## Material List (Alt + M)
+
+see [materials](tips_material_menu.md).
+
+Pressing alt + M will list all the materials in your scene. If you have no materials this list will be blank.
+
+***HARD OPS provides no materials besides the placeholders for inserts that are simple shaders and not recommended for rendering***
+
+The material list has proven to be quite useful to assigning materials to assets. Just selecting things and pressing alt + m.
+
+![mt](img/meshtools/mt8.gif)
 
 ---
 
@@ -67,20 +97,6 @@ Pressing CTRL + ~ will open the HOPS helper. This tool is now capable of much mu
 ![mt](img/meshtools/mt7.gif)
 
 The HOPS helper is worth a look to see if the tool can fit in your workflow. The helper is indespensible for full screen working and has supercharged my personal workflow.
-
----
-
-## Material List (Alt + M)
-
-see [materials](tips_material_menu.md).
-
-Pressing alt + M will list all the materials in your scene. If you have no materials this list will be blank.
-
-***HARD OPS provides no materials besides the placeholders for inserts that are simple shaders and not recommended for rendering***
-
-The material list has proven to be quite useful to assigning materials to assets. Just selecting things and pressing alt + m.
-
-![mt](img/meshtools/mt8.gif)
 
 ---
 

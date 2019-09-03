@@ -3,6 +3,7 @@
 ### Circular Array
 
 Circular array can be found in the modifiers section of hard ops Q menu.
+
 ![cs1](img/circ1/c1.png)
 
 After adding additional segments can be added with array and distance adjusted with displace.
