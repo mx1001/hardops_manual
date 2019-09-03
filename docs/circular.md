@@ -19,3 +19,9 @@ The 3rd state will not use the 3d cursor and will launch the user into displace 
 ![cs1](img/circ1/c3.gif)
 
 At this time adjustment is done via array and displace modifier modals. This will be streamlined in the future but for now our next feature will have to do.
+
+# Circular Array w/ hopsTool
+
+When using hopsTool you can add circular array to any object and adjust it using dots.
+
+![cs1](img/circ1/c4.gif)
