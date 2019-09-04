@@ -5,6 +5,9 @@
 HardOps version 983 introduces the first active tool of Hard Ops called hopsTool. We intend for this tool to provide a simple ui to assist with modifier management for non destructive modelling in the 3d view.
 
 ![hotkey](img/hopstool/h1_1.gif)
+
+When hopsTool is active pressing ctrl will show up dots that can be adjusted for quick manipulation on the fly. Clicking the dot brings up the modifier for fine edit.
+
 ![hotkey](img/hopstool/h7.gif)
 
 If boxcutter is not installed the hotkey is alt + shift + W.
@@ -18,10 +21,10 @@ If boxcutter is installed then hopsTool is swapable with alt + W.
 [hopsTool will need the topbar to show.](https://twitter.com/mxeon1001/status/1123820309168177154)
 ![hotkey](img/hopstool/h3.gif)
 
-Display - options dictating what shows when ctrl is held.
-hShapes - procedural shapes for users to insert and get started with
-Modifiers - add modifiers on the fly w/ adjustable dots for certain ones
-Misc - mirror is the only option here for now.
+- Display - options dictating what shows when ctrl is held.
+- hShapes - procedural shapes for users to insert and get started with
+- Modifiers - add modifiers on the fly w/ adjustable dots for certain ones
+- Misc - mirror is the only option here for now.
 
 You are also able to simplify the topbar.
 
@@ -32,6 +35,7 @@ You are also able to simplify the topbar.
 # Boolean dots
 
 While hopsTool is active users can select 2 objects and hold ctrl to bring up boolean dots.
+
 - cut
 - join
 - slice
@@ -55,6 +59,7 @@ Using the [hopsTool](hopsTool.md) you can stack up bevels easily in the viewport
 ![](img/step/l1.png)
 
 There are 3 bevel icons.
+
 - corner bevel (intended for planes and vertice beveling
 - chamfer (bevel w/ 1 segment)
 - rounded bevel (3 segments default angle 30 / ctrl + click angle 60)
