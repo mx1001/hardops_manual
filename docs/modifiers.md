@@ -69,6 +69,26 @@ There is also a help panel.
 
 ___
 
+# [Mirror](mirror_symmetry.md)
+
+Mirror brings up the interactive mirror gizmo that offers 3 different ways to mirror.
+For more information see [Mirror](mirror_symmetry.md).
+
+![mirror](img/mirror/mmm1.gif)
+
+[This also has the hotkey alt+X.](hotkeys.md)
+
+Mirror has 3 different options.
+
+- modifier (new to 2.8)
+  - mirrors the mesh on the modifier level using bisect
+- bisect (classic)
+- symmetrize (symmetrize and be done) doesn't leave a modifier behind nor use one
+
+![mirror](img/mirror/m1.gif)
+
+___
+
 # Array
 
 Array will allow users to add or modify an array modifier on an object.
@@ -197,7 +217,7 @@ Adds a triangulate modifier to the selected object(s).
 
 ___
 
-# Lattice 
+# Lattice
 
 Adds a lattice modifier and lattice to the selected object(s).
 
@@ -209,20 +229,77 @@ Ctrl + click to add an additional one in the modifier stack.
 
 ___
 
-#
+# Shrinkwrap
+
+Adds a shrinkwrap modifier to the main object while shrinkwrapping it to the secondary object.
+
+![mod](img/modifiers/m21.gif)
 
 ___
 
-#
+# Wireframe
+
+Adds a wireframe modifier to the selected object(s).
+
+![mod](img/modifiers/m22.gif)
 
 ___
 
-#
+# Skin
+
+Adds a skin modifier to the selected object(s).
+
+![mod](img/modifiers/m23.gif)
 
 ___
 
-#
+## Custom Modifiers
 
 ___
 
-#
+# [2d Bevel](2dbevel.md)
+
+[2d Bevel](2dbevel.md) adds a bevel modifier (verts) to the selected object.
+
+This isn't intended for non-2d shapes. See the [2d Bevel](2dbevel.md) page for more info.
+
+![bevel](img/2dbevel/bv1.gif)
+
+It also has a use and button in hopsTool.
+
+![mod](img/modifiers/m24.png)
+
+![bevel](img/2dbevel/bvl9.gif)
+
+___
+
+# Spherecast
+
+Spherecast was made to turn cubes into sphere. When used spherecast does the following things.
+
+- adds a subdivision modifier level 3
+- adds a cast modifier(sphere) factor 1
+
+That's all it takes to turn a cube into a sphere.
+
+![mod](img/modifiers/m25.gif)
+
+___
+
+# [Circular Array](circular.md)
+
+[Circular Array](circular.md) does the following.
+
+- empty with a driver based off of Array
+- displace modifier to push the object outside for radius
+- array with offset based off of initial empty
+
+![mod](img/modifiers/m26.gif)
+
+for more details see [Circular Array](circular.md).
+
+Hovering over the option shows alternate creation types.
+
+![mod](img/modifiers/m27.png)
+
+___
