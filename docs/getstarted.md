@@ -66,7 +66,7 @@ The Q menu options are not just for meshes.
 
 Designed by AR and enhanced for released via collaboration hopsTool is the first active tool of HardOps and serves as a nice playground for non destructive modelling.
 
-hopsTool can be started via the Npanel. Once started the [topbar](https://twitter.com/mxeon1001/status/1123820309168177154) will populate with items.
+hopsTool can be started via the **Tpanel**. Once started the [topbar](https://twitter.com/mxeon1001/status/1123820309168177154) will populate with items.
 
 ![getstarted](img/getstart/g7.png)
 

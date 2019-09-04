@@ -16,7 +16,13 @@ If boxcutter is not installed the hotkey is alt + shift + W.
 If boxcutter is installed then hopsTool is swapable with alt + W.
 ![hotkey](img/hopstool/h2.gif)
 
+hopsTool also adds a nifty little n panel toolbar.
+
+![hotkey](img/hopstool/h18.png)
+
 # Breaking down the UI
+
+hopsTool is primarily able to be used via the topbar.
 
 [hopsTool will need the topbar to show.](https://twitter.com/mxeon1001/status/1123820309168177154)
 ![hotkey](img/hopstool/h3.gif)
