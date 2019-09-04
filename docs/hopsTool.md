@@ -58,11 +58,11 @@ Using the [hopsTool](hopsTool.md) you can stack up bevels easily in the viewport
 
 ![](img/step/l1.png)
 
-There are 3 bevel icons.
+There are 3 bevel icons in the topbar. All with special purposes.
 
-- corner bevel (intended for planes and vertice beveling
-- chamfer (bevel w/ 1 segment)
-- rounded bevel (3 segments default angle 30 / ctrl + click angle 60)
+- ![hotkey](img/hopstool/BevelCorners.png) corner bevel (intended for planes and vertice beveling
+- ![hotkey](img/hopstool/BevelChamfer.png) chamfer (bevel w/ 1 segment)
+- ![hotkey](img/hopstool/BevelAll.png) rounded bevel (3 segments default angle 30 / ctrl + click angle 60)
 
 To showcase each in action.
 
