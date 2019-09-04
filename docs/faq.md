@@ -8,6 +8,40 @@ Right click object mode and enable it.
 
 ![mir](img/faq/how3.gif)
 
+___
+
+# Why does it crash when using the operator properties?
+
+Blender 2.8 has been having issues with the undo / redo portion that is connected to the properties panel. When changing parameters theres a chance Blender could crash and take you to the desktop.
+
+![mir](img/faq/faq30.gif)
+
+In the above example I attempted to use csharp and adjust the F6 to trigger an issue. But it didn't come up. But this is a common issue.
+
+Another example is in boxcutter. Notice how changing the apply modifier area can cause a crash.
+
+![mir](img/faq/faq31.gif)
+
+ > At the top of boxcutter is a button that applies booleans. If tampered with it can quickly take you to the desktop. I'm my general use I dont mess with the F6 of this property because the purpose is only applying booleans.
+
+![mir](img/faq/faq32.png)
+
+![mir](img/faq/faq32.gif)
+
+>> [The hard ops thread can be a nice way to convey issues and find support when needed. ](https://blenderartists.org/t/hard-ops-thread/)
+
+[When crashes occur it can be handy to capture it and convey them to us.](issues.md)
+
+But F6 and undo / redo related issues are a known thing that is an issue all throughout 2.8 at this time.
+
+[In 2.7x there was also an issue with undo / redo and as a result we used outside properties to manage ssharp / csharp / booleans / clean mesh and marking.](https://hardops-manual.readthedocs.io/en/latest/ssharpen/#inside-out-sharpening)
+
+![mir](img/faq/faq34.png)
+
+In the hops helper / mini helper or n panel we have the workflow area which has some of those outside exposed properties you would normally adjust on F6. Since we put them outside we never looked back. I recommend spending some time getting acquainted with it.
+
+___
+
 # What kind of geo can I expect from booleans?
 
 Something like this. Booleans solve as they will and with the most minimal of edges.
