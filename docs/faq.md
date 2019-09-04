@@ -180,9 +180,19 @@ ___
 
 # Obligatory Text
 
-[Having the most up to date 2.8 is recommended](https://builder.blender.org/download)
+When it comes to having issues the first thing I'll recommend is updating. Theres a couple of ways to do that.
 
-[Blender Update Utility](https://github.com/DotBow/Blender-Version-Manager/releases)
+- [Buildbot](https://builder.blender.org/download)
+- [Official](https://www.blender.org/download/)
+- [Blender Update Utility](https://github.com/DotBow/Blender-Version-Manager/releases)
+  - I like the update utility because it keeps Blender up to date and works well.
+  - It's only for windows though.
+  - [BlenderUpdater is also nice.](https://github.com/overmindstudios/BlenderUpdater/releases)
+  ![mir](img/faq/ff2.png)
+
+![mir](img/faq/ff1.png)
+
+Anyways after having blender up to date comes ensuring you have the latest version.
 
 Accessing previous orders.
 
@@ -190,17 +200,34 @@ Accessing previous orders.
 - Blendermarket - https://www.blendermarket.com/account/orders
 - BM Support: https://gfycat.com/UnevenSmartGadwall
 
+When it comes to contacting us theres a couple of ways.
+
+Blendermarket
+
+![mir](img/faq/ff3.png)
+> Clicking that button will send us a message which can be easy.
+
+Gumroad
+
+Responding to any email I send should come back to me. Believe me people use that alot.
+
+
+>[Also I'm always on twitter so I can be messaged there as well. I probably post there the most. You can follow me for updates and occasional tips.](https://twitter.com/mxeon1001)
+
+
 [Support Channels](https://thumbs.gfycat.com/FastInferiorGlowworm-mobile.mp4)
 
-Boxcutter
+Boxcutter has a support button in the behavior panel. This will take you to our discord where we're haunted 24/7 with support issues.
 
 ![mir](https://i.imgur.com/axYJ8P7.png)
 
-hardOps
+hardOps has multiple help areas.
+
+![mir](img/faq/how2.gif)
 
 ![mir](https://i.imgur.com/W2XjC9R.gif)
 
-![mir](img/faq/how2.gif)
+Below are links to the direct sales pages which you can access the product via being logged in.
 
 Gumroad
 - [hopsCutter](https://gum.co/hopscutter)
