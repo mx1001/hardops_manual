@@ -98,9 +98,9 @@ The HOPS Boolean hotkeys are as follows.
 
 ![hotkey](img/hotkeys/h21.gif)
 
-# X Mirror Tool - (Alt + X)
+# Mirror Tool - (Alt + X)
 
-Hard Ops interactive mirror is alt + X. This represents the final solution in mirroring with Hard Ops and requires no 3rd party plugins.
+Hard Ops interactive mirror is alt + X. This represents the near final solution in mirroring with Hard Ops and requires no 3rd party plugins. It mirrors on both meshes and curves. It can even mirror meshes across curves. 
 
 ![hotkey](img/hotkeys/h3.gif)
 
