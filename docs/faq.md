@@ -188,7 +188,8 @@ When it comes to having issues the first thing I'll recommend is updating. There
   - I like the update utility because it keeps Blender up to date and works well.
   - It's only for windows though.
   - [BlenderUpdater is also nice.](https://github.com/overmindstudios/BlenderUpdater/releases)
-  ![mir](img/faq/ff2.png)
+
+![mir](img/faq/ff2.png)
 
 ![mir](img/faq/ff1.png)
 
