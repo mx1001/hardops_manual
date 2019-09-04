@@ -94,6 +94,24 @@ The HOPS Boolean hotkeys are as follows.
 
 - CTRL + NUMPAD Slash - Cslash / Cut and split
 
+[It is also worth mentioning that you can also use hopsTool dots](hopsTool.md) for boolean operations which can also be quick.
+
+![hotkey](img/hotkeys/h21.gif)
+
+# X Mirror Tool - (Alt + X)
+
+Hard Ops interactive mirror is alt + X. This represents the final solution in mirroring with Hard Ops and requires no 3rd party plugins.
+
+![hotkey](img/hotkeys/h3.gif)
+
+3 mirrors available
+
+- Modifier / mirrors mesh and bisects it on a mesh level. This makes this optimal for booleans.
+
+- Bisect / useful for symmetry modelling. Not for booleans. Can cause issues in boolean workflows but is optimized for tradititional mirroring pipelines
+
+- Symmetrize / one and done. Symmetrizes to the other side without further issue or interaction needed.
+
 ---
 
 ## Manual Hotkeys
@@ -115,20 +133,6 @@ Select Boundary is in the Select Menu at the very top. To set the hotkey I right
 Marking sharps is essential in a Hard Ops workflow for fixing shading issues without bevelling or using mark ssharp in the edit mode Q menu. This is something that is only for edit mode. Ctrl + ~ in Object Mode brings up the Hard Ops Helper.
 
 > Not setting this hotkey keeps ctrl + ~ as the helper in edit mode.
-
-# X Symmetrize - (Alt + X)
-
-Hard Ops mirror is alt + X. This represents the final solution in mirroring with Hard Ops and requires no 3rd party plugins.
-
-![hotkey](img/hotkeys/h3.gif)
-
-3 mirrors available
-
-- Modifier / mirrors mesh and bisects it on a mesh level. This makes this optimal for booleans.
-
-- Bisect / useful for symmetry modelling. Not for booleans. Can cause issues in boolean workflows but is optimized for tradititional mirroring pipelines
-
-- Symmetrize / one and done. Symmetrizes to the other side without further issue or interaction needed.
 
 # Shortest Path - D / Also ctrl + left click by default in 2.8
 
