@@ -1,6 +1,6 @@
 ![header](img/banner.gif)
 
-### Booleans And Subdivision
+### Booleans And Subdivision '79
 
 > Subdivision is something I use differently in my work compared to before. While it's usually not present in my final product it is used in the blocking process or in times when I want to exponentially multiply the geometry.
 

@@ -44,8 +44,9 @@ pages:
     - Additional Tips:
         - Booleans And Curvature: tips_boolean.md
         - Boolean Tips: tips_boolean_exp.md
-        - Understanding Subdivision: subdivision.md
         - decalMACHINE: decalmachine.md
+    - Classic Pages:
+        - Understanding Subdivision: subdivision.md
     - Changelog: changelog.md
     - Reporting Issues: issues.md
 

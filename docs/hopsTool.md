@@ -46,6 +46,46 @@ Fade distance can be adjusted if needed and booldots can be turned off if they a
 
 ![hotkey](img/hopstool/h9.gif)
 
+---
+
+## Non-Destructive stepping
+
+Using the [hopsTool](hopsTool.md) you can stack up bevels easily in the viewport.
+
+![](img/step/l1.png)
+
+There are 3 bevel icons.
+- corner bevel (intended for planes and vertice beveling
+- chamfer (bevel w/ 1 segment)
+- rounded bevel (3 segments default angle 30 / ctrl + click angle 60)
+
+To showcase each in action.
+
+![](img/step/s2s.gif)
+
+In this mode holding ctrl shows modifier dots. LMB clicking one shows the modifier information.
+
+![](img/step/s2.png)
+
+![](img/step/s3s.png)
+
+Levels can be added very quickly this way.
+
+![](img/step/s4s.gif)
+
+Also working this way is possible using the Q menu add modifier system.
+A few things to note:
+
+- first bevel can be an angle 30 or 60
+- second bevel cannot be an angle 30 or else it will catch the first bevel
+- bevels from here on are 60 and above to keep simplicity.
+
+The gif shows me adjusting bevels that aren't showing to set up levels I did moments later. Also the shading was incorrect due to not holding shift as well as ctrl to set it to 60 and not 30. But this is a good example of how the angles can work against you if you aren't mindful.
+
+![](img/step/s5s.gif)
+
+---
+
 # Building from a vert
 
 Collapsing a cube to a vert and using handles to guide spins and then add mirroring, decimation, solidification, and 3 levels of bevels can be a fun way to wrap your head around the process.
@@ -56,7 +96,7 @@ Collapsing a cube to a vert and using handles to guide spins and then add mirror
 
 # Try making a tire from a plane.
 
-![hotkey](img/hopstool/h5.gif)
+![hotkey](img/hopstool/h6.gif)
 
 By adding a displace, screw and solidify a rim can be made in short time and be dynamically adjustable.
 
