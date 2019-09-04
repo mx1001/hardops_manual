@@ -6,7 +6,8 @@ With the introduction of Hard Ops 0098 a modifier system was added. This allows 
 
 ![tthick](img/modifiers/m1.png)
 
-Currently the list has the
+Currently the list has the following:
+
   - Bevel
   - Solidify
   - Array
@@ -25,13 +26,18 @@ Currently the list has the
   - Wireframe
   - Skin
 
-  And then the custom versions of modals modified for hops.
+  And then the custom versions of modals modified for hops:
+
   - 2d Bevelling
+    > bevel w/ vertices set (useful for planes)
+
   - Spherecast
+    > subdivision x 3 + cast mod set to sphere and 1
+    
   - Circular Array
+    > displace + array + driver for radial array w/ live update
 
-Then apply modifiers. Which does just that.
-
+Then apply modifiers. Which does just that. Applies modifiers.
 
 ## Modifiers
 
