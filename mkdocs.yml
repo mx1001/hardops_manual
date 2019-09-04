@@ -29,6 +29,7 @@ pages:
         - Circulars: circular.md
         - SketchOps: sketchops.md
     - Functions:
+        - Modifiers: modifiers.md
         - tThick: tthick.md
         - bWidth: bwidth.md
         - 2dbevel: 2dbevel.md
