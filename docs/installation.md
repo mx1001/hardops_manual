@@ -11,7 +11,7 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 ## Hard Ops Installation     
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=oMZrQ6ZHKm0"
+src="https://youtu.be/oMZrQ6ZHKm0"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
@@ -23,17 +23,17 @@ If updating Blender one must also update the Hard Ops / Boxcutter packages for t
 
 1. Firstly ensure Blender 2.8 is up to date.
 
-- [Blender](https://builder.blender.org/download)
+- [Buildbot Blender](https://builder.blender.org/download)
 
 - [Blender Updater **Windows**](https://github.com/DotBow/Blender-Version-Manager/releases)
 
 2. Ensure the latest zips are downloaded from the markets.
 
-[Blendermarket](https://www.blendermarket.com/account/orders)
-
+[Blendermarket](https://www.blendermarket.com/account/orders) /
 [Gumroad](https://gumroad.com/library)
 
-Gumroad Sales Pages
+Gumroad Sales Pages (make sure you are logged in first)
+
 [HardOps](https://gumroad.com/l/hardops) /
 [Boxcutter](https://gumroad.com/l/BoxCutter) /
 [HOPScutter Bundle](https://gumroad.com/l/hopscutter)
@@ -52,9 +52,6 @@ Make sure the folders are not there and it should work fine.
 4a. If using install from file. As shown in the video. It will isolate the addon for enabling. After enabling do not double click while waiting. Just give it a second if you know you clicked it. Registrations can take a moment sometime.
 
 And then Blender is able to be loaded and the addons enabled. Errors indicate that the HOPS/BC installation is possibly old and requires redownload. Also make sure it is installed in the correct path.
-https://hardops-manual.readthedocs.io/en/latest/installation/
-
-https://gumroad.com/l/BoxCutter
 
 ---
 

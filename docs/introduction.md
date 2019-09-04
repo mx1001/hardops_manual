@@ -50,7 +50,8 @@ experience of using HardOps as easy as possible. I also hope it can give some
 insight into our hard surface process as well as indicate ideas for future      
 plans and developments.     
 
-![Image](https://cdn3.artstation.com/p/assets/images/images/002/334/031/large/jerry-perkins-mx1001-h6-5.jpg)        
+![Image](img/micgraded2.png)
+> [Modelled by AR using hopsTool](https://twitter.com/AdrianRutk0wski/)
 
 I would have never been able to make it to where it if not for the team. They are       
 the driving force behind the development and without a team the work would not have     
