@@ -126,11 +126,11 @@ Modifier order matters here as well so it's important to keep in mind what is on
 
 When selecting a boolshape's face in edit mode the normal will be flipped which makes the bevel go outwards resulting in an interior cut.
 
-Alternatively pressing N during bwidth in edit mode in face selection with a face selected will make the normal flip. 
+Alternatively pressing N during bwidth in edit mode in face selection with a face selected will make the normal flip.
 
 ![bevelwidth](img/bwidth/b13.gif)
 
-<iframe width="560" height="315" src="https://youtu.be/6TdRQc1Grws" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6TdRQc1Grws" frameborder="0" allowfullscreen></iframe>
 
 # Bevel Sorting
 
@@ -144,4 +144,4 @@ In this example I am able to stack multiple levels of bevels and cut the boolean
 
 ![bevelwidth](img/bwidth/b14.gif)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZnyMUIilp6g" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZnyMUIilp6g" frameborder="0" allowfullscreen></iframe>

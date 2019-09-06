@@ -10,6 +10,17 @@ Right click object mode and enable it.
 
 ___
 
+# What kind of geo can I expect from booleans?
+
+Something like this. Booleans solve as they will and with the most minimal of edges.
+
+![mir](img/faq/how1.gif)
+
+All hardOps does is help user make these mistakes quicker so they can be corrected and controlled even faster.
+
+___
+
+
 # Why does it crash when using the operator properties?
 
 Blender 2.8 has been having issues with the undo / redo portion that is connected to the properties panel. When changing parameters theres a chance Blender could crash and take you to the desktop.
@@ -42,15 +53,6 @@ In the hops helper / mini helper or n panel we have the workflow area which has 
 
 ___
 
-# What kind of geo can I expect from booleans?
-
-Something like this. Booleans solve as they will and with the most minimal of edges.
-
-![mir](img/faq/how1.gif)
-
-All hardOps does is help user make these mistakes quicker so they can be corrected and controlled even faster.
-
-___
 
 # I was not logged in when purchasing your product. How do I get the latest update?
 
@@ -120,6 +122,24 @@ Ideally you want the subsequent bevels at 60 so you dont catch the same edges. T
 > Alternatively you could add more segments to the first level to round it out for the 2nd level to not get caught under the 30 degree threshold.
 
 ![mir](img/faq/f14.gif)
+
+___
+
+# How does reverse bevel work?
+
+In edit mode with a face selected on a "boolshape" the face will be flipped resulting in a nice outwards bevel.
+
+![mir](img/faq/rb1.gif)
+
+Even if HN is on this feature should ignore that since harden normals would affect the shading. (we try to avoid cutting custom normals into other meshes).
+
+![mir](img/faq/rb2.gif)
+
+> Notice how harden normals is ignored on boolshapes.
+
+This video goes more in depth on the topic.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6TdRQc1Grws" frameborder="0" allowfullscreen></iframe>
 
 ___
 
@@ -208,74 +228,6 @@ Boxcutter also has a sort that must be taken into account. It can be found in ei
 ![mir](img/faq/f11.gif)
 
 We aspire to expand sorting into something more expansive down the road but for now it will have to suffice for boolean operation.
-
-___
-
-
-# Obligatory Text
-
-When it comes to having issues the first thing I'll recommend is updating. Theres a couple of ways to do that.
-
-- [Buildbot](https://builder.blender.org/download)
-- [Official](https://www.blender.org/download/)
-- [Blender Update Utility](https://github.com/DotBow/Blender-Version-Manager/releases)
-  - I like the update utility because it keeps Blender up to date and works well.
-  - It's only for windows though.
-  - [BlenderUpdater is also nice.](https://github.com/overmindstudios/BlenderUpdater/releases)
-
-![mir](img/faq/ff2.png)
-
-![mir](img/faq/ff1.png)
-
-Anyways after having blender up to date comes ensuring you have the latest version.
-
-Accessing previous orders.
-
-- Gumroad - https://gumroad.com/library
-- Blendermarket - https://www.blendermarket.com/account/orders
-- BM Support: https://gfycat.com/UnevenSmartGadwall
-
-When it comes to contacting us theres a couple of ways.
-
-Blendermarket
-
-![mir](img/faq/ff3.png)
-> Clicking that button will send us a message which can be easy.
-
-Gumroad
-
-Responding to any email I send should come back to me. Believe me people use that alot.
-
-
->[Also I'm always on twitter so I can be messaged there as well. I probably post there the most. You can follow me for updates and occasional tips.](https://twitter.com/mxeon1001)
-
-
-[Support Channels](https://thumbs.gfycat.com/FastInferiorGlowworm-mobile.mp4)
-
-Boxcutter has a support button in the behavior panel. This will take you to our discord where we're haunted 24/7 with support issues.
-
-![mir](https://i.imgur.com/axYJ8P7.png)
-
-hardOps has multiple help areas.
-
-![mir](img/faq/how2.gif)
-
-![mir](https://i.imgur.com/W2XjC9R.gif)
-
-Below are links to the direct sales pages which you can access the product via being logged in.
-
-Gumroad
-- [hopsCutter](https://gum.co/hopscutter)
-- [boxcutter](https://gum.co/BoxCutter)
-- [hardops](https://gum.co/hardops)
-
-Blendermarket
-- [hopsCutter](https://www.blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle)
-- [boxcutter](https://www.blendermarket.com/products/boxcutter)
-- [hardops](https://www.blendermarket.com/products/hardopsofficial)
-
-Artstation
-- [hopsCutter](https://www.artstation.com/jerryperkins1447/store/D7aM/hard-ops-boxcutter-ultimate-bundle)
 
 ___
 
@@ -578,4 +530,71 @@ None of the inserts are present on the low. Its all just the bake. By removing t
 So the point of all this is to explain that a workflow exists however it is up to the preferences of you the user as to how you want to go about using the tools in your workflow.
 
 The beauty of hard ops is you can use as much or as little of it as you need for your preferred workflow. But many of the tools are designed with particular workflows in mind.
+___
+
+# Obligatory Text
+
+When it comes to having issues the first thing I'll recommend is updating. Theres a couple of ways to do that.
+
+- [Buildbot](https://builder.blender.org/download)
+- [Official](https://www.blender.org/download/)
+- [Blender Update Utility](https://github.com/DotBow/Blender-Version-Manager/releases)
+  - I like the update utility because it keeps Blender up to date and works well.
+  - It's only for windows though.
+  - [BlenderUpdater is also nice.](https://github.com/overmindstudios/BlenderUpdater/releases)
+
+![mir](img/faq/ff2.png)
+
+![mir](img/faq/ff1.png)
+
+Anyways after having blender up to date comes ensuring you have the latest version.
+
+Accessing previous orders.
+
+- Gumroad - https://gumroad.com/library
+- Blendermarket - https://www.blendermarket.com/account/orders
+- BM Support: https://gfycat.com/UnevenSmartGadwall
+
+When it comes to contacting us theres a couple of ways.
+
+Blendermarket
+
+![mir](img/faq/ff3.png)
+> Clicking that button will send us a message which can be easy.
+
+Gumroad
+
+Responding to any email I send should come back to me. Believe me people use that alot.
+
+
+>[Also I'm always on twitter so I can be messaged there as well. I probably post there the most. You can follow me for updates and occasional tips.](https://twitter.com/mxeon1001)
+
+
+[Support Channels](https://thumbs.gfycat.com/FastInferiorGlowworm-mobile.mp4)
+
+Boxcutter has a support button in the behavior panel. This will take you to our discord where we're haunted 24/7 with support issues.
+
+![mir](https://i.imgur.com/axYJ8P7.png)
+
+hardOps has multiple help areas.
+
+![mir](img/faq/how2.gif)
+
+![mir](https://i.imgur.com/W2XjC9R.gif)
+
+Below are links to the direct sales pages which you can access the product via being logged in.
+
+Gumroad
+- [hopsCutter](https://gum.co/hopscutter)
+- [boxcutter](https://gum.co/BoxCutter)
+- [hardops](https://gum.co/hardops)
+
+Blendermarket
+- [hopsCutter](https://www.blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle)
+- [boxcutter](https://www.blendermarket.com/products/boxcutter)
+- [hardops](https://www.blendermarket.com/products/hardopsofficial)
+
+Artstation
+- [hopsCutter](https://www.artstation.com/jerryperkins1447/store/D7aM/hard-ops-boxcutter-ultimate-bundle)
+
 ___
