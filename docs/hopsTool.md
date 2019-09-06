@@ -87,7 +87,7 @@ In this mode holding ctrl shows modifier dots. LMB clicking one shows the modifi
 
 ![](img/step/s2.png)
 
-![](img/step/s3s.png)
+![](img/step/s3s.gif)
 
 Levels can be added very quickly this way.
 

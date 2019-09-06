@@ -20,6 +20,34 @@ All hardOps does is help user make these mistakes quicker so they can be correct
 
 ___
 
+# [How did you do the curved wall demo from the 00983 trailer?](https://youtu.be/0qx_hOrW1C8)
+
+At this moment in the trailer I showed a curved wall.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0qx_hOrW1C8?start=36" frameborder="0" allowfullscreen></iframe>
+
+This utilizes spin with curve deformation. It was a happy little accident.
+
+To showcase setting it up in action:
+
+![mir](img/faq/faq35.gif)
+
+- moved the plane held ctrl for increment snap
+- ctrl + A applied location
+- deleted one point to make it an edge
+- duplicated and separated one vert with P for making the object w/ same origin / rotation
+- converted main shape to curve after bevelling
+- extrude (spin) the vert shape then ctrl + P (curve deform) to the curve
+
+> Curve deform rarely works out the box so some adjustment may be needed.
+
+This can result in an interesting setup for completion of the asset.
+
+To extend on the previous example:
+
+![mir](img/faq/faq36.gif)
+
+___
 
 # Why does it crash when using the operator properties?
 
