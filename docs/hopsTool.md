@@ -2,6 +2,10 @@
 
 # hopsTool
 
+> Hotkey: Alt + Shift + W
+
+> with boxcutter installed and surface toggle **off** the hotkey is alt + W
+
 ![hotkey](img/hopstool/h19.png)
 
 HardOps version 983 introduces the first active tool of Hard Ops called hopsTool. We intend for this tool to provide a simple ui to assist with modifier management for non destructive modelling in the 3d view.
