@@ -36,7 +36,7 @@ Edit Mode
 
 ____
 
-# [Booleans](boolean.md) and Modifiers
+# [Booleans](boolean.md) Cleanup
 
 ![](img/bool/b4.gif)
 

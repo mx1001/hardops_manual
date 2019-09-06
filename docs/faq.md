@@ -107,9 +107,9 @@ First lets look at the bevel modifier as it is in the Add Modifier submenu.
 
 ![mir](img/faq/f12.png)
 
-LMB - adds 30 degree bevel if not present / adjusts if present
-ctrl + LMB - adds a bevel at 30 degrees.
-shift + ctrl + LMB - adds a bevel at 60 degrees.
+- LMB - adds 30 degree bevel if not present / adjusts if present
+- ctrl + LMB - adds an additional bevel modifier at 30 degrees.
+- shift + ctrl + LMB - adds an additional bevel modifier at 60 degrees.
 
 The **shift + ctrl + LMB - adds a bevel at 60 degrees** is the key.
 
@@ -122,6 +122,13 @@ Ideally you want the subsequent bevels at 60 so you dont catch the same edges. T
 > Alternatively you could add more segments to the first level to round it out for the 2nd level to not get caught under the 30 degree threshold.
 
 ![mir](img/faq/f14.gif)
+
+In hopsTool adding multiple bevels is slightly different but still the same.
+
+- LMB adds bevel modifiers at 30 degrees
+- ctrl + LMB adds bevel modifiers at 60 degrees
+
+![mir](img/faq/f17.gif)
 
 ___
 

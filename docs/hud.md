@@ -28,7 +28,7 @@ CSHARP- applied after csharpen operator, indicates bevel workflow
 
 ![](img/helper//hh8.png)
 
-CSTEP- applied after cstep operator, indicates multi bevel workflow
+CSTEP- applied after cstep operator, indicates a destructive multi-bevel workflow
 
 ![](img/helper//hh9.png)
 
