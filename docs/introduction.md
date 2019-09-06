@@ -20,6 +20,8 @@ Now the goal of [Hard Ops](https://gumroad.com/l/hardops/) can be simplified int
 >There is no magic button. It won't make a better artist. All our tool can do is        
 enable you to be the maximum you. The idea is the quicker you can work / make mistakes / corrections deviations and of course evolution.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cK3AEyzqdcw" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 At the beginning, [Hard Ops](https://gumroad.com/l/hardops/) was a tool for automating my own workflow. When I first began modelling I adhered to strict modelling guidlines and all quad rules without understanding the why. Robots and hard surface were my primary focus of assets yet topology remained the true decider of my modelling choices and set my design limitations. This ended up causing my models to be [simpler](https://youtu.be/hoaPM1C1vAE) without me truly understanding why.

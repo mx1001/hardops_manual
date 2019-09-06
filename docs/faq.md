@@ -507,6 +507,36 @@ I recommend to use [Meshmachine](https://gumroad.com/l/MESHmachine/) and bring i
 
 ___
 
+# Why did my shading get messed up starting the cylinoid video?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/szrnUx_2_uk" frameborder="0" allowfullscreen></iframe>
+
+In 2.8 the parameter "Harden Normals" was added to the bevel modifier. While it's capable of being useful for shading later in the model this can have issues with the start of the cylinoid video.
+
+![](img/faq/c1.png)
+
+> The ctrl + ~ helper can allow users the change workflow or using the N panel.
+
+This is what happens if the HN (harden normals) parameter is on.
+
+The shading looks incorrect for the following reasons:
+
+- harden normals is on making the normals look smoothing
+- autosmooth is set to 60 and not 30.
+
+Here is how I would fix it using the ctrl + ~ helper.
+![](img/faq/c3.gif)
+
+
+And here I am working on both the shading and the Harden Normal not being on.
+![](img/faq/c2.gif)
+
+This should not be an issue in the most recent update. 1 during bwidth will now fix the shading properly. We apologize for this being an entry level gotcha. Markets have been updated with this change. (9-6-19)
+
+![](img/faq/c4.gif)
+
+___
+
 # How do I bake alpha maps / height maps from a Hard Ops model?
 
 I assume you mean bake in substance painter or get normal / height maps.

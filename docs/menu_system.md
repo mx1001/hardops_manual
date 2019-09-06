@@ -7,6 +7,7 @@ Hard Ops's menu can be best explained through the Q menu that shows in an [undef
 ![menu](img/menu/mn1.png)
 
 Besides the name its best broken down as follows:
+
 - Recommended Options
 - [Operations](operations.md) Menu
 - Add Modifier
@@ -21,6 +22,7 @@ In this example you can see the menu changing based off of context in this short
 ![menu](img/menu/mn2.gif)
 
 When I start out the top 3 are by default on [undefined](sstatus.md) type meshes the following:
+
   - cSharpen (for quick bevelling and jumping into a csharp workflow)
   - sSharpen (smoothing and sharpening the mesh without commitment to a system)
   - tThick (thickness via solidify)

@@ -4,7 +4,7 @@
 
 ## Hard Ops and Booleans
 
-**[Booltool](https://blenderartists.org/forum/showthread.php?336498-BoolTool-0-2&p=2659836&viewfull=1#post2659836) is no longer required** The hotkeys I once used booltool for have been added into the core of hard ops and supports the drawing and interconnecting systems as a result. This allows for deeper interaction and and possible expansions on the workflow independent of changes outside of our control.
+**Booltool is no longer required** The hotkeys I once used booltool for have been added into the core of hard ops and supports the drawing and interconnecting systems as a result. This allows for deeper interaction and and possible expansions on the workflow independent of changes outside of our control.
 
 The hotkeys are as follows:
 
@@ -25,7 +25,11 @@ As the gif shows you can also use [hopsTool](hopsTool.md) w/ 2 object selection 
 
 > Slash is also in the Q menu when 2 objects are selected.
 
-So while we support booltool and will respect it if enabled, the HOPS boolean system will also set up [drawing](hud.md) and use our [systems](sstatus.md).
+> Hotkeys can be quite fast for setting up booleans on the fly.
+
+![bool](img/boolean/ll21.gif)
+
+So while we support booltool and will respect it if enabled, the HOPS boolean system will also set up [drawing](hud.md) and use our [systems](sstatus.md) which extends on what booltool was able to provide.
 
 ---
 
