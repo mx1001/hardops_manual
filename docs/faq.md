@@ -633,3 +633,11 @@ Artstation
 - [hopsCutter](https://www.artstation.com/jerryperkins1447/store/D7aM/hard-ops-boxcutter-ultimate-bundle)
 
 ___
+
+# Hello I am a student / child / woman / lover / hobbyist / beginner. Can I get a discount on the product?
+
+No.
+
+We keep our prices low to keep the entry low. The sales of our product go to paying programmers, paying for blender to keep improving and ensuring the tools evolving. We pride ourselves on our willingness to reinvest into the growth of Hard Ops / Boxcutter. This is 24/7 operation to us and we love working late nights, holidays, birthdays and family events on this tool to ensure you have the best experience in Blender for concept creation.
+
+Please buy it.

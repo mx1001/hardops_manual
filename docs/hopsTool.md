@@ -45,6 +45,10 @@ You are also able to simplify the topbar.
 
 ![hotkey](img/hopstool/h17.gif)
 
+Clicking a dot will bring up the modifier panel for the specific modifier. This can come in handy for tuning or fine adjustment.
+
+![hopstool](img/hopstool/h23.gif)
+
 ---
 
 # Boolean dots
@@ -114,7 +118,7 @@ Collapsing a cube to a vert and using handles to guide spins and then add mirror
 
 ![hotkey](img/hopstool/h16.gif)
 
-# Try making a tire from a plane.
+# Tire Design
 
 ![hotkey](img/hopstool/h6.gif)
 
@@ -179,3 +183,27 @@ This can result in an interesting setup for completion of the asset.
 To extend on the previous example:
 
 ![mir](img/faq/faq36.gif)
+
+# Extrude uses the spin axis at 0 to extrude.
+
+This means that the best shapes for extrude are 2d ones. For some context this is the normal screw modifier:
+
+![hopstool](img/hopstool/h20.gif)
+
+This one spins the object around in a 360 degree axis. This can be useful for making cylinders non-destructively.
+
+Extrude will extend the 2d shape via 0 axis spin. This results in a nice edge extrusion on a shape.
+
+![hopstool](img/hopstool/h21.gif)
+
+This can come in handy for lathing forms around curves.
+
+![hopstool](img/hopstool/h22.gif)
+
+- ctrl + P >> curve deform was used to deform the object around a curve
+- alt + X was used to mirror and create a watertight mesh and hiding the seam
+- clicking a dot will bring up the modifier stack for tweaking.
+
+> When using the spin modal pressing 3 will use extrude as the mode instead of spin.
+
+![hopstool](img/hopstool/h24.gif)
