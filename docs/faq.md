@@ -586,18 +586,18 @@ Anyways after having blender up to date comes ensuring you have the latest versi
 
 Accessing previous orders.
 
-- Gumroad - https://gumroad.com/library
-- Blendermarket - https://www.blendermarket.com/account/orders
-- BM Support: https://gfycat.com/UnevenSmartGadwall
+- [Gumroad](https://gumroad.com/library)
+- [Blendermarket](https://www.blendermarket.com/account/orders)
+- [BM Support](https://gfycat.com/UnevenSmartGadwall)
 
 When it comes to contacting us theres a couple of ways.
 
-Blendermarket
+[Blendermarket](https://www.blendermarket.com/account/orders)
 
 ![mir](img/faq/ff3.png)
 > Clicking that button will send us a message which can be easy.
 
-Gumroad
+[Gumroad](https://gumroad.com/library)
 
 Responding to any email I send should come back to me. Believe me people use that alot.
 
