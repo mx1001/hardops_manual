@@ -20,6 +20,55 @@ All hardOps does is help user make these mistakes quicker so they can be correct
 
 ___
 
+# How do you make a hardOps mesh work with subdivision?
+
+Below is my classic video for converting from boolean / bevel to subdivison geometry. As you can see it is a process unto itself. This video is a classic from 2.79 so it is still applicable even in the 2.8 era.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f7dvODWS4e4" frameborder="0" allowfullscreen></iframe>
+
+When it comes to more complex assets sometimes I will convert an unbevelled version to the final model as shown here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UYMrkAOTV9E" frameborder="0" allowfullscreen></iframe>
+
+I don't normally break down game models to all quads since tris also play a role in simplification but the process differs from subdivison conversion. Working smart and using guidance edges can go a long ways in keeping the work ahead minimal.
+
+With the new miter options on bevel a user could easily build the block in cage from a boolean mesh. And from there make everything quads and be good to go.
+
+![mir](img/faq/faq37.gif)
+
+a few things to note note:
+
+- bevel was set to profile with 1 by pressing P during bwidth to adjust the profile.
+- boxcutter has sorting for bevel on so the bevel is kept on top of the boolean modifiers
+- miter spaces out the top of a cut instead of converging them making the subdivision process easier than ever
+
+![mir](img/faq/faq38.gif)
+
+Also if subdivison is on an object. All is quad. Automatically. So just using subdivision makes and object all quads.
+
+about the above gif:
+
+- bevel is still live but rounded by subdivision.
+- triagulate mod via hops will only triangulate ngons which is thanks to enahncements to the modifier itself.
+- everything is dynamic but also fully quad once subdivision is brought into play
+- during bevel Z turns on wire. This is the object wire. Not to be confused with the viewport wireframe option that had to be toggled in this example
+
+> The flow will not be what you like but it will be all quads.
+
+![mir](img/faq/faq39.gif)
+
+So the subdivision conversion process can be quite easy depending on geometry and that is built into blender. So exporting to Zbrush and 3dcoat is an option this way as well.
+
+> While working sometimes I will duplicate a portion before progressing forward in order to keep a state I can revert to if I need to add more geometry to the initial mesh or make a large form change. So part of getting the most out of hops is working smart and using the tools Blender has in addition to the tools added with hardOps.
+
+Alternatively users could apply the bevel and clean up the mesh by manually adding loops and that is the most direct way to get a perfect result. However make sure to bevel with a profile of one to create additional edges for managing surfaces. This can come in handy for modelling as well.
+
+![](img/bool/b5.gif)
+
+In the above example I beveled in edit mode with a profile of 1 to 100% keep the profile but add a spacer loop with low segments. This spacing workflow is essential for maintaining for and controlling flow to master shading with minimal geometry.
+
+___
+
 # [How did you do the curved wall demo from the 00983 trailer?](https://youtu.be/0qx_hOrW1C8)
 
 At this moment in the trailer I showed a curved wall.
