@@ -32,6 +32,14 @@ When it comes to more complex assets sometimes I will convert an unbevelled vers
 
 I don't normally break down game models to all quads since tris also play a role in simplification but the process differs from subdivison conversion. Working smart and using guidance edges can go a long ways in keeping the work ahead minimal.
 
+When I talk about guidance edges I mean this.
+
+![mir](img/faq/faq41.gif)
+
+> Booleans by default in blender will solve using any edge it can connect to it. And more often than not this is not the desired way to solve a boolean. In the above gif you can see the geometrical hit lessen as go to the edge while face cuts will solve to the nearest corner. Something as simple as adding an edge counteracted this. This edge has only the purpose of guiding the boolean. Therefore it is a guidance edge. That is the only purpose for adding it.
+
+Having less booleans solve with the corners the less stress the bevel modifier will get which reduces the amount of streaking artifacts while working.
+
 With the new miter options on bevel a user could easily build the block in cage from a boolean mesh. And from there make everything quads and be good to go. The bevel mod creates the guidance edges to prevent subdivison from shrinking everything.
 
 ![mir](img/faq/faq37.gif)
