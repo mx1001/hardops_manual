@@ -32,7 +32,7 @@ When it comes to more complex assets sometimes I will convert an unbevelled vers
 
 I don't normally break down game models to all quads since tris also play a role in simplification but the process differs from subdivison conversion. Working smart and using guidance edges can go a long ways in keeping the work ahead minimal.
 
-With the new miter options on bevel a user could easily build the block in cage from a boolean mesh. And from there make everything quads and be good to go.
+With the new miter options on bevel a user could easily build the block in cage from a boolean mesh. And from there make everything quads and be good to go. The bevel mod creates the guidance edges to prevent subdivison from shrinking everything.
 
 ![mir](img/faq/faq37.gif)
 
@@ -45,6 +45,10 @@ a few things to note note:
 ![mir](img/faq/faq38.gif)
 
 Also if subdivison is on an object. All is quad. Automatically. So just using subdivision makes and object all quads.
+
+Using triangulate and bevel intelligently can be the difference between adequate shading with subdivison and artifacts due to ngon to subdivision  issues. Even now this object is still able to be modified thanks to [sorting.](sorting.md)
+
+![mir](img/faq/faq40.gif)
 
 about the above gif:
 
