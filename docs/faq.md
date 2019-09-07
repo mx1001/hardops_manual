@@ -720,19 +720,19 @@ Transcribed from: Utopies Selectives on the [HeavyPoly Discord](https://discord.
 
 The following is the guide on how to get hopscutter working with [HeavyPoly](https://www.youtube.com/embed/aQKUCjTRzTk) config.
 
-- 1. You open your Hpconfig blender, go in preferences/keymap and export your key configuration.
-- 2. For your new Blender setup,  you put all of the HPConfig files like usual except the config folder (The problem doesn't come from the plugins).
-- 3. In that new blender you go to preferences/keymap, import the old keymap
-- 4. you need to move your windows around to get the user interface similar (if you want) and then you are good!
+1. You open your Hpconfig blender, go in preferences/keymap and export your key configuration.
+2. For your new Blender setup,  you put all of the HPConfig files like usual except the config folder (The problem doesn't come from the plugins).
+3. In that new blender you go to preferences/keymap, import the old keymap
+4. you need to move your windows around to get the user interface similar (if you want) and then you are good!
 
 **ALSO**
 
-- 5. if you want the text file with the shortcuts, you go in your HPconfig Blender,  in the text editor tab, you choose save as to extract the file from the config,
-- 6. you load it in your new blender! easy peazy.
+5. if you want the text file with the shortcuts, you go in your HPconfig Blender,  in the text editor tab, you choose save as to extract the file from the config,
+6. you load it in your new blender! easy peazy.
 
-You can now install Boxcutter and friends to your liking.
+You can now install Boxcutter and hardOps to your liking.
 
-- 7. Save the new  config by going into File/Defaults/Save Startup file "
+7. Save the new  config by going into File/Defaults/Save Startup file "
 
 For more assistance on this please consult with [the HeavyPoly group who has many members](https://www.facebook.com/groups/heavypoly/) enjoying hopsCutter.
 
