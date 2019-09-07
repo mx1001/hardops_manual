@@ -71,6 +71,74 @@ If you are still reading this, here is a demo of all 3 in action.
 
 ---
 
+## Bevel helper
+
+Hotkey: Ctrl + shift + B
+
+> Will not come up when bevels are not present or selection is not a mesh.
+
+Bevel helper is a specialized panel with the specific purpose of dealing with bevels en masse.
+
+To show bevelHelper in action:
+
+![mt](img/meshtools/mt19.gif)
+
+![mt](img/meshtools/mt20.gif)
+
+- In the helper you can adjust every bevel present on a model.
+- As you can see the presets / full properties are also available.
+
+> The bevel helper can be extended to show presets or be short and fast focused on toggling and varying up design.
+
+![mt](img/meshtools/mt21.gif)
+
+---
+
+## Edge Manager
+
+This tool is made to convert markings and perform marking. This is a support tool but typically it is used to convert certain types of marking to other types.
+
+> Sometimes applying subdivision will remove certain markings. This tool was made to get them back.
+
+To show this tool in action.
+
+![mt](img/meshtools/mt22.gif)
+
+A few things to note:
+
+- intentionally in this example only sharps were marked in workflow
+- ssharpen was used to mark the sharp edges w/ sharps
+- edge manager was able to turn sharp marks into seam, bevel weight, crease markings without effort.
+
+> this tool isnt used often but when it is you are glad it's there.
+
+---
+
+## Bevel Exponent
+
+Multiplies or divides the bevel exponentially.
+
+In my professional work sometimes client would ask for bevels to be twice as large. This tool does that however it also has the ability to divide them by half.
+
+There is a toolpanel with this tool that can be adjusted to change the multiply / divide property.
+
+![mt](img/meshtools/mt23.png)
+
+![mt](img/meshtools/mt24.gif)
+
+---
+
+## Voxelize object (2.81+ only)
+
+Voxelize is a new remesher added to 2.81. In hardOps we support it.
+
+There are more parameters to affect up top if in 2.81.
+
+![mt](img/meshtools/mt25.gif)
+
+
+---
+
 ## HOPS Reset
 
 Sometimes in the Hard Ops workflow you can go off the rails and apply modifiers or decide to escape the auto hiding behavior of [cstep](step.md) sstates.
