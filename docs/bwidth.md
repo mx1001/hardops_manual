@@ -163,3 +163,39 @@ This video goes more in depth on the topic.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6TdRQc1Grws" frameborder="0" allowfullscreen></iframe>
 
 ___
+
+# Bwidth Auto-Smooth Toggle with 1 during modal
+
+Pressing 1 during bwidth will change autosmooth from 60 to 30 which can be helpful for addressing shading issues. We plan to expand this in the future with a shading subsystem that takes over during all modals to ensure smooth shading all throughout the process.
+
+![bevelwidth](img/bwidth/b16.gif)
+
+# bwidth auto-smooth toggle for angle specific workflows
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/szrnUx_2_uk" frameborder="0" allowfullscreen></iframe>
+
+In 2.8 the parameter "Harden Normals" was added to the bevel modifier. While it's capable of being useful for shading later in the model this can have issues with the start of the cylinoid video.
+
+![](img/faq/c1.png)
+
+> The ctrl + ~ helper can allow users the change workflow or using the N panel.
+
+This is what happens if the HN (harden normals) parameter is on.
+
+The shading looks incorrect for the following reasons:
+
+- harden normals is on making the normals look smoothing
+- autosmooth is set to 60 and not 30.
+
+Here is how I would fix it using the ctrl + ~ helper.
+![](img/faq/c3.gif)
+
+
+And here I am working on both the shading and the Harden Normal not being on.
+![](img/faq/c2.gif)
+
+This should not be an issue in the most recent update. 1 during bwidth will now fix the shading properly. We apologize for this being an entry level gotcha. Markets have been updated with this change. (9-6-19)
+
+![](img/faq/c4.gif)
+
+---

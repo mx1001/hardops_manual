@@ -13,3 +13,21 @@ Below is a video of that in action.
 > We have plans to expand on this idea in the future however for now [Quickdraw by: alksndr is sufficient for grease pencil shape exploration.](https://www.blendermarket.com/products/quickdraw)
 
 ![](img/sketch1/s1.png)
+
+# Grease Pencil Support
+
+In addition to having the helper fully support materials and modifiers for grease pencil we also added a couple of new operators.
+
+In the Q menu the following have been added.
+
+- Copy / Move – just makes a copy and moves the object during draw. Comes in handy for making quick variants in a row.
+
+![](img/sketch1/s2.gif)
+
+- Surface Offset – allows for drawing on the surfaces of objects easier.
+
+![](img/sketch1/s3.gif)
+
+- Mirror Gizmo – Press alt + X to mirror. (symmetry not supported yet)
+
+![](img/sketch1/s4.gif)
