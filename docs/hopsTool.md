@@ -108,21 +108,7 @@ The gif shows me adjusting bevels that aren't showing to set up levels I did mom
 
 ![](img/step/s5s.gif)
 
----
-
-# Building from a vert
-
-Collapsing a cube to a vert and using handles to guide spins and then add mirroring, decimation, solidification, and 3 levels of bevels can be a fun way to wrap your head around the process.
-
-![hotkey](img/hopstool/h4.gif)
-
-![hotkey](img/hopstool/h16.gif)
-
-# Tire Design
-
-![hotkey](img/hopstool/h6.gif)
-
-By adding a displace, screw and solidify a rim can be made in short time and be dynamically adjustable.
+___
 
 # Things to know
 
@@ -207,3 +193,36 @@ This can come in handy for lathing forms around curves.
 > When using the spin modal pressing 3 will use extrude as the mode instead of spin.
 
 ![hopstool](img/hopstool/h24.gif)
+
+---
+
+# Building from a vert
+
+Collapsing a cube to a vert and using handles to guide spins and then add mirroring, decimation, solidification, and 3 levels of bevels can be a fun way to wrap your head around the process.
+
+![hotkey](img/hopstool/h4.gif)
+
+![hotkey](img/hopstool/h16.gif)
+
+# Tire Design
+
+![hotkey](img/hopstool/h6.gif)
+
+By adding a displace, screw and solidify a rim can be made in short time and be dynamically adjustable.
+
+# Braided Cable Design
+
+![hotkey](img/hopstool/h25.gif)
+
+For this example I started with a curve. Then did the following.
+
+- converted to mesh with ctrl + A >> visual geometry (fastest way to make mesh)
+- alt + J (adjusted max shape size in the F6)
+- hopsdot wireframe mod then adjusted the dot
+- ctrl + double clicked the dot for fine preference adjustment.
+
+Then I undid until I had the original curve. And pasted the future object back to it so there was an inside shape.
+
+![hotkey](img/hopstool/h26.gif)
+
+> In retrospect I should have duplicated but undo is nice when it works.
