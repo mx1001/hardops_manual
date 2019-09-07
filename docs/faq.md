@@ -20,6 +20,36 @@ All hardOps does is help user make these mistakes quicker so they can be correct
 
 ___
 
+# Why won't my sharp edges show up? Did hops do this?
+
+Q: "for some reason hardops is preventing me from making sharps sharp? Tested by turning off the hops addon and it went back to normal, any ideas on why that would be happening? Basically Ctrl+E> Mark Sharp changes nothing with hops enabled in preferences."
+
+a few tips:
+
+- first I checked autosmooth and custom normals. The only things capable of forcing shading besides modifiers
+- the modifier scroll is a powerful resource in troubleshooting and rolling through the creation process
+- after scrolling I saw things went wrong at Weighted Normal
+- keep sharp is required for weighted normal to keep marked sharp edges
+- when adding weighted normal if shift is held it will use keep sharp
+
+![mir](img/faq/faq43.gif)
+
+The modscroll can be a powerful tool for scrolling through the process to see where things go wrong. It also allows for backwards scrolling and looping for more fun with modifier presentation.
+
+Modifier scroll or toggle could be set for the quick favorites to be accessed with Q >> Q if needed extensively for a session.
+
+![mir](img/faq/faq44.gif)
+
+> Save prefs to save quick favorites. I usually don't. So I can vary the quick favorites for workflow.
+
+**When adding weighted normal holding shift will add the modifier with keep sharp checked.**
+
+![mir](img/faq/faq45.png)
+
+shoutout to user: modimist
+
+___
+
 # How do you make a hardOps mesh work with subdivision?
 
 Below is my classic video for converting from boolean / bevel to subdivison geometry. As you can see it is a process unto itself. This video is a classic from 2.79 so it is still applicable even in the 2.8 era.
