@@ -4,7 +4,7 @@
 
 > Hotkey: Alt + Shift + W
 
-> with boxcutter installed and surface toggle **off** the hotkey is alt + W
+> [with boxcutter installed and surface toggle **off** the hotkey is alt + W](https://boxcutter-manual.readthedocs.io/en/latest/preference/#enable-surface-toggle)
 
 ![hotkey](img/hopstool/h19.png)
 
