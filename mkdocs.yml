@@ -28,6 +28,7 @@ pages:
         - Insert: inserts.md
         - Circulars: circular.md
         - SketchOps: sketchops.md
+        - SculptOps: sculptops.md
     - Functions:
         - Modifiers: modifiers.md
         - tThick: tthick.md

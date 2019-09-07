@@ -4,6 +4,8 @@
 
 Hardops recognizes a selected object's state, and based on that changes behaviors and usage.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-DYiftWa-b0" frameborder="0" allowfullscreen></iframe>
+
 Previously we had text doing this however the nature of this added additional text so now it is hidden behind a discreet logo.
 
 ![](img/helper/hh11.gif)

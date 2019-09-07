@@ -21,6 +21,10 @@ Currently extends to the following
 - bezier mesh shaper
 - mira tools
 
+A video about this topic is also available.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l4IlEZZPpG4" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 ## Reset Axis

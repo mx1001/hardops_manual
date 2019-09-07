@@ -33,7 +33,7 @@ Currently the list has the following:
 
   - Spherecast
     > subdivision x 3 + cast mod set to sphere and 1
-    
+
   - Circular Array
     > displace + array + driver for radial array w/ live update
 
@@ -309,3 +309,9 @@ Hovering over the option shows alternate creation types.
 ![mod](img/modifiers/m27.png)
 
 ___
+
+# Modifier modelling
+
+The video below showcases modelling using modifiers manually. This was before hops Modifier support was added.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ivmVWILUzZU" frameborder="0" allowfullscreen></iframe>
