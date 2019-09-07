@@ -695,10 +695,45 @@ Artstation
 
 ___
 
-# Hello I am a student / child / woman / lover / hobbyist / beginner. Can I get a discount on the product?
+# Hello I am a student / child / woman / former-lover / hobbyist / beginner. [Can I get a discount on the product?](https://gumroad.com/l/hopscutter)
 
 No.
 
 We keep our prices low to keep the entry low. The sales of our product go to paying programmers, paying for blender to keep improving and ensuring the tools evolving. We pride ourselves on our willingness to reinvest into the growth of Hard Ops / Boxcutter. This is 24/7 operation to us and we love working late nights, holidays, birthdays and family events on this tool to ensure you have the best experience in Blender for concept creation.
 
 Please buy it.
+
+___
+
+# Hello, I would like to use [hopsCutter](https://gumroad.com/l/hopscutter) w/ [Heavypoly config.](https://youtu.be/aQKUCjTRzTk)
+
+Love me some Vaughn Ling. [We are honored to have him using b3d.](https://gumroad.com/l/blender_for_conceptart/fb?fbclid=IwAR2xJgcejNvvcBMrUD3OP3NXhT55yAvO4grc_Gyw2CNNoNdve6hVCpeZWcw)
+
+![mir](img/faq/faq42.jpg)
+
+If you want to use [HeavyPoly](https://www.youtube.com/embed/aQKUCjTRzTk) scripts together with [Boxcutter/HardOps](](https://gumroad.com/l/hopscutter)) you will need to do these steps for them to work together:
+Transcribed from: Utopies Selectives on the [HeavyPoly Discord](https://discord.gg/rcxU94J)
+
+[HeavyPoly install:](https://www.youtube.com/embed/aQKUCjTRzTk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aQKUCjTRzTk" frameborder="0" allowfullscreen></iframe>
+
+The following is the guide on how to get hopscutter working with [HeavyPoly](https://www.youtube.com/embed/aQKUCjTRzTk) config.
+
+- 1. You open your Hpconfig blender, go in preferences/keymap and export your key configuration.
+- 2. For your new Blender setup,  you put all of the HPConfig files like usual except the config folder (The problem doesn't come from the plugins).
+- 3. In that new blender you go to preferences/keymap, import the old keymap
+- 4. you need to move your windows around to get the user interface similar (if you want) and then you are good!
+
+**ALSO**
+
+- 5. if you want the text file with the shortcuts, you go in your HPconfig Blender,  in the text editor tab, you choose save as to extract the file from the config,
+- 6. you load it in your new blender! easy peazy.
+
+You can now install Boxcutter and friends to your liking.
+
+- 7. Save the new  config by going into File/Defaults/Save Startup file "
+
+For more assistance on this please consult with [the HeavyPoly group who has many members](https://www.facebook.com/groups/heavypoly/) enjoying hopsCutter.
+
+___
