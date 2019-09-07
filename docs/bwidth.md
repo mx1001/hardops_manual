@@ -145,3 +145,21 @@ In this example I am able to stack multiple levels of bevels and cut the boolean
 ![bevelwidth](img/bwidth/b14.gif)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZnyMUIilp6g" frameborder="0" allowfullscreen></iframe>
+
+# How does reverse bevel work?
+
+In edit mode with a face selected on a "boolshape" the face will be flipped resulting in a nice outwards bevel.
+
+![mir](img/faq/rb1.gif)
+
+Even if HN is on this feature should ignore that since harden normals would affect the shading. (we try to avoid cutting custom normals into other meshes).
+
+![mir](img/faq/rb2.gif)
+
+> Notice how harden normals is ignored on boolshapes.
+
+This video goes more in depth on the topic.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6TdRQc1Grws" frameborder="0" allowfullscreen></iframe>
+
+___
