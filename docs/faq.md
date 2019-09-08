@@ -50,6 +50,20 @@ shoutout to user: modimist
 
 ___
 
+# How do I fix this shading?
+
+![mir](img/faq/faq46.jpg)
+
+![mir](img/faq/faq46.gif)
+
+Looking close at the above image shows many bevelled edges converging into a non bevelled edge. This difference in geometry caused a shading convergence issue.
+
+Easy fix. Lower the bevel angle slightly.
+
+![mir](img/faq/faq47.gif)
+
+___
+
 # How do you make a hardOps mesh work with subdivision?
 
 Below is my classic video for converting from boolean / bevel to subdivison geometry. As you can see it is a process unto itself. This video is a classic from 2.79 so it is still applicable even in the 2.8 era.
