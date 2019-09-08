@@ -2,7 +2,7 @@
 
 ### Hard Ops Dynamic Menu System
 
-Hard Ops's menu can be best explained through the Q menu that shows in an [undefined mesh](sstatus.md).
+Hard Ops's menu can be best explained through the <kbd>Q</kbd> menu that shows in an [undefined mesh](sstatus.md).
 
 ![menu](img/menu/mn1.png)
 
@@ -13,7 +13,7 @@ Besides the name its best broken down as follows:
 - Add Modifier
 - Aux Options ([meshtools](meshtools.md) and [settings](settings.md) submenus)
 - [KitOps](inserts.md)
-- Blender Quick Favorite menu that is traditionally on the Q button.
+- Blender Quick Favorite menu that is traditionally on the <kbd>Q</kbd> button.
 
 The first 3 options are based off of the workflow in HOPS and changes dynamically. By keeping it at slim the menu remains consistent despite context. This is at least visually appealing and has also created a level of control we didn't initially plan for.
 
@@ -37,7 +37,7 @@ After a bevel modifier is added one of the main options is bwidth as well as the
 
 This workflow can become quite quick with practice.
 
-The same applies to the shift + Q pie menu which also utilizes dynamic options.
+The same applies to the <kbd>shift</kbd> + <kbd>Q</kbd> pie menu which also utilizes dynamic options.
 
 ![menu](img/menu/mn4.gif)
 
@@ -48,11 +48,11 @@ The same applies to the shift + Q pie menu which also utilizes dynamic options.
 
 ## Other Menu Types
 
-# Q menu for Camera
+# <kbd>Q</kbd> menu for Camera
 
 ![menu](img/menu/mn6.gif)
 
-If you select a camera and press Q options will be available.
+If you select a camera and press <kbd>Q</kbd> options will be available.
 
 - Lens (setting focal length. I like 60 personally)
 - PP (for making the outside dark for viewing what the camera sees)
@@ -63,20 +63,20 @@ If you select a camera and press Q options will be available.
 - [RenderSets](rendersets.md) (always present)
 - [Viewport](viewport.md) (always present)
 
-# Q menu for lattices
+# <kbd>Q</kbd> menu for lattices
 
 ![menu](img/menu/mn7.gif)
 
-Lattices have Q options for spans on the X / Y / Z.
+Lattices have <kbd>Q</kbd> options for spans on the X / Y / Z.
 
 Even better there is an option to simplify which will take the spans of the lattice to 2 which makes it back into a cube basically.
 
 - [RenderSets](rendersets.md) (always present)
 - [Viewport](viewport.md) (always present)
 
-# Q menu for Curves
+# <kbd>Q</kbd> menu for Curves
 
-Pressing Q for curves will bring up a special Q menu for that. It also is in the pie.
+Pressing <kbd>Q</kbd> for curves will bring up a special <kbd>Q</kbd> menu for that. It also is in the pie.
 
 With a single curve selected it will let you adjust the extrude.
 

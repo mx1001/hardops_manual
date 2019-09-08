@@ -51,7 +51,7 @@ Keymap shows all the hotkeys that are associated via hard coding with HOPS.
 
 > If you need to remove a hotkey it is recommended to uncheck it at the left instead of clicking the x on the right. That could cause you to permenantly lose the hotkey.
 
-This screen is more for reference than adjustments. The hotkeys can be unpredicatble when edited externally.
+This screen is more for reference than adjustments. The hotkeys can be unpredictable when edited externally.
 
 ---
 

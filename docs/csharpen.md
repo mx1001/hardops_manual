@@ -32,7 +32,7 @@ The F6 menu has options that are similar to [ssharpen](ssharpen.md) with a few a
 
 ![csharpen](img/csharpen/c2.png)
 
-- Modifiers (hold shift to select / deselect) defaults generally are fine with the exception of sometimes ignoring solidify as well
+- Modifiers (hold <kbd>shift</kbd> to select / deselect) defaults generally are fine with the exception of sometimes ignoring solidify as well
 - general parameters - adjustments to cSharp
   - the left numbers are global parameters. Changing those will make csharp remember next time.
   - instance numbers - for changing the behavior of csharp for this one instance

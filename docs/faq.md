@@ -22,7 +22,7 @@ ___
 
 # Why won't my sharp edges show up? Did hops do this?
 
-Q: "for some reason hardops is preventing me from making sharps sharp? Tested by turning off the hops addon and it went back to normal, any ideas on why that would be happening? Basically Ctrl+E> Mark Sharp changes nothing with hops enabled in preferences."
+Q: "for some reason hardops is preventing me from making sharps sharp? Tested by turning off the hops addon and it went back to normal, any ideas on why that would be happening? Basically <kbd>Ctrl</kbd> + <kbd>E</kbd> >> Mark Sharp changes nothing with hops enabled in preferences."
 
 a few tips:
 
@@ -36,7 +36,7 @@ a few tips:
 
 The modscroll can be a powerful tool for scrolling through the process to see where things go wrong. It also allows for backwards scrolling and looping for more fun with modifier presentation.
 
-Modifier scroll or toggle could be set for the quick favorites to be accessed with Q >> Q if needed extensively for a session.
+Modifier scroll or toggle could be set for the quick favorites to be accessed with <kbd>Q</kbd> >> <kbd>Q</kbd> if needed extensively for a session.
 
 ![mir](img/faq/faq44.gif)
 

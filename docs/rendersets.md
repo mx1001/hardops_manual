@@ -4,7 +4,7 @@
 
 With the addition of eevee we wanted to add something to make rendering easier.
 
-Pressing alt + V will bring up the viewport submenu.
+Pressing <kbd>Alt</kbd> + <kbd>V</kbd> will bring up the viewport submenu.
 
 ![p2](img/rs/rs1.png)
 

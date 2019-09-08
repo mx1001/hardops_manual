@@ -5,7 +5,7 @@ ___
 
 ### How to use the Material List
 
-Q >> Settings >> Material List
+<kbd>Q</kbd> >> Settings >> Material List
 
 > This will display the materials present in the scene. If you have no materials created none will be shown. In my scene I have defaults that I use for quick colorization. This is available per object in object mode and on a geometric seclection via edit mode.
 
@@ -48,7 +48,7 @@ ___
 ### How to bring up the Material Helper.
 
 
-** Ctrl + ~ ** brings up the modifier helper. The 2nd tab is the material helper.
+** <kbd>Ctrl</kbd> + <kbd>~</kbd> ** brings up the modifier helper. The 2nd tab is the material helper.
 
 ![](img/settings/mm3.gif)
 

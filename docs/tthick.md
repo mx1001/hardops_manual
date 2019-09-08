@@ -2,6 +2,14 @@
 
 ### tThick
 
+# Accessing tThick
+
+Tthick is an option on the main menu from pressing <kbd>Q</kbd>
+
+![tthick](img/tthick/t10.png)
+
+![tthick](img/tthick/t9.gif)
+
 ## What is tThick?
 
 Tthick is one of the modal operators in Hard Ops intended to use a solidify modifier in a modal manner. This tool is intended to behave as an object level extrude.
@@ -12,11 +20,11 @@ Tthick is one of the modal operators in Hard Ops intended to use a solidify modi
 
 If the mesh is undefined:
 
-Q >> tThick
+<kbd>Q</kbd> >> tThick
 
 If the mesh is [csharp](csharpen.md) / [cstep](step.md):
 
-Q >> [Operations](operations.md) >> tThick
+<kbd>Q</kbd> >> [Operations](operations.md) >> tThick
 
 ![tthick](img/tthick/t1.gif)
 
@@ -26,17 +34,17 @@ In the above example I reset the [sstatus](sstatus.md) to undefined and used tth
 
 ## tThick Detailed Usage
 
-> When pressing H during a modal the help will be displayed.
+> When pressing <kbd>H</kbd> during a modal the help will be displayed.
 
 ![tthick](img/tthick/t2.png)
 
 When using tThick the following hotkeys apply:
 
-  - R - turns on rim for solidify (useful for cases where the mesh needs to only look thick)
-  - 1 - sets offset to 1. Makes mesh sit on top of itself.
-  - 2 - sets offset to 0. This pushes the mesh in and out at the same time.
-  - 3 - opposite of 1. Pushes mesh down itself.
-  - Ctrl - changes offset manually. Rare usage.
+  - <kbd>R</kbd> - turns on rim for solidify (useful for cases where the mesh needs to only look thick)
+  - <kbd>1</kbd> - sets offset to 1. Makes mesh sit on top of itself.
+  - <kbd>2</kbd> - sets offset to 0. This pushes the mesh in and out at the same time.
+  - <kbd>3</kbd> - opposite of 1. Pushes mesh down itself.
+  - <kbd>Ctrl</kbd> - changes offset manually. Rare usage.
 
 Rim
 
@@ -54,7 +62,7 @@ Offset Example
 
 Having a pending boolean sets your mesh into what is called a [boolshape](sstatus.md). The icon in the corner will be green. ![tthick](img/tthick/t6.png)
 
-This means the Q menu will have the boolshape menu of:
+This means the <kbd>Q</kbd> menu will have the boolshape menu of:
 
 - bWidth
 - tThick

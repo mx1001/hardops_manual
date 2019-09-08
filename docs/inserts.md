@@ -9,9 +9,9 @@ For those who miss the inserts we do offer [classic inserts for Kitops ](https:/
 
 # [Kitops](https://gumroad.com/l/kitops) w/ [hardOps](https://gumroad.com/l/hopsclassicinserts)
 
-When [Kitops free](https://gumroad.com/l/kitops) or [pro](https://gumroad.com/l/kitopsprolite/) is installed a new button is added to the main Q menu.
+When [Kitops free](https://gumroad.com/l/kitops) or [pro](https://gumroad.com/l/kitopsprolite/) is installed a new button is added to the main <kbd>Q</kbd> menu.
 
-[Kitops](https://gumroad.com/l/kitops) can also be accessed from the mini helper. And the N panel kitops area not to mention the kitops N panel.
+[Kitops](https://gumroad.com/l/kitops) can also be accessed from the mini helper. And the <kbd>N</kbd> panel kitops area not to mention the kitops <kbd>N</kbd> panel.
 ![header](img/inserts/ins1.gif)
 
 The hardops version of the [Kitops](https://gumroad.com/l/kitops) panel also has the [mod sorting](sorting.md) at the bottom for easier access than prefs.

@@ -1,6 +1,6 @@
 ![header](img/banner.gif)
 
-# Hard Ops helper / HOPS Helper (CTRL + ~) /
+# Hard Ops helper / HOPS Helper (<kbd>ctrl</kbd> + <kbd>~</kbd>) /
 
 
 HOps helper is special Hard Ops menu with quick access to modifiers / materials and even and advanced section with mesh options and sharpening customization. This is also in the N panel to make it easier and more permeant.
@@ -11,11 +11,11 @@ This should make HOPS more approachable since the most important options can be 
 
 The Hops helper is one of the more beloved features in Hard Ops and fulfills needs that are required for full screen working.
 
-You can call the helper by pressing **CTRL + ~** or use the HOPS button in the top right.
+You can call the helper by pressing **<kbd>ctrl</kbd> + <kbd>~</kbd>** or use the HOPS button in the top right.
 
 ![](img/helper/hh17.png)
 
-Or press N and use our N panel.
+Or press <kbd>N</kbd> and use our <kbd>N</kbd> panel.
 
 ![](img/helper/hh18.gif)
 
@@ -65,7 +65,7 @@ The options are here because they are needed quickly and readily for situations 
 
 ### Bevel helper
 
-Pressing ctrl + shift + B brings up the bevel helper. This is a helper designed for making bevel management easier.
+Pressing <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>B</kbd> brings up the bevel helper. This is a helper designed for making bevel management easier.
 
 ![bool](img/helper/b1.gif)
 

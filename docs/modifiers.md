@@ -49,7 +49,7 @@ Bevel needs no introduction but in case you need one it adds a bevel mod to the 
 
 ![mod](img/modifiers/m1.gif)
 
-During the modal H shows help options.
+During the modal <kbd>H</kbd> shows help options.
 
 ![tthick](img/modifiers/m2.png)
 
@@ -65,7 +65,7 @@ Solidify also called tThick sometimes for menu reasons will add thickness to the
 
 ![mod](img/modifiers/m3.gif)
 
-There is also a help panel.
+There is also an H help panel.
 
 ![tthick](img/modifiers/m3.png)
 
@@ -82,7 +82,7 @@ For more information see [Mirror](mirror_symmetry.md).
 
 ![mirror](img/mirror/mmm1.gif)
 
-[This also has the hotkey alt+X.](hotkeys.md)
+[This also has the hotkey <kbd>Alt</kbd> + <kbd>X</kbd>.](hotkeys.md)
 
 Mirror has 3 different options.
 
@@ -103,7 +103,7 @@ Array will allow users to add or modify an array modifier on an object.
 
 Array also works on multiple objects.
 
-Of course press H for help.
+Of course press <kbd>H</kbd> for help.
 
 ![tthick](img/modifiers/m6.png)
 
@@ -129,7 +129,7 @@ Screw is also a major component in [hopsTool.](hopsTool.md).
 
 ![hotkey](img/hopstool/h6.gif)
 
-Press H for help during the screw modal.
+Press <kbd>H</kbd> for help during the screw modal.
 
 ![tthick](img/modifiers/m10.png)
 
@@ -147,7 +147,7 @@ It is also a part of the [circular array](circular.md).
 
 ![mod](img/modifiers/m11.gif)
 
-Press H to help.
+Press <kbd>H</kbd> to help.
 
 ![tthick](img/modifiers/m12.png)
 
@@ -159,7 +159,7 @@ Adds a simple deform that can be toggled between twist, taper, and deform.
 
 ![mod](img/modifiers/m13.gif)
 
-Press H for help.
+Press <kbd>H</kbd> for help.
 
 ![tthick](img/modifiers/m14.png)
 
@@ -175,7 +175,7 @@ Adds or modifies a cast modifier set to sphere, cube or cylinder. Typically I us
 Users can scroll the wheel to change the result.
 ![mod](img/modifiers/m15.gif)
 
-Press H for help.
+Press <kbd>H</kbd> for help.
 
 ![tthick](img/modifiers/m16.png)
 
@@ -189,7 +189,7 @@ The gif below shows the difference on planar surface. It can be tricky in action
 
 ![mod](img/modifiers/m18.gif)
 
-Ctrl + click to add an additional one in the modifier stack.
+<kbd>Ctrl</kbd> + click to add an additional one in the modifier stack.
 
 ___
 
@@ -203,7 +203,7 @@ It's subtle in most cases but can be a lifesaver on more complex models.
 
 ![mod](img/modifiers/m19.gif)
 
-Ctrl + click to add an additional one in the modifier stack.
+<kbd>Ctrl</kbd> + click to add an additional one in the modifier stack.
 
 ___
 
@@ -211,9 +211,9 @@ ___
 
 Adds a subdivision modifier to the selected object(s).
 
-This is similar to ctrl + 1 to add a subdivision modifier.
+This is similar to <kbd>Ctrl</kbd> + <kbd>1</kbd> to add a subdivision modifier.
 
-Ctrl + click to add an additional one in the modifier stack.
+<kbd><kbd>Ctrl</kbd></kbd> + click to add an additional one in the modifier stack.
 
 ___
 
@@ -231,7 +231,7 @@ This is intended to fit to the bounds of the object so it is unparented in the e
 
 ![mod](img/modifiers/m20.gif)
 
-Ctrl + click to add an additional one in the modifier stack.
+<kbd>Ctrl</kbd> + click to add an additional one in the modifier stack.
 
 ___
 

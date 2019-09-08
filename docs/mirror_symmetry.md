@@ -5,7 +5,7 @@
 > Mirroring is important  when it comes to keeping a mesh symmetrical however in
 Boolean workflows having bisecting mirror modifiers isn't ever ideal. With the new modifier option in 2.8 mirroring is better than ever with booleans.
 
-The mirror tool can be brought up with alt + X
+The mirror tool can be brought up with <kbd>Alt</kbd> + <kbd>X</kbd>
 
 The axis clicked on is the one intended to be kept.
 

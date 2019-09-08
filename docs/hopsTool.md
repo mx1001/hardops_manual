@@ -2,9 +2,9 @@
 
 # hopsTool
 
-> Hotkey: Alt + Shift + W
+> Hotkey: <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>
 
-> [with boxcutter installed and surface toggle **off** the hotkey is alt + W](https://boxcutter-manual.readthedocs.io/en/latest/preference/#enable-surface-toggle)
+> [with boxcutter installed and surface toggle **off** the hotkey is <kbd>Alt</kbd> + <kbd>W</kbd>](https://boxcutter-manual.readthedocs.io/en/latest/preference/#enable-surface-toggle)
 
 ![hotkey](img/hopstool/h19.png)
 
@@ -12,14 +12,14 @@ HardOps version 983 introduces the first active tool of Hard Ops called hopsTool
 
 ![hotkey](img/hopstool/h1_1.gif)
 
-When hopsTool is active pressing ctrl will show up dots that can be adjusted for quick manipulation on the fly. Clicking the dot brings up the modifier for fine edit.
+When hopsTool is active pressing <kbd>ctrl</kbd> will show up dots that can be adjusted for quick manipulation on the fly. Clicking the dot brings up the modifier for fine edit.
 
 ![hotkey](img/hopstool/h7.gif)
 
-If boxcutter is not installed the hotkey is alt + shift + W.
+If boxcutter is not installed the hotkey is <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>W</kbd>.
 ![hotkey](img/hopstool/h1.gif)
 
-If boxcutter is installed then hopsTool is swapable with alt + W.
+If boxcutter is installed then hopsTool is swapable with <kbd>alt</kbd> + <kbd>w</kbd>.
 ![hotkey](img/hopstool/h2.gif)
 
 hopsTool also adds a nifty little n panel toolbar.
@@ -36,7 +36,7 @@ hopsTool is primarily able to be used via the topbar.
 ![hotkey](img/hopstool/h19.png)
 
 - Behavior - like boxcutter a behavior panel exists to fine tune behaviors before operation
-- Display - options dictating what shows when ctrl is held.
+- Display - options dictating what shows when <kbd>ctrl</kbd> is held.
 - hShapes - procedural shapes for users to insert and get started with
 - Modifiers - add modifiers on the fly w/ adjustable dots for certain ones
 - Misc - mirror is the only option here for now.
@@ -53,7 +53,7 @@ Clicking a dot will bring up the modifier panel for the specific modifier. This 
 
 # Boolean dots
 
-While hopsTool is active users can select 2 objects and hold ctrl to bring up boolean dots.
+While hopsTool is active users can select 2 objects and hold <kbd>ctrl</kbd> to bring up boolean dots.
 
 - cut
 - join
@@ -81,13 +81,13 @@ There are 3 bevel icons in the topbar. All with special purposes.
 
 - ![hotkey](img/hopstool/BevelCorners.png) corner bevel (intended for planes and vertice beveling
 - ![hotkey](img/hopstool/BevelChamfer.png) chamfer (bevel w/ 1 segment)
-- ![hotkey](img/hopstool/BevelAll.png) rounded bevel (3 segments default angle 30 / ctrl + click angle 60)
+- ![hotkey](img/hopstool/BevelAll.png) rounded bevel (3 segments default angle 30 / <kbd>ctrl</kbd> + click angle 60)
 
 To showcase each in action.
 
 ![](img/step/s2s.gif)
 
-In this mode holding ctrl shows modifier dots. LMB clicking one shows the modifier information.
+In this mode holding <kbd>ctrl</kbd> shows modifier dots. LMB clicking one shows the modifier information.
 
 ![](img/step/s2.png)
 
@@ -97,14 +97,14 @@ Levels can be added very quickly this way.
 
 ![](img/step/s4s.gif)
 
-Also working this way is possible using the Q menu add modifier system.
+Also working this way is possible using the <kbd>Q</kbd> menu add modifier system.
 A few things to note:
 
 - first bevel can be an angle 30 or 60
 - second bevel cannot be an angle 30 or else it will catch the first bevel
 - bevels from here on are 60 and above to keep simplicity.
 
-The gif shows me adjusting bevels that aren't showing to set up levels I did moments later. Also the shading was incorrect due to not holding shift as well as ctrl to set it to 60 and not 30. But this is a good example of how the angles can work against you if you aren't mindful.
+The gif shows me adjusting bevels that aren't showing to set up levels I did moments later. Also the shading was incorrect due to not holding <kbd>shift</kbd> as well as <kbd>ctrl</kbd> to set it to 60 and not 30. But this is a good example of how the angles can work against you if you aren't mindful.
 
 ![](img/step/s5s.gif)
 
@@ -115,14 +115,14 @@ ___
 ## The topbar can be simplified
 ![hotkey](img/hopstool/h5.gif)
 
-## Ctrl + shift clicking dots allow for alternative modification.
+## <kbd>ctrl</kbd> + <kbd>shift</kbd> clicking dots allow for alternative modification.
 
-Bevel dot adjusts the width but ctrl + shift allows for segment adjust.
+Bevel dot adjusts the width but <kbd>ctrl</kbd> + <kbd>shift</kbd> allows for segment adjust.
 The info text up top lets users know whats being adjusted.
 
 ![hotkey](img/hopstool/h10.gif)
 
-On screw ctrl + shift left click dragging adjusts the steps in screw
+On screw <kbd>ctrl</kbd> + <kbd>shift</kbd> left click dragging adjusts the steps in screw
 
 ![hotkey](img/hopstool/h11.gif)
 
@@ -130,11 +130,11 @@ Simple deform also gets dots for making large adjustments on the fly.
 
 ![hotkey](img/hopstool/h12.gif)
 
-When using hops tool w/ boxcutter and racking bevels the ctrl + add mod behavior adds a mod at 60 degrees which is smoother for going to box city.
+When using hops tool w/ boxcutter and racking bevels the <kbd>ctrl</kbd> + add mod behavior adds a mod at 60 degrees which is smoother for going to box city.
 
 ![hotkey](img/hopstool/h13.gif)
 
-## The n panel can display your modifier stack so get in there and look at the mods.
+## The <kbd>N</kbd> panel can display your modifier stack so get in there and look at the mods.
 
 ![hotkey](img/hopstool/h14.gif)
 
@@ -155,12 +155,12 @@ To showcase setting it up in action:
 
 ![mir](img/faq/faq35.gif)
 
-- moved the plane held ctrl for increment snap
-- ctrl + A applied location
+- moved the plane held <kbd>ctrl</kbd> for increment snap
+- <kbd>ctrl</kbd> + <kbd>A</kbd> applied location
 - deleted one point to make it an edge
-- duplicated and separated one vert with P for making the object w/ same origin / rotation
+- duplicated and separated one vert with <kbd>P</kbd> for making the object w/ same origin / rotation
 - converted main shape to curve after bevelling
-- extrude (spin) the vert shape then ctrl + P (curve deform) to the curve
+- extrude (spin) the vert shape then <kbd>ctrl</kbd> + <kbd>P</kbd> (curve deform) to the curve
 
 > Curve deform rarely works out the box so some adjustment may be needed.
 
@@ -186,8 +186,8 @@ This can come in handy for lathing forms around curves.
 
 ![hopstool](img/hopstool/h22.gif)
 
-- ctrl + P >> curve deform was used to deform the object around a curve
-- alt + X was used to mirror and create a watertight mesh and hiding the seam
+- <kbd>ctrl</kbd> + <kbd>P</kbd> >> curve deform was used to deform the object around a curve
+- <kbd>alt</kbd> + <kbd>x</kbd> was used to mirror and create a watertight mesh and hiding the seam
 - clicking a dot will bring up the modifier stack for tweaking.
 
 > When using the spin modal pressing 3 will use extrude as the mode instead of spin.
@@ -216,10 +216,10 @@ By adding a displace, screw and solidify a rim can be made in short time and be 
 
 For this example I started with a curve. Then did the following.
 
-- converted to mesh with ctrl + A >> visual geometry (fastest way to make mesh)
-- alt + J (adjusted max shape size in the F6)
+- converted to mesh with <kbd>ctrl</kbd> + <kbd>a</kbd> >> visual geometry (fastest way to make mesh)
+- <kbd>alt</kbd> + <kbd>j</kbd> (adjusted max shape size in the F6)
 - hopsdot wireframe mod then adjusted the dot
-- ctrl + double clicked the dot for fine preference adjustment.
+- <kbd>ctrl</kbd> + double clicked the dot for fine preference adjustment.
 
 Then I undid until I had the original curve. And pasted the future object back to it so there was an inside shape.
 

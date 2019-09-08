@@ -4,6 +4,8 @@
 
 ## What are Meshtools?
 
+>> Meshtools can be found in the <kbd>Q</kbd> menu and contains many small tools optimized for various tasks.
+
 ![mt](img/meshtools/mt1.png)
 
 Meshtools are tools that perform quick operations that I use quite often in my workflow. There are also options for materials and a shortcut to the [HOPS Helper](helper.md). These options are just random tools and experiments that are useful in the hard ops workflow at certain points.
@@ -31,6 +33,10 @@ A video about this topic is also available.
 
 In object mode Reset Axis will allow you to reset an object on the Xyz on global space.
 
+Using Reset Axis
+- scroll wheel to scroll various reset axis'
+- <kbd>X</kbd>, <kbd>Y</kbd>, and <kbd>Z</kbd> to reset to specific axis respectively
+
 ![mt](img/meshtools/mt15.gif)
 
 When 2 objects are selected it will allow the axis to be reset in accordance with the primary object.
@@ -39,21 +45,23 @@ When 2 objects are selected it will allow the axis to be reset in accordance wit
 
 ---
 
-## Material List (Alt + M)
+## Material List (<kbd>Alt</kbd> + <kbd>M</kbd>)
 
 see [materials](tips_material_menu.md).
 
-Pressing alt + M will list all the materials in your scene. If you have no materials this list will be blank.
+Pressing <kbd>Alt</kbd> + <kbd>M</kbd> will list all the materials in your scene. If you have no materials this list will be blank.
 
 ***HARD OPS provides no materials besides the placeholders for inserts that are simple shaders and not recommended for rendering***
 
-The material list has proven to be quite useful to assigning materials to assets. Just selecting things and pressing alt + m.
+The material list has proven to be quite useful to assigning materials to assets. Just selecting things and pressing <kbd>Alt</kbd> + <kbd>M</kbd>.
 
 ![mt](img/meshtools/mt8.gif)
 
 ---
 
 ## Symmetry (only here for legacy reasons)
+
+> hotkey: <kbd>Alt</kbd> + <kbd>X</kbd>
 
 see [mirror](mirror_symmetry.md)
 
@@ -73,7 +81,7 @@ If you are still reading this, here is a demo of all 3 in action.
 
 ## Bevel helper
 
-Hotkey: Ctrl + shift + B
+Hotkey: <kbd>Ctrl</kbd> + <kbd>shift</kbd> + <kbd>B</kbd>
 
 > Will not come up when bevels are not present or selection is not a mesh.
 
@@ -206,14 +214,14 @@ That aside. X-Unwrap was a quick UV unwrapper we came up with for Hard Ops asset
 
 ---
 
-## [Modifier Helper](helper.md) (CTRL + ~)
+## [Modifier Helper](helper.md) (<kbd>Ctrl</kbd> + <kbd>~</kbd>)
 
 see [Modifier Helper](helper.md)
 
-Pressing CTRL + ~ will open the HOPS helper. This tool is now capable of more than dealing with just modifiers.
+Pressing <kbd>CTRL</kbd> + <kbd>~</kbd> will open the HOPS helper. This tool is now capable of more than dealing with just modifiers.
 
 ![mt](img/meshtools/mt7.gif)
 
-The HOPS helper is worth a look to see if the tool can fit in your workflow. The helper is indespensible for full screen working and has supercharged my personal workflow.
+The HOPS helper is worth a look to see if the tool can fit in your workflow. The helper is indispensable for full screen working and has supercharged my personal workflow. No matter the project. No matter the object. This tool gets use. It appeals to users of all disciplines and not just hard surface.
 
 ---

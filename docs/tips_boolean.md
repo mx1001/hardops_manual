@@ -6,6 +6,8 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S6uFpBe1oTU" frameborder="0" allowfullscreen></iframe>
 
+
+> With 2 meshes selected <kbd>Q</kbd> will bring up the hopsMenu with boolean options.
 ___
 
 # [Boolean](boolean.md) Basics
@@ -17,14 +19,14 @@ ___
 The [Boolean](boolean.md) hotkeys are as follows
 Object Mode
 
-  - ctrl + numpad + / performs union
-  - ctrl + numpad - / performs subtraction
-  - ctrl + numpad * / peforms slicing
+  - <kbd>Ctrl</kbd> + <kbd>numpad + </kbd> / performs union
+  - <kbd>Ctrl</kbd> + <kbd>numpad - </kbd> / performs subtraction
+  - <kbd>Ctrl</kbd> + <kbd>numpad * </kbd> / peforms slicing
 
 Edit Mode
 
-  - ctrl + alt + numpad + / performs union
-  - ctrl + alt + numpad - / performs subtraction
+  - <kbd>Ctrl</kbd> + <kbd>alt + numpad + </kbd>/ performs union
+  - <kbd>Ctrl</kbd> + <kbd>alt + numpad - </kbd>/ performs subtraction
 
 Object Mode
 
@@ -58,13 +60,13 @@ As you can see the geometric result was quite bad. This is due to the surfacing 
 
   -removing doubles for double vertices in the same areas while merging near miss vertices
 
-  This can require a small amout of work however we are always looking into ways to improve this.
+  This can require a small amount of work however we are always looking into ways to improve this.
 
   The difference between them can be quite immense.
 
 ![](img/bool/b5.gif)
 
-The art of cleanup is an essential one for boolean modelling. I also recommend meshMachine to make this aspect of working much easier.
+The art of cleanup is an essential one for boolean modelling. I also recommend [meshMachine](https://www.blendermarket.com/products/MESHmachine) to make this aspect of working much easier.
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=C5TknYySBpM" frameborder="0" allowfullscreen></iframe>
 
@@ -75,11 +77,13 @@ ___
 A nice demonstration of the inadequacies of [Boolean](boolean.md)s for hard surfaces can be shown in making a pokeball. I did a small study about how it can be done quickly with [Boolean](boolean.md)s versus efficiently with a cast modifier and subdivision blocking.
 
 > [Booleans](boolean.md)
+
 ![](img/bool/b6.gif)
 
 You can see with the surfaces that there is still a little touchup work to be done. However I must say that Hard Ops is not just for booleans it also is a tool for helping get a "finished" result. So now lets try using a cast modifier with subdivision to get the shape more sharper.
 
->Cast Modifier With Subdivision Blocking
+> Cast Modifier With Subdivision Blocking
+
 ![](img/bool/b7.gif)
 
 In this example the finishing was done via the Bevel while the initial shape is blocked in using modifiers efficiently and the cast modifier. While this can't work in all cases. It just serves as an example of an alternative way to approach such a shape.

@@ -2,6 +2,18 @@
 
 ### Step
 
+# Locating step
+
+Step is located in the <kbd>Q</kbd> menu after a mesh has an active boolean modifier.
+
+![](img/step/ss11.png)
+
+In the following example you can see how csharp is capable of making step an option due to bevel being present.
+
+![](img/step/ss10.gif)
+
+# What is step?
+
 step is the evolution of the earlier cstep and sstep workflow. At this point it is exclusive to the weight workflow. When using angle you can stack bevels all you'd like. However there is also a non-destructive variant to play with as well.
 
 ![](img/step/s1.png)
@@ -31,13 +43,13 @@ Using the [hopsTool](hopsTool.md) you can stack up bevels easily in the viewport
 There are 3 bevel icons.
 - corner bevel (intended for planes and vertice beveling
 - chamfer (bevel w/ 1 segment)
-- rounded bevel (3 segments default angle 30 / ctrl + click angle 60)
+- rounded bevel (3 segments default angle 30 / <kbd>Ctrl</kbd> + click angle 60)
 
 To showcase each in action.
 
 ![](img/step/s2s.gif)
 
-In this mode holding ctrl shows modifier dots. LMB clicking one shows the modifier information.
+In this mode holding <kbd>Ctrl</kbd> shows modifier dots. LMB clicking one shows the modifier information.
 
 ![](img/step/s2.png)
 
@@ -47,14 +59,14 @@ Levels can be added very quickly this way.
 
 ![](img/step/s4s.gif)
 
-Also working this way is possible using the Q menu add modifier system.
+Also working this way is possible using the <kbd>Q</kbd> menu add modifier system.
 A few things to note:
 
 - first bevel can be an angle 30 or 60
 - second bevel cannot be an angle 30 or else it will catch the first bevel
 - bevels from here on are 60 and above to keep simplicity.
 
-The gif shows me adjusting bevels that aren't showing to set up levels I did moments later. Also the shading was incorrect due to not holding shift as well as ctrl to set it to 60 and not 30. But this is a good example of how the angles can work against you if you aren't mindful.
+The gif shows me adjusting bevels that aren't showing to set up levels I did moments later. Also the shading was incorrect due to not holding shift as well as <kbd>Ctrl</kbd> to set it to 60 and not 30. But this is a good example of how the angles can work against you if you aren't mindful.
 
 ![](img/step/s5s.gif)
 
@@ -65,7 +77,7 @@ Step is used in situations where you want to apply a larger bevel and begin work
 
 ![](img/step/ss4.gif)
 
-After using step on the mesh a cube was cut into using the multi select boolean menu in q while also using Csharpen to mark the new area.
+After using step on the mesh a cube was cut into using the multi select boolean menu in <kbd>Q</kbd> while also using Csharpen to mark the new area.
 
 In this workflow step bakes and csharp / sharp are used for the same uses they initially have with regular sharpening.
 You are also able to keep using to work down to lower and lower levels to continuously detail the object.
@@ -88,7 +100,7 @@ This is important to know because if you have used hard ops this may have happen
 
 ![](img/step/ss8.gif)
 
-Your bevels get bevelled. For this reason the sharp menu in the modifier helper (ctrl + ~) exists.
+Your bevels get bevelled. For this reason the sharp menu in the modifier helper (<kbd>Ctrl</kbd> + <kbd>~</kbd>) exists.
 
 Changing the angle to 45 or greater will resolve this issue with low segments.
 

@@ -12,11 +12,11 @@ Clear sCsharps was created to clear the sharps from a mesh and and return it to 
 
 In the event you want to undo the hard ops process on a mesh for other reasons this option is located in
 
-> Q >> Operations >> Clear sCsharps
+> <kbd>q</kbd> >> Operations >> Clear sCsharps
 
 ![cs1](img/clearssharps/cs1.png)
 
-## Clear S/c Sharps in Action 
+## Clear S/c Sharps in Action
 
 ![cs1](img/clearssharps/cs2.gif)
 
@@ -25,8 +25,6 @@ The mesh in this example is both in a solified state but also [cSharpenened](csh
 The logo in the corner goes from:
 - Orange - cSharp
 - White - undefined
-- Orange - cSharp
-- white - undefined
 
 This is one way we keep up with the sstatus of an object without words.
 

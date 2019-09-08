@@ -36,7 +36,7 @@ In this example I turned on only bevel sorting. Notice that when I used the bool
 
 The down pointing arrow is for latest bevel sort. If you have more than one bevel more than likely you only want to deal with the highest level in order to cut with an independent bevel level.
 
-## ctrl + ~ helper
+## <kbd>Ctrl</kbd> + <kbd>~</kbd> helper
 
 ![mir](img/faq/f4.png)
 

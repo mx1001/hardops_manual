@@ -8,9 +8,9 @@
 
 The hotkeys are as follows:
 
-- ctrl + numpad minus (difference boolean)
-- ctrl + numpad plus (union boolean)
-- ctrl + numpad slash (slash boolean)
+- <kbd>ctrl</kbd> + <kbd>numpad minus</kbd> (difference boolean)
+- <kbd>ctrl</kbd> + <kbd>numpad plus</kbd> (union boolean)
+- <kbd>ctrl</kbd> + <kbd>umpad slash</kbd> (slash boolean)
 
 To demonstrate union and difference.
 
@@ -23,9 +23,9 @@ To demonstrate slash.
 As the gif shows you can also use [hopsTool](hopsTool.md) w/ 2 object selection to setup booleans as well.
 
 
-> Slash is also in the Q menu when 2 objects are selected.
+> Slash is also in the <kbd>Q</kbd> menu when 2 objects are selected.
 
-> Hotkeys can be quite fast for setting up booleans on the fly.
+> <kbd>Hotkeys</kbd> can be quite fast for setting up booleans on the fly.
 
 ![bool](img/boolean/ll21.gif)
 
@@ -39,23 +39,23 @@ So while we support booltool and will respect it if enabled, the HOPS boolean sy
 
 With 2 or more objects the following hotkeys apply.
 
-- ctrl + numpad minus (difference boolean)
-- ctrl + numpad plus (union boolean)
-- ctrl + numpad slash (slash boolean)
+- <kbd>ctrl</kbd> + <kbd>numpad minus</kbd> (difference boolean)
+- <kbd>ctrl</kbd> + <kbd>numpad plus</kbd> (union boolean)
+- <kbd>ctrl</kbd> + <kbd>numpad slash</kbd> (slash boolean)
 
 ![bool](img/boolean/ll14.gif)
 
-# Q menu
+# <kbd>Q</kbd> menu
 
-With 2 or more objects the Q menu will show an option for booleans.
+With 2 or more objects the <kbd>Q</kbd> menu will show an option for booleans.
 
 ![bool](img/boolean/ll5.png)
 
 > I generally use the hotkeys but this is added for additional conveninece.
 
-# Shift + Q Pie menu
+# <kbd>Shift</kbd> + <kbd>Q</kbd> Pie menu
 
-With 2 or more objects the shift + Q menu will show options for booleans.
+With 2 or more objects the <kbd>shift</kbd> + <kbd>Q</kbd> menu will show options for booleans.
 
 ![bool](img/boolean/ll6.png)
 
@@ -65,9 +65,9 @@ With 2 or more objects the shift + Q menu will show options for booleans.
 
 When an object is used as a boolean the following things happen:
   - object is converted into a wire
-  - object receives the sstatus: boolshape which affects the Q menu
+  - object receives the sstatus: boolshape which affects the <kbd>Q</kbd> menu
 
-This means the object has a special Q menu with options for bevel, solidify and array.
+This means the object has a special <kbd>Q</kbd> menu with options for bevel, solidify and array.
 To demonstrate them all at once.
 
 ![bool](img/boolean/ll7.gif)
@@ -83,14 +83,14 @@ When the logo is red the object is a boolshape. To reset a boolshape just reset 
 
 With 008 there came the ability to do material cutting. For this you will need materials with viewport colors in order to see visually.
 
-**(CTRL + ~)** Brings up the [Hard Ops Helper](helper.md)
+**(<kbd>ctrl</kbd> + <kbd>~</kbd>)** Brings up the [Hard Ops Helper](helper.md)
 
 On the material tab at the bottom is a cut material area.
 Requires object to be selected of course.
 
 ![bool](img/boolean/ll19.gif)
 
-It is also in the N panel.
+It is also in the <kbd>N</kbd> panel.
 
 ![bool](img/boolean/ll10.gif)
 
@@ -106,7 +106,7 @@ To explain what the options mean:
 
 ![bool](img/boolean/ll12.gif)
 
-In the above example I used the N panel to set up the cutting material.
+In the above example I used the <kbd>N</kbd> panel to set up the cutting material.
 
 Material slicing is also supported.
 
@@ -114,7 +114,7 @@ Material slicing is also supported.
 
 This can come in handy for performing material cuts as a finishing step for detailing and using materials to trim models.
 
-> Notice that I am able to access the helper via the ctrl + ~ , N panel and mini helper button.
+> Notice that I am able to access the helper via the <kbd>ctrl</kbd> + <kbd>~</kbd> , <kbd>N</kbd> panel and mini helper button.
 
 ![bool](img/boolean/ll20.gif)
 
@@ -122,7 +122,7 @@ This can come in handy for performing material cuts as a finishing step for deta
 
 # Boolean dots
 
-While hopsTool is active users can select 2 objects and hold ctrl to bring up boolean dots.
+While hopsTool is active users can select 2 objects and hold <kbd>ctrl</kbd> to bring up boolean dots.
 - cut
 - join
 - slice
@@ -151,8 +151,8 @@ When [Booltool](https://blenderartists.org/forum/showthread.php?336498-BoolTool-
 
 In my personal workflow it introduced the ability use the hotkeys:
 
-- ctrl + numpad minus (difference boolean)
-- ctrl + numpad plus (union boolean)
+- <kbd>ctrl</kbd> + <kbd>numpad minus</kbd> (difference boolean)
+- <kbd>ctrl</kbd> + <kbd>numpad plus</kbd> (union boolean)
 
 ![bool](img/boolean/ll2.gif)
 

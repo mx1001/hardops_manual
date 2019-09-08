@@ -16,7 +16,7 @@ With meshes selected, the first option below the suggested options is the operat
 
 ## Bevel Helper
 
-Pressing ctrl + shift + B brings up the bevel helper. This is a helper designed for making bevel management easier.
+Pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> brings up the bevel helper. This is a helper designed for making bevel management easier.
 It is also located in the Operations submenu.
 
 ![bool](img/helper/b1.gif)
@@ -33,7 +33,7 @@ As you can see the presets / full properties are also available
 
 Whenever you are working a modifier based workflow being able to roll through the history is important. By locating troublesome areas you can better continue without issue.
 
-Pressing L during modal will loop.
+Pressing <kbd>L</kbd> during modal will loop.
 
 There are also options to apply modifiers during this phase but applying mods midway is risky and not recommended in procedural creation.
 

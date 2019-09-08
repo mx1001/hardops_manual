@@ -12,7 +12,7 @@ Previously we had text doing this however the nature of this added additional te
 
 It brings me great pride to say that now the button is integrated into Blender and is clickable.
 
-If it fails to show the N-Panel is there for you.
+If it fails to show the <kbd>N</kbd> - Panel is there for you.
 
 ![](img/helper/h19.gif)
 

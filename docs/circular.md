@@ -2,7 +2,7 @@
 
 ### Circular Array
 
-Circular array can be found in the modifiers section of hard ops Q menu.
+Circular array can be found in the modifiers section of hard ops <kbd>Q</kbd> menu.
 
 ![cs1](img/circ1/c1.png)
 
@@ -10,7 +10,7 @@ After adding additional segments can be added with array and distance adjusted w
 
 ![cs1](img/circ1/c1.gif)
 
-There is a ctrl + click 3d cursor circular array which was intended for assistance with things like Boxcutter.
+There is a <kbd>ctrl</kbd> + click 3d cursor circular array which was intended for assistance with things like Boxcutter.
 
 ![cs1](img/circ1/c2.gif)
 

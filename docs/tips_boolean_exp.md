@@ -12,10 +12,10 @@ Below are some examples of how I make shapes using booleans in Hard Ops. It's al
 
 To discuss this first example:
 
-- subtractive boolean with ctrl + numpad minus. Then boolshape Q menu to bevel for roundness
+- subtractive boolean with <kbd>Ctrl</kbd> + numpad minus. Then boolshape <kbd>Q</kbd> menu to bevel for roundness
 - csharp to apply and sharpen
 - tthick to expand area reach of boolshape. Press 2 to push in and out during modal
-- subtractive boolean then used the Q >> Cslash to get the cutaway back.
+- subtractive boolean then used the <kbd>Q</kbd> >> Cslash to get the cutaway back.
 
 The shape is re-usable at this point to do cutaways on other areas of the mesh if the user desires.
 
@@ -46,15 +46,15 @@ So in the end this just added more spans to the curvature but dissolved the edge
 ![boolean](img/bool2/b7.gif)
 
 In this example I did the following:
-- ctrl + b bevel
-- pressed P to adjust profile to 1 which made the transtion hard on a bevel level of 2.
-- separated the mesh selection with P
-- ctrl + z undo to revert back to original state
+- <kbd>Ctrl</kbd> + <kbd>B</kbd> bevel
+- pressed <kbd>P</kbd> to adjust profile to 1 which made the transtion hard on a bevel level of 2.
+- separated the mesh selection with <kbd>P</kbd>
+- <kbd>Ctrl</kbd> + <kbd>Z</kbd> undo to revert back to original state
 
 At this point I modified the selection.
 - edge slide
 - partial deletion
-- ctrl + shift + b bevelled the corners for rounding.
+- <kbd>Ctrl</kbd> + shift + b bevelled the corners for rounding.
 
 So with this nice rounded extraction we can now use [tThick](tthick.md) to cut into the shape.
 

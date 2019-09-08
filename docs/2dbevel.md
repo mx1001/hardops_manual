@@ -6,6 +6,14 @@
 
 2d Bevel is a modified version of [bwidth](bwidth.md) that is specialized for 2d shapes.
 
+This will show up in the <kbd>Q</kbd> menu if the object is a plane or has a dimension of 0 on one side.
+
+ ![bevel](img/2dbevel/bvl10.png)
+
+ It is also in the <kbd>Q</kbd> menu under modifiers.
+
+ ![bevel](img/2dbevel/bv7.png)
+
 It adds a bevel mod that is set to verts. This works best with faces containing no interior verts between points.
 
 ---
@@ -22,10 +30,11 @@ In the following example I used the knife followed with bevel to face deletion i
 
 ## 2d Bevel w/ [hopsTool](hopsTool.md)
 
-2d bevel is also in the [hopsTool](hopsTool.md) system as well. This can be adjusted with the dots that show up while holding ctrl in [hopsTool](hopsTool.md).
+2d bevel is also in the [hopsTool](hopsTool.md) system as well. This can be adjusted with the dots that show up while holding <kbd>ctrl</kbd> in [hopsTool](hopsTool.md).
 
 ![bevel](img/2dbevel/bvl9.gif)
 
+> This can come in handy for creating the the base shape and bevel to add multiple levels to.
 
 ---
 
@@ -45,7 +54,7 @@ After initial setup it is able to also be adjusted via bwidth or [hopsTool](hops
 
 ## Finding 2d Bevel
 
-2d Bevel is found in the Q menu that comes up with planes. Or objects with 1 dimension equaling 0.
+2d Bevel is found in the <kbd>Q</kbd> menu that comes up with planes. Or objects with 1 dimension equaling 0.
 ![bevel](img/2dbevel/bv6.gif)
 
 ![bevel](img/2dbevel/bv7.png)

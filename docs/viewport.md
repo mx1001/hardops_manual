@@ -4,7 +4,7 @@
 
 # Eevee support
 
-In 2.8 we re-evaluated the idea for the [alt + V](hotkeys.md) submenu for 2.8.
+In 2.8 we re-evaluated the idea for the [<kbd>Alt</kbd> + <kbd>V</kbd>](hotkeys.md) submenu for 2.8.
 
 ![](img/viewport/v1.png)
 

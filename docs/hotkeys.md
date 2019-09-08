@@ -1,20 +1,20 @@
-![header](img/banner.gif)
+<kbd>Alt</kbd>![header](img/banner.gif)
 
 ### Essential Hotkeys
 
-## What is tilda or ~?
+## What is tilda or <kbd>~</kbd>?
 
 ![hotkey](img/hotkeys/h13.png)
 
 ## HOPS Hotkeys
 
-# Q / Shift + Q - Menu / Pie Menu
+# <kbd>Q</kbd> / <kbd>Shift</kbd> + <kbd>Q</kbd> - Menu / Pie Menu
 
 These are the core of Hard Ops and are the intended  method for choosing and finding functions for Hard Surface Operations.
 
 ![hotkey](img/hotkeys/h4.gif)
 
-# Ctrl + ~ - HOPS Helper
+# <kbd>Ctrl</kbd> + <kbd>~</kbd> - HOPS Helper
 
 The HOPS helper is a series of helpers for using Blender quickly in fullscreen.
 
@@ -26,11 +26,11 @@ The Hops helper is one of my favorites in Hard Ops and has it's own page.
 
 See [HOPS Helper](helper.md)
 
-# Alt + shift + W hopsTool
+# <kbd>Alt</kbd> + <kbd>Shift</kbd> + W hopsTool
 
 see [hopstool](hopsTool.md)
 
-# Alt + ~ - [Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools/) Helper
+# <kbd>Alt</kbd> + <kbd>~</kbd> - [Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools/) Helper
 
 **[Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools) Tools must be installed**
 
@@ -38,13 +38,13 @@ Mira Tools has been a favorite tool of mine for the longest. Curve Stretch remai
 
 ![hotkey](img/hotkeys/h12.png)
 
-In this example I will use the hotkey Alt + ~
+In this example I will use the hotkey <kbd>Alt</kbd> + <kbd>~</kbd>
 
 ![hotkey](img/hotkeys/h13a.png)
 
 ![hotkey](img/hotkeys/h14.gif)
 
-# Ctrl + Shift + B - Bevel helper
+# <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> - Bevel helper
 
 The bevel helper can come in handy for making quick bevel adjustments on the fly.
 For this to come up the bevel must already be present.
@@ -58,7 +58,7 @@ The bevel helper will already show up in the mini helper and N panel if bevels a
 
 Even though I could adjust the dots I could also use the helper for the multiply divide controls.
 
-# Alt + M - Material Menu
+# <kbd>Alt</kbd> + <kbd>M</kbd> - Material Menu
 
 The material menu was a happy accident that showed much potential in the click and go workflow of Hard Ops.
 This will assign a material to the selection with a list of shaders in the scene.
@@ -68,13 +68,13 @@ This will assign a material to the selection with a list of shaders in the scene
 **NO MATERIALS COME WITH HARD OPS**
 
 
-# Alt + V - Viewport Menu
+# <kbd>Alt</kbd> + <kbd>V</kbd> - Viewport Menu
 
-Alt + V has options for simplifying the viewport and is useful for quickly adjusting the viewport or render scene.
+<kbd>Alt</kbd> + <kbd>V</kbd> has options for simplifying the viewport and is useful for quickly adjusting the viewport or render scene.
 
 ![hotkey](img/hotkeys/h7.gif)
 
-# Ctrl + Numpad (-/+//) - Boolean Operators
+# <kbd>Ctrl</kbd> + <kbd>Numpad (-/+//)</kbd> - Boolean Operators
 
 Booltool started a revolution when it showed a quick way to get quick booleans non destructively and without many clicks or hotkeys. Over time the tool evolved far beyond its initial use and is no longer being developed by the same person. So in the end we built a simpler version in HOPS that has the drawing and is more aligned to the workflows utilized in HOPS.
 
@@ -88,19 +88,19 @@ When it comes to Hard Ops there is more than one way to perform a boolean operat
 
 The HOPS Boolean hotkeys are as follows.
 
-- CTRL + NUMPAD Minus - Cut
+- <kbd>Ctrl</kbd> + <kbd>NUMPAD</kbd> Minus - Cut
 
-- CTRL + NUMPAD Plus - Add
+- <kbd>Ctrl</kbd> + <kbd>NUMPAD</kbd> Plus - Add
 
-- CTRL + NUMPAD Slash - Cslash / Cut and split
+- <kbd>Ctrl</kbd> + <kbd>NUMPAD</kbd> Slash - Cslash / Cut and split
 
 [It is also worth mentioning that you can also use hopsTool dots](hopsTool.md) for boolean operations which can also be quick.
 
 ![hotkey](img/hotkeys/h21.gif)
 
-# Mirror Tool - (Alt + X)
+# Mirror Tool - (<kbd>Alt</kbd> + <kbd>X</kbd>)
 
-Hard Ops interactive mirror is alt + X. This represents the near final solution in mirroring with Hard Ops and requires no 3rd party plugins. It mirrors on both meshes and curves. It can even mirror meshes across curves. 
+Hard Ops interactive mirror is alt + X. This represents the near final solution in mirroring with Hard Ops and requires no 3rd party plugins. It mirrors on both meshes and curves. It can even mirror meshes across curves.
 
 ![hotkey](img/hotkeys/h3.gif)
 
@@ -118,7 +118,7 @@ Hard Ops interactive mirror is alt + X. This represents the near final solution 
 
 There are many hotkeys that I set manually in Blender.
 
-# Select Boundary - (shift + ~)
+# Select Boundary - (<kbd>Shift</kbd> + <kbd>~</kbd>)
 
 ![hotkey](img/hotkeys/h1.gif)
 
@@ -126,15 +126,15 @@ Select boundary will convert a selection to the edge perimeter. This can be usef
 
 Select Boundary is in the Select Menu at the very top. To set the hotkey I right click and choose to change shortcut.
 
-# Mark Sharp - (ctrl + ~)
+# Mark Sharp - (<kbd>Ctrl</kbd> + <kbd>~</kbd>)
 
 ![hotkey](img/hotkeys/h2.gif)
 
-Marking sharps is essential in a Hard Ops workflow for fixing shading issues without bevelling or using mark ssharp in the edit mode Q menu. This is something that is only for edit mode. Ctrl + ~ in Object Mode brings up the Hard Ops Helper.
+Marking sharps is essential in a Hard Ops workflow for fixing shading issues without bevelling or using mark ssharp in the edit mode <kbd>Q</kbd> menu. This is something that is only for edit mode. <kbd>Ctrl</kbd> + ~ in Object Mode brings up the Hard Ops Helper.
 
-> Not setting this hotkey keeps ctrl + ~ as the helper in edit mode.
+> Not setting this hotkey keeps <kbd>Ctrl</kbd> + <kbd>~</kbd> as the helper in edit mode.
 
-# Shortest Path - D / Also ctrl + left click by default in 2.8
+# Shortest Path - <kbd>D</kbd> / Also <kbd>Ctrl</kbd> + left click by default in 2.8
 
 I am quite happy with this function in blender and it comes in handy for selecting an area between two points. Sometimes when the edge flow is not optimal due to ngons or you want only a partial selection this option is for you.
 

@@ -18,7 +18,7 @@ This is the neutral state of all meshes and the easiest way to tell is the logo 
 
 ## Csharp
 
-When cSharp is used on a mesh the logo becomes more prominent. This also means the mesh is bevelled and more than likely sharpened. This changes the behavior of some tools but mainly the changes are in the Q menu.
+When cSharp is used on a mesh the logo becomes more prominent. This also means the mesh is bevelled and more than likely sharpened. This changes the behavior of some tools but mainly the changes are in the <kbd>Q</kbd> menu.
 
 ![ss1](img/sstatus/ss2.gif)
 
@@ -49,13 +49,13 @@ Cstep once was a function for baking bevels along with sstep. However the workfl
 > After using step the icon turned blue. This indicated that we baked the bevels and now the modifier is idle until we perform a boolean operation. This can be confusing at first however this system is still being planned out and we plan to add more stypes in the future.
 
 
-> step was not present in the Q menu in the above example due to the order or operations. I should have stepped the mesh then performed the boolean operation. Going into the operations menu for things is considered an overide but is necessary for certain situations.
+> step was not present in the <kbd>Q</kbd> menu in the above example due to the order or operations. I should have stepped the mesh then performed the boolean operation. Going into the operations menu for things is considered an overide but is necessary for certain situations.
 
 ## Boolshape
 
 This is a more obscure stype however this is applied to meshes that are used in boolean operations.
 
-When a mesh obtains this sstaus the Q menu for the item will have options for dealing with booleans that are still live.
+When a mesh obtains this sstaus the <kbd>Q</kbd> menu for the item will have options for dealing with booleans that are still live.
 
 Below is an example of using it.
 
@@ -75,11 +75,11 @@ This is based off of the options we most likely use for boolean objects.
 
 Sstatus can be changed a variety of ways.
 
-- Q >> Meshtools >> HOPS Reset (change sstatus to default and start over)
+- <kbd>Q</kbd> >> Meshtools >> HOPS Reset (change sstatus to default and start over)
 
 ![ss1](img/sstatus/ss5.gif)
 
-- Q >> Operations >> [Clear sCsharps](clearssharps.md) (changes sstatus to undefined / quick reset)
+- <kbd>Q</kbd> >> Operations >> [Clear sCsharps](clearssharps.md) (changes sstatus to undefined / quick reset)
 
 ![ss1](img/sstatus/ss6.gif)
 
