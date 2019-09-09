@@ -1,8 +1,9 @@
-site_name: hopsDocs
+site_name: HardOPS Docs
 site_url: http://hardops-manual.readthedocs.io/
 pages:
     - Getting Started:
         - Start: index.md
+        - Sales Page: hops_official.html
         - Introduction: introduction.md
         - Installation: installation.md
         - Getting Started: getstarted.md
@@ -28,7 +29,6 @@ pages:
         - Insert: inserts.md
         - Circulars: circular.md
         - SketchOps: sketchops.md
-        - SculptOps: sculptops.md
     - Functions:
         - Modifiers: modifiers.md
         - tThick: tthick.md
