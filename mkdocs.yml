@@ -1,8 +1,7 @@
-site_name: HardOPS Docs
+site_name: hopsDocs
 site_url: http://hardops-manual.readthedocs.io/
 pages:
     - Getting Started:
-        - Welcome: hops_official.html
         - Start: index.md
         - Introduction: introduction.md
         - Installation: installation.md
@@ -29,11 +28,20 @@ pages:
         - Insert: inserts.md
         - Circulars: circular.md
         - SketchOps: sketchops.md
+        - SculptOps: sculptops.md
     - Functions:
         - Modifiers: modifiers.md
         - tThick: tthick.md
         - bWidth: bwidth.md
         - 2dbevel: 2dbevel.md
+    - Edit Mode:
+        - Mark Sharp: edit_marksharp.md
+        - Bweight: edit_bweight.md
+        - Edit Mode Modifiers: edit_mods.md
+        - Demote: edit_demote.md
+        - Booleans: edit_booleans.md
+        - Mirror: mirror_symmetry.md
+        - Operations: edit_operations.md
     - Hard Ops Menus / Options:
         - Menu System: menu_system.md
         - Operations (Object Mode): operations.md
