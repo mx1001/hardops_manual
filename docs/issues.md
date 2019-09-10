@@ -38,3 +38,26 @@ Getting the terminal output to remain after a crash is more essential.
 ![hotkey](img/issue/i4.png)
 
 ![hotkey](img/issue/i5.gif)
+
+
+# PC Help
+
+When Blender crashes the console goes with it. By running Blender via the cmd you can get additional information that can help us fix issues.
+
+Right clicking Blender while open to access the properties will get you the shortcut.
+
+![hotkey](img/issue/i6.png)
+
+![hotkey](img/issue/i8.png)
+
+Windows + R >> Run Window >> cmd
+
+> Brings up command prompt.
+
+![hotkey](img/issue/i7.png)
+
+In the cmd paste the shortcut from the properties window.
+
+Running blender this way will make the cmd be a terminal output. Providing us information on why crashes occur.
+
+![hotkey](img/issue/i9.gif)
