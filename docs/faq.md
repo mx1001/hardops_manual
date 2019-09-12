@@ -10,6 +10,17 @@ Right click object mode and enable it.
 
 ___
 
+# I updated hops and got this error.
+
+![mir](img/faq/ff8.png)
+
+Make sure the old folder is deleted before updating. Blender 2.8 is more specific so if a file is renamed or changed
+it will possibly cause a registration issue if it isn't equipped for that operator anymore.
+
+Deleting HOPS via prefs and reininstalling from file will resolve the issue.
+
+___
+
 # What kind of geo can I expect from booleans?
 
 Something like this. Booleans solve as they will and with the most minimal of edges.
