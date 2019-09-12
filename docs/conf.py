@@ -59,3 +59,17 @@ epub_author = u'Hops'
 epub_publisher = u'Hops'
 epub_copyright = u'2017, Hops'
 epub_exclude_files = ['search.html']
+
+html_theme_options = {
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': 'white',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'titles_only': False
+}
