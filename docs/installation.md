@@ -11,7 +11,7 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 ## Hard Ops Installation     
 
 <iframe width="560" height="315"
-src="https://youtu.be/oMZrQ6ZHKm0"
+src="https://www.youtube.com/embed/oMZrQ6ZHKm0"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
