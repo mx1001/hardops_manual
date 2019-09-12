@@ -52,12 +52,6 @@ Make sure the folders are not there and it should work fine.
 
 And then Blender is able to be loaded and the addons enabled. Errors indicate that the HOPS/BC installation is possibly old and requires redownload. Also make sure it is installed in the correct path.
 
-
-<iframe width="560" height="315" src="vid/install 280.mp4" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="vid/install 281.mp4" frameborder="0" allowfullscreen></iframe>
-
-
 ---
 
 ## Detailed Install Instructions    
@@ -72,7 +66,9 @@ C:/Users/ **USERNAME** /AppData/Roaming/Blender Foundation/Blender/ **2.XX** /sc
 # Mac       
 >Locate Blender in your applications folder     
 
-RMB on the blender.app and select show package contents     
+RMB on the blender.app and select show package contents    
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZM_OWHtJsS8 " frameborder="0" allowfullscreen></iframe>
 
 # Linux:        
 >I assume linux users know their PC.        
