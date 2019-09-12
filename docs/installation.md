@@ -10,11 +10,7 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 
 ## Hard Ops Installation     
 
-<div style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;">
-	<iframe  width="425" height="344" src="https://www.youtube.com/embed/oMZrQ6ZHKm0" frameborder="0" allowfullscreen
-			style="position:absolute; top:0; left:0; width:100%; height:100%;">
-	</iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oMZrQ6ZHKm0" frameborder="0" allowfullscreen></iframe>
 
 Updating Blender requires the latest updates.
 https://builder.blender.org/download
@@ -56,17 +52,11 @@ Make sure the folders are not there and it should work fine.
 
 And then Blender is able to be loaded and the addons enabled. Errors indicate that the HOPS/BC installation is possibly old and requires redownload. Also make sure it is installed in the correct path.
 
-<div style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;">
-	<iframe  width="425" height="344" src="vid/install 280.mp4" frameborder="0" allowfullscreen
-			style="position:absolute; top:0; left:0; width:100%; height:100%;">
-	</iframe>
-</div>
 
-<div style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;">
-	<iframe  width="425" height="344" src="vid/install 281.mp4" frameborder="0" allowfullscreen
-			style="position:absolute; top:0; left:0; width:100%; height:100%;">
-	</iframe>
-</div>
+<iframe width="560" height="315" src="vid/install 280.mp4" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="vid/install 281.mp4" frameborder="0" allowfullscreen></iframe>
+
 
 ---
 
