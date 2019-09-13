@@ -210,6 +210,8 @@ Collapsing a cube to a vert and using handles to guide spins and then add mirror
 
 By adding a displace, screw and solidify a rim can be made in short time and be dynamically adjustable.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PtNJs5iWjKk" frameborder="0" allowfullscreen></iframe>
+
 # Braided Cable Design
 
 ![hotkey](img/hopstool/h25.gif)
