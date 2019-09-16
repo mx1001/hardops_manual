@@ -7,7 +7,6 @@ pages:
         - Introduction: introduction.md
         - Installation: installation.md
         - Getting Started: getstarted.md
-        - Troubleshooting: https://github.com/mx1001/boxcutter_manual/blob/master/docs/troubleshooting.md
         - Resources: resources.md
         - FAQs and SFQs: faq.md
         - Settings: settings.md
