@@ -2,6 +2,10 @@
 
 ### Interactive Mirror
 
+    **Gizmos must be enabled to use the mirror gizmo!**
+
+![mirror](img/mirror/m6.png)
+
 > Mirroring is important  when it comes to keeping a mesh symmetrical however in
 Boolean workflows having bisecting mirror modifiers isn't ever ideal. With the new modifier option in 2.8 mirroring is better than ever with booleans.
 
@@ -42,3 +46,39 @@ This one is one and done mirroring. It will mirror in the moment and not a secon
 When 2 objects are selected the mirror will behave differently and allow you to mirror and object from one side of an object to the other or more unusually symmetrize multiple items. I never use the later but it exists as an option.
 
 ![mirror](img/mirror/m5.gif)
+
+# Classic Mirror Mirror
+
+Mirror mirror was a classic workflow in Blender during the '79 era. It is activated still with 2 object selection and any of the classic mirror hotkeys.
+
+- <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd>
+- <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>Y</kbd>
+- <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>Z</kbd>
+
+![mirror](img/mirror/m10.gif)
+
+> The above example demonstrates mirror mirror with bisect which without the axial gizmo can sometimes mirror to the wrong side prompting the user to have to move the object. Alternatively the mirror can be adjusted via the <kbd>Ctrl</kbd> + <kbd>~</kbd> helper.
+
+# Classic Mirror system
+
+The classic mirror system still exists and has hotkeys.
+
+![mirror](img/mirror/m8.png)
+
+- <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd>
+- <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>Y</kbd>
+- <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>Z</kbd>
+
+It correlates with the mirror options in the helper area in the <kbd>N</kbd> panel or - <kbd>Ctrl</kbd> + <kbd>~</kbd> helper.
+
+![mirror](img/mirror/m9.png)
+
+Users can set the mirror prior to use and use the abovementioned hotkeys to perform the operation quickly without delay. The mirror gizmo offers the same functionality and is interactive.
+
+# So what does the N panel options do?
+
+These connect to the mirror gizmo when live via <kbd>Alt</kbd> + <kbd>X</kbd> or when using the classic mirror system.
+
+![mirror](img/mirror/m7.gif)
+
+> As you can see during the gizmo it changes the options so its possible to use this as an override.
