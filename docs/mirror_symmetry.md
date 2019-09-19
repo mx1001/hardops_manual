@@ -75,6 +75,8 @@ It correlates with the mirror options in the helper area in the <kbd>N</kbd> pan
 
 Users can set the mirror prior to use and use the abovementioned hotkeys to perform the operation quickly without delay. The mirror gizmo offers the same functionality and is interactive.
 
+![mirror](img/mirror/m11.gif)
+
 # So what does the N panel options do?
 
 These connect to the mirror gizmo when live via <kbd>Alt</kbd> + <kbd>X</kbd> or when using the classic mirror system.
