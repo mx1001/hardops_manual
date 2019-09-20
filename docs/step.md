@@ -53,7 +53,7 @@ In this mode holding <kbd>Ctrl</kbd> shows modifier dots. LMB clicking one shows
 
 ![](img/step/s2.png)
 
-![](img/step/s3s.png)
+![](img/step/s3s.gif)
 
 Levels can be added very quickly this way.
 
