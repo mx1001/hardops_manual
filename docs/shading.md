@@ -2,7 +2,19 @@
 
 ### Shading Options
 
+# Manual Cleanup w/ Spacer Bevels and cleanup
+
+Anyone familiar with my content knows I am a fan of manual cleanup utilizing. G >> G and alt + M merge to keep things moving. In the below example I add a profile: 1 / segment: 3 bevel and clean up the mess to have a guidance loop connecting the two parts. It can appear messy but the result is often what is intended.
+
+![](img/bool/b4.gif)
+
+# Curved Meshes and Booleans
+
 > Shoutout to AR for the examples for this topic.
+
+For curved meshes with round cutters artifacting can occur and cleanup will be required. There's a variety of ways to deal with booleans and shading. In these examples the more finalized the shading goals the less inflexible the workflow becomes so minimal cleanup is recommended on the fly with a more permenant solution applied at the end if the part requires it.
+
+![shading](img/shading/s9.gif)
 
 ![shading](img/shading/s1.gif)
 
