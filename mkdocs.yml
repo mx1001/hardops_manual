@@ -53,6 +53,7 @@ pages:
         - Rendersets: rendersets.md
         - Viewport Submenu: viewport.md
     - Additional Tips:
+        - Shading: shading.md
         - Booleans And Curvature: tips_boolean.md
         - Boolean Tips: tips_boolean_exp.md
         - decalMACHINE: decalmachine.md
