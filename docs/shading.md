@@ -15,8 +15,9 @@ Alternatively I could try adding isolation loops for the boolean but the shading
 # Solution 1: Manual Cleanup
 
 The art of manual cleanup is an art indeed and with clever usage of
+
 - J >> connect 2 verts
-- Ctrl + T >> triangulate
+- Ctrl + T >> triangulate selection (not the whole mesh)
 
 ![shading](img/shading/s3.gif)
 
@@ -38,10 +39,12 @@ With more geo booleans will cut better than ever but with more geo comes more re
 ![shading](img/shading/s5.png)
 
 A few notes about this workflow
+
 - booleans must be applied
-- no live bevel
+- no live bevel (unless it can be first)
 
 And then for the modifier portion.
+
 - a group for the isolated area of normal projection
 - a mesh (stashed) for recalling the desired normals
 
