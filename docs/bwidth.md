@@ -84,6 +84,21 @@ Usage of the <kbd>n</kbd> - flip normal in action. **only in edit mode**
 
 ## bWidth advanced
 
+# Setting default profile
+
+Sometimes the profile of .5 as the default instead of the .7 default of HOPS is preferred.
+
+![bwidth](img/bwidth/b17.gif)
+
+It can also be set in preferences.
+
+![bwidth](img/bwidth/b18.png)
+
+And the ctrl + ~ helper
+
+![bwidth](img/bwidth/b19.png)
+
+
 # Modifier Differences For Undefined / Csharp meshes
 
 The option is intended to be generally used in the <kbd>Q</kbd> menu following the [csharp](csharpen.md) operation.
@@ -108,11 +123,13 @@ If used on undefined meshes the modifier created looks like this:
 
 **<kbd>z</kbd>** during modal will show wires on all selected models
 
+
 # bWidth will not work on non objects
 
 ![bevelwidth](img/bwidth/b11.gif)
 
 At the beginning of this gif the options are greyed out due to my all selection including curves. This is due to the context sensetive nature of the of the operator.
+
 
 # bWidth to bevel cut
 
