@@ -53,6 +53,8 @@ pages:
         - Material Menu / Helper: tips_material_menu.md
         - Rendersets: rendersets.md
         - Viewport Submenu: viewport.md
+    - Tutorial Discussion:
+        - discussion_cylinoid.md
     - Additional Tips:
         - Shading: shading.md
         - Booleans And Curvature: tips_boolean.md
