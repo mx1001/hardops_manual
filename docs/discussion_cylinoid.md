@@ -6,6 +6,8 @@
 
 > These are based on user examples and discussions / comments.
 
+# How to fix the bevel after Decimate.
+
 ![cylinoid](img/cylinoid/cyl5.png)
 
 This can happen from not having the decimate present in the modifier stack.
