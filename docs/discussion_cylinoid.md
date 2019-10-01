@@ -44,6 +44,14 @@ With more work and loops things will work smoother.
 
 Hopefully that should give more insight to how it could be approached and controlled. I am sure in mine I was a little sloppier.
 
+# Blendswap Download
+
 My result is here. https://www.blendswap.com/blend/22843
 
 ![cylinoid](img/cylinoid/cyl8.png)
+
+# Hopstool Cylinoid
+
+Since the introductions of the hopstool I have reapproached the way I do cylinoids. With the added functionality of hopsTool it can be made relatively easy.
+
+![cylinoid](img/cylinoid/cyl9.gif)
