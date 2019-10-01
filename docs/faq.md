@@ -10,6 +10,25 @@ Right click object mode and enable it.
 
 ___
 
+# Help! I just installed and it says I need to upgrade!
+
+This means you installed the **older version** of hops/boxcutter. Install the correct version **prefixed with 2.8** and you will be good to go.
+
+![mir](img/faq/faq48.png)
+
+The last versions for 2.79 were:
+
+- [Hard Ops 0096 Proxium](https://masterxeon1001.com/2018/09/25/hard-ops-0096-proxium/)
+- [Boxcutter 690 Poly Dirk](https://masterxeon1001.com/2018/09/25/boxcutter-6-9-0-poly-dirk/)
+
+Attempting to install them in 2.8 will show an error.
+
+![mir](img/faq/faq49.png)
+
+The top file is always the latest and the same applies for [BlenderMarket.](https://www.blendermarket.com/account/orders)
+
+___
+
 # I updated hops and got this error.
 
 ![mir](img/faq/ff8.png)
@@ -17,7 +36,7 @@ ___
 Make sure the old folder is deleted before updating. Blender 2.8 is more specific so if a file is renamed or changed
 it will possibly cause a registration issue if it isn't equipped for that operator anymore.
 
-Deleting HOPS via prefs and reininstalling from file will resolve the issue.
+Deleting HOPS via preferences and reinstalling from file will resolve the issue.
 
 ___
 
