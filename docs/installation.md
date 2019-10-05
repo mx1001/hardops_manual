@@ -110,3 +110,37 @@ The naming is as follows.
 - [Batch Operations](http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/BatchOperations)        
 
 Also the above texts are hyperlinks to their locations.
+
+# More about installation.
+
+> When it comes to diagnosing issues with install a **screenshot of the issue would help with diagnosing errors**.
+
+The easiest way to restore blender to defaults is to delete the config folder for your blender installation.
+
+The local folder in windows is located at (depending on version):
+
+- C:\Users\RUSER\AppData\Roaming\Blender Foundation\Blender\2.81
+- C:\Users\RUSER\AppData\Roaming\Blender Foundation\Blender\2.80
+
+![faq](img/faq/f40.gif)
+
+> I tend to right click and send my config to a zip so it can be saved for later if needed. To restore it I can delete the new config folder and unzip the archive to this location to restore a previous setup.
+
+**Install from file will not work if the addon is present**
+
+For install from file to work you will need to delete the HOPS / boxcutter folders out of addons. This will ensure a clean installation.
+
+![faq](img/faq/f41.gif)
+
+# Rename 2.8x folder for testing reinstallation
+
+Alternatively you can also try a clean install by just renaming the 2.81 folder and trying install from file then.
+
+This is the method I use to test every support issue involving installation that customers write me about.
+
+- renamed 2.81 folder to 2.81a so Blender won't load prefs from that folder. Causing a new clean 2.81 folder to be created.
+- loaded up Blender which loaded full-screen showing the config splash **indicating prefs have been reset**
+- installed Boxcutter / Hard Ops from file **notice the hang when installing from file, this is normal for installation**
+- configured prefs for general experience
+
+![faq](img/faq/f42.gif)
