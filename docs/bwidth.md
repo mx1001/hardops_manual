@@ -64,6 +64,7 @@ When used on multiple objects it is capable of respecting differing offsets and 
 - <kbd>z</kbd> - shows wire in viewport. has uses extending past just seeing bevels. Also can be used to quickly show wires.
 - <kbd>1</kbd> - toggles autosmooth / for times where you need to toggle autosmooth within the bevel operation
 - <kbd>2</kbd> - use bevel verts (makes bevel use only verts)
+- <kbd>3</kbd> - subdivision conversion (sets profile: 1, wire_display = true, segments = 2)
 - <kbd>a</kbd> - Adaptive Mode (added by [machin3](https://twitter.com/machineio)) makes bevel segments adjust according to scale.
 - <kbd>c</kbd> - Loop slide / See mod tooltip
 - <kbd>s</kbd> - Modal segments
@@ -216,3 +217,19 @@ This should not be an issue in the most recent update. <kbd>1</kbd> during bwidt
 ![](img/faq/c4.gif)
 
 ---
+
+ # <kbd>3</kbd> - subdivision conversion
+
+ > This was added to hardOps as of "(2.8) HOps 00983 Curium_8" on 10/3/2019.
+
+ During bevel pressing 3 will switch the active bevel into being a boundary loop for transition into subdivision or better surface control.
+
+ ![bevelwidth](img/bwidth/b20.gif)
+
+ Triangulate is also setup to only work on ngons leaving quads intact which makes the cleanup effort a little more straightforward.
+
+ ![bevelwidth](img/bwidth/b21.gif)
+
+ At this point subdivision is able to be used to a limited extent with this workflow.
+
+ Pressing 1 can also go back to a typical bevel during bwidth as well.
