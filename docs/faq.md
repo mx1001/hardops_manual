@@ -29,6 +29,39 @@ The top file is always the latest and the same applies for [BlenderMarket.](http
 
 ___
 
+# Why can't I cut with planes anymore?
+
+Well to put is simply. [Blender themselves](https://docs.blender.org/manual/en/dev/modeling/modifiers/generate/booleans.html) changed the algorithm.
+Previously they used to use [CARVE](https://github.com/VTREEM/Carve) now they use BMESH.
+
+[This was the moment CARVE was removed.](https://developer.blender.org/D3050)
+
+From the final release of [2.79](https://download.blender.org/release/Blender2.79/latest/) to [2.8 going forward](https://builder.blender.org/download) there are now new rules to adhere to.
+
+- watertight (no holes)
+  - this means cutting the mesh in half and **using the mirror with booleans is no longer recommended**
+  - keeping the mesh solid and [mirroring via modifier is more optimal](mirror_symmetry.md)
+- solid **no planes** no 2d geometry.
+  - in order to use 2d geometry with booleans it is [recommended to add thickness](tthick.md)
+- normals must be properly oriented
+  - in 2.8 normals can be harder to notice when incorrect so the alt + V face orientation is useful for troubleshooting.
+  - edit mode with all selected shift + N recalculates normals.
+  - applying scale if things get inverted can also help boolean issues. With wireshapes for booleans it can be harder to tell if a mesh has been flipped inside out.
+
+Bmesh booleans are faster which results in more booleans being able to be racked up and the tips mentioned above should be followed for a predictable modifier workflow.
+
+These should be rules in general but with BMESH it is now more strict. We simply evolved with the times and continued but we understand this can be an unusual transition after seeing the 2.79 content but it was just a different time and now long gone in favor of something that ties into the rest of the tools and is much faster without so many triangles being created on the cut. It will take some time to get used to but it is the way things are now
+
+As you can see from the image it is sort of random.
+
+![mir](img/faq/f43.gif)
+
+And with thickness it just works more predictably.
+
+![mir](img/faq/f44.gif)
+
+___
+
 # I updated hops and got this error.
 
 ![mir](img/faq/ff8.png)
