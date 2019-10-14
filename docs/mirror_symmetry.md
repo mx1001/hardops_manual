@@ -11,7 +11,7 @@ Boolean workflows having bisecting mirror modifiers isn't ever ideal. With the n
 
 The mirror tool can be brought up with <kbd>Alt</kbd> + <kbd>X</kbd>
 
-The axis clicked on is the one intended to be kept.
+The axis clicked on is the one intended to be kept. Shift clicking will use multiple axis.
 
  ![mirror](img/mirror/mmm1.gif)
 
@@ -40,6 +40,12 @@ This one is one and done mirroring. It will mirror in the moment and not a secon
 ![mirror](img/mirror/m4.gif)
 
 > As the modifier stack in the n panel shows no mirror was created while symmetrizing. Making it the fastest way to mirror one side to the other.
+
+# Using Multiple Axis
+
+During interactive mirror pressing shift will add the axis clicked to the list and keep the operation going. This allows users to select more than 1 axis to mirror.
+
+![mirror](img/mirror/m12.gif)
 
 ### Two Object Interactive Mirror
 
