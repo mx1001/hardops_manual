@@ -2,7 +2,7 @@
 
 ### Interactive Mirror
 
-    **Gizmos must be enabled to use the mirror gizmo!**
+**Gizmos must be enabled to use the mirror gizmo!**
 
 ![mirror](img/mirror/m6.png)
 
