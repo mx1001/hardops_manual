@@ -38,6 +38,38 @@ There is also a video on this topic specifically.
 
 ---
 
+# Autosmooth Quickprefs
+
+Autosmooth quickprefs can be found in either the hardOps:
+
+- N panel
+- HOPS Corner Button
+- Ctrl + ~ Helper
+
+Tool >> Sharp Options
+
+![sharp](img/ssharpen/ss26.gif)
+
+To make the autosmoothing workflow easier we added the ability to quickly choose an smoothing pref.
+
+![sharp](img/ssharpen/ss23.gif)
+
+> In the above example it can be visual how higher autosmooth amounts can cause issues with lesser angles on meshes. 45 and lower works but 60 degrees resulted in shading issues.
+
+The global toggle ensures the autosmooth set by the user is not reset when the ssharpen / csharpen / step operations are performed.
+
+![sharp](img/ssharpen/ss24.gif)
+
+> Notice that with global unchecked the autosmooth set in the previous example remains despite the sharp markings happening on the 30 degree angle.
+
+Autosmooth can be toggled off an on using the toggle button.
+
+![sharp](img/ssharpen/ss25.gif)
+
+> Choosing any autosmooth quick preset will set smooth in addition to turning on autosmooth.
+
+---
+
 ## Ssharp In Action
 
 When ssharp is used the mesh receives the above mentioned things. There is also an F6 menu for adjusting the behavior.

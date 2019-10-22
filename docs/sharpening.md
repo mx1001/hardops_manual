@@ -16,7 +16,7 @@ This would resolve the shading enough to get the mesh to look decent. But when I
 
 This was a workflow I leaned from [BG](http://www.blenderguru.com/) back in the day.
 
-Its important to note that on this object the vertcount went from 63 to 146. This is alot for something thats only shading.
+Its important to note that on this object the vertcount went from 63 to 146. This is excessive at times for something that is only shading.
 
 > This workflow is not recommended of course but it's just a part of the history.
 
@@ -44,3 +44,33 @@ The bevel modifier also can be used intelligently here. By manually marking the 
 This is the foundation for [ssharpen](ssharpen.md) / [csharpen](csharpen.md). To best use these functions it is best to understand how to do it manually.
 
 With this information you should be ready for ssharpen / csharpen which expands on these ideas in an automated fashion.
+
+# Autosmooth Quickprefs
+
+Autosmooth quickprefs can be found in either the hardOps:
+
+- N panel
+- HOPS Corner Button
+- Ctrl + ~ Helper
+
+Tool >> Sharp Options 
+
+![sharp](img/ssharpen/ss26.gif)
+
+To make the autosmoothing workflow easier we added the ability to quickly choose an smoothing pref.
+
+![sharp](img/ssharpen/ss23.gif)
+
+> In the above example it can be visual how higher autosmooth amounts can cause issues with lesser angles on meshes. 45 and lower works but 60 degrees resulted in shading issues.
+
+The global toggle ensures the autosmooth set by the user is not reset when the ssharpen / csharpen / step operations are performed.
+
+![sharp](img/ssharpen/ss24.gif)
+
+> Notice that with global unchecked the autosmooth set in the previous example remains despite the sharp markings happening on the 30 degree angle.
+
+Autosmooth can be toggled off an on using the toggle button.
+
+![sharp](img/ssharpen/ss25.gif)
+
+> Choosing any autosmooth quick preset will set smooth in addition to turning on autosmooth.
