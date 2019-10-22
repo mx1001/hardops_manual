@@ -97,6 +97,12 @@ When launched it will bring up a gizmo for user interaction. It is important to 
 
 ![ops](img/operations/o9.gif)
 
+> An active tool is a tool that remains open as a state until it is ended. The array gizmos will persist across object selections and sessions until exited. To exit Array you can right click or press W to exit it like any other active tool. Also escape for array also works.
+
+Using array from the modifier options uses the classic modal array and operations and main menu uses the active tool version.
+
+![ops](img/operations/o18.gif)
+
 ---
 
 ## Clean Mesh

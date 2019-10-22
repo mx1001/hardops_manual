@@ -1,0 +1,56 @@
+![header](img/banner.gif)
+
+### Array Systems
+
+## Array (active-tool)
+
+Array is the upgraded version of Qarray going in the same direction as mirror but is still a work in progress.
+When launched it will bring up a gizmo for user interaction. It is important to make sure gizmos are not disabled before starting.
+
+![ops](img/operations/o9.gif)
+
+> An active tool is a tool that remains open as a state until it is ended. The array gizmos will persist across object selections and sessions until exited. To exit Array you can right click or press W to exit it like any other active tool. Also escape for array also works.
+
+Using array from the modifier options uses the classic modal array and operations and main menu uses the active tool version.
+
+![ops](img/operations/o18.gif)
+
+---
+
+# QArray (modal)
+
+>QArray is the classic modal for arraying objects. There is an active tool version available but this one remains since the behavior is more optimized for fast editing.
+
+Array will allow users to add or modify an array modifier on an object.
+
+![mod](img/modifiers/m5.gif)
+
+Array also works on multiple objects.
+
+Of course press <kbd>H</kbd> for help.
+
+![tthick](img/modifiers/m6.png)
+
+Pressing 2 during the modal will add a 2nd modifier.
+
+![mod](img/modifiers/m7.gif)
+
+___
+
+# [Circular Array](circular.md)
+
+[Circular Array](circular.md) does the following.
+
+- empty with a driver based off of Array
+- displace modifier to push the object outside for radius
+- array with offset based off of initial empty
+
+![mod](img/modifiers/m26.gif)
+
+for more details see [Circular Array](circular.md).
+
+Hovering over the option shows alternate creation types.
+
+![mod](img/modifiers/m27.png)
+
+___
