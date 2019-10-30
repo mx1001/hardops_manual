@@ -923,4 +923,10 @@ However, these pipes don't play a primary role in our art internally. So at this
 
 [Hard Ops Q menu - curve system](https://hardops-manual.readthedocs.io/en/latest/menu_system/#q-menu-for-curves)
 
+Also in boxcutter we explored ideas for procedural cutters involving pipes and plating.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qvgwnUzEuwQ?start=1994" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Someday we hope to expand on the idea of procedural custom cutter creation but that should give you a better idea of where our minds are at on the topic.
+
 ___

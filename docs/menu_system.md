@@ -92,6 +92,16 @@ Curve bevel will use the 2nd curve as the bevel object for the primary selection
 
 ![menu](img/menu/mn9.gif)
 
+# <kbd>Q</kbd> menu for Empties
+
+> Empty options are intended for use with reference images options exist for the following:
+- center image
+- move image
+- adjust transparency
+
+Pressing <kbd>Q</kbd> for empties will bring up a special <kbd>Q</kbd> menu for that. It also is in the pie.
+
+![menu](img/menu/mn11.gif)
 
 # hopsTool
 
