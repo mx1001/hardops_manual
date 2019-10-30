@@ -13,6 +13,7 @@ pages:
         - Settings: settings.md
     - Usage Information:
         - Hotkeys: hotkeys.md
+        - Workflows: workflows.md
         - Understanding The Prefs: preferences.md
     - Sharpening / Bevelling / Cutters:
         - Sharpening Basics: sharpening.md
