@@ -867,7 +867,7 @@ To describe each of our tools briefly:
 On a technical level:
 
 - our tools are in use by a large amount of [AAA game / film and design studios](https://medium.com/embarkstudios/a-love-letter-to-blender-e54167c22193)
-- User interface is offered via [panels, pies, topbars, menus and popups.](getstarted.md)
+- User interface is offered via [panels, pies, topbars, menus and popups.](https://boxcutter-manual.readthedocs.io/en/latest/getstarted/)
 - hardOps / boxcutter were designed from the ground up intending to allow users to work full screen without UI or interruption
 - [Boxcutter was completely re-written for 2.8 with the new possibilities in mind.](https://boxcutter-manual.readthedocs.io/en/latest/#history) Every tool was then dissected, examined and has now been in the process of re-entry resulting in a stronger product.
 - [self.cut (using itself as a cutter)](https://www.youtube.com/watch?v=k60evWExwVQ) only boxcutter is capable of this.
