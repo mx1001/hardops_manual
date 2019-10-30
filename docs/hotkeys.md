@@ -141,3 +141,29 @@ I am quite happy with this function in blender and it comes in handy for selecti
 ![hotkey](img/hotkeys/h11.gif)
 
 In the above image I located "shortest path" and right clicked it to set it to D and used it for a partial selection and then used the [Mira Tool](http://blenderartists.org/forum/showthread.php?366107-MiraTools) >> curve stretch to adjust that area. This is just one of the use cases but it's a custom hotkey worth knowing.
+
+---
+
+## Snapping Pies Addon
+
+> [Snapping pies was not made by me. I just ported it to 2.8.](https://raw.githubusercontent.com/mx1001/power_snapping_pies/master/power_snapping_pies.py)
+
+[Save the file](https://raw.githubusercontent.com/mx1001/power_snapping_pies/master/power_snapping_pies.py) as a .py and [install it.](install.md)
+
+![hotkey](img/hotkeys/h23.png)
+
+# Snap Pie - (<kbd>Shift</kbd> + <kbd>S</kbd>)
+
+Object Mode contains options for adjusting origin and snapping the cursor etc.
+
+![hotkey](img/hotkeys/h22.png)
+
+Edit mode has options to set origin to selection which I use quite a bit. This probably my main use of the tool in edit mode.
+
+![hotkey](img/hotkeys/h25.png)
+
+Snapping pies offers options for both object and edit mode for various operations like setting origin to selection or recalculating origin from geometry while also being able retain snap cursor functionality.
+
+![hotkey](img/hotkeys/h24.gif)
+
+To install just [save the file](https://raw.githubusercontent.com/mx1001/power_snapping_pies/master/power_snapping_pies.py) as a .py and [install it.](install.md)
