@@ -297,6 +297,23 @@ A: In the N panel or HOPS button is an option called Hard Ops learning that is b
 
 ___
 
+# Can I disable to Q menu and use only the Hops pie? For quick favorites?
+
+>> Quick favorites can be accessed with Q >> Q. Hard Ops was made before the Q menu came to Blender so now they've come to share the same key.
+
+Even though I wouldn't recommend it... yes.
+
+![mir](img/faq/ff9.gif)
+
+In the keymap tab any hotkey not wanted can be unchecked.
+
+> Do not click the X or delete the keymaps. Doing harsh changes will require reinstallation to resolve.
+
+![mir](img/faq/ff10.png)
+
+> To restore to default just enable to the option disabled here. 
+___
+
 # How do you stack bevels non-destructively? My bevels keep bevelling each other.
 
 First lets look at the bevel modifier as it is in the Add Modifier submenu.
@@ -855,7 +872,7 @@ To say, why us? In three words:
 - free updates forever
 - one button system
 - reduce your keystrokes
-- number one tool
+- [number one tool](https://blendermarket.com/posts/jerry-perkins-on-creating-hardops-for-blender-keystrokes-and-clicks-are-my-enemy)
 
 Personally, [I have been 3d modelling since 2010 in Blender 2.49.](https://masterxeon1001.com/2015/06/01/introp1/) All the experience and knowledge we have learned over the course of our 3d careers have went into these tools and continues to. The team working on the tools has experience in multiple areas of 3d ensuring the approaches are well rounded in various aspects and come from a point of understanding. To us: not only does the function matter, the connection of the function to subsequent functions is also taken into consideration. We care about how the tool is configured and used before, during and post operation. Workflow and key reduction is why these tools exist in the first place. The customizable behavior of our toolset ensures we will work with anyone of **any level or disability**. Much care ,thought and planning goes into every aspect of the tools we make. Our commitment to resolving customer issues and remaining proactive with updates is next to none. The product you purchase we can only assure is a **one-time purchase** and that any **future updates will be provided free of cost**. Not a day goes by where these tools aren't discussed, planed-on or under the knife in search of the next level of what we endeavor to achieve.
 
@@ -913,7 +930,7 @@ When it comes to pipes there are many pipe tools available freely:
 - [piperator](https://www.blendernation.com/2019/10/29/free-blender-addon-review-piperator/)
 - [pipe nightmare](https://blenderartists.org/t/pipe-nightmare-0-3-33/682448/69)
 
-  > Pipe Nightmare was actually made by our own [ProxeIO](https://twitter.com/proxeIO) which caught my attention for getting him to work on the team. Prox is currently the lead on Boxcutter and is an integral member of the team. To be honest I want pipe nightmare to be a connected tool in BC. Making pipe volumes with a simple draw. It could already be a thing by the time you read this. Proxe recently brought back [pipe nightmare](https://blenderartists.org/t/pipe-nightmare-0-3-33/682448/69) for use in the future and to get working in 2.8.
+  > Pipe Nightmare was actually made by our own [ProxeIO](https://twitter.com/proxeIO) which caught my attention for getting him to work on the team. [Prox is currently the lead on Boxcutter and is an integral member of the team.](https://proxe.io/) To be honest I want pipe nightmare to be a connected tool in BC. Making pipe volumes with a simple draw. It could already be a thing by the time you read this. Proxe recently brought back [pipe nightmare](https://blenderartists.org/t/pipe-nightmare-0-3-33/682448/69) for use in the future and to get working in 2.8.
 
 However, these pipes don't play a primary role in our art internally. So at this time I can't state future plans. It always is dependent on if we can improve upon the idea and take it in a different direction while continually evolving it. Or even if it is a [popular request](https://blenderartists.org/t/hard-ops-thread/).
 
