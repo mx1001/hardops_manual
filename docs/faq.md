@@ -302,6 +302,7 @@ ___
 >> Quick favorites can be accessed with Q >> Q. Hard Ops was made before the Q menu came to Blender so now they've come to share the same key.
 
 Even though I wouldn't recommend it... yes.
+> Menus contain all options while pies and panels contain most. The Q menu is the best way to get the most out of HardOps. 
 
 ![mir](img/faq/ff9.gif)
 
@@ -311,7 +312,7 @@ In the keymap tab any hotkey not wanted can be unchecked.
 
 ![mir](img/faq/ff10.png)
 
-> To restore to default just enable to the option disabled here. 
+> To restore to default just enable to the option disabled here.
 ___
 
 # How do you stack bevels non-destructively? My bevels keep bevelling each other.
