@@ -72,6 +72,7 @@ When used on multiple objects it is capable of respecting differing offsets and 
 - <kbd>Q</kbd> / Shift + Wheel down move mod down stack
 - <kbd>p</kbd> - Change profile
 - <kbd>n</kbd> - Flip Normal - used for reverse bevelling.
+- <kbd>shift</kbd> + <kbd>enter</kbd> - Apply Bevel Modifier
 - <kbd>m</kbd> - Harden Normals
 
 Usage of the <kbd>n</kbd> - flip normal in action. **only in edit mode**
@@ -181,6 +182,14 @@ This video goes more in depth on the topic.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6TdRQc1Grws" frameborder="0" allowfullscreen></iframe>
 
 ___
+
+# Bwidth Apply Modifier
+
+Shift + Enter with bwidth will also apply the bevel modifier.
+
+![imgur](https://i.imgur.com/b0lphHR.gif)
+
+---
 
 # Bwidth Auto-Smooth Toggle with 1 during modal
 

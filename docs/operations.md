@@ -173,3 +173,7 @@ If the mesh is csharp: it applies only booleans.
 If the mesh is undefined: it converts it to mesh.
 
 ![ops](img/operations/o16.gif)
+
+Ctrl + Click will convert to curve and inflate. This only works on 2d geometry.
+
+![imgur](https://i.imgur.com/Ukxiqlj.gif)

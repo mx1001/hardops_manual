@@ -14,7 +14,11 @@ ___
 
 This means you installed the **older version** of hops/boxcutter. Install the correct version **prefixed with 2.8** and you will be good to go.
 
+> [Bottom two files are for Blender 2.79](https://download.blender.org/release/Blender2.79/latest/) 
+
 ![mir](img/faq/faq48.png)
+
+![mir](img/faq/faq50.png)
 
 The last versions for 2.79 were:
 
@@ -302,7 +306,7 @@ ___
 >> Quick favorites can be accessed with Q >> Q. Hard Ops was made before the Q menu came to Blender so now they've come to share the same key.
 
 Even though I wouldn't recommend it... yes.
-> Menus contain all options while pies and panels contain most. The Q menu is the best way to get the most out of HardOps. 
+> Menus contain all options while pies and panels contain most. The Q menu is the best way to get the most out of HardOps.
 
 ![mir](img/faq/ff9.gif)
 

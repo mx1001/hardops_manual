@@ -45,7 +45,7 @@ ___
 - displace modifier to push the object outside for radius
 - array with offset based off of initial empty
 
-![mod](img/modifiers/m26.gif)
+![imgur](https://i.imgur.com/tziVVYj.gif)
 
 for more details see [Circular Array](circular.md).
 
@@ -54,3 +54,9 @@ Hovering over the option shows alternate creation types.
 ![mod](img/modifiers/m27.png)
 
 ___
+
+# hopsTool Radial
+
+Radial array is also present in the top bar during hops tool with shift being able to show specific axis options.
+
+![imgur](https://i.imgur.com/YcxWmPn.gif)

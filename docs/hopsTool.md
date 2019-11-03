@@ -51,6 +51,20 @@ Clicking a dot will bring up the modifier panel for the specific modifier. This 
 
 ---
 
+# Color Coded dots
+
+Prefs now exist to color the dots in case users need to customize the look of hopsTool.
+
+![imgur](https://i.imgur.com/VkR4007.gif)
+
+Radial array was consolidated into one dot which makes it easier to adjust and control on the fly.
+
+![imgur](https://i.imgur.com/NdUTdHG.gif)
+
+> This change also prevents array active tool from working for adjusting distance. However this will be fixed in the future.
+
+---
+
 # Boolean dots
 
 While hopsTool is active users can select 2 objects and hold <kbd>ctrl</kbd> to bring up boolean dots.
@@ -68,6 +82,20 @@ Boolshapes also get their own dot which is where the view can get cluttered quic
 Fade distance can be adjusted if needed and booldots can be turned off if they are getting in the way.
 
 ![hotkey](img/hopstool/h9.gif)
+
+---
+
+# Radial Dots
+
+Radial dots have now been consolidated into one for simplicity.
+
+![imgur](https://i.imgur.com/4GloF4f.gif)
+
+![imgur](https://i.imgur.com/YcxWmPn.gif)
+
+---
+
+
 
 ---
 
