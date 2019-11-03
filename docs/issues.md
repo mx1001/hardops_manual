@@ -2,6 +2,11 @@
 
 ### Helping us help you
 
+Being in a position of support has taught me how important it is to get adequate information on an issue.
+Screenshots, gifs and videos of issues are the best way to help us resolve your issue.
+
+Text descriptions can only go so far and we are often asking users for more information so the issues experienced can be triangulated and resolved.
+
 # Capturing Issues w/ ShareX windows
 
 When it comes to Blender crashes occur however being able to replicate it and provide steps for what causes it goes much farther for assistance with diagnosis.
@@ -12,22 +17,8 @@ For windows a small freeware app called [ShareX](https://getsharex.com/) is esse
 
 In ShareX I set my workflow to the above image.
 
-Thanks to this I am able to quicky record gifs and screencasts of issues.
+Thanks to this I am able to quickly record gifs and screencasts of issues.
 
-For example theres an issue where if the decimate mod is moved up the smartBox modstack it will cause shading and geometrical issues.
-
-![hotkey](img/issue/i2.gif)
-
-By providing this instead of a vague description it can better inform us of what the issue.
-
-Another thing that could be of use is showing us the modifier stack.
-
-It is part of the N panel and ctrl + ~ systems so showing us what is present also gives us insight.
-Also keeping an eye on the stack can better give the users insight on what is going on behind the scenes.
-
-![hotkey](img/issue/i3.gif)
-
-> In this example I turned off decimate sort and booled again which resolved the issue. The decimate mod needed to be where it was and not moved. So this wasn't a bug. But still an issue nonetheless.
 
 # Mac Help
 
