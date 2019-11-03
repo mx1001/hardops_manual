@@ -33,6 +33,30 @@ The top file is always the latest and the same applies for [BlenderMarket.](http
 
 ___
 
+# I tried to install the latest update without removing the old version and it didn't work.
+
+> Old version must be removed.
+
+![mir](img/faq/ff11.png)
+
+It can also be manually deleted from the local appdata location.
+
+![mir](img/faq/ff12.png)
+
+- Windows + R - Run Window
+- %appdata%\Blender Foundation\Blender\
+- locate your blender version. 2.80 , 2.81 etc.
+- 2.8x\scripts\addons
+- full location will be %appdata%\Blender Foundation\Blender\2.81\scripts\addons
+
+Find and delete the old folder and you will be able to reinstall.
+
+![mir](img/faq/ff13.png)
+
+Addons are always installed in the local location. It can be easier to delete the old version from prefs.
+
+___
+
 # Why can't I cut with planes anymore?
 
 Well to put is simply. [Blender themselves](https://docs.blender.org/manual/en/dev/modeling/modifiers/generate/booleans.html) changed the algorithm.
