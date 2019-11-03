@@ -33,30 +33,6 @@ The top file is always the latest and the same applies for [BlenderMarket.](http
 
 ___
 
-# I tried to install the latest update without removing the old version and it didn't work.
-
-> Old version must be removed.
-
-![mir](img/faq/ff11.png)
-
-It can also be manually deleted from the local appdata location.
-
-![mir](img/faq/ff12.png)
-
-- Windows + R - Run Window
-- %appdata%\Blender Foundation\Blender\
-- locate your blender version. 2.80 , 2.81 etc.
-- 2.8x\scripts\addons
-- full location will be %appdata%\Blender Foundation\Blender\2.81\scripts\addons
-
-Find and delete the old folder and you will be able to reinstall.
-
-![mir](img/faq/ff13.png)
-
-Addons are always installed in the local location. It can be easier to delete the old version from prefs.
-
-___
-
 # Why can't I cut with planes anymore?
 
 Well to put is simply. [Blender themselves](https://docs.blender.org/manual/en/dev/modeling/modifiers/generate/booleans.html) changed the algorithm.
@@ -925,15 +901,17 @@ To say, why us? In three words:
 - one button system
 - reduce your keystrokes
 - [number one tool](https://blendermarket.com/posts/jerry-perkins-on-creating-hardops-for-blender-keystrokes-and-clicks-are-my-enemy)
+- [working since 2015](https://youtu.be/L_HT_D9eDpI)
+- [3dArtist Magazine 99](https://www.instagram.com/p/BLRfjG0AJE2/)/[101](https://www.instagram.com/p/BNflOC1gMnQ/)
 
-Personally, [I have been 3d modelling since 2010 in Blender 2.49.](https://masterxeon1001.com/2015/06/01/introp1/) All the experience and knowledge we have learned over the course of our 3d careers have went into these tools and continues to. The team working on the tools has experience in multiple areas of 3d ensuring the approaches are well rounded in various aspects and come from a point of understanding. To us: not only does the function matter, the connection of the function to subsequent functions is also taken into consideration. We care about how the tool is configured and used before, during and post operation. Workflow and key reduction is why these tools exist in the first place. The customizable behavior of our toolset ensures we will work with anyone of **any level or disability**. Much care ,thought and planning goes into every aspect of the tools we make. Our commitment to resolving customer issues and remaining proactive with updates is next to none. The product you purchase we can only assure is a **one-time purchase** and that any **future updates will be provided free of cost**. Not a day goes by where these tools aren't discussed, planed-on or under the knife in search of the next level of what we endeavor to achieve.
+[Personally](https://www.instagram.com/p/BDQKup8E25J/), [I have been 3d modelling since 2010 in Blender 2.49.](https://masterxeon1001.com/2015/06/01/introp1/) All the experience and knowledge we have learned over the course of our 3d careers have went into these tools and continues to. The team working on the tools has experience in multiple areas of 3d ensuring the approaches are well rounded in various aspects and come from a point of understanding. To us: not only does the function matter, the connection of the function to subsequent functions is also taken into consideration. We care about how the tool is configured and used before, during and post operation. Workflow and key reduction is why these tools exist in the first place. The customizable behavior of our toolset ensures we will work with anyone of **any level or disability**. Much care ,thought and planning goes into every aspect of the tools we make. Our commitment to resolving customer issues and remaining proactive with updates is next to none. The product you purchase we can only assure is a **one-time purchase** and that any **future updates will be provided free of cost**. Not a day goes by where these tools aren't discussed, planed-on or under the knife in search of the next level of what we endeavor to achieve.
 
 To describe each of our tools briefly:
 
 - [Boxcutter was created to be a concept cutter drawing utility](https://gumroad.com/l/BoxCutter) and we intend to make it the best one.
 - [hardOps is an all encompassing toolkit aiming](https://gumroad.com/l/hardops) to be the most essential Blender utility for all aspects of working.
 
-On a technical level:
+To elaborate more:
 
 - our tools are in use by a large amount of [AAA game / film and design studios](https://medium.com/embarkstudios/a-love-letter-to-blender-e54167c22193)
 - User interface is offered via [panels, pies, topbars, menus and popups.](https://boxcutter-manual.readthedocs.io/en/latest/getstarted/)
@@ -955,11 +933,15 @@ On a technical level:
 - [on learning materials comments and upvote downvotes are allowed and considered important for user interaction. No support issue is ran from and will get you working no matter the position we are in.](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0)
 - [3rd party support connecting and working with multiple tools.](https://hardops-manual.readthedocs.io/en/latest/meshtools/#plugin)
 
-Competition is expected and we welcome it since it validates concepts and furthers our endeavors of bringing awareness to bevel, boolean and general workflows while also following in the vision of Blender itself. We hope users experiment with both our tools and others and help coordinate how they can best work together. In the end competition benefits you the customer since it brings about the best via competition.
+Competition is expected and we welcome it since it validates concepts and furthers our endeavors of bringing awareness to bevel, boolean and general workflows while also following in the vision of Blender itself. We hope users experiment with both our tools and others and help coordinate how they can best work together. In the end competition benefits you the customer since it brings about the best via competition. In the end I suppose the only thing that separates one tool from that one is the person in charge of making it happen and guiding its development. I pride myself on finding the right person for the job because I want only the best results for my users. Our goal is to make Blender and modelling more entertaining by giving more control back to you the user with less UI and panel overflow to allow for focused thought and execution.
 
 Due to our tool's usage in schools, studios and general 3d places of work we test tools daily to ensure they work with both the current and most up to date versions of Blender. Even unto the future [**we try to review commit logs and curtail issues**](https://twitter.com/blenderlogs) users will face and provide silent updates without fail ensuring consistent working as expected of a commercial product.
 
 Over the years support has been streamlined to a fine point as well. I pride myself on giving prompt responses and taking any support issue into consideration for future enhancements. Anytime I leave the house I am geared up to maintain a 24/7 support network extending to all customers. Even user created [art is lovingly currated into a gallery and can be found and added using the #hardops or #boxcutter](https://www.pinterest.com/masterxeon1001/hard-ops-users/) hashtag.
+
+hardOps started off a [small idea](https://www.dropbox.com/s/xki8i94y0syt85a/HardOps%20Guide.pdf?dl=0).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L_HT_D9eDpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We're committed to making Blender easier without obscuring what makes it great. And it is with great pride that we can [continue to fund blender at every level.](https://fund.blender.org/) And it is the customers that make this possible. Our goal is to make customers glad they chose us by multiplying the value they invest in us and work hard and without tire to assist them in gaining more value from their 3d endeavors by making their lives easier.
 
