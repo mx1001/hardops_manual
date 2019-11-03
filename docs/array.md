@@ -60,3 +60,25 @@ ___
 Radial array is also present in the top bar during hops tool with shift being able to show specific axis options.
 
 ![imgur](https://i.imgur.com/YcxWmPn.gif)
+
+___
+
+# Where is the empty when I do a radial array?
+
+Check the collection. You may have to enable visibility.
+
+> For Boxcutter it is probably in the cutters collection.
+
+![ops](img/operations/o19.gif)
+
+The empty is parented to the object of affect so it should translate accordingly.
+
+![ops](img/operations/o21.gif)
+
+___
+
+# Why is the displace red when using radial array?
+
+Because it is not in use. Sometimes the displace isn't set to any number. It is present in case it is needed.
+
+![ops](img/operations/o20.gif)

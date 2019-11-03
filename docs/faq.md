@@ -14,7 +14,7 @@ ___
 
 This means you installed the **older version** of hops/boxcutter. Install the correct version **prefixed with 2.8** and you will be good to go.
 
-> [Bottom two files are for Blender 2.79](https://download.blender.org/release/Blender2.79/latest/) 
+> [Bottom two files are for Blender 2.79](https://download.blender.org/release/Blender2.79/latest/)
 
 ![mir](img/faq/faq48.png)
 
@@ -191,6 +191,29 @@ Alternatively users could apply the bevel and clean up the mesh by manually addi
 In the above example I beveled in edit mode with a profile of 1 to 100% keep the profile but add a spacer loop with low segments. This spacing workflow is essential for maintaining for and controlling flow to master shading with minimal geometry.
 
 ___
+
+# Where is the empty when I do a radial array?
+
+Check the collection. You may have to enable visibility.
+
+> For Boxcutter it is probably in the cutters collection.
+
+![ops](img/operations/o19.gif)
+
+The empty is parented to the object of affect so it should translate accordingly.
+
+![ops](img/operations/o21.gif)
+
+___
+
+# Why is the displace red when using radial array?
+
+Because it is not in use. Sometimes the displace isn't set to any number. It is present in case it is needed.
+
+![ops](img/operations/o20.gif)
+
+___
+
 
 # [How did you do the curved wall demo from the 00983 trailer?](https://youtu.be/0qx_hOrW1C8)
 
