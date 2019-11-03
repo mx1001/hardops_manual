@@ -95,10 +95,6 @@ Radial dots have now been consolidated into one for simplicity.
 
 ---
 
-
-
----
-
 ## Non-Destructive stepping
 
 Using the [hopsTool](hopsTool.md) you can stack up bevels easily in the viewport.
