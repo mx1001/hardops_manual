@@ -192,6 +192,18 @@ In the above example I beveled in edit mode with a profile of 1 to 100% keep the
 
 ___
 
+#Is there a way to freeze the geo before exporting it out to an external renderer?
+
+> (I use octane stand alone). When import the geo all the boolean shapes show (I.e. the circle cuts show up as geo).
+
+HOPS has options to make export easier. 
+
+![faq](img/faq/ff14.png)
+
+![faq](img/faq/ff15.png)
+
+___
+
 # Where is the empty when I do a radial array?
 
 Check the collection. You may have to enable visibility.
