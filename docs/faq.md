@@ -8,6 +8,10 @@ Right click object mode and enable it.
 
 ![mir](img/faq/how3.gif)
 
+Also an option is in settings.
+
+![faq](img/faq/ff16.png)
+
 ___
 
 # Help! I just installed and it says I need to upgrade!
@@ -196,7 +200,7 @@ ___
 
 > (I use octane stand alone). When import the geo all the boolean shapes show (I.e. the circle cuts show up as geo).
 
-HOPS has options to make export easier. 
+HOPS has options to make export easier.
 
 ![faq](img/faq/ff14.png)
 
