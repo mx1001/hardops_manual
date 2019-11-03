@@ -900,7 +900,7 @@ To say, why us? In three words:
 - free updates forever
 - one button system
 - reduce your keystrokes
-- [number one tool](https://blendermarket.com/posts/jerry-perkins-on-creating-hardops-for-blender-keystrokes-and-clicks-are-my-enemy)
+- [top selling tool](https://blendermarket.com/posts/jerry-perkins-on-creating-hardops-for-blender-keystrokes-and-clicks-are-my-enemy)
 - [working since 2015](https://youtu.be/L_HT_D9eDpI)
 - [3dArtist Magazine 99](https://www.instagram.com/p/BLRfjG0AJE2/)/[101](https://www.instagram.com/p/BNflOC1gMnQ/)
 
@@ -942,6 +942,7 @@ Over the years support has been streamlined to a fine point as well. I pride mys
 hardOps started off a [small idea](https://www.dropbox.com/s/xki8i94y0syt85a/HardOps%20Guide.pdf?dl=0).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L_HT_D9eDpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 We're committed to making Blender easier without obscuring what makes it great. And it is with great pride that we can [continue to fund blender at every level.](https://fund.blender.org/) And it is the customers that make this possible. Our goal is to make customers glad they chose us by multiplying the value they invest in us and work hard and without tire to assist them in gaining more value from their 3d endeavors by making their lives easier.
 
