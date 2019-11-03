@@ -937,7 +937,7 @@ Competition is expected and we welcome it since it validates concepts and furthe
 
 Due to our tool's usage in schools, studios and general 3d places of work we test tools daily to ensure they work with both the current and most up to date versions of Blender. Even unto the future [**we try to review commit logs and curtail issues**](https://twitter.com/blenderlogs) users will face and provide silent updates without fail ensuring consistent working as expected of a commercial product.
 
-Over the years support has been streamlined to a fine point as well. I pride myself on giving prompt responses and taking any support issue into consideration for future enhancements. Anytime I leave the house I am geared up to maintain a 24/7 support network extending to all customers. Even user created [art is lovingly currated into a gallery and can be found and added using the #hardops or #boxcutter](https://www.pinterest.com/masterxeon1001/hard-ops-users/) hashtag.
+Over the years support has been streamlined to a fine point as well. I pride myself on giving prompt responses and taking any support issue into consideration for future enhancements. Anytime I leave the house I am geared up to maintain a 24/7 support network extending to all customers. Even user created [art is lovingly currated into a gallery and can be found and added using the](https://www.pinterest.com/masterxeon1001/hard-ops-users/) [#hardops](https://twitter.com/search?q=%23hardops&src=typed_query) or [#boxcutter](https://twitter.com/search?q=%23boxcutter&src=typed_query) hashtag.
 
 hardOps started off a [small idea](https://www.dropbox.com/s/xki8i94y0syt85a/HardOps%20Guide.pdf?dl=0).
 
