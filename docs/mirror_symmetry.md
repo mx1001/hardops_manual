@@ -53,6 +53,10 @@ When 2 objects are selected the mirror will behave differently and allow you to 
 
 ![mirror](img/mirror/m5.gif)
 
+Two object mirror can also be used for custom rotation. For example, rotating at a 45 degree angle instead of across an axis.
+
+![mirror](img/mirror/m13.gif)
+
 # Classic Mirror Mirror
 
 Mirror mirror was a classic workflow in Blender during the '79 era. It is activated still with 2 object selection and any of the classic mirror hotkeys.
