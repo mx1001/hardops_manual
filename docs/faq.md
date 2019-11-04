@@ -91,6 +91,30 @@ All hardOps does is help user make these mistakes quicker so they can be correct
 
 ___
 
+# How do I find my cutters?
+
+All cutters are placed in the cutters collection.
+
+![faq](img/faq/f45.gif)
+
+[Object scroll](https://hardops-manual.readthedocs.io/en/latest/operations/#object-scroll) has been added to the main Q menu so that boolshapes can be quickly cycled through and located.
+
+![faq](img/faq/f46.gif)
+
+![image](https://hardops-manual.readthedocs.io/en/latest/img/operations/o13.gif)
+
+In boxcutter [show shape](https://boxcutter-manual.readthedocs.io/en/latest/preference/#show-shape) can be toggled to make shapes show after drawing.
+
+![faq](img/faq/f47.gif)
+
+Auto hide will hide shapes which is default but Object scroll can be used to bring them back.
+
+> It also is worth mentioning [hopsTool is capable](hopstool.md) of allowing users to bring back certain shapes using boolean dots. 
+
+![faq](img/faq/f48.gif)
+
+___
+
 # Why won't my sharp edges show up? Did hops do this?
 
 Q: "for some reason hardops is preventing me from making sharps sharp? Tested by turning off the hops addon and it went back to normal, any ideas on why that would be happening? Basically <kbd>Ctrl</kbd> + <kbd>E</kbd> >> Mark Sharp changes nothing with hops enabled in preferences."
