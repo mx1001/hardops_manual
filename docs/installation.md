@@ -10,7 +10,7 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 
 ## Hard Ops Installation     
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oMZrQ6ZHKm0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S9lkbf3n6kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Updating Blender requires the latest updates.
 https://builder.blender.org/download
@@ -37,10 +37,7 @@ The links below will take you to the respective sales page where if logged in yo
 [Boxcutter](https://gumroad.com/l/BoxCutter) /
 [HOPScutter Bundle](https://gumroad.com/l/hopscutter)
 
-3. Copy the contents of the zip to the addons location.
-C:\Users\YOUR USER\AppData\Roaming\Blender Foundation\Blender\2.8X\scripts\addons Remove any old HOPS / BC folders. Never overwrite.
-
-3a. Or use install from file. But this only works if the folder is not there already! Otherwise... issues.
+3. Install from file. But this only works if the folder is not there already! Otherwise... issues.
 In the addon panel locate Hard Ops / Boxcutter and delete them then you are able to install the newer update.
 Make sure the folders are not there and it should work fine.
 
