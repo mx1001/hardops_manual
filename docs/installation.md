@@ -144,3 +144,43 @@ This is the method I use to test every support issue involving installation that
 - configured prefs for general experience
 
 ![faq](img/faq/f42.gif)
+
+# Detailed Mac Install details.
+
+>> 2.8X means X is the version you are dealing with. Could be 2.80, 2.81 and so on. Deal with the version you are currently trying to install.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iS99DR1Chq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+A key thing to note when dealing with bad mac installs is in videos you'll see me delete the internal 2.8X folder.
+
+**This ensures the next attempt will be clean.**
+
+Also if an install fails. **Close blender and reopen.**
+
+Mac isn't my favorite OS due to having to make security exceptions with blender by clicking the spotlight icon in the mac toolbar and typing security.
+
+Also to get to the 2.81 folder you have to have finder open so the toolbar says finder up top
+when clicking go by holding option you can access library. It is hidden for some reason.
+
+From there it is a short trek to where plugins and preferences are kept.
+Library >> Application Support >> Blender >>
+
+From here the versions are listed. These folders contain prefs, addons and other files associated with you as a user.
+
+Before attempting any install I **delete the entire 2.8X folder**. This ensures blender loads with no prefs, history or addons.
+
+Alternatively users could go further into  the specific install and delete just the folder.
+ex: 2.81 / scripts / addons
+
+and delete the folder of the addon giving issue.
+ex: hardops or boxcutter
+
+**This is the only way to ensure the install from file will work cleanly.**
+
+Otherwise if the folder of the addon you wish to install is already present errors will occur.
+Closing and reopening Blender after a failed install will also help make the situation easier to resolve.
+
+On mac pressing Cmd + Shift + 4 will take a screenshot and put it on the desktop.
+Showing us any errors you receive will assist in diagnosing any issues.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m0AyFhq1GL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
