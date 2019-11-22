@@ -61,3 +61,5 @@ It is also present in the behavior panel of the D menu and topbar.
 [Twitter is a common posting place for me to keep users up to date on memes, updates, leaks and personal works.](https://twitter.com/mxeon1001)
 
 ![img](img/contact/c6.gif)
+
+Tweeting me support issues will result in a link response telling you the proper channel. Support issues can be dealt with better in a youtube comment than on twitter. So tweeting me issues is not the best way to contact me. 
