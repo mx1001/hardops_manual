@@ -657,6 +657,18 @@ I must add that the add on checker doesn't really matter. It was attempted to be
 
 ___
 
+# How Blender updates work
+
+When a version is released the foundation is already beginning work on the next version. Users can preview the next version as it develops by getting the latest version from [builder.blender.org](builder.blender.org). 
+
+There is a [public version](blender.org/download) and there is the in [development version](builder.blender.org/download). 
+
+So often I see someone say “Is there a new version?” or “Did you try the latest update?”, this drives me nuts and is counterproductive since the [Blender Foundation](blender.org) is always at work. 
+
+Yes, there is an update and yes you should be using it to help locate bugs and ensure the next release is as smooth as the current. 
+
+___
+
 ## Mira Tools
 
 # Why doesn't curveStretch show up in the Q menu?
