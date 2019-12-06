@@ -33,7 +33,7 @@ Attempting to install them in 2.8 will show an error.
 
 ![mir](img/faq/faq49.png)
 
-The top file is always the latest and the same applies for [BlenderMarket.](https://www.blendermarket.com/account/orders)
+The top file is always the latest and the same applies for [BlenderMarket.](https://www.blendermarket.com/account/orders) and artstation.
 
 ___
 
@@ -72,18 +72,20 @@ ___
 
 # I updated hops and got this error.
 
-![mir](img/faq/ff8.png)
-
 Make sure the old folder is deleted before updating. Blender 2.8 is more specific so if a file is renamed or changed
 it will possibly cause a registration issue if it isn't equipped for that operator anymore.
 
 Deleting HOPS via preferences and reinstalling from file will resolve the issue.
 
+The next level of support is renaming or deleting the 2.8x folder and reopening blender cleanly. This has shown to work 100% of the time and is only recommended after multiple installation failures.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S9lkbf3n6kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ___
 
 # What kind of geo can I expect from booleans?
 
-Something like this. Booleans solve as they will and with the most minimal of edges.
+Something like this. Booleans solve as they will and with the most minimal of edges. The moment a boolean is used ngons are created. However Ngons have a special purpose in hard surface planar modelling.
 
 ![mir](img/faq/how1.gif)
 
@@ -93,7 +95,7 @@ ___
 
 # How do I find my cutters?
 
-All cutters are placed in the cutters collection.
+All cutters are placed in the cutters collection. In the below example I could always go to collection 2 "cutters" with 2 and press alt + H to see all the cutters.
 
 ![faq](img/faq/f45.gif)
 
@@ -109,7 +111,7 @@ In boxcutter [show shape](https://boxcutter-manual.readthedocs.io/en/latest/pref
 
 Auto hide will hide shapes which is default but Object scroll can be used to bring them back.
 
-> It also is worth mentioning [hopsTool is capable](hopstool.md) of allowing users to bring back certain shapes using boolean dots. 
+> It also is worth mentioning [hopsTool is capable](hopstool.md) of allowing users to bring back certain shapes using boolean dots.
 
 ![faq](img/faq/f48.gif)
 
@@ -340,6 +342,10 @@ If you are unable to login you will need to locate the purchase email and use th
 
  If you are logged into your gumroad account you should see view product or download on the sales pages for the purchase related to you. [Alternatively the library will show all your purchases.](https://gumroad.com/library)
 
+If logged into gumroad the assoociated sales page with your purchase will show view product instead of purchase info. By clicking download you will be taken to a page showing updates.
+
+![mir](img/faq/faq51.png)
+
 [HardOps](https://gumroad.com/l/hardops)
 
 [Boxcutter](https://gumroad.com/l/BoxCutter)
@@ -358,9 +364,9 @@ Gumroad: [log into your account then access the](https://gumroad.com/library) [H
 
 The top file is always the latest.
 
-Q: How do I get up to speed with the tool?
+# [How do I get up to speed with the tool?](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0)
 
-A: In the N panel or HOPS button is an option called Hard Ops learning that is built to help users find the documentation or [tutorial](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0) content. Every major version I usually make a new course set of materials to show off the tools.
+A: In the N panel or HOPS button is an option called Hard Ops learning that is built to help users find the documentation or [tutorial](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0) content. Every major version I[ usually make a new course set of materials](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0q) to show off the tools.
 
 ___
 
@@ -659,13 +665,13 @@ ___
 
 # How Blender updates work
 
-When a version is released the foundation is already beginning work on the next version. Users can preview the next version as it develops by getting the latest version from [builder.blender.org](builder.blender.org). 
+When a version is released the foundation is already beginning work on the next version. Users can preview the next version as it develops by getting the latest version from [builder.blender.org](builder.blender.org).
 
-There is a [public version](blender.org/download) and there is the in [development version](builder.blender.org/download). 
+There is a [public version](blender.org/download) and there is the in [development version](builder.blender.org/download).
 
-So often I see someone say “Is there a new version?” or “Did you try the latest update?”, this drives me nuts and is counterproductive since the [Blender Foundation](blender.org) is always at work. 
+So often I see someone say “Is there a new version?” or “Did you try the latest update?”, this drives me nuts and is counterproductive since the [Blender Foundation](blender.org) is always at work.
 
-Yes, there is an update and yes you should be using it to help locate bugs and ensure the next release is as smooth as the current. 
+Yes, there is an update and yes you should be using it to help locate bugs and ensure the next release is as smooth as the current.
 
 ___
 
