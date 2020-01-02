@@ -10,7 +10,8 @@ The hotkeys are as follows:
 
 - <kbd>ctrl</kbd> + <kbd>numpad minus</kbd> (difference boolean)
 - <kbd>ctrl</kbd> + <kbd>numpad plus</kbd> (union boolean)
-- <kbd>ctrl</kbd> + <kbd>umpad slash</kbd> (slash boolean)
+- <kbd>ctrl</kbd> + <kbd>numpad slash</kbd> (slash boolean)
+- <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>numpad slash</kbd> (inset boolean)
 
 To demonstrate union and difference.
 
@@ -19,6 +20,10 @@ To demonstrate union and difference.
 To demonstrate slash.
 
 ![bool](img/boolean/ll4.gif)
+
+And inset.
+
+![bool](img/boolean/b6.gif)
 
 As the gif shows you can also use [hopsTool](hopsTool.md) w/ 2 object selection to setup booleans as well.
 
@@ -76,6 +81,34 @@ When the logo is red the object is a boolshape. To reset a boolshape just reset 
 
 ![bool](img/boolean/ll8.gif)
 
+
+---
+
+# Interactive Boolean
+
+Booleans can typically be used as operations with the post options being adjustable in the F9 panel.
+
+![bool](img/boolean/b1.gif)
+
+Interactive Boolean launches the user into a modal where the operation being performed can be adjusted on the fly.
+
+![bool](img/boolean/b2.gif)
+
+Post adjustment is possible in the F9 panel is available for use in making fine adjustments.
+
+![bool](img/boolean/b3.gif)
+
+---
+
+# Bool Shift
+
+Boolean marked meshes also known as "boolshapes" are capable of transitioning into any other type of cutter.
+
+![bool](img/boolean/b4.gif)
+
+The default shift form is typically slice since the initial goal was classic rebool which was meant to get a slice from a difference at a later time.
+
+![bool](img/boolean/b5.gif)
 
 ---
 
