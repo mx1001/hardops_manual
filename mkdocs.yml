@@ -17,8 +17,7 @@ pages:
         - Understanding The Prefs: preferences.md
     - Sharpening / Bevelling / Cutters:
         - Sharpening Basics: sharpening.md
-        - SSharpen: ssharpen.md
-        - CSharpen: csharpen.md
+        - Sharpen: sharpen.md
         - Step: step.md
         - cSlash: cslash.md
         - ClearSSharps: clearssharps.md
@@ -63,6 +62,8 @@ pages:
         - Boolean Tips: tips_boolean_exp.md
         - decalMACHINE: decalmachine.md
     - Classic Pages:
+        - SSharpen: ssharpen.md
+        - CSharpen: csharpen.md
         - Understanding Subdivision: subdivision.md
     - Changelog: changelog.md
     - Reporting Issues: issues.md
