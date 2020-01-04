@@ -18,11 +18,13 @@ pages:
     - Sharpening / Bevelling / Cutters:
         - Sharpening Basics: sharpening.md
         - Sharpen: sharpen.md
-        - Step: step.md
         - cSlash: cslash.md
-        - ClearSSharps: clearssharps.md
-    - Systems:
+    - Main Options:
+        - Bevel: bwidth.md
+        - Solidify: tthick.md
         - Array: array.md
+    - Systems:
+        - Modifiers: modifiers.md
         - Booleans: boolean.md
         - hopsTool: hopsTool.md
         - hopsSort: sorting.md
@@ -32,16 +34,9 @@ pages:
         - Circulars: circular.md
         - SketchOps: sketchops.md
         - SculptOps: sculptops.md
-    - Functions:
-        - Modifiers: modifiers.md
-        - tThick: tthick.md
-        - bWidth: bwidth.md
-        - 2dbevel: 2dbevel.md
     - Edit Mode:
-        - Mark Sharp: edit_marksharp.md
-        - Bweight: edit_bweight.md
+        - Mark: edit_marksharp.md
         - Edit Mode Modifiers: edit_mods.md
-        - Demote: edit_demote.md
         - Booleans: edit_booleans.md
         - Mirror: mirror_symmetry.md
         - Operations: edit_operations.md
@@ -64,6 +59,8 @@ pages:
     - Classic Pages:
         - SSharpen: ssharpen.md
         - CSharpen: csharpen.md
+        - Step: step.md
+        - ClearSSharps: clearssharps.md
         - Understanding Subdivision: subdivision.md
     - Changelog: changelog.md
     - Reporting Issues: issues.md

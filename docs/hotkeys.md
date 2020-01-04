@@ -30,6 +30,22 @@ See [HOPS Helper](helper.md)
 
 see [hopstool](hopsTool.md)
 
+# Dots ([hopstool](hopsTool.md))
+
+Holding ctrl will make dots show in hops tool for a selected object depending on which mods are present.
+
+![hotkey](img/hotkeys/h26.gif)
+
+Dots allow for easy adjustment in the 3d view while hopstool is active.
+
+![hotkey](img/hotkeys/h27.gif)
+
+# View Modifier - Ctrl + Right Click Dot
+
+While in [hopstool](hopsTool.md), Ctrl + right clicking a dot will show the mod in a nice little window. 
+
+![hotkey](img/hotkeys/h28.gif)
+
 # <kbd>Alt</kbd> + <kbd>~</kbd> - [Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools/) Helper
 
 **[Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools) Tools must be installed**
