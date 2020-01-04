@@ -45,7 +45,7 @@ You are also able to simplify the topbar.
 
 ![hotkey](img/hopstool/h17.gif)
 
-Clicking a dot will bring up the modifier panel for the specific modifier. This can come in handy for tuning or fine adjustment.
+Right mouse clicking a dot will bring up the modifier panel for the specific modifier. This can come in handy for tuning or fine adjustment.
 
 ![hopstool](img/hopstool/h23.gif)
 
@@ -72,6 +72,9 @@ While hopsTool is active users can select 2 objects and hold <kbd>ctrl</kbd> to 
 - cut
 - join
 - slice
+- inset
+- knife
+- intersect
 
 are available at this time.
 
