@@ -72,6 +72,49 @@ The art of cleanup is an essential one for boolean modelling. I also recommend [
 
 ___
 
+# Smith and Wesson 76 Submachine Gun Barrel
+
+Some topics aren't worth doing videos on. A gun barrel is one of them. This is another one of those cases where approach is more important than using booleans.
+
+In this example I will start with a plane and twist 360.
+
+![](img/bool/b8.gif)
+
+While the mods are live adjustments can be made to fix the skewing of the circle.
+
+![](img/bool/b9.gif)
+
+As more segments are cut in with knife the shape is holding better.
+
+![](img/bool/b10.gif)
+
+Notice that knife cuts in the circle region will not work due to it affecting the curvature.
+
+![](img/bool/b11.gif)
+
+When dealing with booleans or holes and curvature the approach is more important than the workflow used. Booleans might seem like a good choice but deformation requires adequate geo to achieve surfacing. So sometimes it is better to approach the creation from a non-destructive perspective to allow for more versatility in the solution.
+
+Boxcutter can be useful as well if you utilize the tools but I feel the hops approach is more precise and gradual.
+
+![](img/bool/b12.gif)
+
+In the above example I did the following:
+
+- deleted cube
+- added plane > moved plane out on Y
+- used twist 360 (non-destructive)
+- turned off array merge on mod
+- converted to mesh
+- set origin to geometry
+- recentered object
+- separated front facing segment
+- blue circle edit mode to cut circle into deformed segment
+- radial array using 3d cursor in hops
+
+The point is for deformation, care but be taken with planning and execution since linear cuts alone won't cut it.
+
+___
+
 # Pokeball example
 
 A nice demonstration of the inadequacies of [Boolean](boolean.md)s for hard surfaces can be shown in making a pokeball. I did a small study about how it can be done quickly with [Boolean](boolean.md)s versus efficiently with a cast modifier and subdivision blocking.

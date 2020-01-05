@@ -6,6 +6,8 @@ When it comes to connecting to the hops community there are many options within 
 
 > We have attempted to place many help options in front of the user to connect them with us. We endeavor to find the most optimal help solution. In a way you're surrounded with help options and ways to connect with us.
 
+Connect with the various groups and portals for assistance with modelling or to chat with fellow operatives!
+
 # hardOps - hops Button
 
 ![img](img/contact/c1.gif)
@@ -52,9 +54,6 @@ It is also present in the behavior panel of the D menu and topbar.
 
 ![img](img/contact/c5.png)
 
-## Email
-
-<a href = "mailto: masterxeon1001@gmail.com">Send Email</a>
 
 ## Twitter
 
@@ -62,4 +61,4 @@ It is also present in the behavior panel of the D menu and topbar.
 
 ![img](img/contact/c6.gif)
 
-Tweeting me support issues will result in a link response telling you the proper channel. Support issues can be dealt with better in a youtube comment than on twitter. So tweeting me issues is not the best way to contact me. 
+Tweeting me support issues will result in a link response telling you the proper channel. Support issues can be dealt with better in a youtube comment than on twitter. So tweeting me issues is not the best way to contact me.
