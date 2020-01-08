@@ -70,6 +70,40 @@ And with thickness it just works more predictably.
 
 ___
 
+# How do collections work?
+
+When working in a default scene you are usually in a collection.
+
+![mir](img/faq/faq52.png)
+
+Right now there is one collection so with default controls pressing the number keys will activate the corresponding collection. I think of them as layers.
+
+![mir](img/faq/faq53.png)
+
+> Those number keys are the ones I refer to. In order to use them you cannot have emulate numpad enabled.
+
+When cutters are brought into play I typically use 1, 2, to change collection / layer on the fly.
+
+> If the cutter collection is not showing cutters alt + H should reveal all on an active collection. H will hide.
+
+![mir](img/faq/faq54.gif)
+
+The preferred way to show cutter is with the Mod Scroll / Toggle. Notice how scrolling toggles visibility of each cutter in the cutters collection.
+
+![mir](img/faq/faq55.gif)
+
+Mod Scroll is a consolidation of multiple modifier / boolean operations that might be useful in workflow.
+
+> Hover over a tool for a tooltip
+
+![mir](img/faq/faq56.png)
+
+If an object is outside of a collection and is in the master collection it will not be hidden by 1, 2, 3 in use.
+
+![mir](img/faq/faq57.gif)
+
+___
+
 # I updated hops and got this error.
 
 Make sure the old folder is deleted before updating. Blender 2.8 is more specific so if a file is renamed or changed
