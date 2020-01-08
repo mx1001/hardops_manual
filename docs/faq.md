@@ -82,7 +82,7 @@ Right now there is one collection so with default controls pressing the number k
 
 > Those number keys are the ones I refer to. In order to use them you cannot have emulate numpad enabled.
 
-When cutters are brought into play I typically use 1, 2, to change collection / layer on the fly.
+When cutters are brought into play I typically use 1, 2, to change collection / layer on the fly. Shift + number will add that to the visible collections.
 
 > If the cutter collection is not showing cutters alt + H should reveal all on an active collection. H will hide.
 
