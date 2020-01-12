@@ -54,7 +54,7 @@ The down pointing arrow is for latest bevel sort. If you have more than one beve
 
 The sort last panel contains options pertaining to the level of sort being done.
 
-> This panel should never have to be used.
+> This panel should never have to be used. Or so we hope. It  exists in case you have to.
 
 As of 984 HOPS will sort only the last version of every mod. This is an upgrade from previous itterations where sort would sort all levels of a sorted mod making work harder.
 
