@@ -1,50 +1,5 @@
 ![header](img/banner.gif)
 
-## Hard Ops [Boolean](boolean.md) System
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Sd6U4ZFcMyc" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S6uFpBe1oTU" frameborder="0" allowfullscreen></iframe>
-
-> With 2 meshes selected <kbd>Q</kbd> will bring up the hopsMenu with boolean options.
-
-___
-
-# [Boolean](boolean.md) Basics
-
-> With the Hard Ops 8 update. Booltool is no longer a required dependency. In fact it is recommended to use the new system instead since it's more catered to our own tools. There are also edit mode behaviors now.
-
-**If Booltool is present hardOps not assign our hotkeys.**
-
-The [Boolean](boolean.md) hotkeys are as follows
-Object Mode
-
-- Ctrl + Numpad Minus (Difference)
-- Ctrl + Numpad Plus (Union)
-- Ctrl + Numpad Slash (Slice)
-- Alt + Shift + Numpad Slash (Inset)
-
-To show each of them in action.
-
-![img](img/bool/b33.gif)
-
-Edit mode also contains hotkeys:
-
-- Ctrl + Alt + Numpad Minus (Difference)
-- Ctrl + Alt + Numpad Plus (Union)
-
-![img](img/bool/b34.gif)
-
-Edit mode booleans are interesting for being destructive but also useful for things like slice and union.
-
-Interactive boolean is a new thing added to 984 and can be used with ctrl + alt + B.
-
-![img](img/bool/b35.gif)
-
-It can also be found in the boolean submenu. (2 object selection)
-
-![img](img/bool/b36.png)
-
 ____
 
 # Boolean Tips
@@ -187,3 +142,51 @@ I use this so much I have it mapped to shift + ~ in edit mode. This comes in han
 ![img](img/bool/b37.gif)
 
 > Non manifold meshes are cause of most boolean tragedies next most popular being hotlining.
+
+
+____
+
+## Hard Ops [Boolean](boolean.md) System
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sd6U4ZFcMyc" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S6uFpBe1oTU" frameborder="0" allowfullscreen></iframe>
+
+> With 2 meshes selected <kbd>Q</kbd> will bring up the hopsMenu with boolean options.
+
+___
+
+# [Boolean](boolean.md) Basics
+
+> With the Hard Ops 8 update. Booltool is no longer a required dependency. In fact it is recommended to use the new system instead since it's more catered to our own tools. There are also edit mode behaviors now.
+
+**If Booltool is present hardOps not assign our hotkeys.**
+
+The [Boolean](boolean.md) hotkeys are as follows
+Object Mode
+
+- Ctrl + Numpad Minus (Difference)
+- Ctrl + Numpad Plus (Union)
+- Ctrl + Numpad Slash (Slice)
+- Alt + Shift + Numpad Slash (Inset)
+
+To show each of them in action.
+
+![img](img/bool/b33.gif)
+
+Edit mode also contains hotkeys:
+
+- Ctrl + Alt + Numpad Minus (Difference)
+- Ctrl + Alt + Numpad Plus (Union)
+
+![img](img/bool/b34.gif)
+
+Edit mode booleans are interesting for being destructive but also useful for things like slice and union.
+
+Interactive boolean is a new thing added to 984 and can be used with ctrl + alt + B.
+
+![img](img/bool/b35.gif)
+
+It can also be found in the boolean submenu. (2 object selection)
+
+![img](img/bool/b36.png)
