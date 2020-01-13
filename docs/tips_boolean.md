@@ -174,6 +174,18 @@ Having flipped normals can cause boolean issues and make booleans more difficult
 
 > Applying scale can sometimes cause strangeness.
 
+## useful mesh tools
+
+All our tools are just extending on Blender. We just try to be a bridge to you the user in some cases.
+
+Select >> Select Loops >> Select Boundary loop
+
+I use this so much I have it mapped to shift + ~ in edit mode. This comes in handy for ensuring the mesh is manifold.
+
+![img](img/bool/b37.gif)
+
+> Non manifold meshes are cause of most boolean tragedies next most popular being hotlining.
+
 ____
 
 # [Booleans](boolean.md) Cleanup
