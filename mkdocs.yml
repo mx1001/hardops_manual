@@ -7,6 +7,7 @@ pages:
         - Introduction: introduction.md
         - Installation: installation.md
         - Getting Started: getstarted.md
+        - Boolean Tips: boolean_beginner_tips.md
         - Resources: resources.md
         - Contact / Help: contact_help.md
         - FAQs and SFQs: faq.md
@@ -53,8 +54,9 @@ pages:
         - discussion_cylinoid.md
     - Additional Tips:
         - Shading: shading.md
+        - Boolean Tips: boolean_beginner_tips.md
         - Booleans And Curvature: tips_boolean.md
-        - Boolean Tips: tips_boolean_exp.md
+        - Boolean Case Studies: tips_boolean_exp.md
         - decalMACHINE: decalmachine.md
     - Classic Pages:
         - SSharpen: ssharpen.md
