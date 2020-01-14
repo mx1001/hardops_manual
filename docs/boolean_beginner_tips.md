@@ -10,6 +10,22 @@ We intend for users to enjoy our tool and have an nice experience. [If you are e
 
 We would prefer to discuss and help solve it before you frustrate yourself. Great care and effort has been taken into making hops a community experience with many on hand capable of assisting quickly and proving help when you need it. A single mind can do so much but a collection of minds is infinite. I sleep 3 hours a night to make sure the boxes are always cut with only the finest red.
 
+____
+
+## check that face orientation
+
+Alt + V >> Face Orientation
+
+Face orientation is a troubleshooting tool to me. When it was added to 2.8 I immediately saw the potential.
+
+![img](img/bool/b23.png)
+
+Having flipped normals can cause boolean issues and make booleans more difficult than they need to be. This can also make boxcutter irritated and function oddly.
+
+![img](img/bool/b24.gif)
+
+> Applying scale can sometimes cause strangeness.
+
 ## scrolls are your friend
 
 The first scroll was a random idea but now scrolling via modals have become crucial for troubleshooting.
@@ -85,7 +101,8 @@ If you look at the mirror mod itself users can see how much it has changed in 2.
 
 ![img](img/bool/b17.png)
 
-## weld is cool
+
+## weld is cool... sometimes
 
 With smart boxes I recently made some changes in the mod order. 2.82 and up. I bring this up because when two verts sit in the same place boolean issues will occur. Weld follows all the previous bevels except for the last level to make it easier than ever to max and min bevels without issues with shading and geometry.
 
@@ -101,11 +118,13 @@ Utilizing a support issue as an example. This issue was caused by a mesh fault u
 
 Just doing that for the example makes me want to make weld a modal but I have plans for a tool to assist with troubleshooting based on all the things discussed here.
 
+
 ## when cutting make sure its the right side if utilizing mirror
 
 Sounds basic but its a common thing. Sometimes we make mistakes and oversights and systems we have for other things take over and do unwanted things causing confusion for the user.
 
 ![img](img/bool/b22.gif)
+
 
 ## sort awareness
 
@@ -117,19 +136,39 @@ In the above example mirror is used very early in the stack. However this goes a
 
 > If you are not aware of sort and work with it in mind it will work against you.
 
-## check that face orientation
+# sort can be bypassed temporarily for a boolean operation
 
-Alt + V >> Face Orientation
+Ctrl clicking difference will bypass sort. Making it easier to add additional levels to bevel. Pressing A will change angle from 30 to 60 (if needed) and pressing X during the modal will set the bevel to half of the previous bevel when in bevel modal.
 
-Face orientation is a troubleshooting tool to me. When it was added to 2.8 I immediately saw the potential.
+![img](img/bool/b42.gif)
 
-![img](img/bool/b23.png)
+In the above example I show boolean with live bevel as normal and how it is with ctrl clicking to bypass. By bypassing it becomes easier to add an additional level.
 
-Having flipped normals can cause boolean issues and make booleans more difficult than they need to be. This can also make boxcutter irritated and function oddly.
 
-![img](img/bool/b24.gif)
+## utilize guidance edges
 
-> Applying scale can sometimes cause strangeness.
+When booleans are adding to a face the geometry is solved in whatever fashion blender wants. This is avoidable.
+
+![img](img/bool/b38.gif)
+
+Blue box in boxcutter was born for this purpose.
+
+![img](img/bool/b39.gif)
+
+Lack of guidance edges can cause issues with bevel. Which is a type of gotcha.
+
+![img](img/bool/b40.gif)
+
+
+## minimal edges for planar areas
+
+Planar areas and bevels work best with simplified geometry.
+
+![img](img/bool/b41.gif)
+
+In the above example Q >> Operations >> Clean Mesh was used to simplify the area then a knife box was used to cut a different edge flow.
+From there it was a matter of cleanup with ctrl + X on the improper leftover edges that pertain the the above rule. Keeping things clean and orderly also makes conversion easier.
+
 
 ## useful mesh tools
 
