@@ -10,7 +10,30 @@ We intend for users to enjoy our tool and have an nice experience. [If you are e
 
 We would prefer to discuss and help solve it before you frustrate yourself. Great care and effort has been taken into making hops a community experience with many on hand capable of assisting quickly and proving help when you need it. A single mind can do so much but a collection of minds is infinite. I sleep 3 hours a night to make sure the boxes are always cut with only the finest red.
 
+
+> Bugs happen and issues will occur. Our work is no where close to done. But our attempts allow people to get father and farther with each attempt. When something odd happens the best thing to do is:
+- gather awareness (figure out what happened in the scene)
+  - you have outliner / modifier stack to use as clues to figure out what happened
+  - users use the tools much differently than ourselves which can find more unusual cases
+  - for example if I cut and it doesn't work out I will undo and watch the mod stack the next time to see what happens exactly
+- attempt the operation again and contemplate the below rules as possible reasons of failure
+  - using booleans with non manifold meshes will create holes. That is not something we can solve. But you using the program can.
+  - by not cutting with non manifold meshes.
+- [report the issue to us.](issues.md) [But knowing why they happen help detail the issue better](contact.md)
+- utilize the community resources if you are new to 3d and our tools. Make friends. Don't be alone.
+- when a boolean fails... ask why? A boolean has no reason to fail unless the case given was a failure.
+  - grab that cutter and move it around make sure you didn't hotline.
+  - check the normals and make sure it wasnt flipped inside out.
+  - see if its on the right side of the mirror
+  - make sure sort didnt break the model. Its a work in progress after all...
+
+Case in point. Issues happen. The purpose of this page is to make you more proactive in problem solving. Problems will darn sure happen but its our problem when it stops your project with a showstopper. Showstoppers require patches and updates but technical issues require supplemental understanding to resolve.
+
 ____
+
+## always overshoot the mesh
+
+when cutting the boolean must be in a clear area. The more geo you have in the cut area, the harder
 
 ## check that face orientation
 
@@ -136,7 +159,7 @@ In the above example mirror is used very early in the stack. However this goes a
 
 > If you are not aware of sort and work with it in mind it will work against you.
 
-# sort can be bypassed temporarily for a boolean operation
+## sort can be bypassed temporarily for a boolean operation
 
 Ctrl clicking difference will bypass sort. Making it easier to add additional levels to bevel. Pressing A will change angle from 30 to 60 (if needed) and pressing X during the modal will set the bevel to half of the previous bevel when in bevel modal.
 
@@ -144,6 +167,23 @@ Ctrl clicking difference will bypass sort. Making it easier to add additional le
 
 In the above example I show boolean with live bevel as normal and how it is with ctrl clicking to bypass. By bypassing it becomes easier to add an additional level.
 
+# mods can be locked which keeps sort from moving them.
+
+In the case of the smart box lets look at the modifiers.
+
+![img](img/bool/b43.gif)
+
+In this stack the first mirror mod is crucial to the form. If moved this will not work out. Instead we can ***disable render visibility*** in the mod to bypass sort. In the future we will attempt an external prop for mods.
+
+![img](img/bool/b44.png)
+
+With the first mirror locked I am able to work asymmetrically with a mirror modifier and even add a 2nd mirror mod later in the stack that is sorted. By being aware of sort and how it works the system can be hacked to work for your needs and provide a way to lock down portions of the mod stack to be uninterruptible.
+
+![img](img/bool/b45.gif)
+
+When it comes to working with both symmetry and assymetry I would recommend mirroring the cutters themselves utilizing the 2 object alt + X mirror. Then the model is being symmetrized as the user requires.
+
+![img](img/bool/b46.gif)
 
 ## utilize guidance edges
 
