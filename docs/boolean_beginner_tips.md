@@ -12,6 +12,7 @@ We would prefer to discuss and help solve it before you frustrate yourself. Grea
 
 
 > Bugs happen and issues will occur. Our work is no where close to done. But our attempts allow people to get father and farther with each attempt. When something odd happens the best thing to do is:
+
 - gather awareness (figure out what happened in the scene)
   - you have outliner / modifier stack to use as clues to figure out what happened
   - users use the tools much differently than ourselves which can find more unusual cases
@@ -33,7 +34,15 @@ ____
 
 ## always overshoot the mesh
 
-when cutting the boolean must be in a clear area. The more geo you have in the cut area, the harder
+when cutting the boolean must be in a clear area. The more geo you have in the cut area, the harder it can be to make the boolean connect without issue.
+
+"Hotlining" refers to a case where a boolean mesh connects precisely with a vert or edge. This will cause issues due to coplanar merging of boolean geometry not being a thing.
+
+Cad or surface modellers might be used to the flushed behavior of booleans in cad but in 3d the rules are different.
+
+You could hotline in a second if you wanted to. But it should definitely be avoided.
+
+![img](img/bool/b50.gif)
 
 ## check that face orientation
 
@@ -78,6 +87,26 @@ Sometimes you need to just turn all the modifiers off and see the true mesh. I d
 Scrolls exist at various places in the menu. Initially we had quite a few scrolls but now we seek to consolidate but for those who have a favorite scroll they remain standalone as well so they can be right clicked added to favorites if needed for a specific use.
 
 ![img](img/bool/b32.gif)
+
+## do not bisect mirror with booleans... maybe ever
+
+A common mistake is using the bisect mirror method with booleans. This results in a non manifold mesh that will have issues if an object is cut near a junction point.
+
+![img](img/bool/b47.gif)
+
+> DO NOT USE BISECT WITH BOOLEANS... EVER
+
+When bisect is used things will look fine but as you work holes will appear due to breaking the rule of manifold meshes. As I cut near the junction area it is more obvious.
+
+![img](img/bool/b48.gif)
+
+It is easy to solve the situation if this mistake is made.
+- apply the first mirror modifier
+- add a ***modifier*** mirror modifier
+
+![img](img/bool/b49.gif)
+
+For mirror to work in the stack being sorted it has to mirror a manifold mesh. The classic bisection method was from 2.79- era and remains for "classic workflows". Modifier mirror can be odd getting used to but the stability and predictability of it in use it through the roof.
 
 ## work a box . at least once.
 

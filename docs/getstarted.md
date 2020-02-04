@@ -2,7 +2,9 @@
 
 ### Getting Started With Hard Ops
 
-Hard Ops can be brought up one of 4 ways. Not to mention the active tool.
+Hard Ops can be brought up one of 4 ways. Not to mention the active tools.
+
+We are always changing and seeking to consolidate and simplify the workflow. While menus may differ options will not. 
 
 ## <kbd>Q</kbd>  - Menu
 

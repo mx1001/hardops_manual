@@ -4,9 +4,11 @@
 
 ![dice](img/dice/d9.png)
 
-[Dice is our attempt at creating a loopcut](https://masterxeon1001.com/2020/01/19/hard-ops-00984-1-neodymium-release/) for ngon meshes. It is intended to force matrix geo onto the form of the primary selection similar to loopcut.
+[Dice is our attempt at creating a loopcut](https://masterxeon1001.com/2020/01/19/hard-ops-00984-1-neodymium-release/) for ngon meshes. It is intended to force matrix geo onto the form of the primary selection similar to loopcut. This can make boolean geometry more capable of deformation and shaping.
 
-Dice utilizes both knife project or boolean intersect which means dice is limited to real geometry with modifiers applied.
+> Dice is fully destructive and only works applied mods and meshes showing in edit mode.
+
+Dice utilizes both knife project or boolean intersect which means dice is limited to real geometry with modifiers applied. This also means hot-lining can be a potential hazard so edges must be placed carefully.
 
 ![dice](img/dice/d1.gif)
 
@@ -63,6 +65,23 @@ Axis adjustment can be either
 - axial press (x, y, or z) during operation
 
 By default adjust is on axis which means mouse move changes the axis and it is inteded for single axial cutting.
+
+## Objects can be twisted then diced
+
+This can be useful for getting the geometry just right before applying.
+
+![dice](img/dice/d12.gif)
+
+In the above gif I use Circle(E) to create a circle which is separated with P and used to compare with the deformed circle.
+
+By scaling the circle before dice I can ensure the loops added will help with the solution and not the problem.
+
+![dice](img/dice/d13.gif)
+
+This can be quite enjoyable once experienced in action. Dice has uses beyond this that remain undiscovered.
+
+![dice](img/dice/d14.gif)
+
 
 # Knife Project / Boolean Intersect
 
