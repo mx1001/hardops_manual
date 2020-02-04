@@ -38,11 +38,17 @@ when cutting the boolean must be in a clear area. The more geo you have in the c
 
 "Hotlining" refers to a case where a boolean mesh connects precisely with a vert or edge. This will cause issues due to coplanar merging of boolean geometry not being a thing.
 
-Cad or surface modellers might be used to the flushed behavior of booleans in cad but in 3d the rules are different.
+Cad or surface modelers might be used to the flushed behavior of booleans in cad but in 3d polygons, the rules are different.
 
 You could hotline in a second if you wanted to. But it should definitely be avoided.
 
 ![img](img/bool/b50.gif)
+
+Meshes can be fickle and with booleans they can be even more fickle. We guarantee no success but I sincerely feel the below tips will make it easier. The below gif shows that mere atoms can be the difference between success and failure but being aware of this limitation and working around it would empower you to be more proactive with failure and progressing without failure.
+
+![img](img/bool/b51.gif)
+
+> Bools will fail but we will roll with the punches.
 
 ## check that face orientation
 
