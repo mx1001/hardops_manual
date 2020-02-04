@@ -6,6 +6,10 @@ Circular array can be found in the modifiers section of hard ops <kbd>Q</kbd> me
 
 ![cs1](img/circ1/c1.png)
 
+There are also options for various axis.
+
+![cs1](img/circ1/c1a.png)
+
 After adding additional segments can be added with array and distance adjusted with displace.
 
 ![cs1](img/circ1/c1.gif)

@@ -16,10 +16,11 @@ pages:
         - Hotkeys: hotkeys.md
         - Workflows: workflows.md
         - Understanding The Prefs: preferences.md
-    - Sharpening / Bevelling / Cutters:
+    - Sharpening / Bevelling / Cutters / Dice:
         - Sharpening Basics: sharpening.md
         - Sharpen: sharpen.md
         - cSlash: cslash.md
+        - Dice: dice.md
     - Main Options:
         - Bevel: bwidth.md
         - Solidify: tthick.md
