@@ -14,18 +14,31 @@ We would prefer to discuss and help solve it before you frustrate yourself. Grea
 > Bugs happen and issues will occur. Our work is no where close to done. But our attempts allow people to get father and farther with each attempt. When something odd happens the best thing to do is:
 
 - gather awareness (figure out what happened in the scene)
+
   - you have outliner / modifier stack to use as clues to figure out what happened
+
   - users use the tools much differently than ourselves which can find more unusual cases
+
   - for example if I cut and it doesn't work out I will undo and watch the mod stack the next time to see what happens exactly
+
 - attempt the operation again and contemplate the below rules as possible reasons of failure
+
   - using booleans with non manifold meshes will create holes. That is not something we can solve. But you using the program can.
+
   - by not cutting with non manifold meshes.
+
 - [report the issue to us.](issues.md) [But knowing why they happen help detail the issue better](contact.md)
+
 - utilize the community resources if you are new to 3d and our tools. Make friends. Don't be alone.
+
 - when a boolean fails... ask why? A boolean has no reason to fail unless the case given was a failure.
+
   - grab that cutter and move it around make sure you didn't hotline.
+
   - check the normals and make sure it wasnt flipped inside out.
+
   - see if its on the right side of the mirror
+
   - make sure sort didnt break the model. Its a work in progress after all...
 
 Case in point. Issues happen. The purpose of this page is to make you more proactive in problem solving. Problems will darn sure happen but its our problem when it stops your project with a showstopper. Showstoppers require patches and updates but technical issues require supplemental understanding to resolve.
