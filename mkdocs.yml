@@ -16,18 +16,19 @@ pages:
         - Hotkeys: hotkeys.md
         - Workflows: workflows.md
         - Understanding The Prefs: preferences.md
-    - Sharpening / Bevelling / Cutters / Dice:
+    - Sharpening / Bevelling / Dice:
         - Sharpening Basics: sharpening.md
         - Sharpen: sharpen.md
-        - cSlash: cslash.md
         - Dice: dice.md
     - Main Options:
+        - Smart Apply: smartapply.md
         - Bevel: bwidth.md
         - Solidify: tthick.md
         - Array: array.md
     - Systems:
         - Modifiers: modifiers.md
         - Booleans: boolean.md
+        - cSlash: cslash.md
         - hopsTool: hopsTool.md
         - hopsSort: sorting.md
         - Sstatus: sstatus.md
