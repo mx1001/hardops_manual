@@ -125,6 +125,52 @@ Something like this. Booleans solve as they will and with the most minimal of ed
 
 All hardOps does is help user make these mistakes quicker so they can be corrected and controlled even faster.
 
+When it comes to creation one must use the tools at their disposal to get it done. To cast away ngons as invalid to a workflow is throwing away an essential tool. Ngons to us serve as temporary geometry aiming to build a surface and bridge us to the bevel however the bevel has different rules than subdivision.
+
+Of course there is the stigma that you can't bend an ngon but we challenge even those notions in our work.
+
+![dice](img/dice/d13.gif)
+
+Just because it's an ngon doesn't mean we can dice and deform / curve deform it.
+
+When it comes to modelling hard surface theres a few approaches with their restrictions / rewards (I'm sure theres more that can be added):
+
+Bevel
+
+  - distance in geo allows room for bevel
+  - sparse geo for a surface is the name of the game and will get further than loops + support loops + pole control
+  - bevel can be iffy with its own rules for optimal management that extends to but is not limited to:
+    - corner geo being specific for optimal result
+    - capabilities with skewing w/ booleans without support geometry
+    - requires support geometry for a managed solution on ngons to maintain a nice finish
+  - these rules sound like alot but with experience it becomes second nature
+  - with proper shading and management the result looks final-ish at most times
+  - the goal of hops was bevel awareness and to make bevel more useful with hard surface
+
+Subdivision
+
+  - geometric density specifies creasing and bevel appearance
+  - support loops for crucial edges to hold form requiring sliding to adjust curvature
+  - workflow of blocking in then edge / surface refinement
+  - the textbook method of modelling but is not optimal for games
+  - perfect fallback for smoothing forms when topological control is possible
+  - subdivision is but a conversion process
+    - for subdivision to work properly one must feed it adequate Geometry
+    - we leave that to you the user but also have tools to help
+    - anything sub-d is applied to is a quad. Even ngons. You can crease an ngon / apply subdivision and it will be quad next time you see it. This can be useful in workflows.
+    - for this reason we also crease. Because subdivision is just a series of rules.
+
+![mir](img/faq/faq58.gif)
+
+I am not saying one is [better than the other but](https://www.pinterest.com/search/pins/?q=Reference%3A%20Topology%20Research) their different rulesets make them more interchangeable on the fly [once the rules are understood](https://polycount.com/discussion/56014/how-the-f-do-i-model-this-reply-for-help-with-specific-shapes-post-attempt-before-asking). All our tools do is aim to speed up the facilitation of learning failing and most of all advancing. We understand 3d requires many many keystrokes and we want to assist in reducing them to as few as possible.
+
+The majority of game models are triangulated which are both cousins of ngons and tris. I am yet to hear of games utilizing Catmark-Mull subdivision. That is more a workflow for high poly workflows which we are aiming for in our work. Through my content I hope to show how subdivision and bevel can play together when used smartly in the modifier stack. However if you give a subdivision modifier ngons you will receive an unjust reward. [We also have tools in place to make that workflow easier as well within hardOps](subdivision.md).
+
+![mir](img/faq/faq39.gif)
+
+[Many users work with film / product / game studios and our tool is used by AAA studios all around the world](https://www.pinterest.com/masterxeon1001/hard-ops-users/).
+
+
 ___
 
 # How do I find my cutters?
