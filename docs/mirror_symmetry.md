@@ -2,6 +2,8 @@
 
 ### Interactive Mirror
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aE2qy0CzCzs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Gizmos must be enabled to use the mirror gizmo!**
 
 ![mirror](img/mirror/m6.png)
