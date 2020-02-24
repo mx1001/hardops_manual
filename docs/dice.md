@@ -97,6 +97,13 @@ This can be quite enjoyable once experienced in action. Dice has uses beyond thi
 
 ![dice](img/dice/d4.gif)
 
+# How dice works
+
+Planes. Below is how it used to be done before dice was added.
+
+![gif](https://masterxeon1001.files.wordpress.com/2019/12/2019-12-25_02-18-58.gif)
+
+
 # Dice w/ Bevel
 
 Dice w/ bevel and other heavy modifiers can be sometimes tricky to deal with but will require users to examine the geometry. The majority of the time just looking closely at the loops and their relationships with areas will let you know if the result will be acceptable in advance. If knife project fails then utilizing intersect might give you better results.
