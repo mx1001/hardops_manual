@@ -37,6 +37,7 @@ pages:
         - Circulars: circular.md
         - SketchOps: sketchops.md
         - SculptOps: sculptops.md
+        - Material: material.md
     - Edit Mode:
         - Mark: edit_marksharp.md
         - Edit Mode Modifiers: edit_mods.md
