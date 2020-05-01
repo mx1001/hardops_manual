@@ -24,6 +24,7 @@ pages:
         - Smart Apply: smartapply.md
         - Bevel: bwidth.md
         - Solidify: tthick.md
+        - Array: st3_array.md
         - Array: array.md
     - Systems:
         - Modifiers: modifiers.md

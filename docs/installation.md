@@ -12,42 +12,55 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S9lkbf3n6kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Updating Blender requires the latest updates.
-https://builder.blender.org/download
+[Updating Blender](https://builder.blender.org/download) requires the latest updates. [Current is at least](https://www.blender.org/download/) recommended.
+
 
 If updating Blender one must also update the Hard Ops / Boxcutter packages for the latest version.
 
 1. Firstly ensure Blender 2.8 is up to date.
 
 - official version from [Steam](https://store.steampowered.com/app/365670/Blender/) or [blender.org](https://www.blender.org/download/)
-
 - [Buildbot Blender](https://builder.blender.org/download)
-
 - [Blender Updater **Windows**](https://github.com/DotBow/Blender-Version-Manager/releases) (preferred for Windows)
 
-2. Ensure the latest zips are downloaded from the markets.
+2. Ensure the latest zips are downloaded from the markets. (top file is always the latest)
 
-[Blendermarket](https://www.blendermarket.com/account/orders) /
-[Gumroad](https://gumroad.com/library)
+- [Blendermarket](https://www.blendermarket.com/account/orders)
+- [Gumroad](https://gumroad.com/library)
 
 [Gumroad](https://gumroad.com/library) Sales Pages (make sure you are logged in first)
 The links below will take you to the respective sales page where if logged in you will be able to [view product if it is the one you purchased.](https://gumroad.com/library)
 
-[HardOps](https://gumroad.com/l/hardops) /
-[Boxcutter](https://gumroad.com/l/BoxCutter) /
-[HOPScutter Bundle](https://gumroad.com/l/hopscutter)
+- [HardOps](https://gumroad.com/l/hardops)
+- [Boxcutter](https://gumroad.com/l/BoxCutter)
+- [HOPScutter Bundle](https://gumroad.com/l/hopscutter)
 
-3. Install from file. But this only works if the folder is not there already! Otherwise... issues.
-In the addon panel locate Hard Ops / Boxcutter and delete them then you are able to install the newer update.
-Make sure the folders are not there and it should work fine.
+3. Install from file.
+
+> This only works if the folder is not there already! Otherwise... issues.
+
+In the addon panel locate Hard Ops / Boxcutter and **Remove** them, then you are able to install the newer update.
+
+![install](img/install/ins4.png)  
+
+Make sure the previous addons / folders are not there and it should work fine.
 
 **(DO NOT try to install it on the blender install itself. That has shown to not work. ex: C:\Users\RUSER\Desktop\Blender Builds\2.8-updater\Git-f18373a9ab1a-25-May-23-18\2.80\scripts\addons - this is not the right place. See 3.**
 
-4. Open Blender and enable the add-on. I delete my config so blender would open cleanly without issue from previous prefs.
+4. If using install from file. As shown in the video. It will isolate the addon for enabling. After enabling do not double click while waiting. Just give it a second if you know you clicked it. Registrations can take a moment sometime.
 
-4a. If using install from file. As shown in the video. It will isolate the addon for enabling. After enabling do not double click while waiting. Just give it a second if you know you clicked it. Registrations can take a moment sometime.
+> Also nuking prefs is not recommended. Quarantining prefs is recommended. However in the event of upgrade failure a clean installation is the only way to isolate issues and assure they are related to our product and not something irrelated.
 
-And then Blender is able to be loaded and the addons enabled. Errors indicate that the HOPS/BC installation is possibly old and requires redownload. Also make sure it is installed in the correct path.
+In the event of installation issues.
+
+- close / reopen blender
+- check for hops icon in T panel
+- if the icon is present the addon is installed
+- if not then F4 >> preferences >> addons >> search "9" >> enable hardops
+
+![install](img/install/ins5.png)
+
+Detailed installation instructions are below.
 
 ---
 
@@ -58,7 +71,21 @@ And then Blender is able to be loaded and the addons enabled. Errors indicate th
 here instead of the branch you are using ensures the next updates also have it      
 installed.      
 
-C:/Users/ **USERNAME** /AppData/Roaming/Blender Foundation/Blender/ **2.XX** /scripts/addons        
+C:/Users/ **USERNAME** /AppData/Roaming/Blender Foundation/Blender/ **2.XX** /scripts/addons
+
+Windows Key + R >> Run Window >> Type "%appdata%\Blender Foundation\Blender\" and click ok to access your blender installation
+
+If you do not see a folder for scripts that means nothing is installed. The folder is generally made during addon installation.
+
+The config folder is the main folder containing what makes you "you" in b3d. I tend to zip this folder and back it up periodically.
+![install](img/install/ins6.png)    
+
+If you find yourself needing to test in a neutral installation either delete config (after zipping it first) or using
+File >> Default >> Load Factory Defaults.
+
+When it comes to testing a neutral installation this is the preferred method.
+![install](img/install/ins7.gif)
+
 
 # Mac       
 >Locate Blender in your applications folder     
