@@ -32,7 +32,7 @@ Classic array continues to exist for users wishing to regress to classic.
 
 ![header](img/array/a2.png)
 
-# Using ST3 Array
+# Using Array ST3
 
 Array ST3 is the first modal to support both fast mode and an expansive mode.
 
