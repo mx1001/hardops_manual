@@ -50,7 +50,6 @@ The hops button also has a button for mirror.
 ![mirror](img/mirror2/m6.png)
 
 1. The top area contains the basic UI (this screenshot is in simple mode)
-
   - mirror mode list
   - modifier being edited (new if no mirror is present)
   - simple / advanced mode toggle
@@ -58,14 +57,12 @@ The hops button also has a button for mirror.
 
 
 2. Help panel. Lists hotkeys.
-
   - details active mirror settings
   - notifies user of empty creation
   - indicative of simple / advanced mode
 
 
 3. Notification
-
   - notifications will display for the following
     - empty creation
     - mirror state via list scroll on alt
@@ -75,16 +72,13 @@ The hops button also has a button for mirror.
 
 
 4. Mirror handles
-
   - Click the axis you want to keep.
 
 
 5. Modifier List
-
   - Lists active modifiers on the object
 
 6. Close After Operation / Exit Button
-
   - clicking an axis will mirror said axis
     - normally this closes mirror. Close after operation toggles that.
     - alternative holding shift on click will keep mirror active
