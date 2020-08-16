@@ -10,23 +10,30 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 
 ## Hard Ops Installation     
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S9lkbf3n6kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=yvKSFpAFoBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Updating Blender](https://builder.blender.org/download) requires the latest updates. [Current is at least](https://www.blender.org/download/) recommended.
 
 
 If updating Blender one must also update the Hard Ops / Boxcutter packages for the latest version.
 
-1. Firstly ensure Blender 2.8 is up to date.
+#1. Firstly ensure Blender 2.8 is up to date.
 
-- official version from [Steam](https://store.steampowered.com/app/365670/Blender/) or [blender.org](https://www.blender.org/download/)
-- [Buildbot Blender](https://builder.blender.org/download)
-- [Blender Updater **Windows**](https://github.com/DotBow/Blender-Version-Manager/releases) (preferred for Windows)
+- [blender.org](https://www.blender.org/download/)
+- [Steam](https://store.steampowered.com/app/365670/Blender/)
+- [Buildbot](https://builder.blender.org/download)
+  
+On Windows there are a couple of version managers and launcher that can make keeping blender up to date and trying upcoming branches easier.
+ 
+- [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager/releases) 
+- [Blender Launcher](https://github.com/DotBow/Blender-Launcher/releases)
 
-2. Ensure the latest zips are downloaded from the markets. (top file is always the latest)
+#2. Ensure the latest zips are downloaded 
+Latest can be downloaded from the marketplace of origin. (top file is always the latest)
 
 - [Blendermarket](https://www.blendermarket.com/account/orders)
 - [Gumroad](https://gumroad.com/library)
+- [Artstation](https://www.artstation.com/marketplace/library)
 
 [Gumroad](https://gumroad.com/library) Sales Pages (make sure you are logged in first)
 The links below will take you to the respective sales page where if logged in you will be able to [view product if it is the one you purchased.](https://gumroad.com/library)
@@ -35,19 +42,29 @@ The links below will take you to the respective sales page where if logged in yo
 - [Boxcutter](https://gumroad.com/l/BoxCutter)
 - [HOPScutter Bundle](https://gumroad.com/l/hopscutter)
 
-3. Install from file.
+#3. Install from file / Enable addon
+
+> If updating make sure to remove the previous version first.
+
+![install](img/install/install1.png)
+
+Choose the zip that was downloaded and choose to install from file. After the installation is complete it will show up in the addon list.
+
+![install](img/install/install3.png)
 
 > This only works if the folder is not there already! Otherwise... issues.
 
 In the addon panel locate Hard Ops / Boxcutter and **Remove** them, then you are able to install the newer update.
 
-![install](img/install/ins4.png)  
+![install](img/install/inst4.png)  
 
 Make sure the previous addons / folders are not there and it should work fine.
 
-**(DO NOT try to install it on the blender install itself. That has shown to not work. ex: C:\Users\RUSER\Desktop\Blender Builds\2.8-updater\Git-f18373a9ab1a-25-May-23-18\2.80\scripts\addons - this is not the right place. See 3.**
+> In the event of installation failure close / reopen Blender.
 
-4. If using install from file. As shown in the video. It will isolate the addon for enabling. After enabling do not double click while waiting. Just give it a second if you know you clicked it. Registrations can take a moment sometime.
+**(DO NOT try to install it on the blender install itself. That has shown to not work. ex: C:\Users\RUSER\Desktop\Blender Builds\2.8-updater\Git-f18373a9ab1a-25-May-23-18\2.XX\scripts\addons - this is not the right place. See 3.**
+
+1. If using install from file. As shown in the video. It will isolate the addon for enabling. After enabling do not double click while waiting. Just give it a second if you know you clicked it. Registrations can take a moment sometime.
 
 > Also nuking prefs is not recommended. Quarantining prefs is recommended. However in the event of upgrade failure a clean installation is the only way to isolate issues and assure they are related to our product and not something irrelated.
 
@@ -59,6 +76,8 @@ In the event of installation issues.
 - if not then F4 >> preferences >> addons >> search "9" >> enable hardops
 
 ![install](img/install/ins5.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qcmCgfJgCqo" frameborder="0" allowfullscreen></iframe>
 
 Detailed installation instructions are below.
 

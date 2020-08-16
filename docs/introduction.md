@@ -20,7 +20,7 @@ Now the goal of [Hard Ops](https://gumroad.com/l/hardops/) can be simplified int
 >There is no magic button. It won't make a better artist. All our tool can do is        
 enable you to be the maximum you. The idea is the quicker you can work / make mistakes / corrections deviations and of course evolution.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cK3AEyzqdcw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KqJ3X8EiPGw" frameborder="0" allowfullscreen></iframe>
 
 ---
 
