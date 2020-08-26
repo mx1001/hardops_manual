@@ -253,6 +253,11 @@ ___
 
 
 Step still exists for users to switch to via the ctrl + ~ helper and using the weight workflow. This workflow still has uses in certain areas but for the most part lacks the ability to work with as many modifers as angle.
+
+[Also see bstep](https://youtu.be/5yKFrsCQC7k)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5yKFrsCQC7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ___
 
 # How do you make a hardOps mesh work with subdivision?
