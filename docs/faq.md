@@ -241,6 +241,20 @@ Easy fix. Lower the bevel angle slightly.
 
 ___
 
+# How do I step like 79 HOPS? 
+
+[About bevel weight.](https://youtu.be/AR3obqtQPbM)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AR3obqtQPbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[About Step](https://youtu.be/PVSpn36sAB4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PVSpn36sAB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+Step still exists for users to switch to via the ctrl + ~ helper and using the weight workflow. This workflow still has uses in certain areas but for the most part lacks the ability to work with as many modifers as angle.
+___
+
 # How do you make a hardOps mesh work with subdivision?
 
 Below is my classic video for converting from boolean / bevel to subdivison geometry. As you can see it is a process unto itself. This video is a classic from 2.79 so it is still applicable even in the 2.8 era.
