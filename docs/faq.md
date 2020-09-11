@@ -471,6 +471,26 @@ A: In the N panel or HOPS button is an option called Hard Ops learning that is b
 
 ___
 
+# How can I find out if I am up to date in hardOps?
+
+![mir](img/faq/ff17.gif)
+
+The hops button in the 3d view has buttons that will appear and take you to the sales page of purchase in order to download the latest updates.
+(this does require logging in)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6EOlyZKJkEI?start=12" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Gumroad
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EfYCW1cG7ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Blendermarket
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QZe8IiqDdl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![mir](img/faq/ff17.png)
+
+Preferences will also let users know if they are up to date. 
+___
+
 # Can I disable to Q menu and use only the Hops pie? For quick favorites?
 
 >> Quick favorites can be accessed with Q >> Q. Hard Ops was made before the Q menu came to Blender so now they've come to share the same key.
