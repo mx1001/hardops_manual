@@ -46,7 +46,7 @@ While in [hopstool](hopsTool.md), Ctrl + right clicking a dot will show the mod 
 
 ![hotkey](img/hotkeys/h28.gif)
 
-# <kbd>Alt</kbd> + <kbd>~</kbd> - [Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools/) Helper
+# Ctrl + Shift + <kbd>~</kbd> - [Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools/) Helper
 
 **[Mira](https://github.com/mifth/mifthtools/tree/master/blender/addons/mira_tools) Tools must be installed**
 
