@@ -4,7 +4,22 @@
 
 Hard Ops can be brought up one of 4 ways. Not to mention the active tools.
 
-We are always changing and seeking to consolidate and simplify the workflow. While menus may differ options will not. 
+We are always changing and seeking to consolidate and simplify the workflow. While menus may differ options should not. 
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<video width="320" height="240" autoplay>
+  <source src="docs\vid\gs1\test1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<p><b>Note:</b> The autoplay attribute does not work on some mobile devices.</p>
+
+</body>
+</html>
+
 
 ## <kbd>Q</kbd>  - Menu
 
