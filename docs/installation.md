@@ -81,6 +81,16 @@ In the event of installation issues.
 
 Detailed installation instructions are below.
 
+2. If an advanced user, upgrade / update can be done via folder replacement. This is the classic process of addon installation and requires copying the folder from the zip to the addons folder and reopening Blender. This is my preferred way to update but can go over the head of the general user. In that case refer to #1 which is about replacement from within Blender.
+
+![install](img/install/ins9.png)
+
+USER\AppData\Roaming\Blender Foundation\Blender\
+  \2.XX
+  \scripts
+  \addons
+Replacing the HOps and or Boxcutter folder here from the contents of the zip which is a folder will update the installation upon close / reopen of blender. 
+
 ---
 
 ## Detailed Install Instructions    
