@@ -13,9 +13,13 @@ time, it has expanded to encompass a team from all over the world.
 *The goals initially were to make a tool that would make our personal lives easier      
 when it came to modelling. But this expanded to be an entire workflow.*     
 
-Now the goal of [Hard Ops](https://gumroad.com/l/hardops/) can be simplified into one line.       
+Now the goal of [Hard Ops](https://gumroad.com/l/hardops/) can be simplified into two lines.       
 
 **Hard Surface modelling and workflow assistance. A helping hand.**       
+
+Or one word:
+
+**[XDUGEF](https://xdugef.tripod.com/)**
 
 >There is no magic button. It won't make a better artist. All our tool can do is        
 enable you to be the maximum you. The idea is the quicker you can work / make mistakes / corrections deviations and of course evolution.
