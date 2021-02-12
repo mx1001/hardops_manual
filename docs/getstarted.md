@@ -10,7 +10,7 @@ We are always changing and seeking to consolidate and simplify the workflow. Whi
 
 Pressing <kbd>Q</kbd> will bring up the Hard Ops <kbd>Q</kbd> menu.
 
-![getstarted](img/getstart/g1.gif)
+![getstarted](img/getstart/g4.png)
 
 > The first options will always be dependent on context most of the time.
 
@@ -20,7 +20,7 @@ We'll be going over the options later in depth. See [options](options)
 
 Pressing <kbd>shift</kbd> + <kbd>Q</kbd> will bring up the Hard Ops pie menu. Designed and maintained by [AR](https://twitter.com/AdrianRutk0wski/)
 
-![getstarted](img/getstart/g2.gif)
+![getstarted](img/getstart/g5.png)
 
 The pie menu is the same as the <kbd>Q</kbd> menu. Icons are not in the pie menu due to speed issues but is the same format of options as the <kbd>Q</kbd> menu. The options change based off of context.
 
@@ -28,7 +28,7 @@ The pie menu is the same as the <kbd>Q</kbd> menu. Icons are not in the pie menu
 
 In the vein of most plugins Hard Ops also has a <kbd>N</kbd> - panel for options that can be useful for beginners or those who like seeing all the options all the time.
 
-![getstarted](img/getstart/g3.gif)
+![getstarted](img/getstart/g6.png)
 
 Even in the examples I have a hard time using the <kbd>N</kbd> panel. Pressing <kbd>Q</kbd> is just so fast.
 
