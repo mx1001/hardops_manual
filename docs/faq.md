@@ -1161,3 +1161,20 @@ Also in boxcutter we explored ideas for procedural cutters involving pipes and p
 Someday we hope to expand on the idea of procedural custom cutter creation but that should give you a better idea of where our minds are at on the topic.
 
 ___
+
+# OMG so many updates. 
+
+When people ask why so many updates occur I often think back the plethora of comments and requests that are received. Not a day goes by where a user is asking for extension in functionality to be further boosted with a concept. For us to deny that would be a disservice to our endeavors as problem solvers. If we were to cease work users would miss us. To continually push these tools forward is part of our sales commitment. To stop on the account of any single person is inoptimal for growth as a whole and our promise of always having our best foot forward for the customer yet to come. Due to the constant work done by the foundation systems get depreciated and maitenance is required. HOpsCutter cannot remain the same forever due to blender not remaining the same forever.
+
+# Is every update required?
+
+No. Professional users are known to only update in between projects for consistency. We do our best to keep the update process as unobtrusive as possible. If using up to date builds you will see we remain up to date with them as well however console splatter is known to occur so use with latest builds at your own risk. Sometimes by updating you may find an annoying behavior removed or adjusted to be more optimal or a nasty error removed. Its essential to be up to date when reporting issues at least in HOps version. We aim to be vigillent for bug resolution and proactive in their removal.
+
+# Why don't you support my control scheme!
+
+Blender contains a myriad of control schemes that we are unable to have supported in full. In demonstrations and documentation a vanilla configuation is used. Any deviation from vanilla will result in a depreciated experience. While we are working around the clock for everyone, not all control schemes can be accounted for in a timeley manner. As with all reports and issues. We will see how the future plays out. Our apologies for any inconvenience with using settings differing from default. HOpsCutter is recommended with a vanilla configuration.
+
+# Why didn't you add that thing I asked for? 
+
+When it comes to HOps and it's direction, ideas take time to process. Just because it was requested does not mean it is possible, doable or even planned for our tools. If we spend all our time processing user complaints we'd be unable to move forward. We try our best and thats all that we can do. Several concepts are slated for futher down the road so in time they will be examined but discourtesy is a ticket to a quick dismissal.
+

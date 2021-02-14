@@ -8,9 +8,9 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 
 ---
 
-## Hard Ops Installation     
+## Addon / Hard Ops Installation     
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=yvKSFpAFoBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YqiCrNn4oXk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Updating Blender](https://builder.blender.org/download) requires the latest updates. [Current is at least](https://www.blender.org/download/) recommended.
 
@@ -202,7 +202,7 @@ This is the method I use to test every support issue involving installation that
 
 >> 2.8X means X is the version you are dealing with. Could be 2.80, 2.81 and so on. Deal with the version you are currently trying to install.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iS99DR1Chq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9SQ49YUm9rs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A key thing to note when dealing with bad mac installs is in videos you'll see me delete the internal 2.8X folder.
 
@@ -237,3 +237,26 @@ On mac pressing Cmd + Shift + 4 will take a screenshot and put it on the desktop
 Showing us any errors you receive will assist in diagnosing any issues.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m0AyFhq1GL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Additional Links
+
+## Utilities Used
+
+[Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html)
+
+
+[Folder Git](http://rpmanager.com/FolderGit/foldergit.htm)
+
+## Articles 
+
+[Blender w/ Multi Monitor](https://www.christoph-werner.de/2015/08/28/hint-start-blender-on-a-second-display/
+)
+
+## Additional Addons
+
+[Snapping Pies](https://github.com/mx1001/power_snapping_pies)
+
+[Mifth Tools Link](https://codeload.github.com/mifth/mifthtools/zip/master)
+
+[Kitops](https://gumroad.com/l/kitopspro) / [Synth](https://gumroad.com/l/kitopssynth)
+
