@@ -22,7 +22,7 @@ Pressing <kbd>shift</kbd> + <kbd>Q</kbd> will bring up the Hard Ops pie menu. De
 
 ![getstarted](img/getstart/g5.png)
 
-The pie menu is the same as the <kbd>Q</kbd> menu. Icons are not in the pie menu due to speed issues but is the same format of options as the <kbd>Q</kbd> menu. The options change based off of context.
+The pie menu is an alternative to the <kbd>Q</kbd> menu. It is slower to adopt the changes of the Q menu but is more unified for [AR](https://twitter.com/AdrianRutk0wski/)'s purposes. In time we hope to expand and have them swap with Q.
 
 ## <kbd>N</kbd> - <kbd>N</kbd> Panel / Mini Helper
 
