@@ -32,9 +32,11 @@ Currently the list has the following:
   And then the custom versions of modals modified for hops:
 
   - Spherecast
+  
     > subdivision x 3 + cast mod set to sphere and 1
 
   - Radial Array
+  
     > displace + array + driver for radial array w/ live update
 
 Then apply modifiers. Which does just that. Applies modifiers. But always read the tooltip. 
