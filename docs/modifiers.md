@@ -2,7 +2,7 @@
 
 ### HOPS Modifiers
 
-With the introduction of Hard Ops 0098 a modifier system was added. This allows for procedural creation using hardOps. It was expanded further with the [hopsTool](hopsTool.md)
+With the introduction of Hard Ops 0098 a modifier system was added. This allows for procedural creation using hardOps and expanded modifier control. It was expanded further with the [hopsTool](hopsTool.md)
 
 ![tthick](img/modifiers/m1.png)
 
@@ -12,40 +12,52 @@ Currently the list has the following:
   - Solidify
   - Array
   - Mirror
-  - Screw
-  - Simple Deform
-  - Displace
-  - Simple Deform
-  - Cast
-  - Decimate
-  - Weighted Normal
-  - Subdivision
-  - Triangulate
   - Lattice
-  - Shrinkwrap
+  - Screw
+  - Weld
+  - Displace
+  - Decimate
+  - Triangulate
   - Wireframe
+  - Weighted Normal
+  - Smooth
+  - Cloth
+  - Simple Deform
+  - Subdivision
+  - Shrinkwrap
+  - Cast
   - Skin
+  - UV Project
 
   And then the custom versions of modals modified for hops:
-
-  - 2d Bevelling
-    > bevel w/ vertices set (useful for planes)
 
   - Spherecast
     > subdivision x 3 + cast mod set to sphere and 1
 
-  - Circular Array
+  - Radial Array
     > displace + array + driver for radial array w/ live update
 
-Then apply modifiers. Which does just that. Applies modifiers.
+Then apply modifiers. Which does just that. Applies modifiers. But always read the tooltip. 
+![tthick](img/modifiers/m1_1.png)
+
+___
+
+# Why custom mod options? Aren't the built in ones good enough? 
+
+They are perfect however our aim was to expand on their start behaviors to more optimally use them on the fly without technical interruption.
+
+___
 
 ## Modifiers
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5H1axV3ZYOk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+___
 # [Bevel](bwidth.md)
 
 See [Bevel](bwidth.md)
 
-Bevel needs no introduction but in case you need one it adds a bevel mod to the mesh which and give a nice rounding or filleting.
+Bevel needs no introduction but in case you need one it adds a bevel mod to the mesh which and give a nice rounding or filleting. Bevel is easily accessed from the Q menu
 
 ![mod](img/modifiers/m1.gif)
 
@@ -54,6 +66,12 @@ During the modal <kbd>H</kbd> shows help options.
 ![tthick](img/modifiers/m2.png)
 
 The bwidth page goes more in depth on the topic.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yVrcjQjTXho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rGt4fSQt2lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vqQS3EgCsFE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ___
 
@@ -71,28 +89,6 @@ There is also an H help panel.
 
 [Solidify / Tthick is also useful](tthick.md) for boolean operations.
 
-![mod](img/modifiers/m4.gif)
-
-___
-
-# [Mirror](mirror_symmetry.md)
-
-Mirror brings up the interactive mirror gizmo that offers 3 different ways to mirror.
-For more information see [Mirror](mirror_symmetry.md).
-
-![mirror](img/mirror/mmm1.gif)
-
-[This also has the hotkey <kbd>Alt</kbd> + <kbd>X</kbd>.](hotkeys.md)
-
-Mirror has 3 different options.
-
-- modifier (new to 2.8)
-  - mirrors the mesh on the modifier level using bisect
-- bisect (classic)
-- symmetrize (symmetrize and be done) doesn't leave a modifier behind nor use one
-
-![mirror](img/mirror/m1.gif)
-
 ___
 
 # Array
@@ -107,9 +103,28 @@ Of course press <kbd>H</kbd> for help.
 
 ![tthick](img/modifiers/m6.png)
 
-Pressing 2 during the modal will add a 2nd modifier.
+Array also supports the use and control of more than one array.
 
 ![mod](img/modifiers/m7.gif)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E--wAN9Rlug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+___
+
+# [Mirror](mirror_symmetry.md)
+
+Mirror brings up the interactive mirror gizmo that offers multiple ways to mirror.
+For more information see [Mirror](mirror_symmetry.md).
+
+![mirror](img/mirror/mmm1.gif)
+
+[This also has the hotkey <kbd>Alt</kbd> + <kbd>X</kbd>.](hotkeys.md)
+
+Videos on the topic have been prepared.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mzauyPLRRrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MFS5mBfmbjw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ___
 
@@ -125,10 +140,6 @@ It can also be used in conjuction with displace to create quick springs on the f
 
 ![mod](img/modifiers/m9.gif)
 
-Screw is also a major component in [hopsTool.](hopsTool.md).
-
-![hotkey](img/hopstool/h6.gif)
-
 Press <kbd>H</kbd> for help during the screw modal.
 
 ![tthick](img/modifiers/m10.png)
@@ -137,19 +148,17 @@ ___
 
 # Displace
 
-Adds a displace modifiers on the model. We use in to move geometry while preserving the initial origin point.
+Adds a displace modifier on the model. It is used to move geometry while preserving the initial origin point.
 
-It has special uses in conjunction with screw.
+![tthick](img/modifiers/m12.gif)
 
-![tthick](img/modifiers/m10.png)
-
-It is also a part of the [circular array](circular.md).
+It is also a part of the [radial array](circular.md).
 
 ![mod](img/modifiers/m11.gif)
 
 Press <kbd>H</kbd> to help.
 
-![tthick](img/modifiers/m12.png)
+![tthick](img/modifiers/m11.png)
 
 ___
 
@@ -162,10 +171,6 @@ Adds a simple deform that can be toggled between twist, taper, and deform.
 Press <kbd>H</kbd> for help.
 
 ![tthick](img/modifiers/m14.png)
-
-It makes more sense in [hopsTool.](hopsTool.md).
-
-![mod](img/modifiers/m15.gif)
 
 ___
 
@@ -205,6 +210,8 @@ It's subtle in most cases but can be a lifesaver on more complex models.
 
 <kbd>Ctrl</kbd> + click to add an additional one in the modifier stack.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pwWEUD4k2Wg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ___
 
 # Subdivision
@@ -214,6 +221,8 @@ Adds a subdivision modifier to the selected object(s).
 This is similar to <kbd>Ctrl</kbd> + <kbd>1</kbd> to add a subdivision modifier.
 
 <kbd><kbd>Ctrl</kbd></kbd> + click to add an additional one in the modifier stack.
+
+![mod](img/modifiers/m28.png)
 
 ___
 
@@ -263,22 +272,6 @@ ___
 
 ___
 
-# [2d Bevel](2dbevel.md)
-
-[2d Bevel](2dbevel.md) adds a bevel modifier (verts) to the selected object.
-
-This isn't intended for non-2d shapes. See the [2d Bevel](2dbevel.md) page for more info.
-
-![bevel](img/2dbevel/bv1.gif)
-
-It also has a use and button in hopsTool.
-
-![mod](img/modifiers/m24.png)
-
-![bevel](img/2dbevel/bvl9.gif)
-
-___
-
 # Spherecast
 
 Spherecast was made to turn cubes into sphere. When used spherecast does the following things.
@@ -292,9 +285,9 @@ That's all it takes to turn a cube into a sphere.
 
 ___
 
-# [Circular Array](circular.md)
+# [Radial Array](circular.md)
 
-[Circular Array](circular.md) does the following.
+[Radial Array](circular.md) does the following.
 
 - empty with a driver based off of Array
 - displace modifier to push the object outside for radius
@@ -302,7 +295,7 @@ ___
 
 ![mod](img/modifiers/m26.gif)
 
-for more details see [Circular Array](circular.md).
+for more details see [Radial Array](circular.md).
 
 Hovering over the option shows alternate creation types.
 
@@ -310,8 +303,10 @@ Hovering over the option shows alternate creation types.
 
 ___
 
-# Modifier modelling
+# Modifier Modelling
 
 The video below showcases modelling using modifiers manually. This was before hops Modifier support was added.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ivmVWILUzZU" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphHoCDKWy6OU4BwB7hTi8lo_" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
