@@ -21,10 +21,12 @@ Or one word:
 
 **[XDUGEF](https://xdugef.tripod.com/)**
 
->There is no magic button. It won't make a better artist. All our tool can do is        
-enable you to be the maximum you. The idea is the quicker you can work / make mistakes / corrections deviations and of course evolution.
+> There is no magic button. It won't make a better artist. All our tool can do is enable you to be the maximum you. The idea is the quicker you can work / make mistakes / corrections deviations and of course evolution.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KqJ3X8EiPGw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphHoCDKWy6OU4BwB7hTi8lo_" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
 
@@ -42,11 +44,9 @@ For the guide the following extension to chrome is recommended for fast gifs.
 [Gif Scrubber](https://chrome.google.com/webstore/detail/gif-scrubber/gbdacbnhlfdlllckelpdkgeklfjfgcmp?hl=en)
 I tried to do them efficiently for space but also informative. I apologize in advance if they seem too fast.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DKx8Pi4v6wc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLjqpj14voWsXlLHjT8jMnn5uKLfXKFki8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PtDzjVGziK8" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/igSGBYSTSL8" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLjqpj14voWsXjD3J-J-s6iMcE0EhmdNmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 HardOps also has an older [wiki](https://masterxeon1001.com/2016/05/28/hard-ops-8-release-notes/).        
 
@@ -65,6 +65,6 @@ been possible. The collaborative nature of the team and the willingness to inves
 time has been astounding and has helped this project live far longer than even I        
 initially expected.     
 
-goto [Video Playlist](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphHoCDKWy6OU4BwB7hTi8lo_" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 80% credit goes to AR. He even helps me fix this damn guide...
