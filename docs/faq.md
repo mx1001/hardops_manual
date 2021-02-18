@@ -27,6 +27,8 @@ Try to install the zip provided then let us know if issues are experienced.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WoZ8OAoLAIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+___
+
 # What happened to the topbar!?
 
 Right click object mode and enable it.
