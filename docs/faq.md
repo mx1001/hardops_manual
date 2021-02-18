@@ -2,6 +2,19 @@
 
 ### FAQs / SFQs
 
+# How do I know if HOps is out of date?
+
+The hops button will let you know if you are in date. 
+
+![faq](img/faq/f64.png)
+
+Green Icon - Up to date
+Red Icon - Out of date
+
+![faq](img/faq/f65.png)
+
+Not only are there icons to the specific update locations there is even a link to a page telling you how to access the update locations.
+
 # What happened to the topbar!?
 
 Right click object mode and enable it.
@@ -113,7 +126,9 @@ Deleting HOPS via preferences and reinstalling from file will resolve the issue.
 
 The next level of support is renaming or deleting the 2.8x folder and reopening blender cleanly. This has shown to work 100% of the time and is only recommended after multiple installation failures.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S9lkbf3n6kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WoZ8OAoLAIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VCM9zJ2wm3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ___
 
@@ -174,6 +189,10 @@ The majority of game models are triangulated which are both cousins of ngons and
 ___
 
 # How do I find my cutters?
+
+Everscroll
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HVsfmBJcg_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 All cutters are placed in the cutters collection. In the below example I could always go to collection 2 "cutters" with 2 and press alt + H to see all the cutters.
 
@@ -242,6 +261,9 @@ Easy fix. Lower the bevel angle slightly.
 ___
 
 # How do I step like 79 HOPS? 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uUH6tbk92_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [About bevel weight.](https://youtu.be/AR3obqtQPbM)
 
@@ -319,9 +341,13 @@ Alternatively users could apply the bevel and clean up the mesh by manually addi
 
 In the above example I beveled in edit mode with a profile of 1 to 100% keep the profile but add a spacer loop with low segments. This spacing workflow is essential for maintaining for and controlling flow to master shading with minimal geometry.
 
+A playlist on topostudies has been created for the purpose of understanding topological control w/ booleans.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphH9emGFNAcha1prKi1P_I3n" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ___
 
-#Is there a way to freeze the geo before exporting it out to an external renderer?
+# Is there a way to freeze the geo before exporting it out to an external renderer?
 
 > (I use octane stand alone). When import the geo all the boolean shapes show (I.e. the circle cuts show up as geo).
 
@@ -465,10 +491,13 @@ The top file is always the latest.
 
 # [How do I get up to speed with the tool?](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oH9egfGoJfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphEY3PHHUA1B0lKEJwYpaQcS" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 A: In the N panel or HOPS button is an option called Hard Ops learning that is built to help users find the documentation or [tutorial](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0) content. Every major version I[ usually make a new course set of materials](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0q) to show off the tools.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLLnvxH5YKLoKWtvIJT2-SdOql2QpewslQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJrcFnBj2iIgOelGfcdz5ZKof-D4LSphA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 ___
 
 # How can I find out if I am up to date in hardOps?
@@ -1032,7 +1061,35 @@ No.
 
 We keep our prices low to keep the entry low. The sales of our product go to paying programmers, paying for blender to keep improving and ensuring the tools evolving. We pride ourselves on our willingness to reinvest into the growth of Hard Ops / Boxcutter. This is 24/7 operation to us and we love working late nights, holidays, birthdays and family events on this tool to ensure you have the best experience in Blender for concept creation.
 
-Please buy it.
+**Please buy it**.
+
+___
+
+# Hello, I teach school. May I have free copy for students?
+
+[No.](http://gph.is/Z0SkdN)
+
+There is ***nothing stopping you from buying a single copy and installing it on everyone's pc*** in the classroom. 
+ 
+However, I would recommend teaching the fundamentals of Blender first and foremost instead of muddying users understanding with plugins. 
+
+We are but a subsection of blender and our long term viability will never compare to Blender and understanding it as a whole. I do not endorse the presentation of our product as a replacement of the Blender experience. We consider ourselves an experience of overlay and enhance the experience.
+
+To succeed with HOpscutter a 3d understanding is critical. To understand 3d software provides a fallback to deeper understanding and absolute 3d mastery in addition to understanding how things work. Blender has a format of fundamentals that are crucial to all new users. We are still in the process of refining the final formula that is our tools. There is a good chance HOps may differ by the end of the course being taught. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Normally to be considered for a classroom course would be considered an honor however the viability of you as a teacher cannot be verified so theres no telling if our tool would even be conveyed as intended. Educational  materials are still being prepared so it is not recommended due to still being in development.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphEY3PHHUA1B0lKEJwYpaQcS" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Our product costs due to it being a constant project that has full time employees employed to maintain the product. The costs are real as are the taxes that have to be paid just to maintain the project. [In addition we support the Blender Dev fund at every level](fund.blender.org/). 
+
+HOpsCutter contains no DRM or registration system. 
+
+That means it can be installed to as many PCs as needed with restriction. 
+
+It does however require the purchase of a copy. [Educational packages are available on our Gumroad pages](https://gumroad.com/l/hopscutter). 
 
 ___
 
@@ -1177,4 +1234,5 @@ Blender contains a myriad of control schemes that we are unable to have supporte
 # Why didn't you add that thing I asked for? 
 
 When it comes to HOps and it's direction, ideas take time to process. Just because it was requested does not mean it is possible, doable or even planned for our tools. If we spend all our time processing user complaints we'd be unable to move forward. We try our best and thats all that we can do. Several concepts are slated for futher down the road so in time they will be examined but discourtesy is a ticket to a quick dismissal.
+
 
