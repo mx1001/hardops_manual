@@ -95,7 +95,9 @@ __
 
 # Smart Apply w/ Sharpen
 
-By default sharpen utilizes [csharpen](csharpen.md) as the apply system on Ctrl. This can be changed in Preferences >> Keymap >> Sharpen Options.
+By default sharpen utilizes [csharpen](csharpen.md) as the apply system on Ctrl. 
+
+> This can be changed in Preferences >> Keymap >> Sharpen Options.
 
 ![ssharpen](img/ssharpen/s13.png)
 
@@ -119,7 +121,8 @@ Smart apply is an apply system made of rules. Understanding those rules can make
 
 Modifiers early in the stack will be applied regardless. This is because they are considered integral to the construction and cannot be byassed. This doesn't matter if the mod is a bevel or not.
 
-The only mods up for consideration to not be applied is 
+The only mods up for consideration to not be applied is:
+
 - Bevel (Weight / Angle) at the end of the stack
 - Mirror modifiers if more than one is present (one will be applied two will have one be ignored)
 - Weighted Normal (we aim to keep this at the end of the stack so it will generally be ignored on all cases)
