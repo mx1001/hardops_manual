@@ -16,6 +16,8 @@ The hops button will let you know if you are in date.
 
 Not only are there icons to the specific update locations there is even a link to a page telling you how to access the update locations.
 
+___
+
 # Where is the 2.90 version? I only see 2.8 files.
 
 2.83 is the current LTS so we support it first and foremost. All versions aim to support 2.83 and up.
@@ -57,73 +59,6 @@ Attempting to install them in 2.8 will show an error.
 ![mir](img/faq/faq49.png)
 
 The top file is always the latest and the same applies for [BlenderMarket.](https://www.blendermarket.com/account/orders) and artstation.
-
-___
-
-# Why can't I cut with planes anymore?
-
-Well to put is simply. [Blender themselves](https://docs.blender.org/manual/en/dev/modeling/modifiers/generate/booleans.html) changed the algorithm.
-Previously they used to use [CARVE](https://github.com/VTREEM/Carve) now they use BMESH.
-
-[This was the moment CARVE was removed.](https://developer.blender.org/D3050)
-
-From the final release of [2.79](https://download.blender.org/release/Blender2.79/latest/) to [2.8 going forward](https://builder.blender.org/download) there are now new rules to adhere to.
-
-- watertight (no holes)
-  - this means cutting the mesh in half and **using the mirror with booleans is no longer recommended**
-  - keeping the mesh solid and [mirroring via modifier is more optimal](mirror_symmetry.md)
-- solid **no planes** no 2d geometry.
-  - in order to use 2d geometry with booleans it is [recommended to add thickness](tthick.md)
-- normals must be properly oriented
-  - in 2.8 normals can be harder to notice when incorrect so the alt + V face orientation is useful for troubleshooting.
-  - edit mode with all selected shift + N recalculates normals.
-  - applying scale if things get inverted can also help boolean issues. With wireshapes for booleans it can be harder to tell if a mesh has been flipped inside out.
-
-Bmesh booleans are faster which results in more booleans being able to be racked up and the tips mentioned above should be followed for a predictable modifier workflow.
-
-These should be rules in general but with BMESH it is now more strict. We simply evolved with the times and continued but we understand this can be an unusual transition after seeing the 2.79 content but it was just a different time and now long gone in favor of something that ties into the rest of the tools and is much faster without so many triangles being created on the cut. It will take some time to get used to but it is the way things are now
-
-As you can see from the image it is sort of random.
-
-![mir](img/faq/f43.gif)
-
-And with thickness it just works more predictably.
-
-![mir](img/faq/f44.gif)
-
-___
-
-# How do collections work?
-
-When working in a default scene you are usually in a collection.
-
-![mir](img/faq/faq52.png)
-
-Right now there is one collection so with default controls pressing the number keys will activate the corresponding collection. I think of them as layers.
-
-![mir](img/faq/faq53.png)
-
-> Those number keys are the ones I refer to. In order to use them you cannot have emulate numpad enabled.
-
-When cutters are brought into play I typically use 1, 2, to change collection / layer on the fly. Shift + number will add that to the visible collections.
-
-> If the cutter collection is not showing cutters alt + H should reveal all on an active collection. H will hide.
-
-![mir](img/faq/faq54.gif)
-
-The preferred way to show cutter is with the Mod Scroll / Toggle. Notice how scrolling toggles visibility of each cutter in the cutters collection.
-
-![mir](img/faq/faq55.gif)
-
-Mod Scroll is a consolidation of multiple modifier / boolean operations that might be useful in workflow.
-
-> Hover over a tool for a tooltip
-
-![mir](img/faq/faq56.png)
-
-If an object is outside of a collection and is in the master collection it will not be hidden by 1, 2, 3 in use.
-
-![mir](img/faq/faq57.gif)
 
 ___
 
@@ -508,6 +443,7 @@ A: In the N panel or HOPS button is an option called Hard Ops learning that is b
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLLnvxH5YKLoKWtvIJT2-SdOql2QpewslQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJrcFnBj2iIgOelGfcdz5ZKof-D4LSphA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ___
 
 # How can I find out if I am up to date in hardOps?
@@ -528,6 +464,7 @@ Blendermarket
 ![mir](img/faq/ff17.png)
 
 Preferences will also let users know if they are up to date. 
+
 ___
 
 # Can I disable to Q menu and use only the Hops pie? For quick favorites?
@@ -546,6 +483,7 @@ In the keymap tab any hotkey not wanted can be unchecked.
 ![mir](img/faq/ff10.png)
 
 > To restore to default just enable to the option disabled here.
+
 ___
 
 # How do you stack bevels non-destructively? My bevels keep bevelling each other.
@@ -924,6 +862,74 @@ Plugs will conform with the surface and heal the shading. They both have their p
 I recommend to use [Meshmachine](https://gumroad.com/l/MESHmachine/) and bring it into your workflow. Our goal is never to compete. If someone can do a better job why not expand on that.
 
 ___
+
+# Why can't I cut with planes anymore?
+
+Well to put is simply. [Blender themselves](https://docs.blender.org/manual/en/dev/modeling/modifiers/generate/booleans.html) changed the algorithm.
+Previously they used to use [CARVE](https://github.com/VTREEM/Carve) now they use BMESH.
+
+[This was the moment CARVE was removed.](https://developer.blender.org/D3050)
+
+From the final release of [2.79](https://download.blender.org/release/Blender2.79/latest/) to [2.8 going forward](https://builder.blender.org/download) there are now new rules to adhere to.
+
+- watertight (no holes)
+  - this means cutting the mesh in half and **using the mirror with booleans is no longer recommended**
+  - keeping the mesh solid and [mirroring via modifier is more optimal](mirror_symmetry.md)
+- solid **no planes** no 2d geometry.
+  - in order to use 2d geometry with booleans it is [recommended to add thickness](tthick.md)
+- normals must be properly oriented
+  - in 2.8 normals can be harder to notice when incorrect so the alt + V face orientation is useful for troubleshooting.
+  - edit mode with all selected shift + N recalculates normals.
+  - applying scale if things get inverted can also help boolean issues. With wireshapes for booleans it can be harder to tell if a mesh has been flipped inside out.
+
+Bmesh booleans are faster which results in more booleans being able to be racked up and the tips mentioned above should be followed for a predictable modifier workflow.
+
+These should be rules in general but with BMESH it is now more strict. We simply evolved with the times and continued but we understand this can be an unusual transition after seeing the 2.79 content but it was just a different time and now long gone in favor of something that ties into the rest of the tools and is much faster without so many triangles being created on the cut. It will take some time to get used to but it is the way things are now
+
+As you can see from the image it is sort of random.
+
+![mir](img/faq/f43.gif)
+
+And with thickness it just works more predictably.
+
+![mir](img/faq/f44.gif)
+
+___
+
+# How do collections work?
+
+When working in a default scene you are usually in a collection.
+
+![mir](img/faq/faq52.png)
+
+Right now there is one collection so with default controls pressing the number keys will activate the corresponding collection. I think of them as layers.
+
+![mir](img/faq/faq53.png)
+
+> Those number keys are the ones I refer to. In order to use them you cannot have emulate numpad enabled.
+
+When cutters are brought into play I typically use 1, 2, to change collection / layer on the fly. Shift + number will add that to the visible collections.
+
+> If the cutter collection is not showing cutters alt + H should reveal all on an active collection. H will hide.
+
+![mir](img/faq/faq54.gif)
+
+The preferred way to show cutter is with the Mod Scroll / Toggle. Notice how scrolling toggles visibility of each cutter in the cutters collection.
+
+![mir](img/faq/faq55.gif)
+
+Mod Scroll is a consolidation of multiple modifier / boolean operations that might be useful in workflow.
+
+> Hover over a tool for a tooltip
+
+![mir](img/faq/faq56.png)
+
+If an object is outside of a collection and is in the master collection it will not be hidden by 1, 2, 3 in use.
+
+![mir](img/faq/faq57.gif)
+
+___
+
 
 # Why did my shading get messed up starting the cylinoid video?
 
