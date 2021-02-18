@@ -8,12 +8,22 @@ The hops button will let you know if you are in date.
 
 ![faq](img/faq/f64.png)
 
-Green Icon - Up to date
-Red Icon - Out of date
+![faq](img/faq/logo_green.png) Green Icon - Up to date
+
+![faq](img/faq/logo_red.png) Red Icon - Out of date
 
 ![faq](img/faq/f65.png)
 
 Not only are there icons to the specific update locations there is even a link to a page telling you how to access the update locations.
+
+# Where is the 2.90 version? I only see 2.8 files.
+
+2.83 is the current LTS so we support it first and foremost. All versions aim to support 2.83 and up.
+Currently we support 2.83 / 2.90 / 2.91 / 2.92 / 2.93 and so on.
+
+Try to install the zip provided then let us know if issues are experienced.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WoZ8OAoLAIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What happened to the topbar!?
 
