@@ -1,18 +1,20 @@
 ![header](img/banner.gif)
 
-### Ssharpen overview
+# Sharpen overview
 
-Ssharpen does the following things.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cz5BgWqGYLA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Sharpen does the following things.
 
 - set shading to smooth from flat
-- enables autosmooth / sets angle to 60
+- enables autosmooth / sets angle to 30/45/60
 - marks edges as crease / sharp / seam / bevel weight based off of sharp parameter.
 
 For more information on how ssharpen came about see [sharpening](sharpening.md).
 
-After using ssharpen there is a F6 menu where you can adjust parameters and make changes post operation. However this is antiquated and could possibly [crash in Blender 2.8](https://builder.blender.org/download).
+After using ssharpen there is a F9 menu where you can adjust parameters and make changes post operation. However this is antiquated and could possibly [crash in Blender 2.8](https://builder.blender.org/download).
 
-The classic F6 menu is shown below.
+F9 menu as well as noticiation is shown below.
 
 ![ssharpen](img/ssharpen/s12.png)
 
@@ -34,7 +36,32 @@ So in short ssharp is all the processes mentioned above combined into one tool f
 
 There is also a video on this topic specifically.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5lzfHQBel0o" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ogtEheuBTHA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+# Sharpen Configuration Options
+
+![ssharpen](img/ssharpen/s13.png)
+
+As with all tools, the tooltip provides additional insight. 
+
+By default the following controls apply.
+
+- LMB - Sharpen
+- Ctrl - Csharpen (Apply Modifiers)
+- Shift - Autosmooth (Interactive Autosmooth Adjustment)
+- Alt - Weighted Normal (Normal Hardening Modifier)
+- Ctrl + Shift - Recalculate Sharp Marks (Resharp)
+
+Pressing Ctrl + K brings up the keymap for preferences where Sharpen can be reconfigured.
+
+![ssharpen](img/ssharpen/s14.png)
+
+**This DOES NOT update the tooltip at this time.**
+
+> For those who are fans of Smart Apply they could for example replace csharp with smart apply quite easily.
+
+![ssharpen](img/ssharpen/s27.gif)
 
 ---
 
@@ -186,7 +213,7 @@ Recalculation is done via the F6 menu that is available after running the operat
 
 ---
 
-### SSharpen F6 options
+### SSharpen F9 options
 
 ![ssharpen](img/ssharpen/s12.png)
 
