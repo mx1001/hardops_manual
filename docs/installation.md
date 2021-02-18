@@ -10,7 +10,7 @@ The [official version](https://www.blender.org/download/) on the website is alwa
 
 ## Addon / Hard Ops Installation     
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mr2ns6zf1Zc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WoZ8OAoLAIk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [Updating Blender](https://builder.blender.org/download) requires the latest updates. [Current is at least](https://www.blender.org/download/) recommended.
 
@@ -77,7 +77,7 @@ In the event of installation issues.
 
 ![install](img/install/ins5.png)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qcmCgfJgCqo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/Mr2ns6zf1Zc" frameborder="0" allowfullscreen></iframe>
 
 Detailed installation instructions are below.
 
