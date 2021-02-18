@@ -14,13 +14,15 @@ These are the core of Hard Ops and are the intended  method for choosing and fin
 
 ![hotkey](img/hotkeys/h4.gif)
 
+![hotkey](img/hotkeys/h4_1.png)
+
+![hotkey](img/hotkeys/h4_2.png)
+
 # <kbd>Ctrl</kbd> + <kbd>~</kbd> - HOPS Helper
 
-The HOPS helper is a series of helpers for using Blender quickly in fullscreen.
+The HOPS helper is a series of helpers for using Blender quickly in fullscreen. It is intergal to the HardOps experience and is a special part.
 
-The Helper is used for working most aspects of 3d.
-
-![hotkey](img/hotkeys/h5.gif)
+![hotkey](img/hotkeys/h5_1.png)
 
 The Hops helper is one of my favorites in Hard Ops and has it's own page.
 
@@ -60,7 +62,7 @@ In this example I will use the hotkey <kbd>Alt</kbd> + <kbd>~</kbd>
 
 ![hotkey](img/hotkeys/h14.gif)
 
-# <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> - Bevel helper
+# <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> - Bevel / Bool Helper
 
 The bevel helper can come in handy for making quick bevel adjustments on the fly.
 For this to come up the bevel must already be present.
@@ -72,17 +74,17 @@ In this example I'll build a shape and then add multiple bevels to adjust in the
 
 The bevel helper will already show up in the mini helper and N panel if bevels are present.
 
-Even though I could adjust the dots I could also use the helper for the multiply divide controls.
+Even though I could adjust the dots I could also use the helper for the multiply or divide bevels individually.
 
 # <kbd>Alt</kbd> + <kbd>M</kbd> - Material Menu
 
-The material menu was a happy accident that showed much potential in the click and go workflow of Hard Ops.
-This will assign a material to the selection with a list of shaders in the scene.
+The material menu was a happy accident that showed much potential in the click and go workflow of Hard Ops. This will assign a material to the selection with a list of shaders in the scene.
 
 ![hotkey](img/hotkeys/h6.gif)
 
 **NO MATERIALS COME WITH HARD OPS**
 
+Over recent releases of hardOps the systems of Blank Material and Material Scroll were implemented. Through these users can generate endless materials utilizing basic presets and in the case of emission, drivers.
 
 # <kbd>Alt</kbd> + <kbd>V</kbd> - Viewport Menu
 
