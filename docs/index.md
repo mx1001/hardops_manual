@@ -23,13 +23,14 @@ In my personal opinion, [Hard Ops](https://gumroad.com/l/hardops/) is the end re
 
 The [users](https://www.pinterest.com/masterxeon1001/hard-ops-users/) are the true power behind the tool. It's truly humbling to see so many people making fantastic art with the tool.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphHoCDKWy6OU4BwB7hTi8lo_" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 ---
 
-## [**Gumroad**](https://gumroad.com/l/hardops/) |
-## [**BlenderMarket**](https://blendermarket.com/products/hardops-009-radium) |
-## [**Youtube**](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0) |
-## [**Twitter**](https://twitter.com/ChaosGear0786) |
-## [**eMail**](mailto:masterxeon1001@gmail.com) |
+## [**Gumroad**](https://gumroad.com/l/hopscutter) |
+## [**BlenderMarket**](https://blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle) |
+## [**Youtube**](https://www.youtube.com/playlist?list=PL0RqAjByAphHoCDKWy6OU4BwB7hTi8lo_) |
+## [**Twitter**](https://twitter.com/hopscutter) |
+## [**eMail**](mailto:support@hopscutter.com) |
 
 
 
@@ -54,6 +55,29 @@ see the [Installation](installation.md)
 see the [Introduction](introduction.md)
 
 goto [Video Playlist](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0)
+
+---
+
+Topostudy
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphH9emGFNAcha1prKi1P_I3n" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+HOPScannon
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphHoCDKWy6OU4BwB7hTi8lo_" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+H9 Playlist
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Josh
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLLnvxH5YKLoKWtvIJT2-SdOql2QpewslQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Ryuu
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJrcFnBj2iIgOelGfcdz5ZKof-D4LSphA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+986
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLjqpj14voWsXlLHjT8jMnn5uKLfXKFki8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+987
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLjqpj14voWsXjD3J-J-s6iMcE0EhmdNmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
 
