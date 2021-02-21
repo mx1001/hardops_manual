@@ -29,6 +29,14 @@ Try to install the zip provided then let us know if issues are experienced.
 
 ___
 
+# How do I directly go into hops menu like before?
+
+![mir](img/faq/mach1.png)
+
+We didn't add that. It comes from machin3 tools. Disable it via their preferences. 
+
+___
+
 # What happened to the topbar!?
 
 Right click object mode and enable it.

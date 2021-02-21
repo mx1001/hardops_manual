@@ -61,7 +61,7 @@ See [Bevel](bwidth.md)
 
 Bevel needs no introduction but in case you need one it adds a bevel mod to the mesh which and give a nice rounding or filleting. Bevel is easily accessed from the Q menu
 
-![mod](img/modifiers/m1.gif)
+![mod](img/modifiers/m1.png)
 
 During the modal <kbd>H</kbd> shows help options.
 
@@ -260,6 +260,19 @@ Adds a wireframe modifier to the selected object(s).
 
 ![mod](img/modifiers/m22.gif)
 
+___
+
+# Cloth
+
+Cloth modifier is new to 987+ but is rapidly becoming an intergal part of the tool. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bLAabdYG8To" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+When used it will make a vgroup and pin the boundaries of the shape if the mesh is non manfold. This is intended to keep the shape from flying away. Users 
+
+> Cloth was initially added in 986_27 below is it's release log.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xTgaADWszLs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ___
 
 # Skin
