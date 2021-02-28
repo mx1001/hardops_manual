@@ -93,3 +93,7 @@ Running blender this way will make the cmd be a terminal output. Providing us in
 When it comes to errors the first error that comes up is the most important one. When it comes to an error sometimes an error cascade will occur of repeated errors but the first error is the one that caused it and is the one we need.
 
 **We need the first error in the console.** The one that started it all.
+
+[When it comes to reporting a bug. Use the bug report form. (hopscutter support only)](https://hopscutter.com/forms/bug-report.php)
+
+Invalid complaints will be trashed without response. The above goes over what is needed to be assistive. If users can't be assistive in it then the whole system collapses. Please use the bug report form for proper issue reporting. We attempt to be proactive in support and development so any and all information is assistive. 
