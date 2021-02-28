@@ -93,7 +93,9 @@ Replacing the HOps and or Boxcutter folder here from the contents of the zip whi
 
 ---
 
-## Detailed Install Instructions    
+## Detailed Install Instructions 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VCM9zJ2wm3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Windows 10 / 7        
 >When using Blender a folder is created deeply in your PC for add-ons. Putting it       
@@ -121,7 +123,13 @@ When it comes to testing a neutral installation this is the preferred method.
 
 RMB on the blender.app and select show package contents    
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZM_OWHtJsS8 " frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9SQ49YUm9rs" frameborder="0" allowfullscreen></iframe>
+
+[In the event of security errors you might have to use root privileges.](https://www.wikihow.com/Open-Applications-With-Root-Privileges-on-a-Mac)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7BOctK6VCSA" frameborder="0" allowfullscreen></iframe>
+
+> Mac is not my primary OS so advanced OS issues have to be referred to Apple. We are but a plugin so issues with security and software foundations is outside of scope. The above videos show the best installation method.  
 
 # Linux:        
 >I assume linux users know their PC.        
