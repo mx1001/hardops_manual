@@ -440,9 +440,20 @@ Q: I haven't used HardOps for a while and need to update. Where do I get the lat
 
 Blendermarket: [log into your account and go under orders in the dropdown of the upper right list.](https://www.blendermarket.com/account/orders)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QZe8IiqDdl0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Gumroad: [log into your account then access the](https://gumroad.com/library) [HardOps](https://gumroad.com/l/hardops) or [Boxcutter](https://gumroad.com/l/BoxCutter) pages.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EfYCW1cG7ns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+When it comes to installation the video below covers it in depth.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VCM9zJ2wm3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The top file is always the latest.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KvQdmNLLRCY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # [How do I get up to speed with the tool?](https://www.youtube.com/playlist?list=PL0RqAjByAphEUuI2JDxIjjCQtfTRQlRh0)
 
