@@ -8,6 +8,8 @@ When it comes to connecting to the hops community there are many options within 
 
 Connect with the various groups and portals for assistance with modelling or to chat with fellow operatives!
 
+[When it comes to reporting a bug. Use the bug report form. (hopscutter support only)](https://hopscutter.com/forms/bug-report.php)
+
 # hardOps - hops Button
 
 ![img](img/contact/c1.gif)
