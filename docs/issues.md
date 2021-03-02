@@ -88,7 +88,30 @@ Running blender this way will make the cmd be a terminal output. Providing us in
 
 ![hotkey](img/issue/i9.gif)
 
-# Proper error reporting
+
+# Proper Information Conveyance
+
+If the issue requires a screenshot. Please show the full window. The image below is of little use to us due to the omission of the UI. Much work has went into making the tools as informative as possible to cutting out elements is detrimental to support. 
+
+![hotkey](img/issue/i10.jpg)
+
+![hotkey](img/issue/i11.png) ![hotkey](img/issue/i13.png) ![hotkey](img/issue/i14.png) 
+
+Version info is the main piece of information essential to understanding issues. HOPS displays version info from just the tooltip, Q menu, or HOPS Button.
+
+> When out of date the hopsbutton will be red and indicate an update is requiring by linking the market pages as shown in the above image. 
+
+![hotkey](img/issue/i12.png)
+
+Boxcutter has it in the topbar.
+
+The above mentioned area on info provided being required is essential. Our goal is to get users working without time waste. Inadequate descriptions or lack of info only serves to waste time and cause follow up questions. If you are able to provide the info needed to diagnose it can be resolved much quicker. 
+
+# Proper Error Reporting
+
+![hotkey](img/issue/i15.png)
+
+> Above shows how the console is found and opened when needed on Windows.
 
 When it comes to errors the first error that comes up is the most important one. When it comes to an error sometimes an error cascade will occur of repeated errors but the first error is the one that caused it and is the one we need.
 
