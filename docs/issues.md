@@ -95,6 +95,8 @@ If the issue requires a screenshot. Please show the full window. The image below
 
 ![hotkey](img/issue/i10.jpg)
 
+> Above issue is solved via [updating the product](https://hardops-manual.readthedocs.io/en/latest/faq/#how-do-i-update-hard-ops-boxcutter). In the event of issue updating the product is always the first recommendation. With the 2nd being updating blender. 
+
 ![hotkey](img/issue/i11.png) ![hotkey](img/issue/i13.png) ![hotkey](img/issue/i14.png) 
 
 Version info is the main piece of information essential to understanding issues. HOPS displays version info from just the tooltip, Q menu, or HOPS Button.
