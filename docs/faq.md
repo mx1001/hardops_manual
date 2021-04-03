@@ -1279,22 +1279,24 @@ Magic mouse is a mac peripheral. Also this device has no buttons. This makes map
 
 ![mir](img/faq/f41.png)
 
-In short, We have invested time into making sure tools work even without the capabilities of scroll. We cannot do individual studies on single pieces of hardware that can be replaced with a proper piece of hardware. Work was already attempted to make it behave more proper but I worry of a timesuck when it comes to one piece of hardware so workarounds were created. 
+In short, We have invested time into making sure tools work even without the capabilities of scroll. We cannot do individual studies on single pieces of hardware that can be replaced with a proper piece of hardware. Work was already attempted to make it behave more proper but I worry of a timesuck when it comes to one piece of hardware. As a result there are workarounds. 
 
-Even if this mouse exposed the info needed every aspect would need to be retooled for gestures and support of this one and that is outside of scope of what we aim to do. Linux nor windows have "special mice" that must be studies and Mac also supports usage of any mouse not that one. 
+Even if this mouse exposed the info needed every aspect would need to be retooled for gestures and support of this one device which would be outside of the scope of what we aim to do. Linux nor windows have "special mice" that must be studies and Mac also supports usage of any mouse not that one. 
 
 In fact this writeup is intended to be a send_to area for customers asking about it and to recommend anything better. 
 
 I currently [use this mouse](https://steelseries.com/gaming-mice/rival-500) fulltime. Any customization is done in the mouse software and not via hard coding from us. 
 
-The mouse below is the one I currently use w/ mac when I have to test. It does the job.
+The mouse below is the one I currently use w/ mac when I have to test. It does the job. I didn't even bother to customize it. I just need a mouse to test.
 ![mir](img/faq/f42.png)
 
-I hope the reader is able to find a more egonomic device built with 3d software usage in mind but I apolgoize for any shortcomings experienced. 
+As long as it has two buttons and a scroll wheel.
+
+I hope the reader is able to find a more suitable device built with 3d software usage in mind but I apolgoize for any shortcomings experienced. They are beyond our control.
 
 Mouse gestures also contain a key-press backup meaning they keyboard can replace anything the mouse cannot do. 
 
-In the event you still decide to use the mouse accomodations have been made to make it "usable"
+In the event you still decide to use the mouse, accomodations have been made to make it "usable" in modals and operations.
 
 - modals support arrow key usage replacing scroll if needed
 - arrow keys are also supported esp in Boxcutter
@@ -1304,3 +1306,5 @@ In the event you still decide to use the mouse accomodations have been made to m
 In any case individual device support is out of scope. It just becomes more and more work exponentially without worth. Ndof mice had a system built for it which made support easy but mac is just mac. And unworthy of even the hours and hours of testing it is used for now. 
 
 We have done steps in the past to attempt to make it easier but that mouse has been deemed "a waste of time".
+
+![mir](img/faq/faq43.png)
