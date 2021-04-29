@@ -86,7 +86,7 @@ There are a few things to note with multitools:
 
 Because Multitools launch via modifier keys they are unable to mapped to hotkeys due to the hotkey interfering with the invoke method of the modal / operator. This is why they only work properly from the Q menu. 
 
-> ex: mapping sharpen to alt + S will prompt Weiighted Normal by default.
+> ex: mapping sharpen to alt + S will prompt Weighted Normal by default.
 
 Eventually we may aim to have multitools customizable but that differs from "externally accessible".
 
