@@ -13,6 +13,7 @@ pages:
         - FAQs and SFQs: faq.md
         - Settings: settings.md
     - Usage Information:
+        - MultiTools: multitool.md
         - Hotkeys: hotkeys.md
         - Workflows: workflows.md
         - Understanding The Prefs: preferences.md
