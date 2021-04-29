@@ -87,6 +87,16 @@ The next level of support is renaming or deleting the 2.8x folder and reopening 
 
 ___
 
+# Why can't I remap a [multitool](multitool.md)? 
+
+Because [multitools](multitool.md) utililize modifier keys, they are not optimal for remapping. In the event something is mapped to alt, ctrl or shift the tool will override behavior with the modifier key to conjur it. 
+
+We'll have to see how the future plays out but unfortunately it is a known issue with the only resolution being to use the tools as designed. 
+
+We'll have to see what the future holds but multitool remapping is not supported at this time. 
+
+___
+
 # What kind of geo can I expect from booleans?
 
 Something like this. Booleans solve as they will and with the most minimal of edges. The moment a boolean is used ngons are created. However Ngons have a special purpose in hard surface planar modelling.
