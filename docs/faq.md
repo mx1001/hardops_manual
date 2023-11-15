@@ -1178,7 +1178,6 @@ ___
 
 To say, why us? In three words:
 
-- [we love Blender](https://fund.blender.org/)
 - [useful](https://twitter.com/ArtFromRachel/status/1189186158254641153?s=20) [for anyone](https://www.pinterest.com/masterxeon1001/hard-ops-users/)
 - one time purchase
 - free product updates
@@ -1187,6 +1186,7 @@ To say, why us? In three words:
 - [top selling tool](https://blendermarket.com/posts/jerry-perkins-on-creating-hardops-for-blender-keystrokes-and-clicks-are-my-enemy)
 - [working since 2015](https://youtu.be/L_HT_D9eDpI)
 - [3dArtist Magazine 99](https://www.instagram.com/p/BLRfjG0AJE2/)/[101](https://www.instagram.com/p/BNflOC1gMnQ/)
+- [we love Blender](https://fund.blender.org/)
 
 [Personally](https://www.instagram.com/p/BDQKup8E25J/), [I have been 3d modelling since 2010 in Blender 2.49.](https://masterxeon1001.com/2015/06/01/introp1/) All the experience and knowledge we have learned over the course of our 3d careers have went into these tools and continues to. The team working on the tools has experience in multiple areas of 3d ensuring the approaches are well rounded in various aspects and come from a point of understanding. To us: not only does the function matter, the connection of the function to subsequent functions is also taken into consideration. We care about how the tool is configured and used before, during and post operation. Workflow and key reduction is why these tools exist in the first place. The customizable behavior of our toolset ensures we will work with anyone of **any level or disability**. Much care ,thought and planning goes into every aspect of the tools we make. Our commitment to resolving customer issues and remaining proactive with updates is next to none. The product you purchase we can only assure is a **one-time purchase** and that any **future updates will be provided free of cost**. Not a day goes by where these tools aren't discussed, planed-on or under the knife in search of the next level of what we endeavor to achieve. When hops is done it will be done in a manner befitting a premium tool. While we don't intend to be working on the same product till the end of time, I definetely intend the product to never cease working due to the importance to users and workflow. 
 
@@ -1228,7 +1228,7 @@ hardOps started off a [small idea](https://www.dropbox.com/s/xki8i94y0syt85a/Har
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L_HT_D9eDpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-We're committed to making Blender easier without obscuring what makes it great. And it is with great pride that we can [continue to fund blender at every level.](https://fund.blender.org/) And it is the customers that make this possible. Our goal is to make customers glad they chose us by multiplying the value they invest in us and work hard and without tire to assist them in gaining more value from their 3d endeavors by making their lives easier.
+We're committed to making Blender easier without obscuring what makes it great. And it is with great pride that we can [continue to fund blender as we can.](https://fund.blender.org/) And it is the customers that make this possible. Our goal is to make customers glad they chose us by multiplying the value they invest in us and work hard and without tire to assist them in gaining more value from their 3d endeavors by making their lives easier.
 
 ___
 
