@@ -11,7 +11,7 @@ We intend for users to enjoy our tool and have an nice experience. [If you are e
 We would prefer to discuss and help solve it before you frustrate yourself. Great care and effort has been taken into making hops a community experience with many on hand capable of assisting quickly and proving help when you need it. A single mind can do so much but a collection of minds is infinite. I sleep 3 hours a night to make sure the boxes are always cut with only the finest red.
 
 
-> Bugs happen and issues will occur. Our work is no where close to done. But our attempts allow people to get father and farther with each attempt. When something odd happens the best thing to do is:
+> Bugs happen and issues will occur. Our work is no where close to done. But our attempts allow people to get farther and farther with each attempt. When something odd happens the best thing to do is:
 
 - gather awareness (figure out what happened in the scene)
 
